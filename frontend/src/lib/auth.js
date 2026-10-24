@@ -4,11 +4,11 @@ import { registerAccount, loginAccount, getMe } from "../api.js"
  * Session de compte élève ou décideur (optionnelle) : le token JWT est stocké dans
  * localStorage et envoyé par les appels API protégés. Un invité n'a simplement pas de token.
  */
-const TOKEN_KEY = "chatmaths-auth-token"
-const USERNAME_KEY = "chatmaths-auth-username"
-const ROLE_KEY = "chatmaths-auth-role"
-const PUBLIC_CODE_KEY = "chatmaths-auth-public-code"
-export const AUTH_CHOICE_KEY = "chatmaths-auth-choice"
+const TOKEN_KEY = "chatchimie-auth-token"
+const USERNAME_KEY = "chatchimie-auth-username"
+const ROLE_KEY = "chatchimie-auth-role"
+const PUBLIC_CODE_KEY = "chatchimie-auth-public-code"
+export const AUTH_CHOICE_KEY = "chatchimie-auth-choice"
 
 export function getToken() {
   return localStorage.getItem(TOKEN_KEY) || null

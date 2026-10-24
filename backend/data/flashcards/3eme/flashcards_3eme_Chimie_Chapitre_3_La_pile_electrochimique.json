@@ -1,0 +1,364 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 3 : La pile électrochimique",
+  "source": "pc/3eme/Chimie_Chapitre_3_La_pile_electrochimique",
+  "nombre_cartes": 30,
+  "cartes": [
+    {
+      "id": "PC3E-C03-001",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une pile électrochimique ?",
+      "verso": "C'est un dispositif qui transforme de l'énergie chimique en énergie électrique. Elle est constituée de deux électrodes de natures différentes plongeant dans un électrolyte.",
+      "difficulte": 1,
+      "tags": [
+        "pile",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C03-002",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Dans une pile électrochimique, qu'appelle-t-on une électrode ?",
+      "verso": "C'est la lame conductrice par laquelle le courant entre dans la pile ou en sort ; dans la pile cuivre-zinc, une lame de cuivre et une lame de zinc.",
+      "difficulte": 1,
+      "tags": [
+        "electrode"
+      ]
+    },
+    {
+      "id": "PC3E-C03-003",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Dans une pile électrochimique, qu'appelle-t-on l'électrolyte ?",
+      "verso": "C'est la solution qui contient des ions et assure le passage du courant à l'intérieur de la pile ; dans la pile cuivre-zinc, la solution bleue de sulfate de cuivre.",
+      "difficulte": 1,
+      "tags": [
+        "electrolyte"
+      ]
+    },
+    {
+      "id": "PC3E-C03-004",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Comment est constituée la pile cuivre-zinc ?",
+      "verso": "D'une lame de cuivre et d'une lame de zinc partiellement immergées, sans se toucher, dans une solution de sulfate de cuivre. Certains sujets l'appellent pile Daniell, mais la pile Daniell des sujets a deux compartiments reliés par un pont salin.",
+      "difficulte": 2,
+      "tags": [
+        "pile-cuivre-zinc",
+        "constitution"
+      ]
+    },
+    {
+      "id": "PC3E-C03-005",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "formule",
+      "recto": "Quels sont les pôles de la pile cuivre-zinc ?",
+      "verso": "La lame de cuivre est le pôle positif ; la lame de zinc est le pôle négatif.",
+      "difficulte": 1,
+      "tags": [
+        "poles"
+      ]
+    },
+    {
+      "id": "PC3E-C03-006",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "formule",
+      "recto": "Quelle tension mesure-t-on entre les deux lames d'une pile cuivre-zinc ?",
+      "verso": "Environ $1{,}1~\\mathrm{V}$ (une pile de classe se lit entre $1{,}05~\\mathrm{V}$ et $1{,}15~\\mathrm{V}$), mesurée au voltmètre en position « tension continue ».",
+      "difficulte": 1,
+      "tags": [
+        "tension",
+        "valeur"
+      ]
+    },
+    {
+      "id": "PC3E-C03-007",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "formule",
+      "recto": "Comment branche-t-on le voltmètre pour mesurer la tension d'une pile cuivre-zinc ?",
+      "verso": "En dérivation, directement entre les deux lames, en fixant les pinces crocodile sur la partie sèche des lames et avec le calibre immédiatement supérieur à la valeur attendue.",
+      "difficulte": 2,
+      "tags": [
+        "voltmetre",
+        "branchement"
+      ]
+    },
+    {
+      "id": "PC3E-C03-008",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "formule",
+      "recto": "Lors de la mesure de la tension d'une pile au voltmètre, comment identifie-t-on son pôle positif ?",
+      "verso": "Si le nombre affiché est positif, la lame reliée à la borne V est le pôle positif ; s'il est négatif, c'est l'autre lame. Une tension négative renseigne sur la polarité, ce n'est pas une erreur de l'appareil.",
+      "difficulte": 3,
+      "tags": [
+        "poles",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C03-009",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Pourquoi dit-on qu'une pile est un réservoir d'énergie chimique ?",
+      "verso": "Elle renferme des produits chimiques qui libèrent leur énergie sous forme électrique dès que le circuit extérieur est fermé. Elle ne contient pas « du courant ».",
+      "difficulte": 2,
+      "tags": [
+        "reservoir",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C03-010",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Pourquoi les deux lames d'une pile cuivre-zinc ne doivent-elles pas se toucher ?",
+      "verso": "Si elles se touchaient, le courant passerait de l'une à l'autre sans traverser le circuit extérieur, et la lampe ne s'allumerait pas.",
+      "difficulte": 2,
+      "tags": [
+        "montage",
+        "lames"
+      ]
+    },
+    {
+      "id": "PC3E-C03-011",
+      "lecon": "La pile cuivre-zinc, un réservoir d'énergie chimique",
+      "type": "definition",
+      "recto": "Pourquoi décape-t-on les lames de cuivre et de zinc avant de réaliser la pile ?",
+      "verso": "Une couche terne à leur surface empêche la réaction de démarrer : on les frotte à la toile émeri jusqu'à ce qu'elles brillent.",
+      "difficulte": 2,
+      "tags": [
+        "montage",
+        "decapage"
+      ]
+    },
+    {
+      "id": "PC3E-C03-012",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "formule",
+      "recto": "Quelle demi-équation traduit la réaction à la lame de zinc, pôle négatif de la pile cuivre-zinc ?",
+      "verso": "$\\mathrm{Zn \\rightarrow Zn^{2+} + 2\\,e^{-}}$ : le zinc perd des électrons et passe en solution sous forme d'ions zinc.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation",
+        "zinc"
+      ]
+    },
+    {
+      "id": "PC3E-C03-013",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "formule",
+      "recto": "Quelle demi-équation traduit la réaction à la lame de cuivre, pôle positif de la pile cuivre-zinc ?",
+      "verso": "$\\mathrm{Cu^{2+} + 2\\,e^{-} \\rightarrow Cu}$ : les ions cuivre II de la solution captent des électrons et se déposent en cuivre métallique.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation",
+        "cuivre"
+      ]
+    },
+    {
+      "id": "PC3E-C03-014",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "formule",
+      "recto": "Quelle est l'équation bilan du fonctionnement de la pile cuivre-zinc ?",
+      "verso": "$\\mathrm{Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu}$, obtenue en additionnant les deux demi-équations : les électrons se simplifient.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C03-015",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "formule",
+      "recto": "Dans le circuit extérieur d'une pile qui débite, quel est le sens du courant ?",
+      "verso": "Le courant sort par le pôle positif (lame de cuivre), traverse la lampe et rentre par le pôle négatif (lame de zinc).",
+      "difficulte": 2,
+      "tags": [
+        "sens-courant",
+        "exterieur"
+      ]
+    },
+    {
+      "id": "PC3E-C03-016",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "formule",
+      "recto": "Dans le circuit extérieur d'une pile cuivre-zinc, dans quel sens circulent les électrons ?",
+      "verso": "En sens inverse du courant : ils partent de la lame de zinc, traversent les fils et la lampe, et arrivent à la lame de cuivre.",
+      "difficulte": 2,
+      "tags": [
+        "electrons",
+        "exterieur"
+      ]
+    },
+    {
+      "id": "PC3E-C03-017",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "formule",
+      "recto": "A l'intérieur d'une pile qui débite, comment le courant circule-t-il ?",
+      "verso": "Le courant va du pôle négatif vers le pôle positif. Il est assuré par le déplacement des ions dans l'électrolyte (double migration), et non par des électrons.",
+      "difficulte": 3,
+      "tags": [
+        "sens-courant",
+        "interieur",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C03-018",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "definition",
+      "recto": "Dans l'électrolyte d'une pile cuivre-zinc, qu'appelle-t-on la double migration des ions ?",
+      "verso": "C'est le déplacement des ions en sens inverses : les ions positifs vont vers la lame de cuivre, les ions négatifs vers la lame de zinc.",
+      "difficulte": 2,
+      "tags": [
+        "double-migration",
+        "ions"
+      ]
+    },
+    {
+      "id": "PC3E-C03-019",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "definition",
+      "recto": "Pourquoi de la poudre de zinc versée dans une solution de sulfate de cuivre ne produit-elle que de la chaleur, alors que la pile produit de l'électricité ?",
+      "verso": "Dans la pile, une partie des électrons cédés par le zinc passe par le fil extérieur pour atteindre les ions cuivre au contact de la lame de cuivre : ce déplacement d'électrons est un courant électrique.",
+      "difficulte": 3,
+      "tags": [
+        "separation-reactifs"
+      ]
+    },
+    {
+      "id": "PC3E-C03-020",
+      "lecon": "Ce qui se passe dans la pile : réactions et sens du courant",
+      "type": "definition",
+      "recto": "Pourquoi l'anode d'une pile cuivre-zinc n'est-elle pas reliée au pôle positif comme l'anode d'une électrolyse ?",
+      "verso": "Dans la pile, l'anode est la lame de zinc, où le métal perd des électrons : c'est le pôle négatif. En électrolyse, l'anode est l'électrode reliée au pôle positif du générateur. Dans les deux cas, l'anode est l'électrode où des électrons sont perdus (oxydation).",
+      "difficulte": 3,
+      "tags": [
+        "anode",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C03-021",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Pourquoi une pile qui fonctionne s'use-t-elle ?",
+      "verso": "Ses réactifs se consomment : la lame de zinc est rongée et sa masse diminue, les ions $\\mathrm{Cu^{2+}}$ disparaissent et la couleur bleue pâlit.",
+      "difficulte": 2,
+      "tags": [
+        "usure"
+      ]
+    },
+    {
+      "id": "PC3E-C03-022",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Quand une pile cuivre-zinc est-elle hors d'usage ?",
+      "verso": "Quand l'un des deux réactifs est épuisé : la tension s'effondre alors et le courant s'annule. Elle est vide de réactifs, et non « vide de courant ».",
+      "difficulte": 2,
+      "tags": [
+        "usure",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C03-023",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Quelle expérience montre que le zinc d'une pile bâton usagée a été consommé ?",
+      "verso": "On agite des débris de l'enveloppe de zinc dans de l'eau distillée, on filtre, puis on ajoute de la soude au filtrat : un précipité blanc révèle des ions $\\mathrm{Zn^{2+}}$ formés par $\\mathrm{Zn \\rightarrow Zn^{2+} + 2\\,e^{-}}$.",
+      "difficulte": 2,
+      "tags": [
+        "pile-usagee",
+        "test-soude"
+      ]
+    },
+    {
+      "id": "PC3E-C03-024",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "formule",
+      "recto": "Quelles conversions d'énergie se produisent dans une pile qui fonctionne ?",
+      "verso": "énergie chimique $\\rightarrow$ énergie électrique (utile) $+$ énergie thermique (perdue par échauffement).",
+      "difficulte": 1,
+      "tags": [
+        "conversion-energie"
+      ]
+    },
+    {
+      "id": "PC3E-C03-025",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Comment se présente le diagramme des conversions d'énergie d'une pile qui fonctionne ?",
+      "verso": "Un rectangle « pile » ; une flèche d'entrée « énergie chimique » ; deux flèches de sortie : une grosse « énergie électrique » et une plus mince « énergie thermique ».",
+      "difficulte": 2,
+      "tags": [
+        "diagramme",
+        "conversion-energie"
+      ]
+    },
+    {
+      "id": "PC3E-C03-026",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "formule",
+      "recto": "Quelle relation donne l'énergie électrique $E$ fournie par une pile de tension $U$ qui débite un courant d'intensité $I$ pendant une durée $t$ ?",
+      "verso": "$E = U \\times I \\times t$, avec $E$ en joules ($\\mathrm{J}$), $U$ en volts ($\\mathrm{V}$), $I$ en ampères ($\\mathrm{A}$) et $t$ en secondes ($\\mathrm{s}$) : deux heures valent $7\\,200~\\mathrm{s}$.",
+      "difficulte": 3,
+      "tags": [
+        "energie",
+        "unites",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C03-027",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Comment est constituée la pile Leclanché ?",
+      "verso": "Pôle négatif : un godet de zinc ; pôle positif : un bâton de carbone (graphite) entouré de dioxyde de manganèse ; électrolyte : une pâte de chlorure d'ammonium. Sa tension vaut $1{,}5~\\mathrm{V}$.",
+      "difficulte": 2,
+      "tags": [
+        "pile-leclanche"
+      ]
+    },
+    {
+      "id": "PC3E-C03-028",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Dans une pile Leclanché, quel rôle jouent le zinc, le dioxyde de manganèse et le bâton de carbone ?",
+      "verso": "Le zinc libère des électrons et s'use ($\\mathrm{Zn \\rightarrow Zn^{2+} + 2\\,e^{-}}$) ; ces électrons traversent le circuit jusqu'au bâton de carbone, où le dioxyde de manganèse les capte. Le carbone n'est pas consommé.",
+      "difficulte": 3,
+      "tags": [
+        "pile-leclanche",
+        "fonctionnement"
+      ]
+    },
+    {
+      "id": "PC3E-C03-029",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre une pile et un accumulateur ?",
+      "verso": "Une pile ne se recharge pas et doit être remplacée une fois usée. Un accumulateur (batterie de moto de 12 V) se recharge : il stocke sous forme chimique l'énergie électrique reçue, puis la restitue.",
+      "difficulte": 2,
+      "tags": [
+        "accumulateur",
+        "pile"
+      ]
+    },
+    {
+      "id": "PC3E-C03-030",
+      "lecon": "L'usure de la pile, les conversions d'énergie et le recyclage",
+      "type": "definition",
+      "recto": "Que faut-il faire des piles et batteries usagées ?",
+      "verso": "Les collecter, les stocker et les recycler, car elles contiennent des métaux dangereux qui contaminent le sol et l'eau ; ne jamais les jeter, les brûler, les enterrer ni tenter de recharger une pile.",
+      "difficulte": 1,
+      "tags": [
+        "recyclage",
+        "securite"
+      ]
+    }
+  ]
+}

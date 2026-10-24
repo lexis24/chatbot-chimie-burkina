@@ -1,0 +1,419 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 1 : Les solutions aqueuses",
+  "source": "pc/tled/Chimie_Chapitre_1_Les_solutions_aqueuses",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PCTD-C01-001",
+      "lecon": "L'eau, un solvant",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une solution aqueuse ?",
+      "verso": "Un mélange homogène dont le solvant est l'eau ; le corps dissous, appelé soluté, peut être solide, liquide ou gazeux.",
+      "difficulte": 1,
+      "tags": [
+        "solution-aqueuse",
+        "solvant",
+        "solute"
+      ]
+    },
+    {
+      "id": "PCTD-C01-002",
+      "lecon": "L'eau, un solvant",
+      "type": "definition",
+      "recto": "Pourquoi la molécule d'eau $\\mathrm{H_2O}$ est-elle polaire ?",
+      "verso": "Elle est coudée (angle d'environ $105^{\\circ}$) et l'oxygène, plus électronégatif, porte $2\\delta^-$ et chaque hydrogène $\\delta^+$ : les barycentres des charges ne coïncident pas, c'est un dipôle permanent.",
+      "difficulte": 2,
+      "tags": [
+        "polarite",
+        "eau"
+      ]
+    },
+    {
+      "id": "PCTD-C01-003",
+      "lecon": "L'eau, un solvant",
+      "type": "definition",
+      "recto": "Quelle distinction faut-il faire entre une molécule polaire, comme l'eau, et une espèce chargée ?",
+      "verso": "La molécule d'eau est globalement neutre : elle porte seulement des charges partielles réparties de façon dissymétrique, alors qu'un ion porte une charge globale.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "polarite"
+      ]
+    },
+    {
+      "id": "PCTD-C01-004",
+      "lecon": "L'eau, un solvant",
+      "type": "definition",
+      "recto": "En quoi consiste le pouvoir hydratant de l'eau ?",
+      "verso": "Polaire, l'eau oriente son oxygène vers les cations et ses hydrogènes vers les anions ; elle affaiblit les forces du cristal, arrache les ions et les entoure : c'est la solvatation, appelée hydratation dans l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "hydratation",
+        "solvatation"
+      ]
+    },
+    {
+      "id": "PCTD-C01-005",
+      "lecon": "L'eau, un solvant",
+      "type": "formule",
+      "recto": "Quelle est l'équation de dissolution du chlorure de sodium solide dans l'eau ?",
+      "verso": "$\\mathrm{NaCl_{(s)} \\longrightarrow Na^+_{(aq)} + Cl^-_{(aq)}}$ ; l'indice $(aq)$ signifie que l'ion est hydraté. La solution ne contient plus de $\\mathrm{NaCl}$, seulement ces ions.",
+      "difficulte": 1,
+      "tags": [
+        "dissolution",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C01-006",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle relation définit la concentration molaire $C$ d'un soluté apporté en solution ?",
+      "verso": "$C = \\dfrac{n}{V}$, avec $n$ la quantité de soluté en $\\mathrm{mol}$ et $V$ le volume de la solution (pas du solvant) en $\\mathrm{L}$ ; $C$ en $\\mathrm{mol/L}$ ou $\\mathrm{mol \\cdot L^{-1}}$.",
+      "difficulte": 1,
+      "tags": [
+        "concentration-molaire"
+      ]
+    },
+    {
+      "id": "PCTD-C01-007",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle relation lie la concentration massique $C_m$ d'un soluté à sa concentration molaire $C$ ?",
+      "verso": "$C_m = C \\times M$, avec $C_m = \\dfrac{m}{V}$ en $\\mathrm{g/L}$, $C$ en $\\mathrm{mol/L}$ et $M$ la masse molaire du soluté en $\\mathrm{g/mol}$.",
+      "difficulte": 1,
+      "tags": [
+        "concentration-massique"
+      ]
+    },
+    {
+      "id": "PCTD-C01-008",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "definition",
+      "recto": "Que désignent les termes molarité et solution molaire ?",
+      "verso": "La molarité est un autre nom de la concentration molaire (volumique) ; une solution molaire a une concentration de $1~\\mathrm{mol/L}$.",
+      "difficulte": 1,
+      "tags": [
+        "vocabulaire",
+        "molarite"
+      ]
+    },
+    {
+      "id": "PCTD-C01-009",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre concentration apportée et concentration effective d'une espèce ?",
+      "verso": "La concentration apportée décrit ce que l'on a versé ; la concentration effective $\\left[\\mathrm{X}\\right]$ décrit ce qui est réellement présent en solution après dissociation.",
+      "difficulte": 2,
+      "tags": [
+        "concentration-effective"
+      ]
+    },
+    {
+      "id": "PCTD-C01-010",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Pour une solution de chlorure de calcium $\\mathrm{CaCl_2}$ de concentration apportée $C$, que valent $\\left[\\mathrm{Ca^{2+}}\\right]$ et $\\left[\\mathrm{Cl^-}\\right]$ ?",
+      "verso": "$\\left[\\mathrm{Ca^{2+}}\\right] = C$ et $\\left[\\mathrm{Cl^-}\\right] = 2C$ (et non $C$) : les coefficients de l'équation de dissolution $\\mathrm{CaCl_2 \\rightarrow Ca^{2+} + 2Cl^-}$ font le lien.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "concentration-effective"
+      ]
+    },
+    {
+      "id": "PCTD-C01-011",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Que traduit la relation $C_1 V_1 = C_2 V_2$ lors d'une dilution ?",
+      "verso": "La conservation de la quantité de matière de soluté : on ajoute du solvant sans changer $n$. L'indice 1 désigne la solution mère, l'indice 2 la solution fille.",
+      "difficulte": 2,
+      "tags": [
+        "dilution"
+      ]
+    },
+    {
+      "id": "PCTD-C01-012",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Comment définit-on le facteur de dilution $F$ ?",
+      "verso": "$F = \\dfrac{C_1}{C_2} = \\dfrac{V_2}{V_1}$, toujours supérieur à 1 : diluer $F$ fois, c'est diviser la concentration par $F$ (dilution au $F$-ième).",
+      "difficulte": 2,
+      "tags": [
+        "facteur-de-dilution"
+      ]
+    },
+    {
+      "id": "PCTD-C01-013",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Lors d'une dilution d'un volume $V_1$ de solution mère jusqu'au volume final $V_2$, quel volume d'eau ajoute-t-on ?",
+      "verso": "$V_2 - V_1$, et non $V_2$ : $V_2$ est le volume final de la solution fille.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "dilution"
+      ]
+    },
+    {
+      "id": "PCTD-C01-014",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Que dit la règle d'électroneutralité d'une solution aqueuse ?",
+      "verso": "La somme des concentrations des charges positives égale celle des charges négatives, chaque concentration étant multipliée par le nombre de charges de l'ion : $2\\left[\\mathrm{Ca^{2+}}\\right] + \\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{Cl^-}\\right] + \\left[\\mathrm{OH^-}\\right]$.",
+      "difficulte": 2,
+      "tags": [
+        "electroneutralite"
+      ]
+    },
+    {
+      "id": "PCTD-C01-015",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la concentration molaire $C_0$ d'une solution commerciale de pourcentage massique $p$ et de densité $d$ ?",
+      "verso": "$C_0 = \\dfrac{p \\times d \\times 1\\,000}{M}$ en $\\mathrm{mol/L}$, avec $M$ en $\\mathrm{g/mol}$ et $p$ en fraction : un litre a une masse de $d \\times 1\\,000~\\mathrm{g}$, dont $p \\times d \\times 1\\,000~\\mathrm{g}$ de soluté.",
+      "difficulte": 3,
+      "tags": [
+        "solution-commerciale"
+      ]
+    },
+    {
+      "id": "PCTD-C01-016",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "formule",
+      "recto": "Pour préparer par dissolution d'un gaz une solution de concentration donnée, comment obtient-on la quantité de gaz dissoute ?",
+      "verso": "$n = \\dfrac{V_{\\text{gaz}}}{V_m}$, $V_m$ étant le volume molaire donné : $24~\\mathrm{L/mol}$ vers $20~^{\\circ}\\mathrm{C}$, $22{,}4~\\mathrm{L/mol}$ à $0~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "gaz",
+        "volume-molaire"
+      ]
+    },
+    {
+      "id": "PCTD-C01-017",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "definition",
+      "recto": "Pour un solide hydraté comme $\\mathrm{MgCl_2, 6H_2O}$, que faut-il inclure dans la masse molaire ?",
+      "verso": "L'eau de cristallisation : $M = 24 + 71 + 6 \\times 18 = 203~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "solide-hydrate",
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PCTD-C01-018",
+      "lecon": "Les concentrations en solution aqueuse",
+      "type": "definition",
+      "recto": "Quelle règle de sécurité respecte-t-on en diluant un acide concentré ?",
+      "verso": "On verse toujours l'acide dans l'eau, jamais l'eau dans l'acide : la dilution dégage de la chaleur et l'ordre inverse provoque des projections. On porte des lunettes.",
+      "difficulte": 1,
+      "tags": [
+        "securite",
+        "acide"
+      ]
+    },
+    {
+      "id": "PCTD-C01-019",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "formule",
+      "recto": "Comment définit-on le pH d'une solution aqueuse diluée ?",
+      "verso": "C'est le nombre tel que $\\left[\\mathrm{H_3O^+}\\right] = 10^{-\\mathrm{pH}}$, soit $\\mathrm{pH} = -\\log\\left[\\mathrm{H_3O^+}\\right]$, avec $\\left[\\mathrm{H_3O^+}\\right]$ en $\\mathrm{mol/L}$ ; le pH est sans unité.",
+      "difficulte": 1,
+      "tags": [
+        "ph",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C01-020",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "definition",
+      "recto": "Dans quel domaine de concentration les relations entre le pH et $\\left[\\mathrm{H_3O^+}\\right]$ sont-elles valables ?",
+      "verso": "Seulement pour les solutions diluées, dont la concentration ne dépasse pas $10^{-1}~\\mathrm{mol/L}$.",
+      "difficulte": 2,
+      "tags": [
+        "ph",
+        "validite"
+      ]
+    },
+    {
+      "id": "PCTD-C01-021",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "formule",
+      "recto": "Comment varie $\\left[\\mathrm{H_3O^+}\\right]$ quand le pH d'une solution diminue d'une unité ?",
+      "verso": "Elle est multipliée par 10 : l'échelle des pH est logarithmique. Plus $\\left[\\mathrm{H_3O^+}\\right]$ est grande, plus le pH est petit et la solution acide.",
+      "difficulte": 2,
+      "tags": [
+        "echelle-logarithmique"
+      ]
+    },
+    {
+      "id": "PCTD-C01-022",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "definition",
+      "recto": "Pourquoi un pH passant de 7 à 5 ne signifie-t-il pas une solution deux fois plus acide ?",
+      "verso": "Une différence de pH se traduit par une puissance de dix : deux unités correspondent à un facteur $10^{2}$, la solution est cent fois plus acide.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "echelle-logarithmique"
+      ]
+    },
+    {
+      "id": "PCTD-C01-023",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "definition",
+      "recto": "Quelle différence de précision y a-t-il entre le papier pH et le pH-mètre ?",
+      "verso": "Le papier pH donne une valeur à l'unité près ; le pH-mètre, étalonné avec des solutions tampons, donne le pH au dixième près.",
+      "difficulte": 1,
+      "tags": [
+        "mesure",
+        "ph-metre"
+      ]
+    },
+    {
+      "id": "PCTD-C01-024",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "formule",
+      "recto": "Quel lien existe-t-il entre le nombre de chiffres après la virgule d'un pH et la précision de $\\left[\\mathrm{H_3O^+}\\right]$ ?",
+      "verso": "Il est égal au nombre de chiffres significatifs de $\\left[\\mathrm{H_3O^+}\\right]$ : pH 3,3 donne $5 \\times 10^{-4}~\\mathrm{mol/L}$, pH 3,30 donne $5{,}0 \\times 10^{-4}~\\mathrm{mol/L}$.",
+      "difficulte": 3,
+      "tags": [
+        "chiffres-significatifs"
+      ]
+    },
+    {
+      "id": "PCTD-C01-025",
+      "lecon": "Le pH d'une solution aqueuse",
+      "type": "formule",
+      "recto": "Quelles propriétés du logarithme décimal sert-on pour calculer un pH ?",
+      "verso": "$\\log(ab) = \\log a + \\log b$ ; $\\log\\dfrac{a}{b} = \\log a - \\log b$ ; $\\log a^{n} = n\\log a$ ; $\\log 10^{x} = x$.",
+      "difficulte": 2,
+      "tags": [
+        "logarithme"
+      ]
+    },
+    {
+      "id": "PCTD-C01-026",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'autoprotolyse de l'eau ?",
+      "verso": "$\\mathrm{2H_2O \\rightleftarrows H_3O^+ + OH^-}$ : une molécule d'eau cède un proton à une autre ; la réaction, dans les deux sens, est très limitée.",
+      "difficulte": 1,
+      "tags": [
+        "autoprotolyse"
+      ]
+    },
+    {
+      "id": "PCTD-C01-027",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "definition",
+      "recto": "Quels sont les ions présents dans l'eau pure ?",
+      "verso": "L'ion hydronium (ou oxonium) $\\mathrm{H_3O^+}$ et l'ion hydroxyde $\\mathrm{OH^-}$, formés par l'autoprotolyse de l'eau.",
+      "difficulte": 1,
+      "tags": [
+        "ions",
+        "eau-pure"
+      ]
+    },
+    {
+      "id": "PCTD-C01-028",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "formule",
+      "recto": "Comment définit-on le produit ionique de l'eau $K_e$ ?",
+      "verso": "$K_e = \\left[\\mathrm{H_3O^+}\\right] \\times \\left[\\mathrm{OH^-}\\right]$, constant à température donnée ; à $25~^{\\circ}\\mathrm{C}$, $K_e = 10^{-14}$ et $\\mathrm{p}K_e = -\\log K_e = 14$.",
+      "difficulte": 1,
+      "tags": [
+        "produit-ionique"
+      ]
+    },
+    {
+      "id": "PCTD-C01-029",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, quelle relation lie le pH et le $\\mathrm{pOH} = -\\log\\left[\\mathrm{OH^-}\\right]$ d'une solution ?",
+      "verso": "$\\mathrm{pH} + \\mathrm{pOH} = \\mathrm{p}K_e = 14$ ; on a donc aussi $\\mathrm{pH} = 14 + \\log\\left[\\mathrm{OH^-}\\right]$ et $\\left[\\mathrm{OH^-}\\right] = 10^{\\mathrm{pH} - 14}$.",
+      "difficulte": 2,
+      "tags": [
+        "poh",
+        "ph"
+      ]
+    },
+    {
+      "id": "PCTD-C01-030",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, comment classe-t-on une solution en acide, neutre ou basique d'après son pH ?",
+      "verso": "Neutre si $\\mathrm{pH} = 7$ ($\\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{OH^-}\\right] = 10^{-7}~\\mathrm{mol/L}$) ; acide si $\\mathrm{pH} \\lt 7$ ($\\left[\\mathrm{H_3O^+}\\right] \\gt \\left[\\mathrm{OH^-}\\right]$) ; basique si $\\mathrm{pH} \\gt 7$.",
+      "difficulte": 2,
+      "tags": [
+        "classification"
+      ]
+    },
+    {
+      "id": "PCTD-C01-031",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "formule",
+      "recto": "A une température quelconque, quel est le critère de neutralité d'une solution aqueuse ?",
+      "verso": "L'égalité $\\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{OH^-}\\right] = \\sqrt{K_e}$, soit $\\mathrm{pH} = \\dfrac{1}{2}\\mathrm{p}K_e$ ; la valeur 7 ne vaut qu'à $25~^{\\circ}\\mathrm{C}$ (à $60~^{\\circ}\\mathrm{C}$, l'eau pure neutre a un pH voisin de 6,5).",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "neutralite",
+        "temperature"
+      ]
+    },
+    {
+      "id": "PCTD-C01-032",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre neutralité chimique et neutralité électrique d'une solution ?",
+      "verso": "Toute solution est électriquement neutre, même très acide ; la neutralité chimique est l'égalité $\\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{OH^-}\\right]$.",
+      "difficulte": 2,
+      "tags": [
+        "neutralite",
+        "electroneutralite"
+      ]
+    },
+    {
+      "id": "PCTD-C01-033",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, comment évolue le pH d'une solution quand on la dilue ?",
+      "verso": "Le pH d'une solution acide monte vers 7, celui d'une solution basique descend vers 7, celui d'une solution neutre ne change pas.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "ph"
+      ]
+    },
+    {
+      "id": "PCTD-C01-034",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "definition",
+      "recto": "Pourquoi une solution basique contient-elle toujours des ions $\\mathrm{H_3O^+}$ ?",
+      "verso": "Le produit $\\left[\\mathrm{H_3O^+}\\right] \\times \\left[\\mathrm{OH^-}\\right]$ vaut $10^{-14}$ à $25~^{\\circ}\\mathrm{C}$ : aucune des deux concentrations ne peut être nulle, elles sont seulement très faibles.",
+      "difficulte": 2,
+      "tags": [
+        "produit-ionique",
+        "solution-basique"
+      ]
+    },
+    {
+      "id": "PCTD-C01-035",
+      "lecon": "L'autoprotolyse de l'eau et la classification des solutions",
+      "type": "definition",
+      "recto": "Quelles précautions prend-on pour manipuler l'hydroxyde de sodium ?",
+      "verso": "Très corrosif pour la peau et surtout les yeux, il se manipule avec des gants et des lunettes ; en cas de contact, on rince immédiatement et abondamment à l'eau.",
+      "difficulte": 1,
+      "tags": [
+        "securite",
+        "soude"
+      ]
+    }
+  ]
+}

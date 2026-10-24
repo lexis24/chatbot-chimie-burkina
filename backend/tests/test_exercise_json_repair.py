@@ -51,3 +51,20 @@ def test_parse_exercise_json_recovers_from_broken_latex_escapes():
 
 def test_parse_exercise_json_still_rejects_genuinely_malformed_json():
     assert RAGSystem._parse_exercise_json("ceci n'est pas du JSON du tout", difficulty=2) == (None, None)
+
+
+def test_parse_exercise_json_accepts_raw_newlines_inside_strings():
+    """Régression : un long énoncé en Markdown arrivait parfois avec de vrais sauts de ligne non
+    échappés dans la chaîne JSON — refusés par json.loads (mode strict) et l'élève recevait
+    l'exercice de secours au lieu de celui de Claude."""
+    raw = '{"chapitre": "Les alcools", "enonce": "### Contexte\nUn alcool de formule $\\ce{C2H6O}$.\n\nQuestions :\t1)", "indices": ["Indice"], "figure": null}'
+    parsed, chapter = RAGSystem._parse_exercise_json(raw, difficulty=3)
+    assert parsed is not None
+    assert parsed["enonce"].startswith("### Contexte\nUn alcool")
+    assert chapter == "Les alcools"
+
+
+def test_parse_exercise_json_repairs_single_backslash_ce():
+    raw = '{"enonce": "Équilibre $\ce{CH4 + O2 -> CO2 + H2O}$.", "indices": [], "figure": null}'
+    parsed, _ = RAGSystem._parse_exercise_json(raw, difficulty=2)
+    assert parsed["enonce"] == "Équilibre $\ce{CH4 + O2 -> CO2 + H2O}$."

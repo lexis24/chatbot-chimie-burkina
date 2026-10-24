@@ -1,0 +1,437 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 10 : Les notions d'acide et de base",
+  "source": "pc/3eme/Chimie_Chapitre_10_Les_notions_d_acide_et_de_base",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC3E-C10-001",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Pour une solution aqueuse, qu'est-ce que le pH ?",
+      "verso": "Un nombre sans unité qui mesure le caractère acide ou basique de la solution. On dit « le pH vaut 3,5 », jamais « 3,5 unités ».",
+      "difficulte": 1,
+      "tags": [
+        "ph",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C10-002",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, entre quelles valeurs le pH d'une solution aqueuse est-il compris ?",
+      "verso": "Entre $0$ et $14$.",
+      "difficulte": 1,
+      "tags": [
+        "echelle-ph"
+      ]
+    },
+    {
+      "id": "PC3E-C10-003",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, comment classe-t-on une solution aqueuse d'après son pH ?",
+      "verso": "Acide si $\\mathrm{pH} \\lt 7$, neutre si $\\mathrm{pH} = 7$, basique si $\\mathrm{pH} \\gt 7$.",
+      "difficulte": 1,
+      "tags": [
+        "echelle-ph",
+        "classement"
+      ]
+    },
+    {
+      "id": "PC3E-C10-004",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "Entre deux solutions acides, comment reconnaît-on la plus acide à partir de leurs pH ?",
+      "verso": "C'est celle dont le pH est le plus petit : plus le pH est petit, plus la solution est acide.",
+      "difficulte": 2,
+      "tags": [
+        "acidite",
+        "comparaison"
+      ]
+    },
+    {
+      "id": "PC3E-C10-005",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Quels sont des exemples de solutions acides courantes, avec leur pH ?",
+      "verso": "Electrolyte de batterie ($\\mathrm{pH} \\approx 1$), jus de citron ($2{,}3$), vinaigre ($3$), boisson gazeuse ($3{,}5$), eau de pluie ($5{,}6$).",
+      "difficulte": 2,
+      "tags": [
+        "exemples",
+        "acide"
+      ]
+    },
+    {
+      "id": "PC3E-C10-006",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Quels sont des exemples de solutions neutres, de pH égal à $7$ ?",
+      "verso": "L'eau distillée, l'eau du robinet et l'eau salée.",
+      "difficulte": 1,
+      "tags": [
+        "exemples",
+        "neutre"
+      ]
+    },
+    {
+      "id": "PC3E-C10-007",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Quels sont des exemples de solutions basiques courantes, avec leur pH ?",
+      "verso": "Eau savonneuse ($9{,}5$), eau de Javel ($12$), eau de chaux ($12{,}5$), soude (pH voisin de $14$).",
+      "difficulte": 2,
+      "tags": [
+        "exemples",
+        "basique"
+      ]
+    },
+    {
+      "id": "PC3E-C10-008",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Avec quelle précision le papier pH donne-t-il le pH d'une solution ?",
+      "verso": "A une unité près, par exemple $\\mathrm{pH} = 3$. Ecrire « $\\mathrm{pH} = 3{,}47$ » avec du papier pH est une faute.",
+      "difficulte": 2,
+      "tags": [
+        "papier-ph",
+        "precision"
+      ]
+    },
+    {
+      "id": "PC3E-C10-009",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Avec quelle précision le pH-mètre donne-t-il le pH d'une solution ?",
+      "verso": "Au dixième près, par exemple $\\mathrm{pH} = 3{,}4$.",
+      "difficulte": 1,
+      "tags": [
+        "ph-metre",
+        "precision"
+      ]
+    },
+    {
+      "id": "PC3E-C10-010",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "Quelles précautions de geste assurent une mesure juste au papier pH ?",
+      "verso": "Déposer la goutte sur le papier avec une pipette propre, lire tout de suite (la couleur évolue en séchant) et prendre une bandelette neuve par liquide.",
+      "difficulte": 2,
+      "tags": [
+        "papier-ph",
+        "mesure"
+      ]
+    },
+    {
+      "id": "PC3E-C10-011",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un indicateur coloré ?",
+      "verso": "Une substance qui change de couleur selon le pH de la solution ; quelques gouttes suffisent, et la couleur renseigne sur le pH.",
+      "difficulte": 1,
+      "tags": [
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PC3E-C10-012",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Pour un indicateur coloré, qu'appelle-t-on la zone de virage ?",
+      "verso": "Le petit intervalle de pH dans lequel l'indicateur change de couleur et prend une teinte intermédiaire.",
+      "difficulte": 2,
+      "tags": [
+        "zone-de-virage"
+      ]
+    },
+    {
+      "id": "PC3E-C10-013",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "Quelles sont les couleurs du bleu de bromothymol (BBT) selon le pH ?",
+      "verso": "Jaune pour $\\mathrm{pH} \\lt 6{,}0$, vert dans la zone de virage de $6{,}0$ à $7{,}6$, bleu pour $\\mathrm{pH} \\gt 7{,}6$.",
+      "difficulte": 2,
+      "tags": [
+        "bbt",
+        "virage"
+      ]
+    },
+    {
+      "id": "PC3E-C10-014",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "Quelles sont les couleurs de l'hélianthine selon le pH ?",
+      "verso": "Rouge pour $\\mathrm{pH} \\lt 3{,}1$, orange dans la zone de virage de $3{,}1$ à $4{,}4$, jaune pour $\\mathrm{pH} \\gt 4{,}4$.",
+      "difficulte": 2,
+      "tags": [
+        "helianthine",
+        "virage"
+      ]
+    },
+    {
+      "id": "PC3E-C10-015",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "formule",
+      "recto": "Quelles sont les couleurs de la phénolphtaléine selon le pH ?",
+      "verso": "Incolore pour $\\mathrm{pH} \\lt 8{,}2$, rose pâle de $8{,}2$ à $10$ environ, rose violacé au-delà de $10$ environ.",
+      "difficulte": 2,
+      "tags": [
+        "phenolphtaleine",
+        "virage"
+      ]
+    },
+    {
+      "id": "PC3E-C10-016",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Pourquoi une phénolphtaléine restée incolore ne permet-elle pas de dire si une solution est acide ou basique ?",
+      "verso": "Elle indique seulement $\\mathrm{pH} \\lt 8{,}2$ : le pH peut valoir $2$ comme $8$. Un indicateur donne un intervalle, pas une valeur ; il faut compléter par un autre indicateur ou du papier pH.",
+      "difficulte": 3,
+      "tags": [
+        "indicateur-colore",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C10-017",
+      "lecon": "Acide, basique ou neutre : le pH et son échelle",
+      "type": "definition",
+      "recto": "Pourquoi un pH de $13$ ne désigne-t-il pas une solution très acide ?",
+      "verso": "Parce que plus le pH est petit, plus la solution est acide : un pH de $13$, supérieur à $7$, signale une solution très basique.",
+      "difficulte": 3,
+      "tags": [
+        "echelle-ph",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C10-018",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "definition",
+      "recto": "Quel ion est responsable de l'acidité d'une solution aqueuse ?",
+      "verso": "L'ion hydrogène $\\mathrm{H^+}$, un cation : plus une solution en contient, plus elle est acide et plus son pH est petit.",
+      "difficulte": 1,
+      "tags": [
+        "ion-hydrogene",
+        "acidite"
+      ]
+    },
+    {
+      "id": "PC3E-C10-019",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "definition",
+      "recto": "Quel ion est responsable de la basicité d'une solution aqueuse ?",
+      "verso": "L'ion hydroxyde $\\mathrm{OH^-}$, un anion : plus une solution en contient, plus elle est basique et plus son pH est grand.",
+      "difficulte": 1,
+      "tags": [
+        "ion-hydroxyde",
+        "basicite"
+      ]
+    },
+    {
+      "id": "PC3E-C10-020",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "formule",
+      "recto": "Dans une solution aqueuse, quel ion est majoritaire selon que $\\mathrm{pH} \\lt 7$, $\\mathrm{pH} = 7$ ou $\\mathrm{pH} \\gt 7$ ?",
+      "verso": "$\\mathrm{pH} \\lt 7$ : $\\mathrm{H^+}$ majoritaire ; $\\mathrm{pH} = 7$ : autant de $\\mathrm{H^+}$ que de $\\mathrm{OH^-}$ ; $\\mathrm{pH} \\gt 7$ : $\\mathrm{OH^-}$ majoritaire. Toute solution aqueuse contient les deux ions.",
+      "difficulte": 2,
+      "tags": [
+        "espece-majoritaire"
+      ]
+    },
+    {
+      "id": "PC3E-C10-021",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "definition",
+      "recto": "Sous quelle autre écriture l'ion hydrogène $\\mathrm{H^+}$ est-il parfois noté ?",
+      "verso": "$\\mathrm{H_3O^+}$, l'ion hydronium : c'est la forme sous laquelle l'ion $\\mathrm{H^+}$ existe dans l'eau. Les deux écritures désignent le même responsable de l'acidité.",
+      "difficulte": 2,
+      "tags": [
+        "ion-hydronium",
+        "notation"
+      ]
+    },
+    {
+      "id": "PC3E-C10-022",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "formule",
+      "recto": "Comment évolue le pH d'une solution acide quand on la dilue ?",
+      "verso": "Il augmente et se rapproche de $7$, mais reste inférieur à $7$ : la solution reste acide.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "acide"
+      ]
+    },
+    {
+      "id": "PC3E-C10-023",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "formule",
+      "recto": "Comment évolue le pH d'une solution basique quand on la dilue ?",
+      "verso": "Il diminue et se rapproche de $7$, mais reste supérieur à $7$ : la solution reste basique.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "basique"
+      ]
+    },
+    {
+      "id": "PC3E-C10-024",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "formule",
+      "recto": "Comment évolue le pH d'une solution neutre quand on la dilue ?",
+      "verso": "Il ne change pas : il reste égal à $7$.",
+      "difficulte": 1,
+      "tags": [
+        "dilution",
+        "neutre"
+      ]
+    },
+    {
+      "id": "PC3E-C10-025",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "definition",
+      "recto": "Pourquoi une dilution, même très forte, ne rend-elle jamais basique une solution acide ?",
+      "verso": "L'eau ajoutée est neutre, elle n'apporte ni $\\mathrm{H^+}$ ni $\\mathrm{OH^-}$ en excès ; les ions $\\mathrm{H^+}$ de l'acide restent majoritaires, de moins en moins nombreux par litre : le pH se rapproche de $7$ sans le franchir.",
+      "difficulte": 3,
+      "tags": [
+        "dilution",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C10-026",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "formule",
+      "recto": "Quelle règle de sécurité suit-on pour diluer un acide ?",
+      "verso": "On verse toujours l'acide dans l'eau, lentement, en filet le long d'une baguette : « l'acide dans l'eau, jamais l'eau dans l'acide ».",
+      "difficulte": 1,
+      "tags": [
+        "securite",
+        "dilution"
+      ]
+    },
+    {
+      "id": "PC3E-C10-027",
+      "lecon": "Les ions $\\text{H}^+$ et $\\text{OH}^-$, et l'effet de la dilution",
+      "type": "definition",
+      "recto": "Pourquoi est-il dangereux de verser l'eau dans l'acide ?",
+      "verso": "Le mélange dégage beaucoup de chaleur : l'eau arrivant sur l'acide bout en surface et projette des gouttes d'acide au visage. Dans l'autre sens, la grande masse d'eau absorbe la chaleur.",
+      "difficulte": 3,
+      "tags": [
+        "securite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C10-028",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "formule",
+      "recto": "Que se passe-t-il quand une solution acide attaque un métal comme le zinc, le fer ou l'aluminium ?",
+      "verso": "Il se dégage du dihydrogène $\\mathrm{H_2}$ et le métal passe en solution sous forme d'ions métalliques ; ce sont les ions $\\mathrm{H^+}$ qui réagissent avec le métal.",
+      "difficulte": 2,
+      "tags": [
+        "acide-metal"
+      ]
+    },
+    {
+      "id": "PC3E-C10-029",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'action d'un acide sur le zinc ?",
+      "verso": "$\\mathrm{Zn + 2H^+ \\rightarrow Zn^{2+} + H_2}$ : un atome de zinc, deux atomes d'hydrogène et deux charges positives de chaque côté.",
+      "difficulte": 2,
+      "tags": [
+        "equation",
+        "zinc"
+      ]
+    },
+    {
+      "id": "PC3E-C10-030",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "definition",
+      "recto": "Pourquoi l'équation $\\mathrm{Zn + H^+ \\rightarrow Zn^{2+} + H_2}$ est-elle fausse ?",
+      "verso": "Elle compte un atome d'hydrogène et une charge positive à gauche, mais deux atomes d'hydrogène et deux charges positives à droite. Il faut le coefficient 2 : $\\mathrm{Zn + 2H^+ \\rightarrow Zn^{2+} + H_2}$.",
+      "difficulte": 3,
+      "tags": [
+        "equation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C10-031",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "formule",
+      "recto": "Quel test permet de reconnaître le dihydrogène dégagé par l'action d'un acide sur un métal ?",
+      "verso": "Le test de l'allumette : approchée enflammée, elle provoque une détonation, qui signe la présence de $\\mathrm{H_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "dihydrogene",
+        "test"
+      ]
+    },
+    {
+      "id": "PC3E-C10-032",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre $\\mathrm{H^+}$ et $\\mathrm{H_2}$ ?",
+      "verso": "$\\mathrm{H^+}$ est l'ion hydrogène, cation responsable de l'acidité, qui reste dans la solution ; $\\mathrm{H_2}$ est la molécule de dihydrogène, un gaz, celui qui détone à l'allumette.",
+      "difficulte": 3,
+      "tags": [
+        "dihydrogene",
+        "ion-hydrogene"
+      ]
+    },
+    {
+      "id": "PC3E-C10-033",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "formule",
+      "recto": "Quelles protections portent les élèves pour manipuler des acides ou des bases concentrés ?",
+      "verso": "Des lunettes pour toute la classe, des gants pour tout transvasement, une blouse ou un vêtement à manches longues, dans une salle bien aérée.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "protections"
+      ]
+    },
+    {
+      "id": "PC3E-C10-034",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "formule",
+      "recto": "Que faire en cas de projection d'acide ou de base concentrés sur la peau ?",
+      "verso": "Rincer immédiatement à grande eau courante pendant au moins quinze minutes en écartant le vêtement souillé, sans frotter, sans huile, ni beurre de karité, ni dentifrice.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "premiers-secours"
+      ]
+    },
+    {
+      "id": "PC3E-C10-035",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "formule",
+      "recto": "Que faire en cas de projection d'acide ou de base dans l'oeil ?",
+      "verso": "Rincer l'oeil ouvert, paupières écartées, sous un filet d'eau pendant au moins quinze minutes, puis aller au dispensaire avec l'étiquette du produit.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "premiers-secours"
+      ]
+    },
+    {
+      "id": "PC3E-C10-036",
+      "lecon": "L'action d'un acide sur un métal et les dangers des acides et des bases concentrés",
+      "type": "definition",
+      "recto": "Pourquoi ne mélange-t-on jamais l'eau de Javel avec un détartrant acide ?",
+      "verso": "Parce que ce mélange dégage un gaz toxique.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "eau-de-javel"
+      ]
+    }
+  ]
+}

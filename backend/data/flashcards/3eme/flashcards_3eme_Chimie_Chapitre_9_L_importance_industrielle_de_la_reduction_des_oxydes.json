@@ -1,0 +1,442 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 9 : L'importance industrielle de la réduction des oxydes",
+  "source": "pc/3eme/Chimie_Chapitre_9_L_importance_industrielle_de_la_reduction_des_oxydes",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC3E-C09-001",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un minerai ?",
+      "verso": "C'est une roche naturelle contenant un métal, ou un composé de ce métal, en quantité suffisante pour que son extraction soit rentable. Le métal y est le plus souvent combiné à l'oxygène (oxyde) ou au soufre (sulfure).",
+      "difficulte": 1,
+      "tags": [
+        "minerai",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-002",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Quels sont les deux principaux minerais de fer et leurs formules ?",
+      "verso": "L'hématite $\\mathrm{Fe_2O_3}$ et la magnétite $\\mathrm{Fe_3O_4}$.",
+      "difficulte": 1,
+      "tags": [
+        "minerai",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC3E-C09-003",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Quels minerais donnent respectivement l'aluminium, le cuivre, le zinc et le manganèse ?",
+      "verso": "La bauxite pour l'aluminium, la malachite pour le cuivre, la blende $\\mathrm{ZnS}$ pour le zinc, la pyrolusite $\\mathrm{MnO_2}$ pour le manganèse.",
+      "difficulte": 2,
+      "tags": [
+        "minerai",
+        "exemples"
+      ]
+    },
+    {
+      "id": "PC3E-C09-004",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la gangue d'un minerai ?",
+      "verso": "C'est l'ensemble des matières sans intérêt qui accompagnent le minerai : silice, argile, calcaire, sable.",
+      "difficulte": 1,
+      "tags": [
+        "gangue",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-005",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la teneur d'un minerai ?",
+      "verso": "C'est le pourcentage de masse correspondant au composé utile, ou au métal : un minerai à $60\\ \\%$ d'oxyde ferrique contient $60~\\mathrm{kg}$ d'oxyde pour $100~\\mathrm{kg}$ de roche.",
+      "difficulte": 1,
+      "tags": [
+        "teneur",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-006",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Pourquoi une teneur de $60\\ \\%$ en oxyde ferrique n'est-elle pas une teneur de $60\\ \\%$ en fer ?",
+      "verso": "L'oxyde contient aussi de l'oxygène : $100~\\mathrm{kg}$ de ce minerai renferment $60~\\mathrm{kg}$ d'oxyde, qui ne donnent que $60 \\times \\dfrac{112}{160} = 42~\\mathrm{kg}$ de fer.",
+      "difficulte": 3,
+      "tags": [
+        "teneur",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C09-007",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Quelles sont, dans l'ordre, les quatre étapes de l'obtention industrielle d'un métal à partir de son minerai ?",
+      "verso": "L'extraction (carrière ou galerie), la préparation (concassage, broyage, tri : minerai enrichi), la réduction par un réducteur ou par le courant électrique, puis l'affinage.",
+      "difficulte": 2,
+      "tags": [
+        "extraction",
+        "etapes"
+      ]
+    },
+    {
+      "id": "PC3E-C09-008",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre pyrométallurgie et électrométallurgie ?",
+      "verso": "En pyrométallurgie, la réduction se fait à haute température par un réducteur (fer, cuivre) ; en électrométallurgie, elle se fait par le courant électrique (aluminium).",
+      "difficulte": 2,
+      "tags": [
+        "pyrometallurgie",
+        "electrometallurgie"
+      ]
+    },
+    {
+      "id": "PC3E-C09-009",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'hydrométallurgie ?",
+      "verso": "C'est la technique qui consiste à dissoudre les métaux du minerai dans des solutions aqueuses pour les séparer.",
+      "difficulte": 2,
+      "tags": [
+        "hydrometallurgie",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-010",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Pourquoi l'oxyde ferrique chauffé seul ne donne-t-il jamais de fer ?",
+      "verso": "Le fer y est combiné à l'oxygène : pour libérer le métal, il faut qu'un autre corps, un réducteur (carbone, monoxyde de carbone, aluminium), prenne cet oxygène. La chaleur seule ne suffit pas.",
+      "difficulte": 2,
+      "tags": [
+        "reducteur",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "PC3E-C09-011",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réduction de l'oxyde ferrique par le monoxyde de carbone ?",
+      "verso": "$\\mathrm{Fe_2O_3 + 3CO \\rightarrow 2Fe + 3CO_2}$ : le monoxyde de carbone est le réducteur (oxydé en $\\mathrm{CO_2}$), l'oxyde ferrique est l'oxydant (réduit en fer).",
+      "difficulte": 2,
+      "tags": [
+        "haut-fourneau",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C09-012",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "formule",
+      "recto": "Quelles masses de référence traduisent la réduction de l'oxyde ferrique par le monoxyde de carbone ?",
+      "verso": "$160~\\mathrm{g}$ de $\\mathrm{Fe_2O_3}$ et $84~\\mathrm{g}$ de $\\mathrm{CO}$ donnent $112~\\mathrm{g}$ de fer et $132~\\mathrm{g}$ de $\\mathrm{CO_2}$ ($244~\\mathrm{g}$ de chaque côté). En volume, $72~\\mathrm{L}$ de $\\mathrm{CO}$ donnent $72~\\mathrm{L}$ de $\\mathrm{CO_2}$.",
+      "difficulte": 3,
+      "tags": [
+        "proportion",
+        "masse"
+      ]
+    },
+    {
+      "id": "PC3E-C09-013",
+      "lecon": "Du minerai au métal, la réduction de l'oxyde ferrique",
+      "type": "definition",
+      "recto": "Quels dangers présente l'orpaillage pour les personnes et l'environnement ?",
+      "verso": "Les puits creusés sans étai s'effondrent, et le mercure employé pour récupérer l'or empoisonne ceux qui le manipulent sans protection ainsi que les eaux du voisinage.",
+      "difficulte": 2,
+      "tags": [
+        "orpaillage",
+        "environnement"
+      ]
+    },
+    {
+      "id": "PC3E-C09-014",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Comment fonctionne un haut fourneau, de l'entrée de la charge à la sortie des produits ?",
+      "verso": "Four vertical d'une trentaine de mètres en marche continue : la charge entre en haut par le gueulard, l'air chaud entre en bas par les tuyères, la fonte et le laitier sont recueillis au creuset, les gaz sortent en haut.",
+      "difficulte": 2,
+      "tags": [
+        "haut-fourneau",
+        "fonctionnement"
+      ]
+    },
+    {
+      "id": "PC3E-C09-015",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Quels sont les trois constituants de la charge d'un haut fourneau ?",
+      "verso": "Le minerai de fer (qui apporte l'oxyde), le coke et le fondant (du calcaire).",
+      "difficulte": 1,
+      "tags": [
+        "charge",
+        "haut-fourneau"
+      ]
+    },
+    {
+      "id": "PC3E-C09-016",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Quels sont les deux rôles du coke dans le haut fourneau ?",
+      "verso": "Il brûle pour chauffer le four, et il fournit le monoxyde de carbone qui réduit le minerai.",
+      "difficulte": 3,
+      "tags": [
+        "coke",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C09-017",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Quel est le rôle du fondant (calcaire) dans la charge du haut fourneau ?",
+      "verso": "Il se combine à la gangue, riche en silice, pour former un résidu liquide évacuable, le laitier. Sans lui, la gangue resterait pâteuse et collée au fer.",
+      "difficulte": 2,
+      "tags": [
+        "fondant",
+        "laitier"
+      ]
+    },
+    {
+      "id": "PC3E-C09-018",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "formule",
+      "recto": "Quelles réactions successives produisent le réducteur dans le haut fourneau ?",
+      "verso": "Devant les tuyères, le coke brûle : $\\mathrm{C + O_2 \\rightarrow CO_2}$. Plus haut, au contact du coke : $\\mathrm{CO_2 + C \\rightarrow 2CO}$. Le $\\mathrm{CO}$ réduit ensuite le minerai.",
+      "difficulte": 2,
+      "tags": [
+        "haut-fourneau",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C09-019",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la fonte ?",
+      "verso": "C'est le fer brut sorti du haut fourneau : un alliage de fer et de carbone contenant de $2\\ \\%$ à $6{,}7\\ \\%$ de carbone, plus un peu de silicium, de manganèse, de soufre et de phosphore.",
+      "difficulte": 1,
+      "tags": [
+        "fonte",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-020",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le laitier du haut fourneau ?",
+      "verso": "C'est le résidu liquide venu de la gangue combinée au fondant, un silicate de calcium et d'aluminium. Moins dense que la fonte, il flotte au-dessus d'elle dans le creuset.",
+      "difficulte": 2,
+      "tags": [
+        "laitier",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-021",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'acier ?",
+      "verso": "C'est un alliage de fer contenant moins de $1\\ \\%$ de carbone (quelques aciers spéciaux vont jusqu'à $2\\ \\%$).",
+      "difficulte": 1,
+      "tags": [
+        "acier",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-022",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Quelle grandeur distingue la fonte de l'acier ?",
+      "verso": "Seule la teneur en carbone : de $2\\ \\%$ à $6{,}7\\ \\%$ pour la fonte, moins de $1\\ \\%$ pour l'acier. La fonte contient donc plus de carbone.",
+      "difficulte": 3,
+      "tags": [
+        "fonte",
+        "acier"
+      ]
+    },
+    {
+      "id": "PC3E-C09-023",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Dans quelle zone du haut fourneau se fait l'essentiel de la réduction du minerai ?",
+      "verso": "Au milieu de la cuve, entre $500$ et $900~\\mathrm{^\\circ C}$ : c'est la zone de réduction, où le fer obtenu est encore solide et spongieux. Il fond en fonte plus bas, vers $1\\,200~\\mathrm{^\\circ C}$.",
+      "difficulte": 2,
+      "tags": [
+        "zones",
+        "haut-fourneau"
+      ]
+    },
+    {
+      "id": "PC3E-C09-024",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "definition",
+      "recto": "Quelles sont, dans l'ordre, les quatre étapes de l'élaboration de l'acier dans un convertisseur ?",
+      "verso": "Le chargement (fonte liquide et ferraille), le soufflage de dioxygène pur, le décrassage (retrait des oxydes en laitier), puis les additions et la coulée.",
+      "difficulte": 2,
+      "tags": [
+        "convertisseur",
+        "etapes"
+      ]
+    },
+    {
+      "id": "PC3E-C09-025",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "formule",
+      "recto": "Dans le convertisseur, quel est l'effet du dioxygène soufflé sur la fonte ?",
+      "verso": "Il oxyde le carbone en excès, $\\mathrm{C + O_2 \\rightarrow CO_2}$, ainsi que le silicium, le manganèse et le phosphore : la teneur en carbone tombe de $4\\ \\%$ à moins de $1\\ \\%$. On enlève du carbone, on n'en ajoute pas.",
+      "difficulte": 3,
+      "tags": [
+        "convertisseur",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C09-026",
+      "lecon": "Le haut fourneau, de la fonte à l'acier",
+      "type": "formule",
+      "recto": "Comment calcule-t-on le rendement $r$ d'une extraction de métal ?",
+      "verso": "$r = \\dfrac{m_{\\text{réelle}}}{m_{\\text{théorique}}} \\times 100$, les deux masses dans la même unité ; $r$ est en pourcentage, toujours compris entre 0 et $100\\ \\%$.",
+      "difficulte": 2,
+      "tags": [
+        "rendement",
+        "formule"
+      ]
+    },
+    {
+      "id": "PC3E-C09-027",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la bauxite ?",
+      "verso": "C'est le minerai de l'aluminium : une roche rougeâtre dont on tire, après traitement chimique, une poudre blanche, l'alumine $\\mathrm{Al_2O_3}$.",
+      "difficulte": 1,
+      "tags": [
+        "bauxite",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C09-028",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Quel problème pose la réduction de l'alumine $\\mathrm{Al_2O_3}$ ?",
+      "verso": "L'alumine est très stable : ni le carbone, ni le monoxyde de carbone, ni le dihydrogène ne lui arrachent son oxygène. Le sodium ou le magnésium le pourraient, mais ce sont des métaux coûteux : on la réduit donc par électrolyse.",
+      "difficulte": 2,
+      "tags": [
+        "alumine",
+        "reduction"
+      ]
+    },
+    {
+      "id": "PC3E-C09-029",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "formule",
+      "recto": "Quelle équation-bilan traduit l'électrolyse de l'alumine ?",
+      "verso": "$\\mathrm{2Al_2O_3 \\rightarrow 4Al + 3O_2}$ : l'aluminium liquide se dépose au fond de la cuve (cathode), le dioxygène se dégage aux anodes en carbone.",
+      "difficulte": 2,
+      "tags": [
+        "electrolyse",
+        "alumine"
+      ]
+    },
+    {
+      "id": "PC3E-C09-030",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Quel est le rôle de la cryolithe dans l'électrolyse de l'alumine ?",
+      "verso": "C'est un solvant : l'alumine, qui ne fond que vers $2\\,050~\\mathrm{^\\circ C}$, s'y dissout et donne un bain liquide conducteur dès $950~\\mathrm{^\\circ C}$ environ. Elle ne fournit aucun aluminium.",
+      "difficulte": 2,
+      "tags": [
+        "cryolithe",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC3E-C09-031",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Pourquoi les anodes en carbone de la cuve d'électrolyse de l'alumine s'usent-elles ?",
+      "verso": "Le dioxygène libéré se dégage sur ces anodes portées à près de $950~\\mathrm{^\\circ C}$ et les brûle : $\\mathrm{C + O_2 \\rightarrow CO_2}$. Le carbone part en gaz, les anodes sont remplacées régulièrement.",
+      "difficulte": 2,
+      "tags": [
+        "anode",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC3E-C09-032",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan globale de l'électrolyse de l'alumine avec anodes en carbone ?",
+      "verso": "$\\mathrm{2Al_2O_3 + 3C \\rightarrow 4Al + 3CO_2}$. L'alumine est réduite, le carbone est oxydé, mais seul le courant électrique rend cette réaction possible.",
+      "difficulte": 3,
+      "tags": [
+        "electrolyse",
+        "bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C09-033",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire que l'on « réduit la bauxite » dans la cuve d'électrolyse ?",
+      "verso": "On tire d'abord l'alumine $\\mathrm{Al_2O_3}$ de la bauxite par traitement chimique ; c'est l'alumine que l'on réduit par électrolyse.",
+      "difficulte": 3,
+      "tags": [
+        "bauxite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C09-034",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Comment retire-t-on l'aluminium liquide de la cuve d'électrolyse ?",
+      "verso": "Par siphonage : il est aspiré dans un tube depuis le fond de la cuve.",
+      "difficulte": 1,
+      "tags": [
+        "siphonage",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC3E-C09-035",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Pourquoi le recyclage d'un métal demande-t-il beaucoup moins d'énergie que son élaboration à partir du minerai ?",
+      "verso": "Refondre un métal ne demande aucune réduction, puisqu'il est déjà réduit : il suffit de le fondre, de le purifier et de le couler. Pour l'aluminium, l'économie est d'environ 20 fois (pas d'électrolyse) ; pour l'acier, d'environ 3 fois.",
+      "difficulte": 2,
+      "tags": [
+        "recyclage",
+        "energie"
+      ]
+    },
+    {
+      "id": "PC3E-C09-036",
+      "lecon": "L'élaboration de l'aluminium et le recyclage des métaux",
+      "type": "definition",
+      "recto": "Quel rôle différent joue l'aluminium dans l'aluminothermie et dans la cuve d'électrolyse ?",
+      "verso": "Dans l'aluminothermie $\\mathrm{Fe_2O_3 + 2Al \\rightarrow 2Fe + Al_2O_3}$, l'aluminium est le réducteur ; dans la cuve d'électrolyse, il est le produit.",
+      "difficulte": 3,
+      "tags": [
+        "aluminium",
+        "aluminothermie"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 2 : Les aspects pratiques des combustions",
+  "source": "pc/4eme/Chimie_Chapitre_2_Les_aspects_pratiques_des_combustions",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PC4E-C02-001",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un combustible usuel ?",
+      "verso": "Un combustible d'emploi courant. Au Burkina Faso : bois de chauffe, charbon de bois, paille et tiges, bouses séchées, pétrole lampant, essence, gasoil, butane et biogaz.",
+      "difficulte": 1,
+      "tags": [
+        "combustible-usuel"
+      ]
+    },
+    {
+      "id": "PC4E-C02-002",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un carburant ?",
+      "verso": "Un combustible employé dans un moteur pour produire un mouvement, comme l'essence, le gasoil ou le kérosène des avions.",
+      "difficulte": 1,
+      "tags": [
+        "carburant"
+      ]
+    },
+    {
+      "id": "PC4E-C02-003",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Pourquoi le bois, qui brûle très bien, n'est-il pas un carburant ?",
+      "verso": "Un carburant est un combustible employé dans un moteur. Tout carburant est un combustible, mais l'inverse est faux : le bois est un combustible qui n'alimente pas de moteur.",
+      "difficulte": 3,
+      "tags": [
+        "carburant",
+        "combustible",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C02-004",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Comment classe-t-on les combustibles usuels selon leur état physique ?",
+      "verso": "Solides : bois, charbon de bois, paille, tiges, bouses séchées. Liquides : pétrole lampant, essence, gasoil. Gazeux : butane, biogaz.",
+      "difficulte": 1,
+      "tags": [
+        "classement",
+        "etat-physique"
+      ]
+    },
+    {
+      "id": "PC4E-C02-005",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre un combustible de biomasse et un combustible fossile ?",
+      "verso": "Un combustible de biomasse, d'origine végétale ou animale, se renouvelle (bois, charbon de bois, paille, bouses, biogaz). Un combustible fossile, tiré du pétrole du sous-sol, ne se renouvelle pas (pétrole lampant, essence, gasoil, butane).",
+      "difficulte": 2,
+      "tags": [
+        "biomasse",
+        "fossile"
+      ]
+    },
+    {
+      "id": "PC4E-C02-006",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Pourquoi le butane et le biogaz, tous deux gazeux, n'ont-ils pas la même origine ?",
+      "verso": "Les classements par état physique et par origine ne se recouvrent pas : le butane est un gaz fossile, le biogaz un gaz de biomasse.",
+      "difficulte": 3,
+      "tags": [
+        "butane",
+        "biogaz",
+        "classement"
+      ]
+    },
+    {
+      "id": "PC4E-C02-007",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Comment obtient-on le charbon de bois ?",
+      "verso": "En chauffant du bois à l'abri de l'air, dans une meule de terre. On obtient du carbone presque pur, qui brûle sans flamme, plus longtemps et plus fort que le bois.",
+      "difficulte": 1,
+      "tags": [
+        "charbon-de-bois"
+      ]
+    },
+    {
+      "id": "PC4E-C02-008",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Comment l'état physique du butane change-t-il entre l'intérieur de sa bouteille et la sortie du détendeur ?",
+      "verso": "Il est liquide dans la bouteille, sous l'effet de la pression, et redevient gazeux en sortant par le détendeur.",
+      "difficulte": 2,
+      "tags": [
+        "butane",
+        "etat-physique"
+      ]
+    },
+    {
+      "id": "PC4E-C02-009",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Qu'est-ce qu'un bio-digesteur ?",
+      "verso": "Une cuve fermée où bouses et déchets végétaux fermentent à l'abri de l'air en produisant du biogaz ; ce qui reste au fond fait un excellent engrais.",
+      "difficulte": 2,
+      "tags": [
+        "biogaz",
+        "bio-digesteur"
+      ]
+    },
+    {
+      "id": "PC4E-C02-010",
+      "lecon": "Les combustibles usuels au Burkina Faso",
+      "type": "definition",
+      "recto": "Pourquoi dit-on que les produits d'une combustion complète sont incombustibles ?",
+      "verso": "Parce que ces produits, le dioxyde de carbone et l'eau, ne peuvent plus brûler. Une combustion incomplète forme en plus des produits qui peuvent encore brûler : noir de fumée et monoxyde de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-complete",
+        "incombustible"
+      ]
+    },
+    {
+      "id": "PC4E-C02-011",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le pouvoir calorifique d'un combustible ?",
+      "verso": "La quantité de chaleur dégagée par la combustion complète de 1 kilogramme de ce combustible (de 1 mètre cube pour un combustible gazeux). Il s'exprime en $\\mathrm{MJ/kg}$, ou en $\\mathrm{MJ/m^3}$.",
+      "difficulte": 1,
+      "tags": [
+        "pouvoir-calorifique"
+      ]
+    },
+    {
+      "id": "PC4E-C02-012",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "formule",
+      "recto": "Quelle relation donne la chaleur $Q$ dégagée par la combustion complète d'une masse $m$ de combustible de pouvoir calorifique $P$ ?",
+      "verso": "$Q = m \\times P$, avec $m$ en kilogrammes, $P$ en $\\mathrm{MJ/kg}$ et $Q$ en $\\mathrm{MJ}$. Inversement, $m = \\dfrac{Q}{P}$.",
+      "difficulte": 2,
+      "tags": [
+        "chaleur",
+        "pouvoir-calorifique"
+      ]
+    },
+    {
+      "id": "PC4E-C02-013",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "formule",
+      "recto": "Combien de joules vaut un mégajoule ?",
+      "verso": "$1~\\mathrm{MJ} = 1\\,000\\,000~\\mathrm{J} = 1\\,000~\\mathrm{kJ}$.",
+      "difficulte": 1,
+      "tags": [
+        "unite",
+        "megajoule"
+      ]
+    },
+    {
+      "id": "PC4E-C02-014",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "formule",
+      "recto": "Quels sont les pouvoirs calorifiques approximatifs du bois sec, du charbon de bois et du butane ?",
+      "verso": "Bois sec : environ $15~\\mathrm{MJ/kg}$ ; charbon de bois : environ $30~\\mathrm{MJ/kg}$ ; butane : environ $46~\\mathrm{MJ/kg}$.",
+      "difficulte": 2,
+      "tags": [
+        "pouvoir-calorifique",
+        "valeurs"
+      ]
+    },
+    {
+      "id": "PC4E-C02-015",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "formule",
+      "recto": "Quels sont les pouvoirs calorifiques approximatifs des bouses séchées, du pétrole lampant, de l'essence et du biogaz ?",
+      "verso": "Bouses séchées : environ $12~\\mathrm{MJ/kg}$ ; pétrole lampant (comme le gasoil) : environ $43~\\mathrm{MJ/kg}$ ; essence : environ $45~\\mathrm{MJ/kg}$ ; biogaz : environ $22~\\mathrm{MJ/m^3}$.",
+      "difficulte": 2,
+      "tags": [
+        "pouvoir-calorifique",
+        "valeurs"
+      ]
+    },
+    {
+      "id": "PC4E-C02-016",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "definition",
+      "recto": "Pourquoi un bois vert chauffe-t-il moins qu'un bois sec ?",
+      "verso": "Il peut contenir la moitié de sa masse en eau ; une part importante de la chaleur dégagée sert à vaporiser cette eau. Son pouvoir calorifique utile tombe autour de $8~\\mathrm{MJ/kg}$, contre $15~\\mathrm{MJ/kg}$ pour le bois sec.",
+      "difficulte": 2,
+      "tags": [
+        "bois-vert",
+        "pouvoir-calorifique"
+      ]
+    },
+    {
+      "id": "PC4E-C02-017",
+      "lecon": "Le pouvoir calorifique et la comparaison des combustibles",
+      "type": "formule",
+      "recto": "Pour comparer le coût de deux combustibles, pourquoi ne suffit-il pas de comparer leur prix au kilogramme ?",
+      "verso": "Il faut comparer le prix de la chaleur obtenue : on calcule pour chacun la masse nécessaire $m = \\dfrac{Q}{P}$ pour une même chaleur, puis on la multiplie par le prix du kilogramme.",
+      "difficulte": 3,
+      "tags": [
+        "comparaison",
+        "prix",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C02-018",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un foyer ?",
+      "verso": "Le dispositif dans lequel on fait brûler le combustible et sur lequel on pose le récipient à chauffer.",
+      "difficulte": 1,
+      "tags": [
+        "foyer"
+      ]
+    },
+    {
+      "id": "PC4E-C02-019",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "formule",
+      "recto": "Quelle relation définit le rendement $r$ d'un foyer ?",
+      "verso": "$r = \\dfrac{Q_{\\text{utile}}}{Q_{\\text{dégagée}}} \\times 100$, en pourcentage : c'est la part de la chaleur dégagée qui sert réellement à chauffer.",
+      "difficulte": 2,
+      "tags": [
+        "rendement",
+        "foyer"
+      ]
+    },
+    {
+      "id": "PC4E-C02-020",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre le pouvoir calorifique et le rendement ?",
+      "verso": "Le pouvoir calorifique appartient au combustible ; le rendement appartient au foyer. Un foyer n'a donc pas de pouvoir calorifique.",
+      "difficulte": 3,
+      "tags": [
+        "rendement",
+        "pouvoir-calorifique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C02-021",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "formule",
+      "recto": "Quels sont les rendements approchés d'un foyer à trois pierres en plein vent et d'un réchaud à gaz ?",
+      "verso": "Environ 10 % pour le foyer à trois pierres au bois, environ 55 % pour le réchaud à gaz au butane.",
+      "difficulte": 2,
+      "tags": [
+        "rendement",
+        "valeurs"
+      ]
+    },
+    {
+      "id": "PC4E-C02-022",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "formule",
+      "recto": "Quels sont les rendements approchés d'un foyer amélioré en banco, d'un foyer amélioré métallique et d'un réchaud à pétrole à mèche ?",
+      "verso": "Foyer en banco au bois : environ 25 % ; foyer métallique au charbon de bois : environ 30 % ; réchaud à pétrole à mèche : environ 45 %.",
+      "difficulte": 2,
+      "tags": [
+        "rendement",
+        "valeurs"
+      ]
+    },
+    {
+      "id": "PC4E-C02-023",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "definition",
+      "recto": "Qu'est-ce qu'un foyer amélioré ?",
+      "verso": "Un foyer fermé sur les côtés, muni d'une ouverture unique pour l'air et le combustible, et dimensionné pour la marmite. Son rendement est deux à trois fois supérieur à celui du foyer à trois pierres.",
+      "difficulte": 2,
+      "tags": [
+        "foyer-ameliore"
+      ]
+    },
+    {
+      "id": "PC4E-C02-024",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "definition",
+      "recto": "Pourquoi un foyer amélioré ne doit-il jamais être fermé complètement ?",
+      "verso": "Sans arrivée d'air, la combustion devient incomplète et produit du monoxyde de carbone.",
+      "difficulte": 3,
+      "tags": [
+        "foyer-ameliore",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C02-025",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "formule",
+      "recto": "Dans quel ordre dispose-t-on les combustibles pour allumer un feu de bois ?",
+      "verso": "Du plus fin au plus gros : papier ou herbe sèche, puis brindilles, bois moyen, grosses bûches, en laissant l'air circuler. On n'utilise jamais d'essence ni de pétrole pour activer un feu.",
+      "difficulte": 2,
+      "tags": [
+        "allumage",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC4E-C02-026",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "definition",
+      "recto": "Qu'est-ce qu'un extincteur ?",
+      "verso": "Un appareil de lutte contre l'incendie qui, sous l'effet d'une pression interne, projette sur le feu un agent extincteur : eau, mousse, poudre ou dioxyde de carbone.",
+      "difficulte": 1,
+      "tags": [
+        "extincteur"
+      ]
+    },
+    {
+      "id": "PC4E-C02-027",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "formule",
+      "recto": "Comment chaque agent extincteur agit-il sur le triangle du feu ?",
+      "verso": "L'eau refroidit ; la mousse et la poudre isolent le combustible de l'air ; le dioxyde de carbone (neige carbonique quand il est solide et très froid) chasse le dioxygène et étouffe le feu. Chaque agent supprime un côté du triangle du feu.",
+      "difficulte": 2,
+      "tags": [
+        "extincteur",
+        "triangle-du-feu"
+      ]
+    },
+    {
+      "id": "PC4E-C02-028",
+      "lecon": "Les foyers, l'allumage, l'extinction et les économies de combustible",
+      "type": "definition",
+      "recto": "Pourquoi couvrir la marmite économise-t-il du combustible ?",
+      "verso": "L'eau qui s'échappe en vapeur emporte beaucoup de chaleur ; le couvercle retient la vapeur et cette chaleur. L'économie atteint trois dixièmes du combustible.",
+      "difficulte": 2,
+      "tags": [
+        "economie",
+        "couvercle"
+      ]
+    },
+    {
+      "id": "PC4E-C02-029",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "formule",
+      "recto": "Quelles règles de conservation s'appliquent au bois et au charbon de bois ?",
+      "verso": "On les garde au sec, surélevés du sol, à l'abri de la pluie et loin de toute flamme. Un charbon encore chaud ne se range jamais dans un sac : il peut se rallumer.",
+      "difficulte": 2,
+      "tags": [
+        "conservation",
+        "combustible-solide"
+      ]
+    },
+    {
+      "id": "PC4E-C02-030",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "formule",
+      "recto": "Quelles règles de conservation s'appliquent au pétrole, à l'essence et au gasoil ?",
+      "verso": "Dans des bidons prévus pour cela, bien fermés et étiquetés, rangés à l'ombre et hors de portée des enfants ; jamais dans une bouteille d'eau ou de boisson, et jamais transvasés près d'une flamme.",
+      "difficulte": 2,
+      "tags": [
+        "conservation",
+        "combustible-liquide"
+      ]
+    },
+    {
+      "id": "PC4E-C02-031",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "definition",
+      "recto": "Pourquoi une bouteille de butane doit-elle toujours rester debout ?",
+      "verso": "Dans la bouteille, le butane est liquide en bas et gazeux en haut. Couchée, elle présente du liquide au robinet, qui se vaporise brusquement : débit énorme et flamme incontrôlable.",
+      "difficulte": 2,
+      "tags": [
+        "butane",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC4E-C02-032",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "formule",
+      "recto": "Comment recherche-t-on une fuite sur une installation de butane ?",
+      "verso": "On badigeonne le raccord d'eau savonneuse et l'on observe l'apparition de bulles. Jamais à la flamme.",
+      "difficulte": 1,
+      "tags": [
+        "fuite-de-gaz",
+        "eau-savonneuse"
+      ]
+    },
+    {
+      "id": "PC4E-C02-033",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "definition",
+      "recto": "Pourquoi une fuite de butane ne monte-t-elle pas au plafond ?",
+      "verso": "Le butane est plus dense que l'air : il s'accumule au ras du sol.",
+      "difficulte": 3,
+      "tags": [
+        "butane",
+        "densite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C02-034",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "definition",
+      "recto": "Pourquoi le charbon de bois n'épargne-t-il pas les arbres, alors qu'on en brûle moins de kilogrammes que de bois ?",
+      "verso": "Dans une meule traditionnelle, il faut environ 6 à 8 kg de bois pour obtenir 1 kg de charbon : remplacer 2 kg de bois par 1 kg de charbon revient à prélever 6 à 8 kg de bois.",
+      "difficulte": 3,
+      "tags": [
+        "charbon-de-bois",
+        "couvert-vegetal"
+      ]
+    },
+    {
+      "id": "PC4E-C02-035",
+      "lecon": "Conserver et transporter les combustibles ; le couvert végétal et la santé",
+      "type": "definition",
+      "recto": "Quels effets les fumées des combustions incomplètes ont-elles sur la santé ?",
+      "verso": "Elles contiennent du monoxyde de carbone, du noir de fumée et de fines poussières : elles irritent les yeux, provoquent toux et maladies respiratoires, et le monoxyde de carbone peut tuer dans un local fermé.",
+      "difficulte": 2,
+      "tags": [
+        "sante",
+        "fumee"
+      ]
+    }
+  ]
+}

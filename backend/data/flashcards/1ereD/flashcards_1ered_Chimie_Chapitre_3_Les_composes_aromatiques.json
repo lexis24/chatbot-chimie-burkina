@@ -1,0 +1,422 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 3 : Les composés aromatiques",
+  "source": "pc/1ered/Chimie_Chapitre_3_Les_composes_aromatiques",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PC1D-C03-001",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "Quelle est la formule brute du benzène ?",
+      "verso": "$\\mathrm{C_6H_6}$, de masse molaire $M = 78~\\mathrm{g/mol}$.",
+      "difficulte": 1,
+      "tags": [
+        "benzene"
+      ]
+    },
+    {
+      "id": "PC1D-C03-002",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "Quelle est la forme géométrique de la molécule de benzène ?",
+      "verso": "Les six carbones forment un hexagone régulier plan ; les six hydrogènes sont dans le même plan, dirigés vers l'extérieur : tous les atomes sont coplanaires, avec des angles $(\\mathrm{C,C,C})$ de $120^{\\circ}$.",
+      "difficulte": 1,
+      "tags": [
+        "benzene",
+        "geometrie"
+      ]
+    },
+    {
+      "id": "PC1D-C03-003",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "formule",
+      "recto": "Quelle longueur ont les liaisons carbone-carbone du benzène, comparée aux liaisons simple et double ?",
+      "verso": "Les six liaisons sont identiques et mesurent $140~\\mathrm{pm}$, valeur comprise entre la liaison simple ($154~\\mathrm{pm}$) et la liaison double ($134~\\mathrm{pm}$). Les liaisons $\\mathrm{C-H}$ mesurent $108~\\mathrm{pm}$.",
+      "difficulte": 2,
+      "tags": [
+        "benzene",
+        "longueur-liaison"
+      ]
+    },
+    {
+      "id": "PC1D-C03-004",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "Dans la molécule de benzène, qu'appelle-t-on le sextet aromatique ?",
+      "verso": "Le nuage unique formé par les six électrons de valence que les carbones n'engagent dans aucune liaison particulière (un par carbone), réparti au-dessus et au-dessous du plan du cycle : ces électrons sont délocalisés.",
+      "difficulte": 2,
+      "tags": [
+        "sextet",
+        "delocalisation"
+      ]
+    },
+    {
+      "id": "PC1D-C03-005",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un composé aromatique ?",
+      "verso": "Un composé dont la molécule contient au moins un cycle plan portant un sextet d'électrons délocalisés, appelé noyau benzénique.",
+      "difficulte": 1,
+      "tags": [
+        "compose-aromatique",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C03-006",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "Quelle est la représentation conventionnelle de la molécule de benzène ?",
+      "verso": "Un hexagone régulier portant un cercle intérieur, qui ne touche ni les sommets ni les côtés ; le cercle symbolise le sextet délocalisé.",
+      "difficulte": 1,
+      "tags": [
+        "representation"
+      ]
+    },
+    {
+      "id": "PC1D-C03-007",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "Que signifie la flèche à double pointe qui relie les deux formules de Kekulé du benzène ?",
+      "verso": "Que la molécule réelle n'est ni l'une ni l'autre des deux formules, mais un intermédiaire unique. Elle ne doit pas être confondue avec la double flèche d'équilibre $\\rightleftarrows$.",
+      "difficulte": 3,
+      "tags": [
+        "kekule",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C03-008",
+      "lecon": "La molécule de benzène et le sextet aromatique",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dessiner le benzène avec un cercle intérieur et trois doubles liaisons à la fois ?",
+      "verso": "Le cercle et les trois doubles liaisons représentent les mêmes six électrons : les dessiner ensemble, c'est les compter deux fois. On dessine le cercle ou les doubles liaisons.",
+      "difficulte": 3,
+      "tags": [
+        "representation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C03-009",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'énergie de délocalisation du benzène ?",
+      "verso": "L'écart d'énergie, voisin de $150~\\mathrm{kJ/mol}$, entre le benzène réel et le modèle de Kekulé à trois doubles liaisons ; on l'appelle aussi énergie de résonance. Elle rend le benzène beaucoup plus stable.",
+      "difficulte": 2,
+      "tags": [
+        "energie-delocalisation",
+        "stabilite"
+      ]
+    },
+    {
+      "id": "PC1D-C03-010",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "formule",
+      "recto": "Quelles chaleurs d'hydrogénation montrent que le benzène est plus stable que le cycle de Kekulé ?",
+      "verso": "L'hydrogénation du benzène dégage $208~\\mathrm{kJ/mol}$, alors que trois doubles liaisons (cyclohexène : $120~\\mathrm{kJ/mol}$ chacune) en prévoient $359~\\mathrm{kJ/mol}$ ; l'écart, $151~\\mathrm{kJ/mol}$, est l'énergie de délocalisation.",
+      "difficulte": 3,
+      "tags": [
+        "hydrogenation",
+        "energie-delocalisation"
+      ]
+    },
+    {
+      "id": "PC1D-C03-011",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "definition",
+      "recto": "Pourquoi le benzène ne décolore-t-il pas l'eau de brome, malgré sa formule $\\mathrm{C_6H_6}$ ?",
+      "verso": "Il n'a aucune double liaison disponible pour une addition : ses six électrons forment un sextet délocalisé, et une addition, qui le détruirait, coûterait environ $150~\\mathrm{kJ/mol}$.",
+      "difficulte": 3,
+      "tags": [
+        "eau-de-brome",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C03-012",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'hydrogénation catalytique du benzène ?",
+      "verso": "$\\mathrm{C_6H_6 + 3H_2 \\rightarrow C_6H_{12}}$ (cyclohexane), sous pression, vers $200~^{\\circ}\\mathrm{C}$, avec du nickel finement divisé ou du platine. Les trois liaisons s'ouvrent simultanément.",
+      "difficulte": 2,
+      "tags": [
+        "hydrogenation",
+        "cyclohexane"
+      ]
+    },
+    {
+      "id": "PC1D-C03-013",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la chloruration du benzène sous lumière ultraviolette ?",
+      "verso": "$\\mathrm{C_6H_6 + 3Cl_2 \\rightarrow C_6H_6Cl_6}$, l'hexachlorocyclohexane (1,2,3,4,5,6-hexachlorocyclohexane), solide blanc de masse molaire $291~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "chloruration",
+        "addition"
+      ]
+    },
+    {
+      "id": "PC1D-C03-014",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "definition",
+      "recto": "Pourquoi le produit d'une addition sur le benzène n'est-il plus aromatique ?",
+      "verso": "L'addition ouvre les liaisons du cycle et détruit le sextet délocalisé : le produit, cyclohexane ou hexachlorocyclohexane, est un cycle saturé.",
+      "difficulte": 2,
+      "tags": [
+        "addition",
+        "caractere-aromatique"
+      ]
+    },
+    {
+      "id": "PC1D-C03-015",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "formule",
+      "recto": "Pourquoi le coefficient du réactif additionné sur le benzène vaut-il toujours 3 ?",
+      "verso": "Les trois liaisons s'ouvrent toutes à la fois : on n'isole jamais d'intermédiaire comme $\\mathrm{C_6H_8}$ ou $\\mathrm{C_6H_{10}}$. Ecrire $\\mathrm{C_6H_6 + H_2 \\rightarrow C_6H_8}$ est faux.",
+      "difficulte": 3,
+      "tags": [
+        "addition",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C03-016",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "definition",
+      "recto": "Des deux conformations du cyclohexane, chaise et bateau, laquelle est la plus stable ?",
+      "verso": "La conformation chaise est la plus stable, car les hydrogènes y sont les plus éloignés les uns des autres.",
+      "difficulte": 2,
+      "tags": [
+        "cyclohexane",
+        "conformation"
+      ]
+    },
+    {
+      "id": "PC1D-C03-017",
+      "lecon": "L'énigme du benzène : la stabilité aromatique et les réactions d'addition",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la combustion complète du benzène ?",
+      "verso": "$\\mathrm{2C_6H_6 + 15O_2 \\rightarrow 12CO_2 + 6H_2O}$ ; la flamme est très fumeuse, car le benzène est riche en carbone.",
+      "difficulte": 2,
+      "tags": [
+        "combustion"
+      ]
+    },
+    {
+      "id": "PC1D-C03-018",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "definition",
+      "recto": "Sur le noyau benzénique, qu'appelle-t-on une réaction de substitution ?",
+      "verso": "Une réaction qui remplace un atome d'hydrogène du cycle par un atome ou un groupe d'atomes ; le noyau est conservé, le produit reste aromatique, et il se forme toujours un second produit.",
+      "difficulte": 1,
+      "tags": [
+        "substitution",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C03-019",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la bromation catalysée du benzène ?",
+      "verso": "$\\mathrm{C_6H_6 + Br_2 \\rightarrow C_6H_5Br + HBr}$, en présence de tribromure de fer $\\mathrm{FeBr_3}$ (ou de poudre de fer), à l'abri de la lumière. Produit : le bromobenzène.",
+      "difficulte": 2,
+      "tags": [
+        "bromation"
+      ]
+    },
+    {
+      "id": "PC1D-C03-020",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la chloration du benzène en présence de chlorure d'aluminium ?",
+      "verso": "$\\mathrm{C_6H_6 + Cl_2 \\rightarrow C_6H_5Cl + HCl}$, avec $\\mathrm{AlCl_3}$ (ou $\\mathrm{FeCl_3}$) comme catalyseur. Produit : le chlorobenzène, $112{,}5~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "chloration"
+      ]
+    },
+    {
+      "id": "PC1D-C03-021",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la nitration du benzène par le mélange sulfonitrique ?",
+      "verso": "$\\mathrm{C_6H_6 + HNO_3 \\rightarrow C_6H_5NO_2 + H_2O}$, avec l'acide sulfurique concentré, vers $55~^{\\circ}\\mathrm{C}$. Produit : le nitrobenzène, liquide jaune huileux à odeur d'amande amère.",
+      "difficulte": 2,
+      "tags": [
+        "nitration"
+      ]
+    },
+    {
+      "id": "PC1D-C03-022",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'alkylation du benzène par un halogénure d'alkyle $\\mathrm{R{-}Cl}$ ?",
+      "verso": "$\\mathrm{C_6H_6 + R{-}Cl \\rightarrow C_6H_5{-}R + HCl}$, en présence de $\\mathrm{AlCl_3}$ ; avec $\\mathrm{R = CH_3}$, on obtient le méthylbenzène, ou toluène.",
+      "difficulte": 2,
+      "tags": [
+        "alkylation",
+        "toluene"
+      ]
+    },
+    {
+      "id": "PC1D-C03-023",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "definition",
+      "recto": "En chimie aromatique, qu'appelle-t-on une polysubstitution ?",
+      "verso": "Le remplacement de plusieurs atomes d'hydrogène du noyau par plusieurs substituants ; on l'obtient en durcissant les conditions : excès de réactif, température plus élevée, catalyseur plus actif.",
+      "difficulte": 1,
+      "tags": [
+        "polysubstitution"
+      ]
+    },
+    {
+      "id": "PC1D-C03-024",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre la chloration et la chloruration du benzène ?",
+      "verso": "La chloration est une substitution, avec catalyseur ($\\mathrm{AlCl_3}$ ou $\\mathrm{FeCl_3}$) à l'abri de la lumière, qui donne $\\mathrm{C_6H_5Cl + HCl}$ ; la chloruration est une addition sous ultraviolet, qui donne $\\mathrm{C_6H_6Cl_6}$.",
+      "difficulte": 3,
+      "tags": [
+        "chloration",
+        "chloruration",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C03-025",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "definition",
+      "recto": "Pourquoi la substitution sur le benzène est-elle plus facile que l'addition ?",
+      "verso": "La substitution laisse au produit un noyau aromatique intact et conserve l'énergie de délocalisation ; l'addition, elle, détruit le sextet et doit payer environ $150~\\mathrm{kJ/mol}$. Un simple catalyseur suffit donc à la substitution.",
+      "difficulte": 2,
+      "tags": [
+        "substitution",
+        "stabilite"
+      ]
+    },
+    {
+      "id": "PC1D-C03-026",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "formule",
+      "recto": "Quel test simple prouve qu'une substitution par un halogène a eu lieu sur le benzène ?",
+      "verso": "Le second produit, $\\mathrm{HBr}$ ou $\\mathrm{HCl}$, est un gaz qui fume à l'air humide, se dissout très bien dans l'eau et fait virer au rouge un papier pH humide.",
+      "difficulte": 2,
+      "tags": [
+        "test",
+        "substitution"
+      ]
+    },
+    {
+      "id": "PC1D-C03-027",
+      "lecon": "Les réactions de substitution du benzène",
+      "type": "formule",
+      "recto": "Sur quelle partie du toluène le dichlore se fixe-t-il selon les conditions ?",
+      "verso": "A la lumière, sans catalyseur, il remplace un hydrogène du méthyle ($\\mathrm{C_6H_5-CH_2Cl}$) ; à l'abri de la lumière avec $\\mathrm{AlCl_3}$ ou $\\mathrm{FeCl_3}$, un hydrogène du noyau (chlorotoluènes). Il se forme du $\\mathrm{HCl}$ dans les deux cas.",
+      "difficulte": 3,
+      "tags": [
+        "toluene",
+        "chloration"
+      ]
+    },
+    {
+      "id": "PC1D-C03-028",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "definition",
+      "recto": "Comment appelle-t-on les groupes $\\mathrm{C_6H_5-}$ et $\\mathrm{C_6H_5-CH_2-}$ ?",
+      "verso": "$\\mathrm{C_6H_5-}$, noyau privé d'un hydrogène, est le groupe phényle ; $\\mathrm{C_6H_5-CH_2-}$, toluène privé d'un hydrogène de son méthyle, est le groupe benzyle.",
+      "difficulte": 1,
+      "tags": [
+        "phenyle",
+        "benzyle"
+      ]
+    },
+    {
+      "id": "PC1D-C03-029",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "formule",
+      "recto": "Comment nomme-t-on un dérivé monosubstitué du benzène ?",
+      "verso": "Par le nom du substituant collé à « benzène », sans aucun indice, car les six sommets sont équivalents : chlorobenzène, jamais 1-chlorobenzène.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "monosubstitue"
+      ]
+    },
+    {
+      "id": "PC1D-C03-030",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "definition",
+      "recto": "Pour un dérivé disubstitué du benzène, à quels indices correspondent les préfixes ortho, méta et para ?",
+      "verso": "Ortho (o-) : 1,2, sommets voisins ; méta (m-) : 1,3, séparés par un sommet ; para (p-) : 1,4, diamétralement opposés.",
+      "difficulte": 1,
+      "tags": [
+        "ortho-meta-para"
+      ]
+    },
+    {
+      "id": "PC1D-C03-031",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "formule",
+      "recto": "Quelle règle de numérotation applique-t-on pour nommer un dérivé polysubstitué du benzène ?",
+      "verso": "On numérote de 1 à 6 en partant d'un sommet substitué, dans le sens donnant la série d'indices la plus petite, comparée terme à terme (1,2,4 plutôt que 1,3,4) ; les substituants sont cités par ordre alphabétique.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "numerotation"
+      ]
+    },
+    {
+      "id": "PC1D-C03-032",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "definition",
+      "recto": "Quels noms usuels portent le méthylbenzène, l'hydroxybenzène et l'aminobenzène ?",
+      "verso": "Le méthylbenzène est le toluène, l'hydroxybenzène le phénol, l'aminobenzène l'aniline.",
+      "difficulte": 1,
+      "tags": [
+        "noms-usuels"
+      ]
+    },
+    {
+      "id": "PC1D-C03-033",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "definition",
+      "recto": "Pourquoi le styrène décolore-t-il l'eau de brome alors que le toluène ne la décolore pas ?",
+      "verso": "Le styrène $\\mathrm{C_6H_5-CH{=}CH_2}$ porte, hors du cycle, une vraie double liaison d'alcène qui fixe le dibrome par addition ; dans le toluène, le noyau est délocalisé et la chaîne latérale saturée.",
+      "difficulte": 3,
+      "tags": [
+        "styrene",
+        "eau-de-brome"
+      ]
+    },
+    {
+      "id": "PC1D-C03-034",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un hydrocarbure aromatique polycyclique ?",
+      "verso": "Un composé formé de plusieurs noyaux benzéniques accolés, partageant deux carbones : le naphtalène $\\mathrm{C_{10}H_8}$ (deux cycles) ou l'anthracène $\\mathrm{C_{14}H_{10}}$ (trois cycles alignés).",
+      "difficulte": 2,
+      "tags": [
+        "polycyclique",
+        "naphtalene"
+      ]
+    },
+    {
+      "id": "PC1D-C03-035",
+      "lecon": "Les dérivés du benzène : nomenclature et usages",
+      "type": "formule",
+      "recto": "Quelle règle de sécurité impose la toxicité du benzène au laboratoire scolaire ?",
+      "verso": "Le benzène est cancérogène (il provoque des leucémies) : il est interdit comme solvant et au laboratoire scolaire, où on le remplace par le toluène, sous hotte, flacon rebouché, loin de toute flamme.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "benzene"
+      ]
+    }
+  ]
+}

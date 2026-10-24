@@ -1,0 +1,448 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 4 : Les gaz",
+  "source": "pc/3eme/Chimie_Chapitre_4_Les_gaz",
+  "nombre_cartes": 37,
+  "cartes": [
+    {
+      "id": "PC3E-C04-001",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Pourquoi l'air n'est-il pas un corps pur ?",
+      "verso": "L'air est un mélange de plusieurs gaz, formé principalement de diazote $\\mathrm{N_2}$ et de dioxygène $\\mathrm{O_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "air",
+        "melange"
+      ]
+    },
+    {
+      "id": "PC3E-C04-002",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Quelle est la composition approchée de l'air en volume ?",
+      "verso": "Environ $80\\ \\%$ de diazote $\\mathrm{N_2}$ (les quatre cinquièmes) et $20\\ \\%$ de dioxygène $\\mathrm{O_2}$ (le cinquième).",
+      "difficulte": 1,
+      "tags": [
+        "composition-air"
+      ]
+    },
+    {
+      "id": "PC3E-C04-003",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Plus précisément, comment se répartit le volume de l'air entre diazote, dioxygène et autres gaz ?",
+      "verso": "$78\\ \\%$ de diazote, $21\\ \\%$ de dioxygène ; le dernier $1\\ \\%$ est occupé par les gaz rares (surtout l'argon), avec des traces de dioxyde de carbone et de vapeur d'eau.",
+      "difficulte": 2,
+      "tags": [
+        "composition-air",
+        "gaz-rares"
+      ]
+    },
+    {
+      "id": "PC3E-C04-004",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "formule",
+      "recto": "Quelle relation donne le volume de dioxygène $V_{\\mathrm{O_2}}$ contenu dans un volume d'air $V_{\\text{air}}$ ?",
+      "verso": "$V_{\\mathrm{O_2}} = \\dfrac{V_{\\text{air}}}{5}$, et le diazote occupe $V_{\\mathrm{N_2}} = 4 \\times V_{\\mathrm{O_2}} = \\dfrac{4 \\times V_{\\text{air}}}{5}$ (volumes dans la même unité).",
+      "difficulte": 2,
+      "tags": [
+        "composition-air",
+        "volume"
+      ]
+    },
+    {
+      "id": "PC3E-C04-005",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Quelle est la valeur de la masse volumique de l'air retenue dans le cours ?",
+      "verso": "$\\rho_{\\text{air}} = 1{,}275~\\mathrm{g/L}$, soit environ $1{,}3~\\mathrm{g/L}$ ou $1{,}275~\\mathrm{kg/m^3}$ (air sec à $0~^{\\circ}\\mathrm{C}$ sous $1~\\mathrm{bar}$).",
+      "difficulte": 1,
+      "tags": [
+        "masse-volumique"
+      ]
+    },
+    {
+      "id": "PC3E-C04-006",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Pourquoi les sujets donnent-ils pour l'air des masses volumiques différentes ($1{,}2$, $1{,}29$ ou $1{,}3~\\mathrm{g/L}$) ?",
+      "verso": "La masse volumique de l'air dépend de la température : $1{,}275~\\mathrm{g/L}$ à $0~^{\\circ}\\mathrm{C}$, environ $1{,}2~\\mathrm{g/L}$ vers $20~^{\\circ}\\mathrm{C}$. On utilise toujours la valeur fournie par l'énoncé.",
+      "difficulte": 3,
+      "tags": [
+        "masse-volumique",
+        "temperature"
+      ]
+    },
+    {
+      "id": "PC3E-C04-007",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "formule",
+      "recto": "Quelle relation lie la masse $m$ d'un gaz, sa masse volumique $\\rho$ et son volume $V$ ?",
+      "verso": "$m = \\rho \\times V$, avec la masse volumique de ce gaz ($m$ en g, $\\rho$ en g/L, $V$ en L). Rappel : $1~\\mathrm{m^3} = 1\\,000~\\mathrm{L}$ et $1~\\mathrm{g/L} = 1~\\mathrm{kg/m^3}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-volumique",
+        "relation"
+      ]
+    },
+    {
+      "id": "PC3E-C04-008",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la pression atmosphérique ?",
+      "verso": "C'est la pression que l'atmosphère, couche d'air entourant la Terre, exerce sur tous les corps. Elle diminue quand l'altitude augmente et se mesure avec un baromètre.",
+      "difficulte": 1,
+      "tags": [
+        "pression-atmospherique",
+        "barometre"
+      ]
+    },
+    {
+      "id": "PC3E-C04-009",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Quelle est la valeur moyenne de la pression atmosphérique au niveau de la mer ?",
+      "verso": "$1\\,013~\\mathrm{hPa}$ (millibars), soit $101\\,300~\\mathrm{Pa}$ ou $760~\\mathrm{mm~Hg}$, c'est-à-dire environ $1~\\mathrm{bar} = 100\\,000~\\mathrm{Pa}$.",
+      "difficulte": 2,
+      "tags": [
+        "pression-atmospherique",
+        "unites"
+      ]
+    },
+    {
+      "id": "PC3E-C04-010",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "formule",
+      "recto": "Quelle relation définit la densité $d$ d'un gaz par rapport à l'air ?",
+      "verso": "$d = \\dfrac{\\rho_{\\text{gaz}}}{\\rho_{\\text{air}}}$, les deux masses volumiques dans la même unité. $d$ n'a pas d'unité. Si $d \\gt 1$, le gaz s'accumule au sol ; si $d \\lt 1$, il monte.",
+      "difficulte": 2,
+      "tags": [
+        "densite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-011",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Pourquoi une fuite de butane s'accumule-t-elle au ras du sol d'une cuisine ?",
+      "verso": "Le butane est plus lourd que l'air : sa densité par rapport à l'air vaut environ $2$ ($d \\gt 1$). Il faut donc aérer par le bas.",
+      "difficulte": 2,
+      "tags": [
+        "densite",
+        "butane",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-012",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Pourquoi l'expérience à la laine de fer humide mesure-t-elle mieux la part de dioxygène de l'air que celle de la bougie ?",
+      "verso": "Le fer rouille en se combinant au dioxygène sans produire aucun gaz, alors que la bougie fabrique du dioxyde de carbone qui occupe une partie de la place libérée. L'eau monte alors du cinquième.",
+      "difficulte": 3,
+      "tags": [
+        "laine-de-fer",
+        "dioxygene"
+      ]
+    },
+    {
+      "id": "PC3E-C04-013",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "definition",
+      "recto": "Quelle erreur guette celui qui applique « $20\\ \\%$ de dioxygène » à une masse d'air ?",
+      "verso": "Les pourcentages de l'air sont donnés en volume. On calcule d'abord le volume de dioxygène, puis sa masse avec $m = \\rho \\times V$ et la masse volumique du dioxygène.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "composition-air"
+      ]
+    },
+    {
+      "id": "PC3E-C04-014",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "formule",
+      "recto": "Quel test permet de reconnaître le dioxyde de carbone ?",
+      "verso": "Le dioxyde de carbone trouble l'eau de chaux.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "dioxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C04-015",
+      "lecon": "L'air, sa composition, sa masse volumique et sa pression",
+      "type": "formule",
+      "recto": "Quel test permet de reconnaître le dioxygène ?",
+      "verso": "Le dioxygène rallume une bûchette incandescente.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "dioxygene"
+      ]
+    },
+    {
+      "id": "PC3E-C04-016",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Quelle est la nature des particules qui forment un gaz ordinaire comme le diazote ou le dioxyde de carbone ?",
+      "verso": "Ce sont des molécules : $\\mathrm{N_2}$ dans le diazote, $\\mathrm{O_2}$ dans le dioxygène, $\\mathrm{CO_2}$ dans le dioxyde de carbone, $\\mathrm{H_2O}$ dans la vapeur d'eau.",
+      "difficulte": 1,
+      "tags": [
+        "particules",
+        "molecule"
+      ]
+    },
+    {
+      "id": "PC3E-C04-017",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Dans les gaz rares (hélium, néon, argon), quelle est la particule ?",
+      "verso": "Un atome isolé ($\\mathrm{He}$, $\\mathrm{Ne}$, $\\mathrm{Ar}$) : ces gaz sont dits monoatomiques.",
+      "difficulte": 2,
+      "tags": [
+        "gaz-rares",
+        "atome"
+      ]
+    },
+    {
+      "id": "PC3E-C04-018",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Comment le modèle des gaz décrit-il un gaz ?",
+      "verso": "Un ensemble de molécules très petites, très éloignées les unes des autres, séparées par du vide, animées d'un mouvement rapide, incessant et désordonné, et qui se heurtent entre elles et contre les parois.",
+      "difficulte": 2,
+      "tags": [
+        "modele-des-gaz"
+      ]
+    },
+    {
+      "id": "PC3E-C04-019",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le chaos moléculaire ?",
+      "verso": "C'est l'agitation permanente et désordonnée des molécules d'un gaz, qui se déplacent en tous sens, à grande vitesse, sans direction privilégiée, et changent de direction à chaque choc.",
+      "difficulte": 2,
+      "tags": [
+        "chaos-moleculaire"
+      ]
+    },
+    {
+      "id": "PC3E-C04-020",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Pourquoi dit-on qu'un gaz a une structure dispersée ?",
+      "verso": "Parce que la distance entre deux molécules voisines est très grande par rapport à leur taille.",
+      "difficulte": 2,
+      "tags": [
+        "structure-dispersee"
+      ]
+    },
+    {
+      "id": "PC3E-C04-021",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Pourquoi dit-on qu'un gaz a une structure moléculaire ?",
+      "verso": "Parce qu'il est formé de molécules. Un gaz rare, formé d'atomes isolés, a une structure atomique.",
+      "difficulte": 2,
+      "tags": [
+        "structure-moleculaire"
+      ]
+    },
+    {
+      "id": "PC3E-C04-022",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Selon le modèle des gaz, à quoi est due la pression exercée par un gaz sur les parois ?",
+      "verso": "Aux chocs des molécules sur les parois : plus ils sont nombreux et violents, plus la pression est grande.",
+      "difficulte": 2,
+      "tags": [
+        "pression",
+        "modele-des-gaz"
+      ]
+    },
+    {
+      "id": "PC3E-C04-023",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un corps pur simple et un corps pur composé, pour les molécules de gaz ?",
+      "verso": "Un corps pur simple ne contient qu'une sorte d'atome ($\\mathrm{O_2}$, $\\mathrm{N_2}$, $\\mathrm{H_2}$) ; un corps pur composé en associe plusieurs ($\\mathrm{CO_2}$, $\\mathrm{H_2O}$).",
+      "difficulte": 2,
+      "tags": [
+        "corps-pur",
+        "molecule"
+      ]
+    },
+    {
+      "id": "PC3E-C04-024",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Quelle est la forme de la molécule de dioxyde de carbone $\\mathrm{CO_2}$, comparée à celle de l'eau $\\mathrm{H_2O}$ ?",
+      "verso": "$\\mathrm{CO_2}$ est droite : un atome de carbone entre deux atomes d'oxygène alignés. $\\mathrm{H_2O}$ est coudée, en forme de V.",
+      "difficulte": 3,
+      "tags": [
+        "molecule",
+        "geometrie"
+      ]
+    },
+    {
+      "id": "PC3E-C04-025",
+      "lecon": "Le modèle des gaz et le chaos moléculaire",
+      "type": "definition",
+      "recto": "Quelle confusion entre distance et taille faut-il éviter quand on décrit les molécules d'un gaz ?",
+      "verso": "La distance entre les molécules est très grande, alors que leur taille est très petite. De plus, leur mouvement est désordonné (pas dans une même direction) et permanent (pas temporaire).",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "modele-des-gaz"
+      ]
+    },
+    {
+      "id": "PC3E-C04-026",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la compressibilité d'un gaz ?",
+      "verso": "C'est la propriété qu'a un gaz de voir son volume diminuer sous l'effet d'une pression, sans qu'aucune molécule ne soit retirée.",
+      "difficulte": 1,
+      "tags": [
+        "compressibilite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-027",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "A quel trait du modèle des gaz la compressibilité est-elle due ?",
+      "verso": "A la grande distance qui sépare les molécules devant leur taille (structure dispersée) : comprimer, c'est rapprocher les molécules, non les écraser.",
+      "difficulte": 2,
+      "tags": [
+        "compressibilite",
+        "structure-dispersee"
+      ]
+    },
+    {
+      "id": "PC3E-C04-028",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "formule",
+      "recto": "Comment varie la pression d'un gaz enfermé quand on le comprime ?",
+      "verso": "Son volume diminue et sa pression augmente : les molécules, plus rapprochées, frappent plus souvent les parois. Quand on le détend, sa pression diminue.",
+      "difficulte": 2,
+      "tags": [
+        "compressibilite",
+        "pression"
+      ]
+    },
+    {
+      "id": "PC3E-C04-029",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'expansibilité d'un gaz ?",
+      "verso": "C'est la propriété qu'a un gaz d'occuper tout le volume qui lui est offert, aussi grand soit-il. Elle est due à l'agitation des molécules dans toutes les directions (chaos moléculaire).",
+      "difficulte": 1,
+      "tags": [
+        "expansibilite",
+        "chaos-moleculaire"
+      ]
+    },
+    {
+      "id": "PC3E-C04-030",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la miscibilité de deux gaz ?",
+      "verso": "C'est la propriété qu'ont deux gaz de se mélanger spontanément, en toutes proportions, en un mélange homogène.",
+      "difficulte": 1,
+      "tags": [
+        "miscibilite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-031",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "A quels traits du modèle des gaz la miscibilité est-elle due ?",
+      "verso": "A la fois à la structure dispersée et au chaos moléculaire : les molécules d'un gaz, toujours en mouvement, occupent le vide qui sépare celles de l'autre.",
+      "difficulte": 2,
+      "tags": [
+        "miscibilite",
+        "modele-des-gaz"
+      ]
+    },
+    {
+      "id": "PC3E-C04-032",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Quelles propriétés des gaz favorisent la pollution atmosphérique ?",
+      "verso": "L'expansibilité et la miscibilité : un gaz rejeté gagne toute l'atmosphère et se mêle à l'air respiré au lieu de rester au-dessus de sa source.",
+      "difficulte": 2,
+      "tags": [
+        "pollution",
+        "expansibilite",
+        "miscibilite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-033",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Quelle distinction sépare la compressibilité de l'expansibilité ?",
+      "verso": "La compressibilité concerne le volume qu'on diminue ; l'expansibilité, le volume qu'on offre au gaz. Un liquide n'est ni compressible ni expansible.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "compressibilite",
+        "expansibilite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-034",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Quand on comprime un gaz, que deviennent ses molécules ?",
+      "verso": "Aucune ne disparaît : elles se rapprochent et leur nombre reste le même. Comprimer un gaz ne fait disparaître aucune matière.",
+      "difficulte": 2,
+      "tags": [
+        "compressibilite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C04-035",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un milieu confiné ?",
+      "verso": "C'est un espace fermé où l'air ne se renouvelle pas (chambre aux volets clos, forage, citerne). On y risque l'appauvrissement en dioxygène, le monoxyde de carbone et l'accumulation d'un gaz lourd au sol.",
+      "difficulte": 2,
+      "tags": [
+        "milieu-confine",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-036",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "definition",
+      "recto": "Pourquoi le monoxyde de carbone $\\mathrm{CO}$ est-il si dangereux dans une chambre fermée ?",
+      "verso": "Produit par toute combustion incomplète (brasero, groupe électrogène), il est inodore et incolore, et sa densité vaut à peu près $1$ : il se mêle partout et l'on s'endort sans rien sentir.",
+      "difficulte": 3,
+      "tags": [
+        "monoxyde-de-carbone",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC3E-C04-037",
+      "lecon": "Les propriétés des gaz et leurs conséquences",
+      "type": "formule",
+      "recto": "Avant de descendre dans un forage ancien, quelle règle de sécurité applique-t-on ?",
+      "verso": "On fait descendre une bougie allumée au bout d'une corde : si la flamme s'éteint, personne ne descend.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "milieu-confine"
+      ]
+    }
+  ]
+}

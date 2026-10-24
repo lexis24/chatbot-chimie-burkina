@@ -1,0 +1,442 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 7 : L'hydroxyde de sodium et sa solution",
+  "source": "pc/2ndc/Chimie_Chapitre_7_L_hydroxyde_de_sodium_et_sa_solution",
+  "nombre_cartes": 37,
+  "cartes": [
+    {
+      "id": "PC2C-C07-001",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "definition",
+      "recto": "Quelle est la formule statistique de l'hydroxyde de sodium, solide ionique ?",
+      "verso": "$\\mathrm{NaOH}$ : un solide ionique formé d'ions sodium $\\mathrm{Na^+}$ et d'ions hydroxyde $\\mathrm{OH^-}$, en proportion d'un pour un, électriquement neutre.",
+      "difficulte": 1,
+      "tags": [
+        "formule-statistique",
+        "naoh"
+      ]
+    },
+    {
+      "id": "PC2C-C07-002",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "formule",
+      "recto": "Quelle est la masse molaire de l'hydroxyde de sodium $\\mathrm{NaOH}$ ?",
+      "verso": "$M(\\mathrm{NaOH}) = 23 + 16 + 1 = 40~\\mathrm{g/mol}$.",
+      "difficulte": 1,
+      "tags": [
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C07-003",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "definition",
+      "recto": "Quelles sont les principales propriétés physiques de l'hydroxyde de sodium ?",
+      "verso": "Pastilles, paillettes ou perles blanches, dures, opaques et inodores ; fusion vers $318~^{\\circ}\\mathrm{C}$ ; très soluble dans l'eau (environ $1~\\mathrm{kg}$ par litre à $20~^{\\circ}\\mathrm{C}$) avec un fort dégagement de chaleur.",
+      "difficulte": 2,
+      "tags": [
+        "proprietes-physiques"
+      ]
+    },
+    {
+      "id": "PC2C-C07-004",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps déliquescent ?",
+      "verso": "Un corps qui capte assez de vapeur d'eau de l'air pour se dissoudre dans l'eau absorbée et former une solution. L'hydroxyde de sodium est déliquescent.",
+      "difficulte": 1,
+      "tags": [
+        "deliquescent"
+      ]
+    },
+    {
+      "id": "PC2C-C07-005",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un corps hygroscopique et un corps déliquescent ?",
+      "verso": "Un corps hygroscopique capte la vapeur d'eau de l'air ; un corps déliquescent en capte assez pour s'y dissoudre. Tout corps déliquescent est hygroscopique, l'inverse est faux : le sel de cuisine est hygroscopique sans être déliquescent.",
+      "difficulte": 3,
+      "tags": [
+        "hygroscopique",
+        "deliquescent",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C07-006",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction de l'hydroxyde de sodium avec le dioxyde de carbone de l'air ?",
+      "verso": "$\\mathrm{2NaOH + CO_2 \\rightarrow Na_2CO_3 + H_2O}$ : un flacon souvent ouvert contient un mélange de soude et de carbonate de sodium.",
+      "difficulte": 2,
+      "tags": [
+        "dioxyde-de-carbone",
+        "carbonate"
+      ]
+    },
+    {
+      "id": "PC2C-C07-007",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "definition",
+      "recto": "Pourquoi une pesée d'hydroxyde de sodium n'est-elle jamais très précise ?",
+      "verso": "Les pastilles captent l'humidité de l'air et réagissent avec le dioxyde de carbone : une partie de la masse pesée n'est pas de la soude. Une concentration exacte se contrôle ensuite par un dosage.",
+      "difficulte": 2,
+      "tags": [
+        "pesee",
+        "precision"
+      ]
+    },
+    {
+      "id": "PC2C-C07-008",
+      "lecon": "L'hydroxyde de sodium, un solide ionique",
+      "type": "definition",
+      "recto": "Que signifie l'adjectif « caustique » dans « soude caustique » ?",
+      "verso": "Il veut dire « qui brûle » : l'hydroxyde de sodium est très corrosif, il attaque la peau, les yeux, les tissus et l'aluminium.",
+      "difficulte": 1,
+      "tags": [
+        "corrosif",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC2C-C07-009",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "formule",
+      "recto": "Quelle est l'équation de dissolution de l'hydroxyde de sodium dans l'eau ?",
+      "verso": "$\\mathrm{NaOH_{(s)} \\rightarrow Na^+_{(aq)} + OH^-_{(aq)}}$ ; la dissociation est totale et fortement exothermique.",
+      "difficulte": 1,
+      "tags": [
+        "equation-dissolution"
+      ]
+    },
+    {
+      "id": "PC2C-C07-010",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "definition",
+      "recto": "Quelles espèces contient une solution d'hydroxyde de sodium ?",
+      "verso": "Uniquement des ions $\\mathrm{Na^+}$, des ions $\\mathrm{OH^-}$ et l'eau : la dissociation étant totale, il ne subsiste aucun édifice $\\mathrm{NaOH}$.",
+      "difficulte": 2,
+      "tags": [
+        "especes",
+        "dissociation-totale"
+      ]
+    },
+    {
+      "id": "PC2C-C07-011",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "formule",
+      "recto": "Pour une solution d'hydroxyde de sodium de concentration apportée $C_b$, que valent $[\\mathrm{Na^+}]$ et $[\\mathrm{OH^-}]$ ?",
+      "verso": "$[\\mathrm{Na^+}] = [\\mathrm{OH^-}] = C_b$, car une mole de $\\mathrm{NaOH}$ libère une mole de chaque ion.",
+      "difficulte": 1,
+      "tags": [
+        "concentration-effective"
+      ]
+    },
+    {
+      "id": "PC2C-C07-012",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "formule",
+      "recto": "Quelle relation lie la concentration massique $C_m$ et la concentration molaire $C_b$ d'une solution d'hydroxyde de sodium ?",
+      "verso": "$C_m = C_b \\times M$, avec $M(\\mathrm{NaOH}) = 40~\\mathrm{g/mol}$, $C_m$ en g/L et $C_b$ en mol/L.",
+      "difficulte": 2,
+      "tags": [
+        "concentration-massique"
+      ]
+    },
+    {
+      "id": "PC2C-C07-013",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "definition",
+      "recto": "Pourquoi $[\\mathrm{OH^-}]$ n'est-il pas égal à la concentration apportée $C$ pour une solution de $\\mathrm{Ca(OH)_2}$, alors qu'il l'est pour $\\mathrm{NaOH}$ ?",
+      "verso": "Chaque formule $\\mathrm{Ca(OH)_2}$ libère deux ions hydroxyde, donc $[\\mathrm{OH^-}] = 2C$ ; pour $\\mathrm{NaOH}$, le coefficient de $\\mathrm{OH^-}$ vaut 1.",
+      "difficulte": 3,
+      "tags": [
+        "concentration-effective",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C07-014",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "formule",
+      "recto": "Quand on mélange deux solutions sans réaction, comment calcule-t-on la concentration d'un ion présent dans les deux ?",
+      "verso": "On additionne les quantités de matière et les volumes (admis additifs) : $C = \\dfrac{n_1 + n_2}{V_1 + V_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "melange"
+      ]
+    },
+    {
+      "id": "PC2C-C07-015",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "formule",
+      "recto": "Sur une étiquette de soude commerciale de pourcentage massique $P$ et de densité $d$, quelle masse de soude contient un litre de solution ?",
+      "verso": "$P \\times d \\times 1\\,000$ en grammes, avec $P$ en nombre décimal ($0{,}20$ pour $20\\ \\%$) ; on divise ensuite par $M = 40~\\mathrm{g/mol}$ pour obtenir $C_b$.",
+      "difficulte": 3,
+      "tags": [
+        "solution-commerciale"
+      ]
+    },
+    {
+      "id": "PC2C-C07-016",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "definition",
+      "recto": "Comment le pH d'une solution d'hydroxyde de sodium dépend-il de sa concentration $C_b$ ?",
+      "verso": "Elle est basique : son pH est supérieur à 7, et d'autant plus grand que $C_b$ est grande.",
+      "difficulte": 1,
+      "tags": [
+        "basique",
+        "ph"
+      ]
+    },
+    {
+      "id": "PC2C-C07-017",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "definition",
+      "recto": "Lors de la préparation d'une solution de soude en fiole jaugée, pourquoi attend-on le retour à la température ambiante avant de compléter au trait de jauge ?",
+      "verso": "La dissolution est exothermique et la chaleur dilate le liquide : compléter à chaud fausserait le volume, donc la concentration.",
+      "difficulte": 2,
+      "tags": [
+        "preparation",
+        "fiole-jaugee"
+      ]
+    },
+    {
+      "id": "PC2C-C07-018",
+      "lecon": "La dissolution de l'hydroxyde de sodium et la concentration de sa solution",
+      "type": "definition",
+      "recto": "Pourquoi verse-t-on toujours la soude dans l'eau et jamais l'eau sur les pastilles ?",
+      "verso": "La dissolution dégage beaucoup de chaleur : verser l'eau sur les pastilles provoque des projections de solution corrosive. On verse la soude dans l'eau, par petites quantités.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "dissolution"
+      ]
+    },
+    {
+      "id": "PC2C-C07-019",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un indicateur coloré ?",
+      "verso": "Une substance dont la couleur dépend du caractère acide ou basique de la solution dans laquelle elle se trouve ; il permet de repérer ce caractère sans mesurer le pH.",
+      "difficulte": 1,
+      "tags": [
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PC2C-C07-020",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle couleur prennent le BBT, la phénolphtaléine et l'hélianthine dans une solution d'hydroxyde de sodium ?",
+      "verso": "BBT bleu, phénolphtaléine rose, hélianthine jaune ; le papier pH vire au bleu violacé.",
+      "difficulte": 1,
+      "tags": [
+        "indicateurs-colores",
+        "couleurs"
+      ]
+    },
+    {
+      "id": "PC2C-C07-021",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Comment montre-t-on que ce sont les ions $\\mathrm{OH^-}$, et non les ions $\\mathrm{Na^+}$, qui font changer la couleur des indicateurs ?",
+      "verso": "On compare avec une solution de chlorure de sodium : elle contient aussi des ions $\\mathrm{Na^+}$ mais ne modifie pas la couleur des indicateurs.",
+      "difficulte": 2,
+      "tags": [
+        "ion-hydroxyde",
+        "indicateurs-colores"
+      ]
+    },
+    {
+      "id": "PC2C-C07-022",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation générale de précipitation d'un cation métallique $\\mathrm{M^{n+}}$ par la soude ?",
+      "verso": "$\\mathrm{M^{n+} + n\\,OH^- \\rightarrow M(OH)_n \\downarrow}$ : le coefficient de $\\mathrm{OH^-}$ est égal à la charge du cation, et la flèche vers le bas signale un précipité.",
+      "difficulte": 2,
+      "tags": [
+        "precipitation"
+      ]
+    },
+    {
+      "id": "PC2C-C07-023",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation de précipitation des ions cuivre II par la soude ?",
+      "verso": "$\\mathrm{Cu^{2+} + 2OH^- \\rightarrow Cu(OH)_2 \\downarrow}$ : un précipité bleu d'hydroxyde de cuivre II, qui ne se redissout pas en excès de soude.",
+      "difficulte": 2,
+      "tags": [
+        "cuivre-ii",
+        "precipite"
+      ]
+    },
+    {
+      "id": "PC2C-C07-024",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation de précipitation des ions fer II par la soude ?",
+      "verso": "$\\mathrm{Fe^{2+} + 2OH^- \\rightarrow Fe(OH)_2 \\downarrow}$ : un précipité vert d'hydroxyde de fer II.",
+      "difficulte": 2,
+      "tags": [
+        "fer-ii",
+        "precipite"
+      ]
+    },
+    {
+      "id": "PC2C-C07-025",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est la couleur du précipité d'hydroxyde de fer III $\\mathrm{Fe(OH)_3}$ obtenu avec la soude ?",
+      "verso": "Couleur rouille : $\\mathrm{Fe^{3+} + 3OH^- \\rightarrow Fe(OH)_3 \\downarrow}$. Il se distingue du vert de $\\mathrm{Fe(OH)_2}$ par la charge du cation.",
+      "difficulte": 2,
+      "tags": [
+        "fer-iii",
+        "precipite"
+      ]
+    },
+    {
+      "id": "PC2C-C07-026",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Pourquoi un précipité blanc obtenu avec la soude ne suffit-il pas à conclure à la présence d'ions aluminium ?",
+      "verso": "Les ions zinc donnent aussi un précipité blanc, $\\mathrm{Zn(OH)_2}$, qui se redissout lui aussi en excès de soude, comme $\\mathrm{Al(OH)_3}$ : ce test ne les sépare pas.",
+      "difficulte": 3,
+      "tags": [
+        "aluminium-zinc",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C07-027",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un ion spectateur ?",
+      "verso": "Un ion présent dans le mélange mais qui ne participe pas à la réaction : on le retrouve inchangé à la fin et il ne figure pas dans l'équation-bilan. Exemple : $\\mathrm{Na^+}$ et $\\mathrm{SO_4^{2-}}$ dans la réaction de la soude sur le sulfate de cuivre II.",
+      "difficulte": 1,
+      "tags": [
+        "ion-spectateur"
+      ]
+    },
+    {
+      "id": "PC2C-C07-028",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'attaque de l'aluminium par la soude ?",
+      "verso": "$\\mathrm{2Al + 2OH^- + 2H_2O \\rightarrow 2AlO_2^- + 3H_2}$ : l'aluminium est attaqué avec dégagement de dihydrogène, alors que le fer ne l'est pas.",
+      "difficulte": 3,
+      "tags": [
+        "aluminium",
+        "dihydrogene"
+      ]
+    },
+    {
+      "id": "PC2C-C07-029",
+      "lecon": "Les propriétés chimiques d'une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Que produit la saponification d'un corps gras par la soude ?",
+      "verso": "A chaud, corps gras $+$ soude $\\rightarrow$ savon $+$ glycérol ; on obtient un savon dur avec $\\mathrm{NaOH}$, un savon mou avec $\\mathrm{KOH}$.",
+      "difficulte": 2,
+      "tags": [
+        "saponification",
+        "savon"
+      ]
+    },
+    {
+      "id": "PC2C-C07-030",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "definition",
+      "recto": "Pourquoi une solution d'hydroxyde de sodium conduit-elle le courant électrique ?",
+      "verso": "Elle contient des ions mobiles : les ions $\\mathrm{Na^+}$ se déplacent vers la cathode et les ions $\\mathrm{OH^-}$ vers l'anode. Elle conduit d'autant mieux qu'elle est plus concentrée.",
+      "difficulte": 1,
+      "tags": [
+        "conduction",
+        "ions-mobiles"
+      ]
+    },
+    {
+      "id": "PC2C-C07-031",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une électrolyse ?",
+      "verso": "La décomposition d'une substance sous l'action d'un courant électrique continu, entre deux électrodes plongées dans un électrolyte.",
+      "difficulte": 1,
+      "tags": [
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC2C-C07-032",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution d'hydroxyde de sodium, quelle demi-équation se produit à la cathode ?",
+      "verso": "A la cathode (borne $-$), dégagement de dihydrogène : $\\mathrm{2H_2O + 2e^- \\rightarrow H_2 + 2OH^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "cathode",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC2C-C07-033",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution d'hydroxyde de sodium, quelle demi-équation se produit à l'anode ?",
+      "verso": "A l'anode (borne $+$), dégagement de dioxygène : $\\mathrm{4OH^- \\rightarrow O_2 + 2H_2O + 4e^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "anode",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC2C-C07-034",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'électrolyse d'une solution d'hydroxyde de sodium ?",
+      "verso": "$\\mathrm{2H_2O \\rightarrow 2H_2 + O_2}$ : le volume de dihydrogène est le double de celui du dioxygène, dans les mêmes conditions.",
+      "difficulte": 2,
+      "tags": [
+        "bilan",
+        "volumes"
+      ]
+    },
+    {
+      "id": "PC2C-C07-035",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "definition",
+      "recto": "Pourquoi dit-on que l'électrolyse d'une solution de soude est en réalité une électrolyse de l'eau ?",
+      "verso": "Les ions $\\mathrm{OH^-}$ produits à la cathode sont consommés à l'anode et $\\mathrm{Na^+}$ est spectateur : seule l'eau est décomposée. La soude rend seulement la solution conductrice.",
+      "difficulte": 3,
+      "tags": [
+        "electrolyse-eau",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C07-036",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "formule",
+      "recto": "Comment identifie-t-on le dihydrogène et le dioxygène recueillis lors d'une électrolyse ?",
+      "verso": "Le dihydrogène détone à l'approche d'une flamme ; le dioxygène rallume une bûchette incandescente.",
+      "difficulte": 1,
+      "tags": [
+        "tests-gaz"
+      ]
+    },
+    {
+      "id": "PC2C-C07-037",
+      "lecon": "La solution d'hydroxyde de sodium et le courant électrique",
+      "type": "definition",
+      "recto": "Dans l'électrolyse d'une solution de soude, pourquoi est-il faux de dire que le courant traverse la solution grâce aux électrons ?",
+      "verso": "Dans la solution, les porteurs de charge sont les ions, qui se déplacent ; les électrons ne circulent que dans les fils et les électrodes.",
+      "difficulte": 3,
+      "tags": [
+        "porteurs-de-charge",
+        "piege"
+      ]
+    }
+  ]
+}

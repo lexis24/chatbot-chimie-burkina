@@ -1,0 +1,441 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 9 : Les amines, les amides et les acides alpha-aminés",
+  "source": "pc/tled/Chimie_Chapitre_9_Les_amines_les_amides_et_les_acides_alpha_amines",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PCTD-C09-001",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on une amine ?",
+      "verso": "Un composé organique qui dérive de l'ammoniac $\\mathrm{NH_3}$ par remplacement d'un, de deux ou de trois atomes d'hydrogène par des groupes carbonés.",
+      "difficulte": 1,
+      "tags": [
+        "amine",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C09-002",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "definition",
+      "recto": "Dans une amine, quel est l'environnement de l'atome d'azote ?",
+      "verso": "Il engage trois liaisons simples et conserve un doublet libre. Le groupe caractéristique est le groupe amino : $\\mathrm{-NH_2}$, $\\mathrm{-NH-}$ ou $\\mathrm{\\gt N-}$.",
+      "difficulte": 1,
+      "tags": [
+        "groupe-amino",
+        "doublet-libre"
+      ]
+    },
+    {
+      "id": "PCTD-C09-003",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "formule",
+      "recto": "Quelle est la formule brute d'une amine saturée, non cyclique, à une seule fonction amine, comportant $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+3}N}$, avec $n \\geq 1$ ; sa masse molaire vaut $M = 14n + 17~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "amine"
+      ]
+    },
+    {
+      "id": "PCTD-C09-004",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "definition",
+      "recto": "Comment détermine-t-on la classe d'une amine ?",
+      "verso": "On compte les groupes carbonés portés par l'atome d'azote : un, amine primaire $\\mathrm{R-NH_2}$ ; deux, secondaire $\\mathrm{R-NH-R'}$ ; trois, tertiaire $\\mathrm{R-N(R')-R''}$.",
+      "difficulte": 1,
+      "tags": [
+        "classe",
+        "amine"
+      ]
+    },
+    {
+      "id": "PCTD-C09-005",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "definition",
+      "recto": "Pourquoi n'existe-t-il pas d'amine neutre de classe quaternaire ?",
+      "verso": "Pour porter quatre groupes carbonés, l'azote devrait engager son doublet libre dans une quatrième liaison : il porterait alors une charge positive. On obtient un ion ammonium quaternaire $\\mathrm{R_4N^+}$, et non une amine.",
+      "difficulte": 3,
+      "tags": [
+        "ammonium-quaternaire",
+        "classe"
+      ]
+    },
+    {
+      "id": "PCTD-C09-006",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "formule",
+      "recto": "Selon la nomenclature officielle, comment forme-t-on le nom d'une amine primaire comme $\\mathrm{CH_3-CH(NH_2)-CH_3}$ ?",
+      "verso": "On part du nom de l'alcane de même chaîne, on remplace le « e » final par « amine », précédé de l'indice du carbone qui porte l'azote : ici la propan-2-amine.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "amine"
+      ]
+    },
+    {
+      "id": "PCTD-C09-007",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "formule",
+      "recto": "Dans le nom d'une amine secondaire ou tertiaire, comment cite-t-on les groupes carbonés portés par l'azote autres que la chaîne principale ?",
+      "verso": "La chaîne principale est la plus longue chaîne liée à l'azote ; les autres groupes de l'azote sont cités devant, par ordre alphabétique, chacun précédé de la lettre N : $\\mathrm{CH_3-NH-CH_2-CH_3}$ est la N-méthyléthanamine.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "lettre-n"
+      ]
+    },
+    {
+      "id": "PCTD-C09-008",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "definition",
+      "recto": "Quel nom porte l'amine $\\mathrm{C_6H_5-NH_2}$ ?",
+      "verso": "La phénylamine, de nom courant aniline. C'est une amine aromatique, car son azote porte un noyau benzénique.",
+      "difficulte": 1,
+      "tags": [
+        "phenylamine",
+        "aniline"
+      ]
+    },
+    {
+      "id": "PCTD-C09-009",
+      "lecon": "Les amines : groupe caractéristique, nomenclature et classes",
+      "type": "definition",
+      "recto": "Quelle erreur commet-on en disant que la 2-méthylpropan-2-amine est une amine tertiaire ?",
+      "verso": "On compte les voisins du carbone au lieu de compter sur l'azote. Son azote ne porte qu'un seul groupe carboné : c'est une amine primaire (l'alcool de même squelette, lui, est tertiaire).",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "classe"
+      ]
+    },
+    {
+      "id": "PCTD-C09-010",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction d'une amine primaire $\\mathrm{R-NH_2}$ avec l'eau ?",
+      "verso": "$\\mathrm{R-NH_2 + H_2O \\rightleftarrows R-NH_3^+ + OH^-}$ : réaction partielle, l'amine est une base faible ; couple $\\mathrm{R-NH_3^+/R-NH_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "caractere-basique",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C09-011",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "definition",
+      "recto": "Comment se classe la basicité des amines aliphatiques par rapport à l'ammoniac et à la phénylamine ?",
+      "verso": "Les amines aliphatiques sont plus basiques que l'ammoniac ($\\mathrm{p}K_A$ de $10{,}6$ pour la méthylamine contre $9{,}2$ pour $\\mathrm{NH_4^+/NH_3}$) ; la phénylamine ($\\mathrm{p}K_A = 4{,}6$) est une base très faible.",
+      "difficulte": 2,
+      "tags": [
+        "pka",
+        "basicite"
+      ]
+    },
+    {
+      "id": "PCTD-C09-012",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "definition",
+      "recto": "Pourquoi ne doit-on pas affirmer qu'une amine tertiaire est toujours plus basique qu'une amine secondaire ?",
+      "verso": "Parce que, dans l'eau, la triméthylamine a un $\\mathrm{p}K_A$ de $9{,}8$ seulement, contre $10{,}7$ pour la diméthylamine : l'amine tertiaire n'est pas plus basique.",
+      "difficulte": 3,
+      "tags": [
+        "pka",
+        "basicite"
+      ]
+    },
+    {
+      "id": "PCTD-C09-013",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction d'une amine $\\mathrm{R-NH_2}$ avec les ions $\\mathrm{H_3O^+}$ d'un acide fort ?",
+      "verso": "$\\mathrm{R-NH_2 + H_3O^+ \\longrightarrow R-NH_3^+ + H_2O}$ : réaction totale (flèche simple) qui donne un sel d'ammonium.",
+      "difficulte": 2,
+      "tags": [
+        "acide-fort",
+        "salification"
+      ]
+    },
+    {
+      "id": "PCTD-C09-014",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la première étape de la réaction d'une amine $\\mathrm{R-NH_2}$ avec un dérivé halogéné $\\mathrm{R'-X}$ ?",
+      "verso": "$\\mathrm{R-NH_2 + R'-X \\longrightarrow R-NH_2^+-R' + X^-}$ ; l'ion formé cède ensuite un proton à une autre molécule d'amine, ce qui libère l'amine de classe supérieure $\\mathrm{R-NH-R'}$.",
+      "difficulte": 2,
+      "tags": [
+        "derive-halogene",
+        "alkylation"
+      ]
+    },
+    {
+      "id": "PCTD-C09-015",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction d'un chlorure d'acyle $\\mathrm{R-CO-Cl}$ avec une amine primaire $\\mathrm{R'-NH_2}$ ?",
+      "verso": "$\\mathrm{R-CO-Cl + H_2N-R' \\longrightarrow R-CO-NH-R' + HCl}$ : réaction rapide, totale et très exothermique qui donne un amide. Une amine tertiaire ne donne pas d'amide.",
+      "difficulte": 2,
+      "tags": [
+        "chlorure-acyle",
+        "amide"
+      ]
+    },
+    {
+      "id": "PCTD-C09-016",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un amide ?",
+      "verso": "Un composé qui dérive d'un acide carboxylique par remplacement du groupe $\\mathrm{-OH}$ du carboxyle par un groupe azoté. Son groupe caractéristique $\\mathrm{-CO-N\\lt}$ est un carbonyle directement lié à un azote.",
+      "difficulte": 1,
+      "tags": [
+        "amide",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C09-017",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est la formule brute d'un amide saturé, non cyclique, à une seule fonction amide, comportant $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+1}NO}$, avec $n \\geq 1$ ; sa masse molaire vaut $M = 14n + 31~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "amide"
+      ]
+    },
+    {
+      "id": "PCTD-C09-018",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "definition",
+      "recto": "Comment reconnaît-on rapidement la classe d'un amide ?",
+      "verso": "Au nombre d'hydrogènes portés par l'azote : deux, amide primaire (non substitué) ; un, secondaire (N-monosubstitué) ; aucun, tertiaire (N,N-disubstitué).",
+      "difficulte": 1,
+      "tags": [
+        "classe",
+        "amide"
+      ]
+    },
+    {
+      "id": "PCTD-C09-019",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "definition",
+      "recto": "Pourquoi l'éthanamide $\\mathrm{CH_3-CO-NH_2}$ est-il un amide primaire et non secondaire ?",
+      "verso": "Parce que le groupe acyle $\\mathrm{CH_3-CO-}$ compte pour un seul groupe carboné : l'azote n'en porte qu'un et garde deux hydrogènes.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "classe"
+      ]
+    },
+    {
+      "id": "PCTD-C09-020",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Comment nomme-t-on un amide à partir de l'acide carboxylique de même chaîne ?",
+      "verso": "On remplace « acide …oïque » par « …amide », les groupes portés par l'azote étant cités devant, précédés de N : $\\mathrm{CH_3-CO-NH-CH_3}$ est le N-méthyléthanamide.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "amide"
+      ]
+    },
+    {
+      "id": "PCTD-C09-021",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "definition",
+      "recto": "Pourquoi un amide n'est-il pas une base, alors que son azote porte un doublet libre ?",
+      "verso": "Le doublet de l'azote est attiré par le groupe carbonyle voisin et n'est plus disponible pour capter un proton : la solution d'un amide est pratiquement neutre.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "amide"
+      ]
+    },
+    {
+      "id": "PCTD-C09-022",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'hydrolyse d'un amide $\\mathrm{R-CO-NH_2}$ en milieu basique ?",
+      "verso": "$\\mathrm{R-CO-NH_2 + OH^- \\longrightarrow R-CO_2^- + NH_3}$ : réaction lente, à chaud, totale ; l'ammoniac qui se dégage bleuit le papier pH humide.",
+      "difficulte": 2,
+      "tags": [
+        "hydrolyse",
+        "milieu-basique"
+      ]
+    },
+    {
+      "id": "PCTD-C09-023",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quels produits donne l'hydrolyse d'un amide $\\mathrm{R-CO-NH_2}$ en milieu acide ?",
+      "verso": "L'acide carboxylique $\\mathrm{R-CO_2H}$ et l'ion ammonium $\\mathrm{NH_4^+}$ : $\\mathrm{R-CO-NH_2 + H_2O + H_3O^+ \\longrightarrow R-CO_2H + NH_4^+ + H_2O}$. Réaction lente, catalysée, à chaud, totale.",
+      "difficulte": 2,
+      "tags": [
+        "hydrolyse",
+        "milieu-acide"
+      ]
+    },
+    {
+      "id": "PCTD-C09-024",
+      "lecon": "La réactivité des amines et la famille des amides",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'action d'un alcool $\\mathrm{R'-OH}$ sur un amide $\\mathrm{R-CO-NH_2}$, en présence d'un catalyseur acide ?",
+      "verso": "$\\mathrm{R-CO-NH_2 + R'-OH \\longrightarrow R-CO-O-R' + NH_3}$ : il se forme un ester ; la réaction est lente et limitée.",
+      "difficulte": 2,
+      "tags": [
+        "alcool",
+        "ester"
+      ]
+    },
+    {
+      "id": "PCTD-C09-025",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un acide alpha-aminé ?",
+      "verso": "Un composé qui porte un groupe carboxyle $\\mathrm{-CO_2H}$ et un groupe amino $\\mathrm{-NH_2}$ fixé sur le carbone immédiatement voisin du carboxyle, appelé carbone alpha.",
+      "difficulte": 1,
+      "tags": [
+        "acide-alpha-amine",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C09-026",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "formule",
+      "recto": "Quelle est la formule brute d'un acide alpha-aminé saturé, non cyclique, à $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+1}NO_2}$, avec $n \\geq 2$ ; formule générale $\\mathrm{R-CH(NH_2)-CO_2H}$ ; masse molaire $M = 14n + 47~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "acide-alpha-amine"
+      ]
+    },
+    {
+      "id": "PCTD-C09-027",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "formule",
+      "recto": "Comment nomme-t-on systématiquement un acide alpha-aminé, par exemple l'alanine $\\mathrm{CH_3-CH(NH_2)-CO_2H}$ ?",
+      "verso": "Comme l'acide carboxylique de même chaîne, précédé du préfixe « 2-amino » (le carbone du carboxyle porte l'indice 1) : l'alanine est l'acide 2-aminopropanoïque.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "alanine"
+      ]
+    },
+    {
+      "id": "PCTD-C09-028",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "Pour un acide alpha-aminé $\\mathrm{R-CH(NH_2)-CO_2H}$, à quelle condition le carbone alpha est-il asymétrique ?",
+      "verso": "Quand $\\mathrm{R}$ n'est pas un atome d'hydrogène : ses quatre groupes $\\mathrm{R}$, $\\mathrm{-NH_2}$, $\\mathrm{-CO_2H}$ et $\\mathrm{-H}$ sont alors tous différents ; on le note $\\mathrm{C^{*}}$ et la molécule est chirale.",
+      "difficulte": 2,
+      "tags": [
+        "chiralite",
+        "carbone-asymetrique"
+      ]
+    },
+    {
+      "id": "PCTD-C09-029",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on les deux énantiomères d'un acide alpha-aminé chiral ?",
+      "verso": "Deux molécules images l'une de l'autre dans un miroir et non superposables ; on les représente en Cram ou en projection de Fischer.",
+      "difficulte": 1,
+      "tags": [
+        "enantiomeres",
+        "chiralite"
+      ]
+    },
+    {
+      "id": "PCTD-C09-030",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "Pourquoi la phrase « tous les acides alpha-aminés sont chiraux » est-elle fausse ?",
+      "verso": "La glycine fait exception : son groupe $\\mathrm{R}$ est un atome d'hydrogène, son carbone alpha porte deux H identiques et n'est pas asymétrique.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "glycine"
+      ]
+    },
+    {
+      "id": "PCTD-C09-031",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "En projection de Fischer d'un acide alpha-aminé, qu'est-ce qui distingue l'énantiomère L de l'énantiomère D ?",
+      "verso": "Avec $\\mathrm{-CO_2H}$ en haut et le résidu $\\mathrm{R}$ en bas, le groupe $\\mathrm{-NH_2}$ est à gauche pour l'énantiomère L et à droite pour l'énantiomère D.",
+      "difficulte": 2,
+      "tags": [
+        "fischer",
+        "enantiomeres"
+      ]
+    },
+    {
+      "id": "PCTD-C09-032",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'amphion d'un acide alpha-aminé ?",
+      "verso": "L'ion dipolaire (ou zwitterion) $\\mathrm{R-CH(NH_3^+)-CO_2^-}$, formé par passage du proton du carboxyle sur l'azote : il porte deux charges opposées et une charge globale nulle.",
+      "difficulte": 2,
+      "tags": [
+        "amphion",
+        "zwitterion"
+      ]
+    },
+    {
+      "id": "PCTD-C09-033",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "formule",
+      "recto": "Quels sont les deux couples acide/base d'un acide alpha-aminé, avec leurs $\\mathrm{p}K_A$ ?",
+      "verso": "$\\mathrm{R-CH(NH_3^+)-CO_2H/R-CH(NH_3^+)-CO_2^-}$, $\\mathrm{p}K_{A1}$ voisin de $2{,}3$ ; $\\mathrm{R-CH(NH_3^+)-CO_2^-/R-CH(NH_2)-CO_2^-}$, $\\mathrm{p}K_{A2}$ voisin de $9{,}7$.",
+      "difficulte": 3,
+      "tags": [
+        "couples",
+        "pka"
+      ]
+    },
+    {
+      "id": "PCTD-C09-034",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "formule",
+      "recto": "Selon le $\\mathrm{pH}$, quelle forme d'un acide alpha-aminé prédomine en solution ?",
+      "verso": "Pour $\\mathrm{pH} \\lt \\mathrm{p}K_{A1}$, le cation $\\mathrm{R-CH(NH_3^+)-CO_2H}$ ; entre les deux $\\mathrm{p}K_A$, l'amphion ; pour $\\mathrm{pH} \\gt \\mathrm{p}K_{A2}$, l'anion $\\mathrm{R-CH(NH_2)-CO_2^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "predominance",
+        "ph"
+      ]
+    },
+    {
+      "id": "PCTD-C09-035",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "formule",
+      "recto": "Quelle relation donne le point isoélectrique $\\mathrm{pH_{i}}$ d'un acide alpha-aminé ?",
+      "verso": "$\\mathrm{pH_{i}} = \\dfrac{\\mathrm{p}K_{A1} + \\mathrm{p}K_{A2}}{2}$ ; pour la glycine ($2{,}3$ et $9{,}6$), $\\mathrm{pH_{i}} = 5{,}95$, soit environ $6{,}0$.",
+      "difficulte": 2,
+      "tags": [
+        "point-isoelectrique"
+      ]
+    },
+    {
+      "id": "PCTD-C09-036",
+      "lecon": "Les acides alpha-aminés : structure, chiralité et caractère amphotère",
+      "type": "definition",
+      "recto": "Pourquoi une solution de glycine n'est-elle pas acide, alors que la glycine porte un groupe carboxyle ?",
+      "verso": "Le proton du carboxyle passe sur le groupe amino de la même molécule, qui devient l'amphion de charge globale nulle : la solution reste voisine de la neutralité ($\\mathrm{pH}$ voisin de 6).",
+      "difficulte": 3,
+      "tags": [
+        "glycine",
+        "amphion"
+      ]
+    }
+  ]
+}

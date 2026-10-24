@@ -1,0 +1,463 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 9 : L'oxydoréduction par voie sèche",
+  "source": "pc/1ered/Chimie_Chapitre_9_L_oxydoreduction_par_voie_seche",
+  "nombre_cartes": 38,
+  "cartes": [
+    {
+      "id": "PC1D-C09-001",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une oxydoréduction par voie sèche ?",
+      "verso": "Une oxydoréduction qui se produit en l'absence de solvant : entre solides, entre un solide et un gaz, entre gaz, ou en milieu fondu. Elle exige presque toujours une température élevée.",
+      "difficulte": 1,
+      "tags": [
+        "voie-seche"
+      ]
+    },
+    {
+      "id": "PC1D-C09-002",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Dans une oxydoréduction, pourquoi dit-on que l'oxydant est réduit ?",
+      "verso": "Parce qu'il capte des électrons, ce qui définit une réduction ; inversement, le réducteur cède des électrons et il est oxydé.",
+      "difficulte": 1,
+      "tags": [
+        "oxydant",
+        "reducteur"
+      ]
+    },
+    {
+      "id": "PC1D-C09-003",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Pourquoi le transfert d'oxygène est-il un cas particulier du transfert d'électrons ?",
+      "verso": "Dans un oxyde métallique, l'oxygène est un ion $\\mathrm{O^{2-}}$ : céder un atome d'oxygène revient à recevoir deux électrons, en gagner un revient à en céder deux. Gagner de l'oxygène, c'est être oxydé ; le perdre, c'est être réduit.",
+      "difficulte": 2,
+      "tags": [
+        "transfert-d-oxygene",
+        "transfert-d-electrons"
+      ]
+    },
+    {
+      "id": "PC1D-C09-004",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réduction de l'oxyde cuivrique par le dihydrogène ?",
+      "verso": "$\\mathrm{CuO + H_2 \\rightarrow Cu + H_2O}$ ; $\\mathrm{CuO}$ est l'oxydant, $\\mathrm{H_2}$ le réducteur.",
+      "difficulte": 1,
+      "tags": [
+        "oxyde-cuivrique",
+        "dihydrogene",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-005",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réduction de l'oxyde cuivrique par le carbone ?",
+      "verso": "$\\mathrm{2CuO + C \\rightarrow 2Cu + CO_2}$ ; le carbone, qui prend l'oxygène, est le réducteur.",
+      "difficulte": 1,
+      "tags": [
+        "oxyde-cuivrique",
+        "carbone",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-006",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réduction de l'oxyde ferrique par l'aluminium (aluminothermie) ?",
+      "verso": "$\\mathrm{Fe_2O_3 + 2Al \\rightarrow 2Fe + Al_2O_3}$ ; l'aluminium est le réducteur, l'oxyde ferrique l'oxydant.",
+      "difficulte": 1,
+      "tags": [
+        "aluminothermie",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-007",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "formule",
+      "recto": "Pour la réduction de l'oxyde cuivrique par le dihydrogène, quelles demi-équations traduisent le transfert d'électrons ?",
+      "verso": "$\\mathrm{Cu^{2+} + 2e^- \\rightarrow Cu}$ et $\\mathrm{H_2 \\rightarrow 2H^+ + 2e^-}$ ; les ions oxyde, inchangés, forment l'eau selon $\\mathrm{2H^+ + O^{2-} \\rightarrow H_2O}$.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "oxyde-cuivrique"
+      ]
+    },
+    {
+      "id": "PC1D-C09-008",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "formule",
+      "recto": "Dans l'aluminothermie $\\mathrm{Fe_2O_3 + 2Al \\rightarrow 2Fe + Al_2O_3}$, quelles demi-équations traduisent le transfert d'électrons ?",
+      "verso": "$\\mathrm{Fe^{3+} + 3e^- \\rightarrow Fe}$ et $\\mathrm{Al \\rightarrow Al^{3+} + 3e^-}$ : chaque atome d'aluminium cède trois électrons à un ion fer III.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "aluminothermie"
+      ]
+    },
+    {
+      "id": "PC1D-C09-009",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Lors de la réduction de l'oxyde cuivrique par le carbone, quelles observations fait-on ?",
+      "verso": "Le mélange devient incandescent, l'eau de chaux se trouble (dioxyde de carbone) et il reste, après refroidissement, des grains rouges de cuivre mêlés au charbon en excès.",
+      "difficulte": 2,
+      "tags": [
+        "oxyde-cuivrique",
+        "carbone",
+        "observations"
+      ]
+    },
+    {
+      "id": "PC1D-C09-010",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Dans la réduction de l'oxyde cuivrique par le carbone, pourquoi retire-t-on le tube à dégagement de l'eau de chaux avant d'arrêter le chauffage ?",
+      "verso": "Sinon, le gaz du tube se contracte en refroidissant et l'eau froide remonte dans le verre brûlant, qui éclate.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC1D-C09-011",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Quelle confusion sur l'expression « voie sèche » faut-il éviter ?",
+      "verso": "Voie sèche signifie sans solvant, et non sans oxygène ni sans eau : une réaction par voie sèche peut faire intervenir l'oxygène et même produire de l'eau, comme $\\mathrm{CuO + H_2 \\rightarrow Cu + H_2O}$.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "voie-seche"
+      ]
+    },
+    {
+      "id": "PC1D-C09-012",
+      "lecon": "L'oxydoréduction sans solvant, du transfert d'oxygène au transfert d'électrons",
+      "type": "definition",
+      "recto": "Quelles règles de sécurité impose l'aluminothermie ?",
+      "verso": "Elle se fait en plein air, par le professeur seul, sur quelques grammes de poudres sèches ; le fer sort fondu à plus de 2 000 degrés, la classe recule à cinq mètres avec des lunettes, et l'on ne verse jamais d'eau sur le creuset.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "aluminothermie"
+      ]
+    },
+    {
+      "id": "PC1D-C09-013",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on l'électronégativité d'un atome ?",
+      "verso": "C'est l'aptitude d'un atome à attirer vers lui le doublet d'une liaison covalente qu'il partage. Le fluor est le plus électronégatif, les alcalins le moins.",
+      "difficulte": 1,
+      "tags": [
+        "electronegativite"
+      ]
+    },
+    {
+      "id": "PC1D-C09-014",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Comment évolue l'électronégativité dans la classification périodique ?",
+      "verso": "Elle croît de la gauche vers la droite le long d'une période et de bas en haut le long d'une colonne.",
+      "difficulte": 1,
+      "tags": [
+        "electronegativite",
+        "classification"
+      ]
+    },
+    {
+      "id": "PC1D-C09-015",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une liaison polaire ?",
+      "verso": "Une liaison entre deux atomes d'électronégativités différentes, dont le doublet est déplacé vers le plus électronégatif ; on la note par des charges partielles, $\\delta^-$ sur le plus électronégatif et $\\delta^+$ sur l'autre.",
+      "difficulte": 2,
+      "tags": [
+        "liaison-polaire"
+      ]
+    },
+    {
+      "id": "PC1D-C09-016",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le nombre d'oxydation (n.o.) d'un atome ?",
+      "verso": "C'est la charge fictive que porterait l'atome si tous les doublets de ses liaisons étaient attribués à l'atome le plus électronégatif. Il s'écrit avec son signe, par exemple $+2$ ou $-1$.",
+      "difficulte": 1,
+      "tags": [
+        "nombre-d-oxydation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-017",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Quelles règles donnent le nombre d'oxydation d'un élément dans un corps simple ou dans un ion monoatomique ?",
+      "verso": "Il est nul dans un corps simple ($0$ dans $\\mathrm{O_2}$, $\\mathrm{Fe}$, $\\mathrm{Cl_2}$) ; il est égal à la charge de l'ion pour un ion monoatomique ($+2$ dans $\\mathrm{Cu^{2+}}$).",
+      "difficulte": 1,
+      "tags": [
+        "nombre-d-oxydation",
+        "regles"
+      ]
+    },
+    {
+      "id": "PC1D-C09-018",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Quelle règle de somme des nombres d'oxydation s'applique à une molécule neutre ou à un ion polyatomique ?",
+      "verso": "Elle est nulle dans une molécule neutre ; elle est égale à la charge de l'ion dans un ion polyatomique. Chaque n.o. est multiplié par le nombre d'atomes de l'élément.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-d-oxydation",
+        "regles"
+      ]
+    },
+    {
+      "id": "PC1D-C09-019",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Quelles valeurs usuelles du nombre d'oxydation faut-il connaître pour l'oxygène et l'hydrogène ?",
+      "verso": "$\\mathrm{O}$ vaut $-2$ dans presque tous ses composés ; $\\mathrm{H}$ vaut $+1$, sauf $-1$ dans les hydrures métalliques.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-d-oxydation",
+        "valeurs-usuelles"
+      ]
+    },
+    {
+      "id": "PC1D-C09-020",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Quel critère sur les nombres d'oxydation distingue une oxydation d'une réduction ?",
+      "verso": "Il y a oxydation quand le n.o. d'un élément augmente et réduction quand il diminue. Si aucun n.o. ne varie, la réaction n'est pas une oxydoréduction.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-d-oxydation",
+        "oxydation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-021",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Dans un couple oxydant/réducteur, comment se comparent les nombres d'oxydation de l'élément commun ?",
+      "verso": "L'élément commun a un n.o. plus élevé dans l'oxydant que dans le réducteur : dans $\\mathrm{Fe^{3+}/Fe^{2+}}$, le fer vaut $+3$ et $+2$.",
+      "difficulte": 2,
+      "tags": [
+        "couple",
+        "nombre-d-oxydation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-022",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Comment obtient-on le nombre d'électrons échangés à partir des nombres d'oxydation ?",
+      "verso": "C'est la variation du n.o., en valeur absolue, multipliée par le nombre d'atomes de l'élément concernés.",
+      "difficulte": 2,
+      "tags": [
+        "electrons-echanges"
+      ]
+    },
+    {
+      "id": "PC1D-C09-023",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Quelle règle de conservation sur les nombres d'oxydation sert à équilibrer une équation d'oxydoréduction ?",
+      "verso": "Dans une équation équilibrée, la somme des augmentations de n.o. est égale à la somme des diminutions : tout électron cédé est capté. C'est elle qui fournit les coefficients.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "conservation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-024",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Pour une équation ionique en solution acide équilibrée par les n.o., dans quel ordre équilibre-t-on le reste une fois fixés les coefficients des deux éléments qui changent ?",
+      "verso": "On équilibre d'abord les charges avec des ions $\\mathrm{H^+}$, puis l'oxygène avec des molécules d'eau ; l'hydrogène se trouve alors équilibré, ce qui sert de contrôle.",
+      "difficulte": 3,
+      "tags": [
+        "equilibrage",
+        "equation-ionique"
+      ]
+    },
+    {
+      "id": "PC1D-C09-025",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction entre le sulfure d'hydrogène et le dichlore ?",
+      "verso": "$\\mathrm{H_2S + Cl_2 \\rightarrow S + 2HCl}$ : le soufre passe de $-2$ à $0$ ($\\mathrm{H_2S}$ réducteur), le chlore de $0$ à $-1$ sur deux atomes ($\\mathrm{Cl_2}$ oxydant).",
+      "difficulte": 2,
+      "tags": [
+        "sulfure-d-hydrogene",
+        "dichlore",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-026",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux d'écrire que $\\mathrm{CO_2}$ contient des ions $\\mathrm{C^{4+}}$ ?",
+      "verso": "$+4$ est le nombre d'oxydation du carbone, donc une charge fictive : la molécule $\\mathrm{CO_2}$ est covalente et ne contient aucun ion.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "nombre-d-oxydation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-027",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "definition",
+      "recto": "Quelle erreur conduit à la valeur impossible $+12$ pour le chrome dans $\\mathrm{Cr_2O_7^{2-}}$ ?",
+      "verso": "L'oubli de l'indice : il y a deux chromes, donc $2x + 7 \\times (-2) = -2$, soit $x = +6$.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "nombre-d-oxydation"
+      ]
+    },
+    {
+      "id": "PC1D-C09-028",
+      "lecon": "Le nombre d'oxydation, détermination et utilisation",
+      "type": "definition",
+      "recto": "Pourquoi la réaction entre $\\mathrm{H_2S}$ et $\\mathrm{Cl_2}$ est-elle réservée au professeur, sous hotte ou en plein air ?",
+      "verso": "Le sulfure d'hydrogène est un gaz mortel qui paralyse l'odorat à forte concentration, et le dichlore attaque les voies respiratoires.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "sulfure-d-hydrogene"
+      ]
+    },
+    {
+      "id": "PC1D-C09-029",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "Quels éléments de l'oxydoréduction restent identiques entre la voie humide et la voie sèche ?",
+      "verso": "Une oxydoréduction est toujours un transfert d'électrons d'un réducteur vers un oxydant : les définitions, les couples, les demi-équations et le nombre d'oxydation ne changent pas. Seuls le milieu et la température changent.",
+      "difficulte": 2,
+      "tags": [
+        "voie-humide",
+        "voie-seche"
+      ]
+    },
+    {
+      "id": "PC1D-C09-030",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "Quelle différence entre voie humide et voie sèche concerne les espèces qui réagissent ?",
+      "verso": "En voie humide, ce sont des ions solvatés $(aq)$ ; en voie sèche, des atomes liés, des ions d'un réseau cristallin et des molécules.",
+      "difficulte": 2,
+      "tags": [
+        "voie-humide",
+        "voie-seche"
+      ]
+    },
+    {
+      "id": "PC1D-C09-031",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "En métallurgie, que signifie extraire un métal de son minerai ?",
+      "verso": "C'est réduire le métal, presque toujours présent dans le sol sous forme d'oxyde : lui rendre les électrons que l'oxygène lui a pris.",
+      "difficulte": 1,
+      "tags": [
+        "metallurgie"
+      ]
+    },
+    {
+      "id": "PC1D-C09-032",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "formule",
+      "recto": "Dans le haut fourneau, quelles équations décrivent la formation du réducteur et la réduction du minerai ?",
+      "verso": "Le coke donne du monoxyde de carbone : $\\mathrm{CO_2 + C \\rightarrow 2CO}$ ; ce monoxyde réduit le minerai : $\\mathrm{Fe_2O_3 + 3CO \\rightarrow 2Fe + 3CO_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "haut-fourneau",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC1D-C09-033",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "Dans un haut fourneau, qu'appelle-t-on la fonte et le laitier ?",
+      "verso": "La fonte est le fer chargé de carbone, qui coule à l'état liquide au bas du fourneau ; le laitier est formé par le calcaire qui retient les impuretés.",
+      "difficulte": 2,
+      "tags": [
+        "haut-fourneau",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC1D-C09-034",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "Pourquoi l'aluminium s'obtient-il par électrolyse et non par réduction au carbone ?",
+      "verso": "Son oxyde est si stable que ni le carbone ni le monoxyde de carbone ne parviennent, dans un four, à lui arracher son oxygène ; le courant électrique apporte les électrons nécessaires à la réduction de l'alumine fondue.",
+      "difficulte": 3,
+      "tags": [
+        "aluminium",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC1D-C09-035",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "formule",
+      "recto": "Pourquoi ne peut-on pas appliquer directement les coefficients d'une équation bilan à des masses ?",
+      "verso": "Les coefficients portent sur les quantités de matière, jamais sur les masses : on passe par $n = \\dfrac{m}{M}$ ou $n = \\dfrac{V}{V_m}$, avec $V_m = 24~\\mathrm{L/mol}$ dans les conditions ordinaires.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "quantite-de-matiere"
+      ]
+    },
+    {
+      "id": "PC1D-C09-036",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "formule",
+      "recto": "Comment définit-on le rendement d'une réduction ?",
+      "verso": "$r = \\dfrac{m_{\\text{obtenue}}}{m_{\\text{théorique}}}$, en pourcentage ; il ne dépasse jamais $100~\\%$ et reste en pratique inférieur, une partie du métal restant dans les scories, le laitier ou les poussières.",
+      "difficulte": 2,
+      "tags": [
+        "rendement"
+      ]
+    },
+    {
+      "id": "PC1D-C09-037",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la teneur d'un minerai ?",
+      "verso": "C'est le pourcentage massique du corps utile dans le minerai : $1{,}0~\\mathrm{t}$ de minerai à $80~\\%$ ne contient que $0{,}80~\\mathrm{t}$ d'oxyde.",
+      "difficulte": 2,
+      "tags": [
+        "teneur",
+        "minerai"
+      ]
+    },
+    {
+      "id": "PC1D-C09-038",
+      "lecon": "Une seule oxydoréduction, deux milieux : bilans et métallurgie",
+      "type": "definition",
+      "recto": "Pourquoi le monoxyde de carbone impose-t-il de ne jamais laisser un brasero allumé dans une pièce fermée ?",
+      "verso": "Le monoxyde de carbone, qui se forme quand un feu de charbon manque d'air, est mortel, incolore et sans odeur : on ne le sent pas venir.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "monoxyde-de-carbone"
+      ]
+    }
+  ]
+}

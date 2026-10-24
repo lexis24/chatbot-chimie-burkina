@@ -1,0 +1,401 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 4 : Les composés organiques oxygénés",
+  "source": "pc/1ered/Chimie_Chapitre_4_Les_composes_organiques_oxygenes",
+  "nombre_cartes": 33,
+  "cartes": [
+    {
+      "id": "PC1D-C04-001",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "formule",
+      "recto": "Combien de liaisons covalentes l'atome d'oxygène engage-t-il dans une molécule organique ?",
+      "verso": "Deux : soit deux liaisons simples $\\mathrm{-O-}$, soit une liaison double $\\mathrm{=O}$. Il possède six électrons externes : deux doublets non liants et deux électrons célibataires.",
+      "difficulte": 1,
+      "tags": [
+        "oxygene",
+        "liaisons"
+      ]
+    },
+    {
+      "id": "PC1D-C04-002",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un groupe caractéristique ?",
+      "verso": "L'atome ou le groupe d'atomes qui, greffé sur une chaîne carbonée, confère au composé ses propriétés chimiques propres ; on note le reste de la molécule $\\mathrm{R}$, par exemple $\\mathrm{R-OH}$. Synonyme : groupe fonctionnel.",
+      "difficulte": 1,
+      "tags": [
+        "groupe-caracteristique"
+      ]
+    },
+    {
+      "id": "PC1D-C04-003",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une famille fonctionnelle ?",
+      "verso": "L'ensemble des composés qui portent le même groupe caractéristique : propriétés voisines, formule générale commune, même terminaison de nom.",
+      "difficulte": 1,
+      "tags": [
+        "famille-fonctionnelle"
+      ]
+    },
+    {
+      "id": "PC1D-C04-004",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le carbone fonctionnel d'un composé organique ?",
+      "verso": "L'atome de carbone qui porte le groupe caractéristique ; c'est sur lui que se joue la réaction, et c'est lui que l'on numérote en priorité dans le nom.",
+      "difficulte": 2,
+      "tags": [
+        "carbone-fonctionnel"
+      ]
+    },
+    {
+      "id": "PC1D-C04-005",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "Quand dit-on que deux composés organiques sont des isomères de fonction ?",
+      "verso": "Lorsqu'ils ont la même formule brute mais des groupes caractéristiques différents : ils appartiennent à deux familles distinctes et ont des propriétés différentes.",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-fonction"
+      ]
+    },
+    {
+      "id": "PC1D-C04-006",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "Pourquoi la formule brute $\\mathrm{C_3H_6O}$ ne suffit-elle pas à connaître la famille du composé ?",
+      "verso": "La formule brute ne donne que le nombre d'atomes ; ce sont les liaisons qui fixent le groupe caractéristique, donc la famille. $\\mathrm{C_3H_6O}$ peut être un aldéhyde ou une cétone, isomères de fonction.",
+      "difficulte": 3,
+      "tags": [
+        "formule-brute",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C04-007",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre le groupe $\\mathrm{-OH}$ d'un alcool et l'ion hydroxyde $\\mathrm{OH^-}$ ?",
+      "verso": "Le groupe $\\mathrm{-OH}$ d'un alcool est lié par covalence à un atome de carbone ; l'ion hydroxyde $\\mathrm{OH^-}$ d'une solution de soude est un ion libre.",
+      "difficulte": 3,
+      "tags": [
+        "hydroxyle",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C04-008",
+      "lecon": "Le groupe caractéristique et les familles oxygénées",
+      "type": "definition",
+      "recto": "Quels groupes caractéristiques comportent deux atomes d'oxygène portés par le même carbone ?",
+      "verso": "Le groupe carboxyle $\\mathrm{-COOH}$ des acides carboxyliques, et le groupe $\\mathrm{-COO-}$ des esters, où l'hydrogène du carboxyle est remplacé par une chaîne carbonée.",
+      "difficulte": 2,
+      "tags": [
+        "carboxyle",
+        "ester"
+      ]
+    },
+    {
+      "id": "PC1D-C04-009",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un alcool ?",
+      "verso": "Un composé organique dans lequel un groupe hydroxyle $\\mathrm{-OH}$ est fixé sur un atome de carbone qui n'engage que des liaisons simples.",
+      "difficulte": 1,
+      "tags": [
+        "alcool",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C04-010",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "formule",
+      "recto": "Quelle est la formule brute d'un monoalcool saturé à chaîne ouverte de $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+2}O}$, que l'on écrit aussi $\\mathrm{C_{n}H_{2n+1}OH}$ ; formule générale $\\mathrm{R-OH}$.",
+      "difficulte": 1,
+      "tags": [
+        "alcool",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC1D-C04-011",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "formule",
+      "recto": "Comment construit-on le nom d'un alcool ?",
+      "verso": "On remplace le « e » final de l'alcane par « ol », précédé de l'indice du carbone fonctionnel ; la chaîne principale, la plus longue contenant ce carbone, est numérotée pour lui donner l'indice le plus petit : propan-2-ol $\\mathrm{CH_3-CH(OH)-CH_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "alcool",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C04-012",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "definition",
+      "recto": "Pourquoi l'éthanol bout-il à $78~^{\\circ}\\mathrm{C}$ alors que le propane, de masse molaire voisine, bout à $-42~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "L'éthanol porte un hydrogène lié à un oxygène très électronégatif : ses molécules s'attirent par liaison hydrogène. Il faut donc beaucoup plus d'énergie pour les séparer.",
+      "difficulte": 2,
+      "tags": [
+        "liaison-hydrogene",
+        "ebullition"
+      ]
+    },
+    {
+      "id": "PC1D-C04-013",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "definition",
+      "recto": "Pourquoi les premiers alcools sont-ils miscibles à l'eau ?",
+      "verso": "Grâce à la liaison hydrogène que leur groupe $\\mathrm{-OH}$ établit avec les molécules d'eau. Dès quatre atomes de carbone, la chaîne l'emporte et la miscibilité diminue.",
+      "difficulte": 2,
+      "tags": [
+        "liaison-hydrogene",
+        "miscibilite"
+      ]
+    },
+    {
+      "id": "PC1D-C04-014",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un éther-oxyde ?",
+      "verso": "Un composé dans lequel un atome d'oxygène est lié à deux atomes de carbone : $\\mathrm{R-O-R'}$, de formule brute $\\mathrm{C_{n}H_{2n+2}O}$.",
+      "difficulte": 1,
+      "tags": [
+        "ether-oxyde",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C04-015",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "formule",
+      "recto": "Comment nomme-t-on l'éther-oxyde $\\mathrm{CH_3-O-CH_2-CH_3}$ ?",
+      "verso": "Oxyde d'éthyle et de méthyle, les groupes alkyle étant cités par ordre alphabétique ; en nom systématique (groupe alkoxy), méthoxyéthane.",
+      "difficulte": 2,
+      "tags": [
+        "ether-oxyde",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C04-016",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "definition",
+      "recto": "Pourquoi l'oxyde de méthyle bout-il une centaine de degrés plus bas que l'éthanol, de même formule brute $\\mathrm{C_2H_6O}$ ?",
+      "verso": "Il ne porte aucun hydrogène sur l'oxygène : ses molécules ne s'unissent pas par liaison hydrogène. Il bout à $-24~^{\\circ}\\mathrm{C}$ contre $78~^{\\circ}\\mathrm{C}$ pour l'éthanol, dont il est l'isomère de fonction.",
+      "difficulte": 3,
+      "tags": [
+        "ether-oxyde",
+        "liaison-hydrogene"
+      ]
+    },
+    {
+      "id": "PC1D-C04-017",
+      "lecon": "Les alcools et les éthers-oxydes",
+      "type": "formule",
+      "recto": "Quelles règles de sécurité imposent les alcools au laboratoire ?",
+      "verso": "Alcools et vapeurs sont inflammables : aucune flamme à proximité, flacon bouché aussitôt après usage, chauffage au bain-marie seulement ; en cas de renversement, essuyer et aérer.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "alcool"
+      ]
+    },
+    {
+      "id": "PC1D-C04-018",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le groupe carbonyle ?",
+      "verso": "Le groupe $\\mathrm{>C=O}$, formé d'un atome d'oxygène doublement lié à un atome de carbone, qui est le carbone fonctionnel.",
+      "difficulte": 1,
+      "tags": [
+        "carbonyle"
+      ]
+    },
+    {
+      "id": "PC1D-C04-019",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "definition",
+      "recto": "Qu'est-ce qui distingue un aldéhyde d'une cétone ?",
+      "verso": "Dans un aldéhyde $\\mathrm{R-CHO}$, le carbone fonctionnel est en bout de chaîne et porte au moins un hydrogène ; dans une cétone $\\mathrm{R-CO-R'}$, il est encadré par deux atomes de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "aldehyde",
+        "cetone"
+      ]
+    },
+    {
+      "id": "PC1D-C04-020",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "formule",
+      "recto": "Quelle formule brute ont un aldéhyde et une cétone saturés de $n$ atomes de carbone ?",
+      "verso": "La même, $\\mathrm{C_{n}H_{2n}O}$ : un aldéhyde et une cétone de même nombre de carbones sont isomères de fonction.",
+      "difficulte": 2,
+      "tags": [
+        "aldehyde",
+        "cetone",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC1D-C04-021",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "formule",
+      "recto": "Comment construit-on le nom d'un aldéhyde ?",
+      "verso": "Le « e » final de l'alcane devient « al », sans indice, car le carbone fonctionnel porte toujours le numéro 1 : $\\mathrm{CH_3-CHO}$ est l'éthanal.",
+      "difficulte": 2,
+      "tags": [
+        "aldehyde",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C04-022",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "formule",
+      "recto": "Comment construit-on le nom d'une cétone ?",
+      "verso": "Le « e » final de l'alcane devient « one », précédé de l'indice du carbone fonctionnel, choisi le plus petit possible : $\\mathrm{CH_3-CO-CH_2-CH_3}$ est la butan-2-one.",
+      "difficulte": 2,
+      "tags": [
+        "cetone",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C04-023",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "definition",
+      "recto": "Pourquoi la cétone la plus simple compte-t-elle trois atomes de carbone ?",
+      "verso": "Le carbone fonctionnel d'une cétone doit être encadré par deux carbones : il en faut au moins trois. La plus simple est la propanone (acétone) $\\mathrm{CH_3-CO-CH_3}$.",
+      "difficulte": 3,
+      "tags": [
+        "cetone",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C04-024",
+      "lecon": "Les aldéhydes et les cétones",
+      "type": "definition",
+      "recto": "Pourquoi n'écrit-on jamais un aldéhyde sous la forme $\\mathrm{R-COH}$ ?",
+      "verso": "Cette écriture se lit comme un alcool ; la seule écriture correcte du groupe aldéhyde est $\\mathrm{R-CHO}$.",
+      "difficulte": 2,
+      "tags": [
+        "aldehyde",
+        "ecriture"
+      ]
+    },
+    {
+      "id": "PC1D-C04-025",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un acide carboxylique ?",
+      "verso": "Un composé organique portant le groupe carboxyle $\\mathrm{-COOH}$, où deux atomes d'oxygène sont liés au même carbone, l'un par une double liaison, l'autre par une simple liaison qui porte un hydrogène.",
+      "difficulte": 1,
+      "tags": [
+        "acide-carboxylique",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C04-026",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "formule",
+      "recto": "Quelle est la formule brute d'un monoacide carboxylique saturé à chaîne ouverte de $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n}O_2}$ ; formule générale $\\mathrm{R-COOH}$.",
+      "difficulte": 1,
+      "tags": [
+        "acide-carboxylique",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC1D-C04-027",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "formule",
+      "recto": "Comment construit-on le nom d'un acide carboxylique ?",
+      "verso": "Le mot « acide », puis le nom de l'alcane de même nombre de carbones dont le « e » final devient « oïque » ; le carbone de $\\mathrm{-COOH}$ porte le numéro 1 : $\\mathrm{HCOOH}$, acide méthanoïque.",
+      "difficulte": 2,
+      "tags": [
+        "acide-carboxylique",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C04-028",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "definition",
+      "recto": "Pourquoi $\\mathrm{CH_3-COOH}$ s'appelle-t-il acide éthanoïque et non acide méthanoïque ?",
+      "verso": "Le carbone du groupe carboxyle compte dans le nom : la chaîne a deux carbones, c'est l'acide éthanoïque, appelé aussi acide acétique.",
+      "difficulte": 3,
+      "tags": [
+        "acide-carboxylique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C04-029",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "formule",
+      "recto": "Quels gaz une solution d'acide carboxylique dégage-t-elle avec un métal usuel et avec un carbonate ?",
+      "verso": "Avec un métal, du dihydrogène, qui détone à la flamme ; avec un carbonate, une effervescence de dioxyde de carbone, qui trouble l'eau de chaux. La solution a un $\\mathrm{pH} \\lt 7$.",
+      "difficulte": 2,
+      "tags": [
+        "caractere-acide",
+        "test"
+      ]
+    },
+    {
+      "id": "PC1D-C04-030",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un ester ?",
+      "verso": "Un composé qui dérive d'un acide carboxylique dont l'hydrogène du groupe $\\mathrm{-COOH}$ a été remplacé par une chaîne carbonée : $\\mathrm{R-COO-R'}$, de formule brute $\\mathrm{C_{n}H_{2n}O_2}$, isomère de fonction de l'acide.",
+      "difficulte": 1,
+      "tags": [
+        "ester",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C04-031",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "formule",
+      "recto": "Comment construit-on le nom d'un ester $\\mathrm{R-COO-R'}$ ?",
+      "verso": "La partie acide (côté carbonyle) terminée en « oate », puis « de », puis le groupe alkyle terminé en « yle » : $\\mathrm{CH_3-COO-CH_3}$ est l'éthanoate de méthyle.",
+      "difficulte": 2,
+      "tags": [
+        "ester",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C04-032",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "definition",
+      "recto": "Pourquoi un ester n'a-t-il pas de caractère acide malgré ses deux atomes d'oxygène ?",
+      "verso": "Il n'a plus d'hydrogène porté par l'oxygène : celui du carboxyle a été remplacé par une chaîne carbonée. L'ester est neutre et ne rougit pas le papier pH.",
+      "difficulte": 3,
+      "tags": [
+        "ester",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C04-033",
+      "lecon": "Les acides carboxyliques et les esters",
+      "type": "formule",
+      "recto": "Quelle masse molaire a un acide carboxylique ou un ester saturé à chaîne ouverte de $n$ atomes de carbone ?",
+      "verso": "$M = 14n + 32$ en $\\mathrm{g/mol}$, pour la formule brute $\\mathrm{C_{n}H_{2n}O_2}$, avec $M(\\mathrm{C}) = 12$, $M(\\mathrm{H}) = 1$ et $M(\\mathrm{O}) = 16~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire"
+      ]
+    }
+  ]
+}

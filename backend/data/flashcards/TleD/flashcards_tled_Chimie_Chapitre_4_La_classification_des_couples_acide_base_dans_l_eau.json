@@ -1,0 +1,408 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 4 : La classification des couples acide/base dans l'eau",
+  "source": "pc/tled/Chimie_Chapitre_4_La_classification_des_couples_acide_base_dans_l_eau",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PCTD-C04-001",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Pour un couple $\\mathrm{AH/A^-}$, quelle est l'expression de la constante d'acidité $K_a$ ?",
+      "verso": "$K_a = \\dfrac{\\left[\\mathrm{A^-}\\right]\\left[\\mathrm{H_3O^+}\\right]}{\\left[\\mathrm{AH}\\right]}$, concentrations à l'équilibre de $\\mathrm{AH + H_2O \\rightleftarrows A^- + H_3O^+}$ ; $K_a$ n'a pas d'unité.",
+      "difficulte": 1,
+      "tags": [
+        "constante-acidite"
+      ]
+    },
+    {
+      "id": "PCTD-C04-002",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Quelle relation lie le $\\mathrm{p}K_a$ d'un couple acide/base à sa constante d'acidité $K_a$ ?",
+      "verso": "$\\mathrm{p}K_a = -\\log K_a$, et réciproquement $K_a = 10^{-\\mathrm{p}K_a}$ ; le $\\mathrm{p}K_a$ n'a pas d'unité.",
+      "difficulte": 1,
+      "tags": [
+        "pka"
+      ]
+    },
+    {
+      "id": "PCTD-C04-003",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "definition",
+      "recto": "De quoi dépend la constante d'acidité $K_a$ d'un couple acide/base ?",
+      "verso": "Uniquement du couple et de la température : elle ne dépend ni de la concentration apportée, ni du pH, ni du volume de la solution.",
+      "difficulte": 2,
+      "tags": [
+        "constante-acidite",
+        "temperature"
+      ]
+    },
+    {
+      "id": "PCTD-C04-004",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Quelles sont les valeurs de $K_a$ et de $\\mathrm{p}K_a$ du couple $\\mathrm{CH_3COOH/CH_3COO^-}$ à $25~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "$K_a = 1{,}6 \\times 10^{-5}$ et $\\mathrm{p}K_a = 4{,}8$.",
+      "difficulte": 1,
+      "tags": [
+        "acide-ethanoique",
+        "pka"
+      ]
+    },
+    {
+      "id": "PCTD-C04-005",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Entre deux couples acide/base pris à la même température, quel critère permet de dire lequel a l'acide le plus fort ?",
+      "verso": "L'acide le plus fort est celui du couple de plus grand $K_a$, donc de plus petit $\\mathrm{p}K_a$ : $K_{a1} \\gt K_{a2} \\iff \\mathrm{p}K_{a1} \\lt \\mathrm{p}K_{a2}$.",
+      "difficulte": 2,
+      "tags": [
+        "classement-acides"
+      ]
+    },
+    {
+      "id": "PCTD-C04-006",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Comment varie la force de la base conjuguée quand la force de l'acide d'un couple augmente ?",
+      "verso": "En sens inverse : plus l'acide est fort, plus sa base conjuguée est faible. Entre deux couples, la base la plus forte est celle du couple de plus grand $\\mathrm{p}K_a$.",
+      "difficulte": 2,
+      "tags": [
+        "classement-bases"
+      ]
+    },
+    {
+      "id": "PCTD-C04-007",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Quel critère expérimental permet de comparer la force de deux acides à l'aide de pH mesurés ?",
+      "verso": "A même concentration apportée et même température, l'acide le plus fort est celui dont la solution a le pH le plus bas.",
+      "difficulte": 2,
+      "tags": [
+        "critere-experimental"
+      ]
+    },
+    {
+      "id": "PCTD-C04-008",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "definition",
+      "recto": "Pourquoi ne peut-on pas classer deux acides faibles d'après les pH de solutions de concentrations différentes ?",
+      "verso": "Le pH dépend à la fois de la nature du couple (son $\\mathrm{p}K_a$) et de la concentration apportée : comparer des pH à concentrations différentes mélange les deux causes. Seule la comparaison des $\\mathrm{p}K_a$ classe les acides.",
+      "difficulte": 3,
+      "tags": [
+        "force-concentration",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C04-009",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "definition",
+      "recto": "Comment est organisée l'échelle des $\\mathrm{p}K_a$ ?",
+      "verso": "C'est un axe vertical gradué en $\\mathrm{p}K_a$ : l'acidité croît vers le bas (petits $\\mathrm{p}K_a$), la basicité vers le haut. Chaque couple occupe une seule graduation, qui renseigne sur l'acide et sur sa base.",
+      "difficulte": 2,
+      "tags": [
+        "echelle-pka"
+      ]
+    },
+    {
+      "id": "PCTD-C04-010",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre la constante d'acidité $K_a$ et le taux d'ionisation d'un acide faible ?",
+      "verso": "$K_a$ est constante à température donnée ; le taux d'ionisation dépend de la solution et augmente dès qu'on dilue.",
+      "difficulte": 3,
+      "tags": [
+        "taux-ionisation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C04-011",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "definition",
+      "recto": "Pourquoi une espèce comme $\\mathrm{HCO_3^-}$ semble-t-elle avoir deux $\\mathrm{p}K_a$ ?",
+      "verso": "Parce qu'elle appartient à deux couples différents, $\\mathrm{CO_2,H_2O/HCO_3^-}$ ($\\mathrm{p}K_a = 6{,}4$) et $\\mathrm{HCO_3^-/CO_3^{2-}}$ ($\\mathrm{p}K_a = 10{,}3$) : c'est un ampholyte. Un couple n'a qu'un $\\mathrm{p}K_a$.",
+      "difficulte": 3,
+      "tags": [
+        "ampholyte"
+      ]
+    },
+    {
+      "id": "PCTD-C04-012",
+      "lecon": "La constante d'acidité et le classement des couples acide/base",
+      "type": "formule",
+      "recto": "Quels sont les $\\mathrm{p}K_a$ des couples $\\mathrm{HCOOH/HCOO^-}$ et $\\mathrm{NH_4^+/NH_3}$ à $25~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "$\\mathrm{p}K_a = 3{,}8$ pour $\\mathrm{HCOOH/HCOO^-}$ et $\\mathrm{p}K_a = 9{,}2$ pour $\\mathrm{NH_4^+/NH_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "pka",
+        "valeurs"
+      ]
+    },
+    {
+      "id": "PCTD-C04-013",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Quelle relation lie le pH d'une solution au $\\mathrm{p}K_a$ d'un couple $\\mathrm{AH/A^-}$ qu'elle contient ?",
+      "verso": "$\\mathrm{pH} = \\mathrm{p}K_a + \\log \\dfrac{\\left[\\mathrm{A^-}\\right]}{\\left[\\mathrm{AH}\\right]}$, soit $\\dfrac{\\left[\\mathrm{A^-}\\right]}{\\left[\\mathrm{AH}\\right]} = 10^{\\mathrm{pH} - \\mathrm{p}K_a}$.",
+      "difficulte": 1,
+      "tags": [
+        "relation-ph-pka"
+      ]
+    },
+    {
+      "id": "PCTD-C04-014",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Pourquoi un écart $\\mathrm{pH} - \\mathrm{p}K_a = 2$ ne signifie-t-il pas qu'il y a deux fois plus de base que d'acide ?",
+      "verso": "Cet écart est un exposant : $\\dfrac{\\left[\\mathrm{A^-}\\right]}{\\left[\\mathrm{AH}\\right]} = 10^{2} = 100$. La base est cent fois plus concentrée que l'acide.",
+      "difficulte": 3,
+      "tags": [
+        "exposant",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C04-015",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Comment détermine-t-on graphiquement le $\\mathrm{p}K_a$ d'un couple à partir de mélanges d'un acide faible et de sa base conjuguée ?",
+      "verso": "On trace $\\mathrm{pH} = f\\left(\\log \\dfrac{\\left[\\mathrm{A^-}\\right]}{\\left[\\mathrm{AH}\\right]}\\right)$ : c'est une droite de coefficient directeur 1 dont l'ordonnée à l'origine est le $\\mathrm{p}K_a$.",
+      "difficulte": 2,
+      "tags": [
+        "determination-graphique"
+      ]
+    },
+    {
+      "id": "PCTD-C04-016",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Pour un mélange d'un volume $V_a$ d'acide faible de concentration $C_a$ et d'un volume $V_b$ de sa base conjuguée de concentration $C_b$, quelle relation donne le pH ?",
+      "verso": "$\\mathrm{pH} = \\mathrm{p}K_a + \\log \\dfrac{C_bV_b}{C_aV_a}$, valable si $0{,}1 \\leqslant \\dfrac{C_bV_b}{C_aV_a} \\leqslant 10$ ; si $C_a = C_b$, $\\mathrm{pH} = \\mathrm{p}K_a + \\log \\dfrac{V_b}{V_a}$.",
+      "difficulte": 3,
+      "tags": [
+        "melange-acide-base"
+      ]
+    },
+    {
+      "id": "PCTD-C04-017",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Pour un couple acide/base, que signifie dire qu'une espèce prédomine ?",
+      "verso": "Que sa concentration est supérieure à celle de l'autre forme du couple.",
+      "difficulte": 1,
+      "tags": [
+        "predominance"
+      ]
+    },
+    {
+      "id": "PCTD-C04-018",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Quelle forme d'un couple $\\mathrm{AH/A^-}$ prédomine selon que le pH est inférieur, égal ou supérieur au $\\mathrm{p}K_a$ ?",
+      "verso": "$\\mathrm{pH} \\lt \\mathrm{p}K_a$ : la forme acide $\\mathrm{AH}$ ; $\\mathrm{pH} = \\mathrm{p}K_a$ : concentrations égales (formes codominantes) ; $\\mathrm{pH} \\gt \\mathrm{p}K_a$ : la forme basique $\\mathrm{A^-}$.",
+      "difficulte": 1,
+      "tags": [
+        "predominance"
+      ]
+    },
+    {
+      "id": "PCTD-C04-019",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Avec la convention du facteur dix, quels sont les trois domaines de pH d'un couple $\\mathrm{AH/A^-}$ ?",
+      "verso": "$\\mathrm{pH} \\leqslant \\mathrm{p}K_a - 1$ : $\\mathrm{AH}$ majoritaire ; $\\mathrm{p}K_a - 1 \\lt \\mathrm{pH} \\lt \\mathrm{p}K_a + 1$ : les deux formes coexistent ; $\\mathrm{pH} \\geqslant \\mathrm{p}K_a + 1$ : $\\mathrm{A^-}$ majoritaire.",
+      "difficulte": 2,
+      "tags": [
+        "facteur-dix",
+        "domaines"
+      ]
+    },
+    {
+      "id": "PCTD-C04-020",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Comment se présente le diagramme de prédominance d'un couple acide/base ?",
+      "verso": "Un axe horizontal gradué en pH sur lequel on porte le $\\mathrm{p}K_a$ : forme acide à gauche, forme basique à droite, et une bande centrale de $\\mathrm{p}K_a - 1$ à $\\mathrm{p}K_a + 1$ où les deux formes coexistent.",
+      "difficulte": 2,
+      "tags": [
+        "diagramme-predominance"
+      ]
+    },
+    {
+      "id": "PCTD-C04-021",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Pourquoi la forme acide d'un couple se place-t-elle à gauche, côté pH bas, sur un diagramme de prédominance ?",
+      "verso": "Un milieu de pH bas est riche en protons, donc favorable à la forme protonée, c'est-à-dire à l'acide.",
+      "difficulte": 2,
+      "tags": [
+        "diagramme-predominance"
+      ]
+    },
+    {
+      "id": "PCTD-C04-022",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un indicateur coloré acido-basique ?",
+      "verso": "Un couple acide/base $\\mathrm{HIn/In^-}$, utilisé en très faible quantité, dont la forme acide et la forme basique n'ont pas la même couleur : $\\mathrm{HIn + H_2O \\rightleftarrows In^- + H_3O^+}$.",
+      "difficulte": 1,
+      "tags": [
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PCTD-C04-023",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la zone de virage d'un indicateur coloré ?",
+      "verso": "L'intervalle de pH où l'on observe la teinte sensible, mélange des deux couleurs ; théoriquement $\\left[\\mathrm{p}K_a - 1\\,;\\,\\mathrm{p}K_a + 1\\right]$, en pratique un intervalle voisin donné par les tables.",
+      "difficulte": 2,
+      "tags": [
+        "zone-virage"
+      ]
+    },
+    {
+      "id": "PCTD-C04-024",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Quelles sont la zone de virage et les teintes de l'hélianthine ?",
+      "verso": "Rouge en milieu acide, jaune en milieu basique, zone de virage de $3{,}1$ à $4{,}4$.",
+      "difficulte": 2,
+      "tags": [
+        "helianthine"
+      ]
+    },
+    {
+      "id": "PCTD-C04-025",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Quelles sont la zone de virage et les teintes du bleu de bromothymol ?",
+      "verso": "Jaune en milieu acide, bleu en milieu basique, zone de virage de $6{,}0$ à $7{,}6$.",
+      "difficulte": 2,
+      "tags": [
+        "bleu-bromothymol"
+      ]
+    },
+    {
+      "id": "PCTD-C04-026",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "formule",
+      "recto": "Quelles sont la zone de virage et les teintes de la phénolphtaléine ?",
+      "verso": "Incolore en milieu acide, rose en milieu basique, zone de virage de $8{,}2$ à $10{,}0$.",
+      "difficulte": 2,
+      "tags": [
+        "phenolphtaleine"
+      ]
+    },
+    {
+      "id": "PCTD-C04-027",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Pourquoi la teinte jaune de l'hélianthine ne permet-elle pas d'affirmer que le pH vaut $4{,}4$ ?",
+      "verso": "Un indicateur encadre un pH, il ne le mesure pas : la teinte jaune indique seulement que le pH est supérieur à $4{,}4$.",
+      "difficulte": 3,
+      "tags": [
+        "indicateur-colore",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C04-028",
+      "lecon": "La relation entre pH et pKa, les zones de prédominance et les indicateurs colorés",
+      "type": "definition",
+      "recto": "Pourquoi n'ajoute-t-on que quelques gouttes d'indicateur coloré à une solution ?",
+      "verso": "L'indicateur est lui-même un acide faible : en quantité notable, il libère ses propres ions $\\mathrm{H_3O^+}$ et modifie le pH de la solution étudiée.",
+      "difficulte": 2,
+      "tags": [
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PCTD-C04-029",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "formule",
+      "recto": "Entre quelles valeurs s'étend l'échelle des $\\mathrm{p}K_a$ en solution aqueuse, et pourquoi ?",
+      "verso": "De 0 à 14, car l'eau appartient aux couples $\\mathrm{H_3O^+/H_2O}$ ($\\mathrm{p}K_a = 0$) et $\\mathrm{H_2O/OH^-}$ ($\\mathrm{p}K_a = 14$).",
+      "difficulte": 2,
+      "tags": [
+        "echelle-pka",
+        "eau"
+      ]
+    },
+    {
+      "id": "PCTD-C04-030",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "definition",
+      "recto": "En solution aqueuse, quels sont l'acide le plus fort et la base la plus forte qui puissent exister ?",
+      "verso": "L'acide le plus fort est l'ion hydronium $\\mathrm{H_3O^+}$, la base la plus forte l'ion hydroxyde $\\mathrm{OH^-}$.",
+      "difficulte": 1,
+      "tags": [
+        "hydronium",
+        "hydroxyde"
+      ]
+    },
+    {
+      "id": "PCTD-C04-031",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "definition",
+      "recto": "Quel est le caractère acido-basique de la base conjuguée d'un acide fort, comme $\\mathrm{Cl^-}$ ?",
+      "verso": "C'est une base indifférente (dite infiniment faible) : elle ne réagit pas avec l'eau. Exemples : $\\mathrm{Cl^-}$, $\\mathrm{NO_3^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "base-indifferente"
+      ]
+    },
+    {
+      "id": "PCTD-C04-032",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "definition",
+      "recto": "Quel est le caractère acido-basique de l'acide conjugué d'une base forte, comme l'éthanol ?",
+      "verso": "C'est un acide indifférent (infiniment faible) : l'éthanol $\\mathrm{C_2H_5OH}$, acide du couple $\\mathrm{C_2H_5OH/C_2H_5O^-}$, ne réagit pas avec l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "acide-indifferent"
+      ]
+    },
+    {
+      "id": "PCTD-C04-033",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "definition",
+      "recto": "Quelle différence de comportement dans l'eau sépare l'ion chlorure de l'ion éthanoate ?",
+      "verso": "L'ion éthanoate est une base faible : il réagit peu avec l'eau mais rend la solution basique. L'ion chlorure est une base indifférente : il ne réagit pas du tout et laisse le pH à 7.",
+      "difficulte": 3,
+      "tags": [
+        "base-indifferente",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C04-034",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "formule",
+      "recto": "Comment prépare-t-on l'éthanolate de sodium ?",
+      "verso": "Hors de l'eau, par action du sodium sur l'éthanol pur : $\\mathrm{C_2H_5OH + Na \\rightarrow C_2H_5O^- + Na^+ + \\frac{1}{2}H_2}$. Dans l'eau, l'ion éthanolate, base forte, serait entièrement converti en éthanol et ions $\\mathrm{OH^-}$.",
+      "difficulte": 3,
+      "tags": [
+        "ethanolate",
+        "base-forte"
+      ]
+    },
+    {
+      "id": "PCTD-C04-035",
+      "lecon": "Le cas des acides forts et des bases fortes",
+      "type": "definition",
+      "recto": "Que peut-on dire de l'acide et de la base d'un couple dont le $\\mathrm{p}K_a$ est compris entre 0 et 14 ?",
+      "verso": "Ils sont tous deux faibles : les deux formes du couple existent dans l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "acide-faible",
+        "base-faible"
+      ]
+    }
+  ]
+}

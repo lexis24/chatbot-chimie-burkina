@@ -1,0 +1,440 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 7 : Les potentiels d'oxydoréduction",
+  "source": "pc/1ered/Chimie_Chapitre_7_Les_potentiels_d_oxydoreduction",
+  "nombre_cartes": 37,
+  "cartes": [
+    {
+      "id": "PC1D-C07-001",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "En électrochimie, qu'appelle-t-on une demi-pile ?",
+      "verso": "L'ensemble formé par un métal $\\mathrm{M}$, l'électrode, plongé dans une solution contenant l'ion $\\mathrm{M^{n+}}$ correspondant ; elle met en jeu le couple $\\mathrm{M^{n+}/M}$.",
+      "difficulte": 1,
+      "tags": [
+        "demi-pile"
+      ]
+    },
+    {
+      "id": "PC1D-C07-002",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Comment est constituée une pile Daniell ?",
+      "verso": "De deux demi-piles, l'une $\\mathrm{Zn^{2+}/Zn}$, l'autre $\\mathrm{Cu^{2+}/Cu}$, reliées par un pont salin ; sa f.é.m. vaut environ $1{,}10~\\mathrm{V}$.",
+      "difficulte": 1,
+      "tags": [
+        "pile-daniell"
+      ]
+    },
+    {
+      "id": "PC1D-C07-003",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Quel est le rôle du pont salin dans une pile ?",
+      "verso": "Il ferme le circuit en laissant passer les ions, empêche le mélange des deux solutions et maintient l'électroneutralité de chaque demi-pile.",
+      "difficulte": 1,
+      "tags": [
+        "pont-salin"
+      ]
+    },
+    {
+      "id": "PC1D-C07-004",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Quel est le rôle du vase poreux dans le montage historique de la pile Daniell ?",
+      "verso": "Le même que celui du pont salin : sa paroi de terre cuite laisse migrer les ions tout en séparant les deux solutions.",
+      "difficulte": 2,
+      "tags": [
+        "vase-poreux"
+      ]
+    },
+    {
+      "id": "PC1D-C07-005",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire que le pont salin conduit les électrons d'une demi-pile à l'autre ?",
+      "verso": "Aucun électron ne traverse une solution : les électrons ne circulent que dans les métaux. Le pont ne fait circuler que des ions, et c'est ainsi qu'il ferme le circuit.",
+      "difficulte": 3,
+      "tags": [
+        "pont-salin",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C07-006",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Dans une pile, qu'appelle-t-on l'anode et la cathode ?",
+      "verso": "L'anode est l'électrode siège de l'oxydation, c'est le pôle négatif de la pile ; la cathode est l'électrode siège de la réduction, c'est le pôle positif.",
+      "difficulte": 1,
+      "tags": [
+        "anode",
+        "cathode"
+      ]
+    },
+    {
+      "id": "PC1D-C07-007",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Pourquoi l'anode d'une pile est-elle le pôle négatif alors que l'anode d'une électrolyse est reliée au pôle positif ?",
+      "verso": "Dans une électrolyse, un générateur extérieur impose le courant ; dans une pile, la pile est elle-même le générateur et son anode libère les électrons. Dans les deux cas, l'anode reste le siège de l'oxydation : on la définit par la réaction, jamais par le signe.",
+      "difficulte": 3,
+      "tags": [
+        "anode",
+        "electrolyse",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C07-008",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "formule",
+      "recto": "Quelles sont les équations aux électrodes d'une pile Daniell qui débite ?",
+      "verso": "Anode (zinc, pôle négatif) : $\\mathrm{Zn \\rightarrow Zn^{2+} + 2e^-}$ ; cathode (cuivre, pôle positif) : $\\mathrm{Cu^{2+} + 2e^- \\rightarrow Cu}$ ; bilan : $\\mathrm{Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu}$.",
+      "difficulte": 2,
+      "tags": [
+        "pile-daniell",
+        "equations-electrodes"
+      ]
+    },
+    {
+      "id": "PC1D-C07-009",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "formule",
+      "recto": "Quelle est la notation conventionnelle de la pile Daniell ?",
+      "verso": "$\\ominus\\ \\mathrm{Zn} \\mid \\mathrm{Zn^{2+}} \\parallel \\mathrm{Cu^{2+}} \\mid \\mathrm{Cu}\\ \\oplus$ : pôle négatif à gauche, une barre simple par contact métal-solution, une barre double pour le pont salin.",
+      "difficulte": 2,
+      "tags": [
+        "notation-conventionnelle"
+      ]
+    },
+    {
+      "id": "PC1D-C07-010",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Dans une pile Daniell qui débite, dans quel sens circulent les électrons ?",
+      "verso": "Uniquement dans les métaux (lames et fils), de la lame de zinc vers la lame de cuivre, en sens inverse du courant.",
+      "difficulte": 2,
+      "tags": [
+        "electrons",
+        "porteurs-de-charge"
+      ]
+    },
+    {
+      "id": "PC1D-C07-011",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "definition",
+      "recto": "Dans les solutions et le pont salin d'une pile qui débite, vers quelle électrode migrent les cations et les anions ?",
+      "verso": "Les cations migrent vers la cathode et les anions vers l'anode ; ce sont les ions qui transportent la charge dans les solutions.",
+      "difficulte": 2,
+      "tags": [
+        "ions",
+        "porteurs-de-charge"
+      ]
+    },
+    {
+      "id": "PC1D-C07-012",
+      "lecon": "La pile Daniell : constitution et fonctionnement",
+      "type": "formule",
+      "recto": "Quelle relation donne la quantité de matière d'électrons échangés par une pile qui débite un courant constant $I$ pendant $\\Delta t$ ?",
+      "verso": "$n(\\mathrm{e^-}) = \\dfrac{I \\times \\Delta t}{F}$, avec $Q = I \\times \\Delta t$ en coulombs ($I$ en A, $\\Delta t$ en s) et $F = N_A \\times e \\approx 9{,}6 \\times 10^{4}~\\mathrm{C/mol}$, le faraday.",
+      "difficulte": 2,
+      "tags": [
+        "quantite-electricite",
+        "faraday"
+      ]
+    },
+    {
+      "id": "PC1D-C07-013",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la force électromotrice $E$ d'une pile ?",
+      "verso": "La tension aux bornes de la pile lorsqu'elle ne débite pas ; elle s'exprime en volts.",
+      "difficulte": 1,
+      "tags": [
+        "fem"
+      ]
+    },
+    {
+      "id": "PC1D-C07-014",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "formule",
+      "recto": "Quelle relation donne la tension $U_{PN}$ aux bornes d'une pile de f.é.m. $E$ qui débite un courant $I$ ?",
+      "verso": "$U_{PN} = E - r\\,I$, où $r$ est la résistance interne de la pile : $U_{PN}$ est toujours inférieure à $E$ quand la pile débite.",
+      "difficulte": 2,
+      "tags": [
+        "tension-bornes",
+        "resistance-interne"
+      ]
+    },
+    {
+      "id": "PC1D-C07-015",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "definition",
+      "recto": "Comment est constituée l'électrode standard à hydrogène (ESH) ?",
+      "verso": "D'une lame de platine platiné plongée dans une solution acide où $\\left[\\mathrm{H^+}\\right] = 1~\\mathrm{mol/L}$, sur laquelle barbote du dihydrogène sous $1~\\mathrm{bar}$, à $25~^{\\circ}\\mathrm{C}$ ; elle met en jeu le couple $\\mathrm{H^+/H_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "esh"
+      ]
+    },
+    {
+      "id": "PC1D-C07-016",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "formule",
+      "recto": "Quelle est la valeur du potentiel de l'électrode standard à hydrogène ?",
+      "verso": "$E^{0}(\\mathrm{H^+/H_2}) = 0{,}00~\\mathrm{V}$, par convention et non par mesure.",
+      "difficulte": 1,
+      "tags": [
+        "esh",
+        "convention"
+      ]
+    },
+    {
+      "id": "PC1D-C07-017",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le potentiel standard $E^{0}$ d'un couple $\\mathrm{M^{n+}/M}$ ?",
+      "verso": "La f.é.m. de la pile formée par la demi-pile de ce couple et l'électrode standard à hydrogène, dans les conditions standard ; elle est comptée positive si la demi-pile est le pôle positif, négative si elle est le pôle négatif.",
+      "difficulte": 2,
+      "tags": [
+        "potentiel-standard"
+      ]
+    },
+    {
+      "id": "PC1D-C07-018",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "definition",
+      "recto": "Quelles sont les conditions standard dans lesquelles on mesure un potentiel $E^{0}$ ?",
+      "verso": "Espèces dissoutes à $1~\\mathrm{mol/L}$, gaz sous $1~\\mathrm{bar}$, température de $25~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 1,
+      "tags": [
+        "conditions-standard"
+      ]
+    },
+    {
+      "id": "PC1D-C07-019",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "formule",
+      "recto": "Quelle relation donne la f.é.m. standard d'une pile à partir des potentiels de ses deux couples ?",
+      "verso": "$E^{0}_{\\text{pile}} = E^{0}_{\\text{cathode}} - E^{0}_{\\text{anode}}$, la cathode étant le pôle positif ; la f.é.m. d'une pile réelle est toujours positive.",
+      "difficulte": 1,
+      "tags": [
+        "fem-standard"
+      ]
+    },
+    {
+      "id": "PC1D-C07-020",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "definition",
+      "recto": "Quelle erreur de calcul guette dans $E^{0}_{\\text{pile}} = 0{,}34 - (-0{,}76)$ pour la pile Daniell ?",
+      "verso": "Oublier la parenthèse et trouver $-0{,}42~\\mathrm{V}$ : soustraire un nombre négatif revient à l'ajouter, donc $E^{0}_{\\text{pile}} = 0{,}34 + 0{,}76 = 1{,}10~\\mathrm{V}$.",
+      "difficulte": 3,
+      "tags": [
+        "fem-standard",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C07-021",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "formule",
+      "recto": "Avec une électrode de référence de potentiel $E_{\\text{réf}}$, comment déduit-on le potentiel $E$ d'un couple à partir de la f.é.m. $U$ mesurée ?",
+      "verso": "Si le couple étudié est le pôle positif, $E = E_{\\text{réf}} + U$ ; s'il est le pôle négatif, $E = E_{\\text{réf}} - U$ (électrode au calomel saturée : $E_{\\text{réf}} = 0{,}24~\\mathrm{V}$).",
+      "difficulte": 3,
+      "tags": [
+        "electrode-reference",
+        "ecs"
+      ]
+    },
+    {
+      "id": "PC1D-C07-022",
+      "lecon": "La force électromotrice et le potentiel standard d'électrode",
+      "type": "definition",
+      "recto": "Que devient le potentiel d'un couple $\\mathrm{M^{n+}/M}$ hors des conditions standard ?",
+      "verso": "Il dépend des concentrations, se note $E$ sans l'exposant 0 et s'écarte un peu de $E^{0}$ : diluer les ions $\\mathrm{M^{n+}}$ abaisse légèrement le potentiel.",
+      "difficulte": 3,
+      "tags": [
+        "potentiel",
+        "concentration"
+      ]
+    },
+    {
+      "id": "PC1D-C07-023",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "definition",
+      "recto": "Sur l'axe des potentiels standard, comment le pouvoir oxydant et le pouvoir réducteur varient-ils avec $E^{0}$ ?",
+      "verso": "Plus $E^{0}$ est grand, plus l'oxydant du couple est fort ; plus $E^{0}$ est petit, plus le réducteur du couple est fort.",
+      "difficulte": 2,
+      "tags": [
+        "classification-electrochimique"
+      ]
+    },
+    {
+      "id": "PC1D-C07-024",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "definition",
+      "recto": "Pourquoi le potassium, couple au plus petit potentiel du tableau, n'est-il pas le plus mauvais réducteur ?",
+      "verso": "C'est l'inverse : plus $E^{0}$ est petit, plus le réducteur du couple est fort. Le potassium est le meilleur réducteur du tableau.",
+      "difficulte": 3,
+      "tags": [
+        "classification-electrochimique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C07-025",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "formule",
+      "recto": "Sur l'axe des potentiels croissants vers le haut, que prévoit la règle du gamma pour deux couples ?",
+      "verso": "La réaction spontanée fait réagir l'oxydant du couple le plus haut avec le réducteur du couple le plus bas ; sa f.é.m. standard $E^{0}_{\\text{haut}} - E^{0}_{\\text{bas}}$ est positive.",
+      "difficulte": 2,
+      "tags": [
+        "regle-du-gamma"
+      ]
+    },
+    {
+      "id": "PC1D-C07-026",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "definition",
+      "recto": "Que conclure lorsque le calcul de la f.é.m. standard d'une réaction proposée donne une valeur négative ?",
+      "verso": "La réaction proposée ne se produit pas dans ce sens : c'est la réaction inverse, de f.é.m. opposée, qui est spontanée.",
+      "difficulte": 2,
+      "tags": [
+        "critere-du-signe"
+      ]
+    },
+    {
+      "id": "PC1D-C07-027",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation électronique du couple $\\mathrm{MnO_4^-/Mn^{2+}}$ en milieu acide ?",
+      "verso": "$\\mathrm{MnO_4^- + 8H^+ + 5e^- \\rightleftarrows Mn^{2+} + 4H_2O}$, avec $E^{0} = +1{,}51~\\mathrm{V}$.",
+      "difficulte": 2,
+      "tags": [
+        "permanganate",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC1D-C07-028",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation électronique du couple $\\mathrm{Cr_2O_7^{2-}/Cr^{3+}}$ en milieu acide ?",
+      "verso": "$\\mathrm{Cr_2O_7^{2-} + 14H^+ + 6e^- \\rightleftarrows 2Cr^{3+} + 7H_2O}$, avec $E^{0} = +1{,}33~\\mathrm{V}$.",
+      "difficulte": 2,
+      "tags": [
+        "dichromate",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC1D-C07-029",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "formule",
+      "recto": "Dans quel ordre équilibre-t-on la demi-équation d'un couple oxygéné en milieu acide ?",
+      "verso": "L'élément principal, puis l'oxygène avec des molécules $\\mathrm{H_2O}$, puis l'hydrogène avec des ions $\\mathrm{H^+}$, enfin la charge avec des électrons placés du côté de l'oxydant.",
+      "difficulte": 2,
+      "tags": [
+        "milieu-acide",
+        "equilibrage"
+      ]
+    },
+    {
+      "id": "PC1D-C07-030",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'oxydation des ions fer II par les ions permanganate en milieu acide ?",
+      "verso": "$\\mathrm{MnO_4^- + 5Fe^{2+} + 8H^+ \\rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O}$ ; la teinte violette disparaît.",
+      "difficulte": 2,
+      "tags": [
+        "permanganate",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC1D-C07-031",
+      "lecon": "La classification électrochimique et la prévision des réactions",
+      "type": "formule",
+      "recto": "Quel test montre que des ions fer II ont été oxydés en ions fer III ?",
+      "verso": "Avec la soude, les ions $\\mathrm{Fe^{3+}}$ donnent un précipité rouille d'hydroxyde de fer III, alors que les ions $\\mathrm{Fe^{2+}}$ donnent un précipité vert d'hydroxyde de fer II.",
+      "difficulte": 2,
+      "tags": [
+        "test-soude",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC1D-C07-032",
+      "lecon": "Corrosion, protection et piles du commerce",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la corrosion d'un métal ?",
+      "verso": "Son oxydation par un oxydant de son environnement, le plus souvent le dioxygène dissous dans l'eau ; elle est spontanée si le couple de l'oxydant est au-dessus de celui du métal sur l'axe des potentiels.",
+      "difficulte": 1,
+      "tags": [
+        "corrosion"
+      ]
+    },
+    {
+      "id": "PC1D-C07-033",
+      "lecon": "Corrosion, protection et piles du commerce",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la formation de la rouille du fer ?",
+      "verso": "$\\mathrm{2Fe + O_2 + 2H_2O \\rightarrow 2Fe(OH)_2}$, de f.é.m. standard $0{,}40 - (-0{,}44) = 0{,}84~\\mathrm{V}$.",
+      "difficulte": 2,
+      "tags": [
+        "rouille",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC1D-C07-034",
+      "lecon": "Corrosion, protection et piles du commerce",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on protéger cathodiquement un métal ?",
+      "verso": "Le relier à un métal de potentiel standard plus faible, l'anode sacrificielle, qui s'oxyde à sa place ; le métal protégé devient la cathode et cesse de se corroder.",
+      "difficulte": 2,
+      "tags": [
+        "protection-cathodique",
+        "anode-sacrificielle"
+      ]
+    },
+    {
+      "id": "PC1D-C07-035",
+      "lecon": "Corrosion, protection et piles du commerce",
+      "type": "definition",
+      "recto": "Pourquoi le cuivre relié au fer ne le protège-t-il pas de la rouille ?",
+      "verso": "Le cuivre est au-dessus du fer sur l'axe des potentiels : relié au fer, il en fait l'anode et accélère sa corrosion. Il faut un métal plus bas, comme le zinc ou le magnésium.",
+      "difficulte": 3,
+      "tags": [
+        "protection-cathodique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C07-036",
+      "lecon": "Corrosion, protection et piles du commerce",
+      "type": "definition",
+      "recto": "Pourquoi la galvanisation, revêtement de zinc sur une pièce de fer, protège-t-elle le fer même quand la couche est rayée ?",
+      "verso": "Le zinc, de potentiel plus faible que le fer, continue de protéger comme anode sacrificielle : il s'oxyde à la place du fer. Une simple peinture, elle, laisse rouiller le fer dès la première éraflure.",
+      "difficulte": 2,
+      "tags": [
+        "galvanisation"
+      ]
+    },
+    {
+      "id": "PC1D-C07-037",
+      "lecon": "Corrosion, protection et piles du commerce",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un accumulateur ?",
+      "verso": "Une pile rechargeable : un courant imposé en sens contraire inverse la réaction de décharge et reconstitue les réactifs. Une batterie de moto réunit six accumulateurs au plomb de $2~\\mathrm{V}$ en série, soit $12~\\mathrm{V}$.",
+      "difficulte": 1,
+      "tags": [
+        "accumulateur",
+        "batterie"
+      ]
+    }
+  ]
+}

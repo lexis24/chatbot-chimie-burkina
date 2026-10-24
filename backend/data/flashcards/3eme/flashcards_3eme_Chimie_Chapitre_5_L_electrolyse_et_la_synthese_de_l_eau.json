@@ -1,0 +1,414 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 5 : L'électrolyse et la synthèse de l'eau",
+  "source": "pc/3eme/Chimie_Chapitre_5_L_electrolyse_et_la_synthese_de_l_eau",
+  "nombre_cartes": 34,
+  "cartes": [
+    {
+      "id": "PC3E-C05-001",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'électrolyse de l'eau ?",
+      "verso": "C'est la décomposition de l'eau en dihydrogène et en dioxygène sous l'action d'un courant électrique continu.",
+      "difficulte": 1,
+      "tags": [
+        "electrolyse",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C05-002",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Pourquoi ajoute-t-on quelques gouttes de soude à l'eau d'un électrolyseur ?",
+      "verso": "L'eau pure conduit très mal le courant : la soude (ou la potasse, ou l'acide sulfurique dilué) apporte des ions qui permettent le passage du courant.",
+      "difficulte": 2,
+      "tags": [
+        "soude",
+        "conduction"
+      ]
+    },
+    {
+      "id": "PC3E-C05-003",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Pourquoi la soude ajoutée à l'eau d'un électrolyseur n'est-elle pas un réactif ?",
+      "verso": "Elle n'est pas consommée : elle est encore là à la fin de l'expérience. Un réactif est un corps qui disparaît au cours de la réaction.",
+      "difficulte": 2,
+      "tags": [
+        "soude",
+        "reactif"
+      ]
+    },
+    {
+      "id": "PC3E-C05-004",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "formule",
+      "recto": "Pour rendre l'eau conductrice avant une électrolyse, pourquoi n'emploie-t-on jamais de sel de cuisine ?",
+      "verso": "Le chlorure de sodium (sel de cuisine) dégagerait du dichlore, un gaz toxique. On emploie la soude, la potasse ou l'acide sulfurique dilué.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "dichlore"
+      ]
+    },
+    {
+      "id": "PC3E-C05-005",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Lors de l'électrolyse de l'eau, qu'appelle-t-on l'anode ?",
+      "verso": "C'est l'électrode reliée à la borne positive du générateur, par laquelle le courant entre dans la solution. On y recueille le dioxygène $\\mathrm{O_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "anode",
+        "dioxygene"
+      ]
+    },
+    {
+      "id": "PC3E-C05-006",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Lors de l'électrolyse de l'eau, qu'appelle-t-on la cathode ?",
+      "verso": "C'est l'électrode reliée à la borne négative du générateur, par laquelle le courant sort de la solution. On y recueille le dihydrogène $\\mathrm{H_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "cathode",
+        "dihydrogene"
+      ]
+    },
+    {
+      "id": "PC3E-C05-007",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "formule",
+      "recto": "Comment identifie-t-on le dihydrogène recueilli lors d'une électrolyse de l'eau ?",
+      "verso": "On approche une allumette enflammée de l'ouverture du tube, tenu ouverture vers le bas : le dihydrogène brûle avec une petite détonation (il « aboie »).",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "dihydrogene"
+      ]
+    },
+    {
+      "id": "PC3E-C05-008",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "formule",
+      "recto": "Comment identifie-t-on le dioxygène recueilli lors d'une électrolyse de l'eau ?",
+      "verso": "On plonge une bûchette incandescente dans le tube, tenu ouverture vers le haut : elle se rallume vivement.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "dioxygene"
+      ]
+    },
+    {
+      "id": "PC3E-C05-009",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse de l'eau, quelle relation lie les volumes de dihydrogène et de dioxygène recueillis dans le même temps ?",
+      "verso": "$V(\\mathrm{H_2}) = 2 \\times V(\\mathrm{O_2})$ : le volume de dihydrogène est toujours le double de celui du dioxygène.",
+      "difficulte": 1,
+      "tags": [
+        "proportions",
+        "volume"
+      ]
+    },
+    {
+      "id": "PC3E-C05-010",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Quels sont les éléments d'un électrolyseur (voltamètre) à électrodes ?",
+      "verso": "Une cuve contenant l'eau additionnée de soude, deux électrodes inertes (graphite), deux tubes gradués retournés qui recueillent les gaz, un générateur de courant continu, un interrupteur et un ampèremètre en série.",
+      "difficulte": 2,
+      "tags": [
+        "voltametre",
+        "montage"
+      ]
+    },
+    {
+      "id": "PC3E-C05-011",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Quelle confusion de vocabulaire faut-il éviter entre voltamètre et voltmètre ?",
+      "verso": "Le voltamètre (ou électrolyseur) est la cuve où l'on fait l'électrolyse ; le voltmètre est l'appareil qui mesure une tension.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "voltametre"
+      ]
+    },
+    {
+      "id": "PC3E-C05-012",
+      "lecon": "L'électrolyse de l'eau, le montage et les gaz recueillis",
+      "type": "definition",
+      "recto": "Pourquoi tient-on le tube de dioxygène ouverture vers le haut lors de son identification ?",
+      "verso": "Le dioxygène est plus dense que le dihydrogène ; il ne brûle pas lui-même mais entretient la combustion, d'où la bûchette qui se rallume. Le tube de dihydrogène, gaz très peu dense, se tient ouverture vers le bas.",
+      "difficulte": 3,
+      "tags": [
+        "test",
+        "densite"
+      ]
+    },
+    {
+      "id": "PC3E-C05-013",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'électrolyse de l'eau ?",
+      "verso": "$\\mathrm{2H_2O \\rightarrow 2H_2 + O_2}$ : le réactif est l'eau, les produits sont le dihydrogène et le dioxygène.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC3E-C05-014",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Comment vérifie-t-on que l'équation $\\mathrm{2H_2O \\rightarrow 2H_2 + O_2}$ est équilibrée ?",
+      "verso": "On compte les atomes de chaque côté de la flèche : $4$ atomes d'hydrogène et $2$ atomes d'oxygène de part et d'autre, avec des coefficients entiers.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan",
+        "equilibrage"
+      ]
+    },
+    {
+      "id": "PC3E-C05-015",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Lors de l'électrolyse de l'eau, combien de molécules de dioxygène se forment à partir de $N$ molécules d'eau ?",
+      "verso": "$N$ molécules d'eau donnent $N$ molécules de dihydrogène et $\\dfrac{N}{2}$ molécules de dioxygène.",
+      "difficulte": 2,
+      "tags": [
+        "lecture-equation",
+        "molecules"
+      ]
+    },
+    {
+      "id": "PC3E-C05-016",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "formule",
+      "recto": "Lors d'une électrolyse de l'eau, quelle fraction du volume total représente le dioxygène quand les deux gaz sont recueillis dans une seule éprouvette ?",
+      "verso": "Le total vaut 3 parts : le dioxygène en occupe $\\dfrac{1}{3}$ et le dihydrogène $\\dfrac{2}{3}$, puisque $V(\\mathrm{H_2}) = 2 \\times V(\\mathrm{O_2})$.",
+      "difficulte": 2,
+      "tags": [
+        "proportions",
+        "volume"
+      ]
+    },
+    {
+      "id": "PC3E-C05-017",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps simple ?",
+      "verso": "Un corps formé d'une seule sorte d'atomes ; il ne peut pas être décomposé.",
+      "difficulte": 1,
+      "tags": [
+        "corps-simple"
+      ]
+    },
+    {
+      "id": "PC3E-C05-018",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Pourquoi l'électrolyse prouve-t-elle que l'eau est un corps composé ?",
+      "verso": "L'eau se décompose en deux corps simples différents, le dihydrogène et le dioxygène : elle contient donc au moins deux sortes d'atomes.",
+      "difficulte": 2,
+      "tags": [
+        "corps-compose",
+        "eau"
+      ]
+    },
+    {
+      "id": "PC3E-C05-019",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Lors de l'électrolyse de l'eau, d'où vient l'énergie nécessaire à la réaction ?",
+      "verso": "Du générateur : l'électrolyse exige un apport d'énergie électrique. Elle ne se produit pas toute seule et s'arrête dès que l'on coupe l'interrupteur.",
+      "difficulte": 2,
+      "tags": [
+        "energie",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC3E-C05-020",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Quelle erreur commet-on en écrivant $\\mathrm{H_2O \\rightarrow H_2 + O}$ ?",
+      "verso": "L'atome d'oxygène seul n'existe pas ici : il se met par paires. On équilibre avec les coefficients : $\\mathrm{2H_2O \\rightarrow 2H_2 + O_2}$.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C05-021",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Pourquoi ne doit-on jamais modifier les indices d'une formule pour équilibrer une équation ?",
+      "verso": "Changer un indice change le corps : $\\mathrm{H_2O_2}$ à la place de $\\mathrm{H_2O}$, ce n'est plus de l'eau. On n'agit que sur les coefficients, qui restent entiers.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "equilibrage"
+      ]
+    },
+    {
+      "id": "PC3E-C05-022",
+      "lecon": "L'interprétation de l'électrolyse, l'équation et les proportions",
+      "type": "definition",
+      "recto": "Quel contrôle simple permet de repérer une mesure fausse des volumes de gaz d'une électrolyse de l'eau ?",
+      "verso": "Le rapport $\\dfrac{V(\\mathrm{H_2})}{V(\\mathrm{O_2})}$ doit valoir 2. Avec $40~\\mathrm{cm^3}$ et $30~\\mathrm{cm^3}$, il vaut environ $1{,}3$ : la mesure est fausse.",
+      "difficulte": 2,
+      "tags": [
+        "proportions",
+        "controle"
+      ]
+    },
+    {
+      "id": "PC3E-C05-023",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la synthèse de l'eau ?",
+      "verso": "C'est la formation d'eau à partir de dihydrogène et de dioxygène, sous l'effet d'une étincelle ou d'une flamme.",
+      "difficulte": 1,
+      "tags": [
+        "synthese",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C05-024",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la synthèse de l'eau ?",
+      "verso": "$\\mathrm{2H_2 + O_2 \\rightarrow 2H_2O}$ : les réactifs sont le dihydrogène et le dioxygène, le seul produit est l'eau.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "synthese"
+      ]
+    },
+    {
+      "id": "PC3E-C05-025",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "formule",
+      "recto": "Dans quelles proportions en volume le dihydrogène et le dioxygène réagissent-ils lors de la synthèse de l'eau ?",
+      "verso": "2 volumes de dihydrogène pour 1 volume de dioxygène : $V(\\mathrm{H_2}) = 2 \\times V(\\mathrm{O_2})$.",
+      "difficulte": 2,
+      "tags": [
+        "proportions",
+        "synthese"
+      ]
+    },
+    {
+      "id": "PC3E-C05-026",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un mélange détonant ?",
+      "verso": "Un mélange de dihydrogène et de dioxygène dans les proportions exactes de 2 volumes pour 1 : à l'étincelle, tout est consommé et il ne reste aucun gaz. Le dihydrogène y occupe $\\dfrac{2}{3}$ du volume.",
+      "difficulte": 2,
+      "tags": [
+        "melange-detonant"
+      ]
+    },
+    {
+      "id": "PC3E-C05-027",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction exothermique ?",
+      "verso": "Une réaction qui dégage de la chaleur. La synthèse de l'eau est fortement exothermique.",
+      "difficulte": 1,
+      "tags": [
+        "exothermique"
+      ]
+    },
+    {
+      "id": "PC3E-C05-028",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre une réaction exothermique et une réaction explosive ?",
+      "verso": "Exothermique signifie qui dégage de la chaleur ; explosif dit seulement que ce dégagement est brutal.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "exothermique"
+      ]
+    },
+    {
+      "id": "PC3E-C05-029",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "formule",
+      "recto": "Lors d'une synthèse de l'eau avec du dihydrogène en excès ($V(\\mathrm{H_2}) \\gt 2 \\times V(\\mathrm{O_2})$), quel volume de gaz reste-t-il ?",
+      "verso": "Il reste $V(\\mathrm{H_2}) - 2 \\times V(\\mathrm{O_2})$ de dihydrogène.",
+      "difficulte": 2,
+      "tags": [
+        "gaz-restant",
+        "exces"
+      ]
+    },
+    {
+      "id": "PC3E-C05-030",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "formule",
+      "recto": "Lors d'une synthèse de l'eau avec du dioxygène en excès ($V(\\mathrm{H_2}) \\lt 2 \\times V(\\mathrm{O_2})$), quel volume de gaz reste-t-il ?",
+      "verso": "Il reste $V(\\mathrm{O_2}) - \\dfrac{V(\\mathrm{H_2})}{2}$ de dioxygène.",
+      "difficulte": 2,
+      "tags": [
+        "gaz-restant",
+        "exces"
+      ]
+    },
+    {
+      "id": "PC3E-C05-031",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Lors d'une synthèse de l'eau réalisée avec de l'air, que devient le diazote ?",
+      "verso": "Il ne réagit pas et se retrouve intact dans le gaz restant. L'air n'apporte que son cinquième de dioxygène : $V(\\mathrm{O_2}) = \\dfrac{V(\\text{air})}{5}$.",
+      "difficulte": 3,
+      "tags": [
+        "air",
+        "diazote"
+      ]
+    },
+    {
+      "id": "PC3E-C05-032",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "formule",
+      "recto": "Lors de la synthèse de l'eau, dans quelles proportions en masse le dihydrogène et le dioxygène se combinent-ils ?",
+      "verso": "$1~\\mathrm{g}$ de dihydrogène se combine à $8~\\mathrm{g}$ de dioxygène pour donner $9~\\mathrm{g}$ d'eau (conservation de la masse). Le rapport des masses vaut 8, celui des volumes 2.",
+      "difficulte": 3,
+      "tags": [
+        "proportions-masse",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C05-033",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Pourquoi l'électrolyse et la synthèse de l'eau sont-elles dites réciproques ?",
+      "verso": "L'électrolyse décompose l'eau en dihydrogène et dioxygène en consommant de l'énergie électrique ; la synthèse reforme l'eau à partir de ces deux gaz, dans les mêmes proportions, en libérant de la chaleur.",
+      "difficulte": 2,
+      "tags": [
+        "reciproque",
+        "energie"
+      ]
+    },
+    {
+      "id": "PC3E-C05-034",
+      "lecon": "La synthèse de l'eau, la réaction réciproque",
+      "type": "definition",
+      "recto": "Quelles masses volumiques approchées du dihydrogène et du dioxygène le cours retient-il ?",
+      "verso": "Dihydrogène : environ $0{,}09~\\mathrm{g/L}$, le plus léger de tous les gaz ; dioxygène : environ $1{,}43~\\mathrm{g/L}$, environ seize fois plus.",
+      "difficulte": 2,
+      "tags": [
+        "masse-volumique"
+      ]
+    }
+  ]
+}

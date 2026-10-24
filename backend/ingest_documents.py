@@ -7,13 +7,15 @@ ou <classe> et <chapitre> sont les libelles de curriculum_data.py, passes a
 sanitize_folder_name().
 
 Le script accepte aussi les exports bruts de dossiers (ex: Google Drive/ZIP) du type
-    data/documents/6eme-20260717T213949Z-1-001/6eme/Chapitre_1_Elements_de_geometrie.pdf
+    data/documents/4eme/Chimie_Chapitre_1_La_combustion_avec_ou_sans_flamme.pdf
 Dans ce cas, la classe est inferee depuis le chemin. Le chapitre est determine en priorite en
 lisant le CONTENU du document (extrait envoye a Claude, compare a la liste officielle des
-chapitres du programme burkinabe) : un nom de fichier ("Chapitre_5_Generalites_fonctions.pdf")
+chapitres du programme burkinabe) : un nom de fichier ("Chimie_Chapitre_5_Reaction_entre_HCl_et_NaOH.pdf")
 ne reflete pas toujours fidelement l'intitule officiel, alors que le contenu, lui, ne ment pas.
 Si la classification par contenu echoue (pas de cle API, erreur reseau, contenu illisible) ou ne
-correspond a aucun chapitre officiel, on retombe sur l'ancienne heuristique par nom de fichier.
+correspond a aucun chapitre officiel, on retombe sur le numero de chapitre du nom de fichier
+("Chapitre_N_..." = N-ieme chapitre de la classe dans curriculum_data.py, meme ordre que les
+manuels), puis sur l'ancienne heuristique par mots du nom de fichier.
 
 Reconstruit entierement la table d'embeddings a chaque execution. A relancer apres tout
 ajout/remplacement de PDF :
@@ -35,6 +37,7 @@ from document_processor import (
     COURSE_FILE_EXTENSIONS,
     normalize_key,
     infer_class_from_path,
+    curriculum_chapter_from_number,
 )
 from rag_system import RAGSystem
 
@@ -48,9 +51,11 @@ CONTENT_EXCERPT_CHARS = 4000
 
 
 def chapter_from_filename(path: Path) -> str:
-    """Transforme Chapitre_1_Nombres_complexes.pdf en Nombres complexes. Filet de secours quand
-    la classification par contenu (voir classify_chapter_from_content) n'a pas abouti."""
+    """Transforme Chimie_Chapitre_6_Les_alcanes_et_leur_combustion.pdf en Les alcanes et leur
+    combustion. Filet de secours quand la classification par contenu (voir
+    classify_chapter_from_content) n'a pas abouti."""
     stem = path.stem
+    stem = re.sub(r"(?i)^chimie[_\-\s]+", "", stem)
     stem = re.sub(r"(?i)^chapitre[_\-\s]*\d+[_\-\s]*", "", stem)
     stem = re.sub(r"(?i)^chap[_\-\s]*\d+[_\-\s]*", "", stem)
     stem = re.sub(r"(?i)^bilan[_\-\s]*", "Bilan ", stem)
@@ -95,7 +100,7 @@ def classify_chapter_from_content(anthropic_client, model: str, class_code: str,
         return None
 
     chapters_list = "\n".join(f"- {c}" for c in chapters)
-    prompt = f"""Voici un extrait d'un document de cours de mathématiques pour la classe {class_code} \
+    prompt = f"""Voici un extrait d'un document de cours de chimie pour la classe {class_code} \
 du programme officiel du Burkina Faso (fichier source : "{filename_hint}").
 
 EXTRAIT DU CONTENU :
@@ -187,6 +192,9 @@ def find_documents(processor: DocumentProcessor, anthropic_client=None, model: s
         chapitre = classify_chapter_from_content(anthropic_client, model, classe, doc["text"], path.name)
         source = "contenu"
         if not chapitre:
+            chapitre = curriculum_chapter_from_number(classe, path)
+            source = "numero de chapitre"
+        if not chapitre:
             inferred_chapter = chapter_from_filename(path)
             chapitre = best_curriculum_chapter(classe, inferred_chapter)
             source = "nom de fichier"
@@ -199,9 +207,8 @@ def find_documents(processor: DocumentProcessor, anthropic_client=None, model: s
 
 def main():
     # La console Windows utilise par defaut un encodage legacy (cp1252) qui ne sait pas afficher
-    # les symboles mathematiques du programme officiel (ex: l'ensemble "ℝ" des reels, "𝔻" des
-    # decimaux) presents dans les intitules de chapitres reels : sans ceci, print() plante des que
-    # ces caracteres apparaissent dans les logs de classification.
+    # certains symboles presents dans les documents et les intitules (lettres grecques, exposants...) :
+    # sans ceci, print() plante des que ces caracteres apparaissent dans les logs de classification.
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 

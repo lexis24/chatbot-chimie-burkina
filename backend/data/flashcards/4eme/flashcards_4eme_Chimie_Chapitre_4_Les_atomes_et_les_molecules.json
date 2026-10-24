@@ -1,0 +1,397 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 4 : Les atomes et les molécules",
+  "source": "pc/4eme/Chimie_Chapitre_4_Les_atomes_et_les_molecules",
+  "nombre_cartes": 33,
+  "cartes": [
+    {
+      "id": "PC4E-C04-001",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un atome ?",
+      "verso": "La plus petite particule de matière que l'on ne peut pas diviser par des moyens chimiques. Toute la matière est faite d'atomes.",
+      "difficulte": 1,
+      "tags": [
+        "atome",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC4E-C04-002",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "formule",
+      "recto": "Quel est l'ordre de grandeur du diamètre d'un atome ?",
+      "verso": "De l'ordre du dixième de nanomètre, environ $0{,}1~\\mathrm{nm}$ ; selon les atomes, il va d'environ $0{,}1~\\mathrm{nm}$ à $0{,}3~\\mathrm{nm}$.",
+      "difficulte": 1,
+      "tags": [
+        "taille-atome",
+        "ordre-de-grandeur"
+      ]
+    },
+    {
+      "id": "PC4E-C04-003",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "formule",
+      "recto": "Combien de mètres vaut un nanomètre ?",
+      "verso": "$1~\\mathrm{nm} = 0{,}000\\,000\\,001~\\mathrm{m}$ : c'est un milliardième de mètre.",
+      "difficulte": 1,
+      "tags": [
+        "nanometre",
+        "unite"
+      ]
+    },
+    {
+      "id": "PC4E-C04-004",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "formule",
+      "recto": "Environ combien d'atomes faut-il aligner pour couvrir une longueur de $1~\\mathrm{mm}$ ?",
+      "verso": "Environ dix millions, car le diamètre d'un atome est de l'ordre de $0{,}1~\\mathrm{nm}$.",
+      "difficulte": 2,
+      "tags": [
+        "taille-atome",
+        "ordre-de-grandeur"
+      ]
+    },
+    {
+      "id": "PC4E-C04-005",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "definition",
+      "recto": "Quel modèle simple utilise-t-on en 4ème pour représenter un atome ?",
+      "verso": "Une petite sphère.",
+      "difficulte": 1,
+      "tags": [
+        "modele-atome"
+      ]
+    },
+    {
+      "id": "PC4E-C04-006",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "definition",
+      "recto": "Combien existe-t-il environ de sortes d'atomes différentes ?",
+      "verso": "Une centaine. Tous les atomes d'une même sorte sont identiques entre eux.",
+      "difficulte": 2,
+      "tags": [
+        "sortes-atomes"
+      ]
+    },
+    {
+      "id": "PC4E-C04-007",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "formule",
+      "recto": "Quelle règle d'écriture suit tout symbole chimique ?",
+      "verso": "Il compte une ou deux lettres : la première est toujours une majuscule, la seconde, quand elle existe, toujours une minuscule.",
+      "difficulte": 2,
+      "tags": [
+        "symbole",
+        "ecriture"
+      ]
+    },
+    {
+      "id": "PC4E-C04-008",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "formule",
+      "recto": "Quels sont les symboles des atomes d'hydrogène, de carbone, d'azote, d'oxygène et de soufre ?",
+      "verso": "H (hydrogène), C (carbone), N (azote), O (oxygène), S (soufre) : ce sont des symboles d'une seule lettre.",
+      "difficulte": 1,
+      "tags": [
+        "symbole",
+        "une-lettre"
+      ]
+    },
+    {
+      "id": "PC4E-C04-009",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "formule",
+      "recto": "Quels sont les symboles du chlore, du sodium, du fer, du cuivre, de l'aluminium, du zinc et du calcium ?",
+      "verso": "Cl (chlore), Na (sodium), Fe (fer), Cu (cuivre), Al (aluminium), Zn (zinc), Ca (calcium).",
+      "difficulte": 2,
+      "tags": [
+        "symbole",
+        "deux-lettres"
+      ]
+    },
+    {
+      "id": "PC4E-C04-010",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "definition",
+      "recto": "Pourquoi le symbole du fer est-il Fe, celui du sodium Na et celui du cuivre Cu ?",
+      "verso": "Ces symboles viennent des noms latins : ferrum, natrium et cuprum.",
+      "difficulte": 2,
+      "tags": [
+        "symbole",
+        "latin"
+      ]
+    },
+    {
+      "id": "PC4E-C04-011",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "definition",
+      "recto": "Pourquoi CO et Co ne désignent-ils pas la même chose ?",
+      "verso": "Une majuscule ouvre toujours un nouveau symbole : CO désigne un atome de carbone suivi d'un atome d'oxygène (un gaz toxique), alors que Co est le symbole d'un métal gris.",
+      "difficulte": 3,
+      "tags": [
+        "symbole",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C04-012",
+      "lecon": "L'atome, sa taille et son symbole",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre « hydrogène » et « dihydrogène » ?",
+      "verso": "Hydrogène est le nom de l'atome (et de l'élément chimique, ensemble de tous les atomes d'hydrogène) ; dihydrogène est le nom du gaz, fait de molécules $\\mathrm{H_2}$.",
+      "difficulte": 3,
+      "tags": [
+        "element-chimique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C04-013",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on une molécule ?",
+      "verso": "Un assemblage d'atomes liés entre eux, de même sorte ou de sortes différentes. C'est la plus petite particule d'un corps qui conserve les propriétés de ce corps.",
+      "difficulte": 1,
+      "tags": [
+        "molecule",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC4E-C04-014",
+      "lecon": "La molécule et la formule chimique",
+      "type": "formule",
+      "recto": "Comment écrit-on la formule chimique d'une molécule ?",
+      "verso": "On écrit côte à côte les symboles des atomes qui la constituent, avec en indice, en bas à droite de chaque symbole, le nombre d'atomes de cette sorte.",
+      "difficulte": 2,
+      "tags": [
+        "formule-chimique",
+        "ecriture"
+      ]
+    },
+    {
+      "id": "PC4E-C04-015",
+      "lecon": "La molécule et la formule chimique",
+      "type": "formule",
+      "recto": "Dans une formule chimique, quelle règle s'applique à l'indice 1 ?",
+      "verso": "Il ne s'écrit pas : un symbole sans indice compte un seul atome. On écrit $\\mathrm{H_2O}$, jamais $\\mathrm{H_2O_1}$.",
+      "difficulte": 2,
+      "tags": [
+        "indice",
+        "formule-chimique"
+      ]
+    },
+    {
+      "id": "PC4E-C04-016",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "Dans une formule chimique, à quoi reconnaît-on qu'elle désigne une molécule et non un atome ?",
+      "verso": "Un symbole seul, sans indice, désigne un atome ; une formule qui compte au moins deux atomes désigne une molécule.",
+      "difficulte": 2,
+      "tags": [
+        "formule-chimique",
+        "lecture"
+      ]
+    },
+    {
+      "id": "PC4E-C04-017",
+      "lecon": "La molécule et la formule chimique",
+      "type": "formule",
+      "recto": "Quelles sont les formules du dihydrogène, du dioxygène et du diazote ?",
+      "verso": "$\\mathrm{H_2}$, $\\mathrm{O_2}$ et $\\mathrm{N_2}$ : chaque molécule contient deux atomes identiques.",
+      "difficulte": 1,
+      "tags": [
+        "molecules-a-connaitre"
+      ]
+    },
+    {
+      "id": "PC4E-C04-018",
+      "lecon": "La molécule et la formule chimique",
+      "type": "formule",
+      "recto": "Quelles sont les formules de l'eau, du dioxyde de carbone et du monoxyde de carbone ?",
+      "verso": "Eau : $\\mathrm{H_2O}$ ; dioxyde de carbone : $\\mathrm{CO_2}$ ; monoxyde de carbone : $\\mathrm{CO}$.",
+      "difficulte": 1,
+      "tags": [
+        "molecules-a-connaitre"
+      ]
+    },
+    {
+      "id": "PC4E-C04-019",
+      "lecon": "La molécule et la formule chimique",
+      "type": "formule",
+      "recto": "Quelles sont les formules du méthane, du dioxyde de soufre, du chlorure d'hydrogène et de l'ammoniac ?",
+      "verso": "Méthane : $\\mathrm{CH_4}$ ; dioxyde de soufre : $\\mathrm{SO_2}$ ; chlorure d'hydrogène : $\\mathrm{HCl}$ ; ammoniac : $\\mathrm{NH_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "molecules-a-connaitre"
+      ]
+    },
+    {
+      "id": "PC4E-C04-020",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "Dans le nom d'une molécule, qu'annoncent les préfixes mono-, di- et tri- ?",
+      "verso": "Le nombre d'atomes : mono- un atome (monoxyde de carbone $\\mathrm{CO}$), di- deux ($\\mathrm{CO_2}$), tri- trois (trioxygène ou ozone $\\mathrm{O_3}$).",
+      "difficulte": 2,
+      "tags": [
+        "prefixes",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC4E-C04-021",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "Pourquoi $\\mathrm{CO}$ et $\\mathrm{CO_2}$ sont-ils deux corps différents ?",
+      "verso": "Les propriétés d'une molécule dépendent du nombre d'atomes assemblés, pas seulement de leur nature : un atome d'oxygène de plus fait un autre corps ; $\\mathrm{CO}$ est un gaz toxique.",
+      "difficulte": 3,
+      "tags": [
+        "co-co2",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C04-022",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "Qu'est-ce qui distingue le modèle moléculaire compact du modèle éclaté ?",
+      "verso": "Le modèle compact colle les boules et montre l'encombrement réel de la molécule ; le modèle éclaté écarte les boules et les relie par des bâtonnets qui figurent les liaisons.",
+      "difficulte": 2,
+      "tags": [
+        "modele-moleculaire"
+      ]
+    },
+    {
+      "id": "PC4E-C04-023",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "Dans les modèles moléculaires, quelles couleurs représentent les atomes H, C, O, N, S et Cl ?",
+      "verso": "Blanc pour l'hydrogène, noir pour le carbone, rouge pour l'oxygène, bleu pour l'azote, jaune pour le soufre, vert pour le chlore.",
+      "difficulte": 2,
+      "tags": [
+        "modele-moleculaire",
+        "couleurs"
+      ]
+    },
+    {
+      "id": "PC4E-C04-024",
+      "lecon": "La molécule et la formule chimique",
+      "type": "definition",
+      "recto": "Quelles informations une formule chimique ne donne-t-elle pas sur une molécule ?",
+      "verso": "Elle dit quels atomes et combien il y en a, mais pas comment ils sont disposés dans l'espace : pour cela on utilise un modèle moléculaire.",
+      "difficulte": 2,
+      "tags": [
+        "formule-chimique",
+        "modele-moleculaire"
+      ]
+    },
+    {
+      "id": "PC4E-C04-025",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un corps pur ?",
+      "verso": "Un corps constitué d'une seule sorte de particules, toutes identiques entre elles ; il possède une formule chimique unique.",
+      "difficulte": 1,
+      "tags": [
+        "corps-pur",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC4E-C04-026",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps pur simple ?",
+      "verso": "Un corps pur constitué d'une seule sorte d'atomes, par exemple $\\mathrm{O_2}$, $\\mathrm{N_2}$, $\\mathrm{Fe}$, $\\mathrm{Cu}$, $\\mathrm{S}$.",
+      "difficulte": 1,
+      "tags": [
+        "corps-pur-simple"
+      ]
+    },
+    {
+      "id": "PC4E-C04-027",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps pur composé ?",
+      "verso": "Un corps pur constitué de plusieurs sortes d'atomes, par exemple $\\mathrm{H_2O}$, $\\mathrm{CO_2}$, $\\mathrm{CH_4}$, $\\mathrm{NH_3}$.",
+      "difficulte": 1,
+      "tags": [
+        "corps-pur-compose"
+      ]
+    },
+    {
+      "id": "PC4E-C04-028",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un mélange ?",
+      "verso": "Un corps qui contient plusieurs sortes de particules différentes ; il n'a pas de formule chimique. Exemples : l'air, l'eau salée, le lait, le gasoil.",
+      "difficulte": 2,
+      "tags": [
+        "melange"
+      ]
+    },
+    {
+      "id": "PC4E-C04-029",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps pur simple atomique ?",
+      "verso": "Un corps pur simple fait d'atomes et non de molécules : les métaux comme le fer $\\mathrm{Fe}$ ou le cuivre $\\mathrm{Cu}$, et l'argon $\\mathrm{Ar}$ et le néon $\\mathrm{Ne}$, gaz faits d'atomes isolés.",
+      "difficulte": 2,
+      "tags": [
+        "corps-pur-simple",
+        "atomique"
+      ]
+    },
+    {
+      "id": "PC4E-C04-030",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "formule",
+      "recto": "A partir de sa formule chimique, comment reconnaît-on un corps pur simple d'un corps pur composé ?",
+      "verso": "Une seule majuscule dans la formule : une seule sorte d'atomes, corps pur simple. Deux majuscules ou plus : plusieurs sortes d'atomes, corps pur composé.",
+      "difficulte": 2,
+      "tags": [
+        "classement",
+        "formule-chimique"
+      ]
+    },
+    {
+      "id": "PC4E-C04-031",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "Pourquoi un mélange n'a-t-il pas de formule chimique ?",
+      "verso": "Une formule décrit une particule ; dans un mélange, les particules ne sont pas toutes identiques, donc une formule unique ne peut pas les décrire toutes.",
+      "difficulte": 2,
+      "tags": [
+        "melange",
+        "formule-chimique"
+      ]
+    },
+    {
+      "id": "PC4E-C04-032",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "Pourquoi l'aspect d'un corps ne permet-il pas de dire s'il est pur ?",
+      "verso": "Pur ne veut pas dire limpide : l'eau du forage est limpide sans être un corps pur, et l'air, invisible, est un mélange. Seule la nature des particules compte.",
+      "difficulte": 3,
+      "tags": [
+        "corps-pur",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C04-033",
+      "lecon": "Corps purs simples, corps purs composés et mélanges",
+      "type": "definition",
+      "recto": "Pourquoi le dioxygène $\\mathrm{O_2}$ est-il un corps pur simple et non un corps pur composé ?",
+      "verso": "Sa molécule ne contient qu'une seule sorte d'atomes (l'oxygène) ; des atomes identiques forment bien une molécule, mais le corps reste simple.",
+      "difficulte": 3,
+      "tags": [
+        "corps-pur-simple",
+        "piege"
+      ]
+    }
+  ]
+}

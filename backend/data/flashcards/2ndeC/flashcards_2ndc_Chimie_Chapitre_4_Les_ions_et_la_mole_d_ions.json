@@ -1,0 +1,461 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 4 : Les ions et la mole d'ions",
+  "source": "pc/2ndc/Chimie_Chapitre_4_Les_ions_et_la_mole_d_ions",
+  "nombre_cartes": 38,
+  "cartes": [
+    {
+      "id": "PC2C-C04-001",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un ion ?",
+      "verso": "Un atome, ou un groupe d'atomes, qui a perdu ou gagné un ou plusieurs électrons. Sa charge est un nombre entier de fois la charge élémentaire $e = 1{,}6 \\times 10^{-19}~\\mathrm{C}$.",
+      "difficulte": 1,
+      "tags": [
+        "ion",
+        "charge-elementaire"
+      ]
+    },
+    {
+      "id": "PC2C-C04-002",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un cation et un anion ?",
+      "verso": "Un cation est un ion de charge positive : l'atome a perdu des électrons. Un anion est un ion de charge négative : l'atome a gagné des électrons.",
+      "difficulte": 1,
+      "tags": [
+        "cation",
+        "anion"
+      ]
+    },
+    {
+      "id": "PC2C-C04-003",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "definition",
+      "recto": "Pourquoi l'ion $\\mathrm{Al^{3+}}$ n'a-t-il pas gagné trois protons ?",
+      "verso": "Une transformation chimique ne touche que le cortège électronique, jamais le noyau. L'ion a perdu trois électrons : il garde ses 13 protons et n'a plus que 10 électrons.",
+      "difficulte": 3,
+      "tags": [
+        "cation",
+        "noyau",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C04-004",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "formule",
+      "recto": "D'après les règles du duet et de l'octet, quel ion un atome tend-il à donner ?",
+      "verso": "L'ion qui le rapproche le plus vite de la structure du gaz noble voisin : il perd ses électrons externes s'ils sont peu nombreux (1, 2 ou 3), il en gagne s'il lui en manque peu pour en avoir 8 (2 avec la seule couche K). Outil valable pour $Z \\leqslant 18$.",
+      "difficulte": 2,
+      "tags": [
+        "octet",
+        "duet"
+      ]
+    },
+    {
+      "id": "PC2C-C04-005",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "formule",
+      "recto": "Combien de protons, de neutrons et d'électrons contient un anion $^{A}_{Z}\\mathrm{X}^{z-}$ ?",
+      "verso": "$Z$ protons et $A - Z$ neutrons, comme l'atome, et $Z + z$ électrons (pour un cation $^{A}_{Z}\\mathrm{X}^{z+}$ : $Z - z$ électrons).",
+      "difficulte": 2,
+      "tags": [
+        "composition",
+        "anion"
+      ]
+    },
+    {
+      "id": "PC2C-C04-006",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "formule",
+      "recto": "Quelle charge électrique $q$ porte un ion qui possède $z$ charges élémentaires ?",
+      "verso": "$q = +z \\times e$ pour un cation, $q = -z \\times e$ pour un anion, avec $e = 1{,}6 \\times 10^{-19}~\\mathrm{C}$ et $q$ en coulombs. Ex. : $\\mathrm{Al^{3+}}$, $q = 4{,}8 \\times 10^{-19}~\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "charge",
+        "coulomb"
+      ]
+    },
+    {
+      "id": "PC2C-C04-007",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "formule",
+      "recto": "Quelle charge portent les ions donnés par les éléments des colonnes 1, 2, 13, 16 et 17 de la classification ?",
+      "verso": "Colonne 1 : $\\mathrm{X^+}$ ; colonne 2 : $\\mathrm{X^{2+}}$ ; colonne 13 : $\\mathrm{X^{3+}}$ ; colonne 16 : $\\mathrm{X^{2-}}$ ; colonne 17 : $\\mathrm{X^-}$. Les gaz nobles (colonne 18) ne donnent pas d'ion.",
+      "difficulte": 2,
+      "tags": [
+        "classification",
+        "charge"
+      ]
+    },
+    {
+      "id": "PC2C-C04-008",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "formule",
+      "recto": "Comment s'écrit l'équation de formation d'un cation $\\mathrm{X^{n+}}$ à partir de l'atome $\\mathrm{X}$ ?",
+      "verso": "$\\mathrm{X \\rightarrow X^{n+} + n\\,e^-}$, par exemple $\\mathrm{Al \\rightarrow Al^{3+} + 3\\,e^-}$. Pour un anion : $\\mathrm{X + n\\,e^- \\rightarrow X^{n-}}$. La charge totale est la même des deux côtés.",
+      "difficulte": 2,
+      "tags": [
+        "equation",
+        "formation-ion"
+      ]
+    },
+    {
+      "id": "PC2C-C04-009",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "definition",
+      "recto": "Que signifie dire que deux espèces chimiques sont isoélectroniques ?",
+      "verso": "Elles ont le même nombre d'électrons. Ex. : $\\mathrm{Na^+}$, $\\mathrm{Mg^{2+}}$, $\\mathrm{F^-}$ et $\\mathrm{O^{2-}}$ ont 10 électrons, comme l'atome de néon.",
+      "difficulte": 2,
+      "tags": [
+        "isoelectronique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-010",
+      "lecon": "La formation d'un ion : gagner ou perdre des électrons",
+      "type": "definition",
+      "recto": "Dans le schéma de Lewis d'un ion monoatomique, combien de doublets portent le cation $\\mathrm{Na^+}$ et l'anion $\\mathrm{Cl^-}$ ?",
+      "verso": "Le symbole est entre crochets, la charge en exposant à l'extérieur. Le cation, qui a perdu toute sa couche externe, ne porte aucun doublet ; l'anion à octet en porte quatre.",
+      "difficulte": 3,
+      "tags": [
+        "lewis",
+        "doublet"
+      ]
+    },
+    {
+      "id": "PC2C-C04-011",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Qu'est-ce qui distingue un ion polyatomique d'un ion monoatomique ?",
+      "verso": "L'ion monoatomique est formé d'un seul atome ($\\mathrm{Na^+}$, $\\mathrm{Cl^-}$). L'ion polyatomique est formé de plusieurs atomes liés, l'ensemble portant une charge globale ($\\mathrm{SO_4^{2-}}$, $\\mathrm{NH_4^+}$) ; il ne se défait pas au cours des transformations usuelles.",
+      "difficulte": 1,
+      "tags": [
+        "ion-polyatomique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-012",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Dans l'ion sulfate $\\mathrm{SO_4^{2-}}$, quel atome porte les deux charges négatives ?",
+      "verso": "Aucun en particulier : la charge est globale, portée par l'ensemble du groupe. On ne parle ni « d'ion soufre » ni « d'ions oxygène » dans $\\mathrm{SO_4^{2-}}$.",
+      "difficulte": 3,
+      "tags": [
+        "ion-polyatomique",
+        "charge-globale",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C04-013",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Quelles sont les formules des ions nitrate, sulfate, carbonate et phosphate ?",
+      "verso": "Nitrate $\\mathrm{NO_3^-}$, sulfate $\\mathrm{SO_4^{2-}}$, carbonate $\\mathrm{CO_3^{2-}}$, phosphate $\\mathrm{PO_4^{3-}}$.",
+      "difficulte": 1,
+      "tags": [
+        "ions-usuels",
+        "anion"
+      ]
+    },
+    {
+      "id": "PC2C-C04-014",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Quelle est la couleur, en solution aqueuse, des ions usuels colorés ?",
+      "verso": "$\\mathrm{Cu^{2+}}$ bleu, $\\mathrm{Fe^{2+}}$ vert pâle, $\\mathrm{Fe^{3+}}$ rouille, $\\mathrm{MnO_4^-}$ violet, $\\mathrm{Cr_2O_7^{2-}}$ orange. La plupart des autres ions usuels sont incolores.",
+      "difficulte": 2,
+      "tags": [
+        "couleur"
+      ]
+    },
+    {
+      "id": "PC2C-C04-015",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Comment la taille d'un ion monoatomique se compare-t-elle à celle de l'atome dont il provient ?",
+      "verso": "Un cation est plus petit que son atome (il a perdu sa couche externe) ; un anion est plus gros (les électrons gagnés se repoussent, le nuage se dilate).",
+      "difficulte": 2,
+      "tags": [
+        "taille"
+      ]
+    },
+    {
+      "id": "PC2C-C04-016",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la solvatation d'un ion ?",
+      "verso": "L'entourage de l'ion par une couche de molécules de solvant, qui l'ont arraché au réseau ; on parle d'hydratation quand le solvant est l'eau. Les ions solvatés sont mobiles : l'eau salée conduit le courant.",
+      "difficulte": 2,
+      "tags": [
+        "solvatation",
+        "hydratation"
+      ]
+    },
+    {
+      "id": "PC2C-C04-017",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "formule",
+      "recto": "Quel test identifie l'ion chlorure $\\mathrm{Cl^-}$ en solution ?",
+      "verso": "La solution de nitrate d'argent : précipité blanc qui noircit à la lumière.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "chlorure"
+      ]
+    },
+    {
+      "id": "PC2C-C04-018",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "formule",
+      "recto": "Quel test identifie l'ion sulfate $\\mathrm{SO_4^{2-}}$ en solution ?",
+      "verso": "La solution de chlorure de baryum : précipité blanc qui ne disparaît pas dans l'acide chlorhydrique dilué (celui des carbonates disparaît avec effervescence).",
+      "difficulte": 2,
+      "tags": [
+        "test",
+        "sulfate"
+      ]
+    },
+    {
+      "id": "PC2C-C04-019",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "formule",
+      "recto": "Avec une solution d'hydroxyde de sodium, quels précipités donnent les ions $\\mathrm{Cu^{2+}}$, $\\mathrm{Fe^{2+}}$ et $\\mathrm{Fe^{3+}}$ ?",
+      "verso": "$\\mathrm{Cu^{2+}}$ : précipité bleu ; $\\mathrm{Fe^{2+}}$ : précipité vert ; $\\mathrm{Fe^{3+}}$ : précipité rouille.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "soude"
+      ]
+    },
+    {
+      "id": "PC2C-C04-020",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "formule",
+      "recto": "Par quel test distingue-t-on les ions $\\mathrm{Zn^{2+}}$ et $\\mathrm{Al^{3+}}$, qui donnent tous deux avec la soude un précipité blanc redissous dans un excès ?",
+      "verso": "On ajoute de l'ammoniaque en excès : l'hydroxyde de zinc se redissout, celui d'aluminium non.",
+      "difficulte": 3,
+      "tags": [
+        "test",
+        "zinc",
+        "aluminium"
+      ]
+    },
+    {
+      "id": "PC2C-C04-021",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "formule",
+      "recto": "Comment met-on en évidence l'ion ammonium $\\mathrm{NH_4^+}$ ?",
+      "verso": "Solution d'hydroxyde de sodium puis chauffage doux : il se dégage un gaz à odeur piquante qui bleuit un papier pH humide. On rabat l'odeur de la main, sans respirer au-dessus du tube.",
+      "difficulte": 2,
+      "tags": [
+        "test",
+        "ammonium",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC2C-C04-022",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Pourquoi l'observation d'un précipité blanc ne suffit-elle pas à prouver la présence d'ions chlorure ?",
+      "verso": "Plusieurs réactifs donnent un précipité blanc : avec le chlorure de baryum, il signale l'ion sulfate. Seul le précipité blanc obtenu avec le nitrate d'argent signale l'ion chlorure : c'est le couple réactif et observation qui identifie.",
+      "difficulte": 3,
+      "tags": [
+        "test",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C04-023",
+      "lecon": "Les ions monoatomiques et polyatomiques : noms, formules et identification",
+      "type": "definition",
+      "recto": "Quels ions peuvent polluer l'environnement lorsqu'ils s'accumulent ?",
+      "verso": "Les nitrates $\\mathrm{NO_3^-}$ et phosphates $\\mathrm{PO_4^{3-}}$ des engrais en excès, les ions cuivre (II) $\\mathrm{Cu^{2+}}$ des fongicides, les ions mercure et plomb des sites d'orpaillage, qui ne se dégradent pas.",
+      "difficulte": 2,
+      "tags": [
+        "pollution"
+      ]
+    },
+    {
+      "id": "PC2C-C04-024",
+      "lecon": "La mole d'ions et la masse molaire ionique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une mole d'ions ?",
+      "verso": "La quantité de matière d'un échantillon contenant $N_A = 6{,}02 \\times 10^{23}$ ions ; seule la nature de l'entité comptée change par rapport à la mole d'atomes.",
+      "difficulte": 1,
+      "tags": [
+        "mole",
+        "avogadro"
+      ]
+    },
+    {
+      "id": "PC2C-C04-025",
+      "lecon": "La mole d'ions et la masse molaire ionique",
+      "type": "formule",
+      "recto": "Quelle est la masse molaire d'un ion monoatomique, par exemple $\\mathrm{Na^+}$ ?",
+      "verso": "Elle est égale à la masse molaire de l'atome dont il provient, car la masse des électrons est négligeable : $M(\\mathrm{Na^+}) = M(\\mathrm{Na}) = 23~\\mathrm{g/mol}$.",
+      "difficulte": 1,
+      "tags": [
+        "masse-molaire-ionique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-026",
+      "lecon": "La mole d'ions et la masse molaire ionique",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la masse molaire d'un ion polyatomique comme $\\mathrm{SO_4^{2-}}$ ?",
+      "verso": "On additionne les masses molaires des atomes, chacune multipliée par son indice : $M(\\mathrm{SO_4^{2-}}) = 32 + 4 \\times 16 = 96~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire-ionique",
+        "ion-polyatomique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-027",
+      "lecon": "La mole d'ions et la masse molaire ionique",
+      "type": "formule",
+      "recto": "Quelles relations lient la masse $m$, la quantité de matière $n$ et le nombre $N$ d'ions d'un échantillon ?",
+      "verso": "$n = \\dfrac{m}{M}$ et $N = n \\times N_A$, avec $n$ en mol, $m$ en g, $M$ en g/mol, $N_A = 6{,}02 \\times 10^{23}~\\mathrm{mol^{-1}}$ et $N$ sans unité.",
+      "difficulte": 2,
+      "tags": [
+        "quantite-de-matiere",
+        "comptage"
+      ]
+    },
+    {
+      "id": "PC2C-C04-028",
+      "lecon": "La mole d'ions et la masse molaire ionique",
+      "type": "definition",
+      "recto": "Pourquoi ne retranche-t-on pas la masse des électrons perdus pour calculer $M(\\mathrm{Al^{3+}})$ ?",
+      "verso": "Une mole d'électrons ne pèse que $5{,}5 \\times 10^{-4}~\\mathrm{g}$, négligeable devant $27~\\mathrm{g}$ : on écrit $M(\\mathrm{Al^{3+}}) = 27~\\mathrm{g/mol}$.",
+      "difficulte": 3,
+      "tags": [
+        "masse-electron",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C04-029",
+      "lecon": "La mole d'ions et la masse molaire ionique",
+      "type": "formule",
+      "recto": "Quelle quantité de chaque ion contient une mole du solide ionique $\\mathrm{Na_2SO_4}$ ?",
+      "verso": "2 mol d'ions sodium $\\mathrm{Na^+}$ et 1 mol d'ions sulfate $\\mathrm{SO_4^{2-}}$ : l'indice donne le nombre de chaque ion par formule.",
+      "difficulte": 2,
+      "tags": [
+        "solide-ionique",
+        "quantite-de-matiere"
+      ]
+    },
+    {
+      "id": "PC2C-C04-030",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un solide ionique ?",
+      "verso": "Un solide formé d'un empilement régulier de cations et d'anions, maintenus par l'attraction électrique entre charges de signes contraires. Il ne contient aucune molécule et il est électriquement neutre.",
+      "difficulte": 1,
+      "tags": [
+        "solide-ionique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-031",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la maille d'un cristal ?",
+      "verso": "Le plus petit motif dont la répétition dans les trois directions de l'espace reconstitue tout le cristal.",
+      "difficulte": 1,
+      "tags": [
+        "maille"
+      ]
+    },
+    {
+      "id": "PC2C-C04-032",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "definition",
+      "recto": "Que donne la formule statistique d'un solide ionique ?",
+      "verso": "La proportion des ions présents, avec les plus petits indices entiers possibles, le cation écrit d'abord, sans les charges. Elle ne désigne pas une molécule : $\\mathrm{NaCl}$ signifie un $\\mathrm{Na^+}$ pour un $\\mathrm{Cl^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-statistique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-033",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "formule",
+      "recto": "Quelle condition fixe les indices de la formule statistique d'un solide ionique, par exemple $\\mathrm{Al_2(SO_4)_3}$ ?",
+      "verso": "L'électroneutralité : la somme des charges est nulle, $2 \\times (+3) + 3 \\times (-2) = 0$. L'ion polyatomique d'indice supérieur à 1 se met entre parenthèses.",
+      "difficulte": 2,
+      "tags": [
+        "electroneutralite",
+        "formule-statistique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-034",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "definition",
+      "recto": "Pourquoi la formule $\\mathrm{AlCl_2}$ du chlorure d'aluminium est-elle fausse ?",
+      "verso": "Elle n'est pas électriquement neutre : $(+3) + 2 \\times (-1) = +1$. Il faut trois ions chlorure pour un ion aluminium : $\\mathrm{AlCl_3}$.",
+      "difficulte": 3,
+      "tags": [
+        "electroneutralite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C04-035",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la masse molaire d'un solide ionique comme $\\mathrm{Al_2(SO_4)_3}$ ?",
+      "verso": "On additionne les masses molaires des ions de la formule, chacune multipliée par son indice : $2 \\times 27 + 3 \\times 96 = 342~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire",
+        "solide-ionique"
+      ]
+    },
+    {
+      "id": "PC2C-C04-036",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "definition",
+      "recto": "Comment sont disposés les ions dans la maille cubique du chlorure de sodium ?",
+      "verso": "Les ions $\\mathrm{Cl^-}$ occupent les sommets et les centres des faces (réseau cubique à faces centrées), les ions $\\mathrm{Na^+}$ les milieux des arêtes et le centre. Chaque ion a six voisins de charge opposée ; la maille contient 4 $\\mathrm{Na^+}$ et 4 $\\mathrm{Cl^-}$.",
+      "difficulte": 3,
+      "tags": [
+        "chlorure-de-sodium",
+        "maille"
+      ]
+    },
+    {
+      "id": "PC2C-C04-037",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre une oxydation et une réduction ?",
+      "verso": "Une oxydation est une perte d'électrons ; une réduction est un gain d'électrons.",
+      "difficulte": 1,
+      "tags": [
+        "oxydation",
+        "reduction"
+      ]
+    },
+    {
+      "id": "PC2C-C04-038",
+      "lecon": "Les solides ioniques : formule statistique et masse molaire",
+      "type": "formule",
+      "recto": "Quelles réactions ont lieu aux électrodes lors de l'électrolyse du chlorure de sodium fondu ?",
+      "verso": "A la cathode (pôle $-$), réduction : $\\mathrm{Na^+ + e^- \\rightarrow Na}$. A l'anode (pôle $+$), oxydation : $\\mathrm{2\\,Cl^- \\rightarrow Cl_2 + 2\\,e^-}$. Bilan : $\\mathrm{2\\,Na^+ + 2\\,Cl^- \\rightarrow 2\\,Na + Cl_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "electrolyse",
+        "electrodes"
+      ]
+    }
+  ]
+}

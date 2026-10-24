@@ -1,0 +1,463 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 2 : Les solutions aqueuses d'acide chlorhydrique et d'hydroxyde de sodium",
+  "source": "pc/tled/Chimie_Chapitre_2_Les_solutions_aqueuses_HCl_et_NaOH",
+  "nombre_cartes": 39,
+  "cartes": [
+    {
+      "id": "PCTD-C02-001",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Pourquoi la molécule de chlorure d'hydrogène $\\mathrm{HCl}$ est-elle polaire ?",
+      "verso": "Le chlore, plus électronégatif que l'hydrogène, attire le doublet de la liaison : il porte une charge partielle $\\delta^-$ et l'hydrogène une charge $\\delta^+$. La molécule est un dipôle permanent.",
+      "difficulte": 2,
+      "tags": [
+        "polarite",
+        "electronegativite"
+      ]
+    },
+    {
+      "id": "PCTD-C02-002",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la mise en solution du chlorure d'hydrogène dans l'eau ?",
+      "verso": "$\\mathrm{HCl_{(g)} + H_2O_{(\\ell)} \\rightarrow H_3O^+_{(aq)} + Cl^-_{(aq)}}$, avec une flèche simple car la réaction est totale.",
+      "difficulte": 1,
+      "tags": [
+        "hcl",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C02-003",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Quelles sont les trois caractéristiques de la réaction de mise en solution du chlorure d'hydrogène dans l'eau ?",
+      "verso": "Elle est totale (il ne reste aucune molécule $\\mathrm{HCl}$), rapide (achevée dès la dissolution) et exothermique (elle dégage de la chaleur).",
+      "difficulte": 1,
+      "tags": [
+        "hcl",
+        "caracteristiques"
+      ]
+    },
+    {
+      "id": "PCTD-C02-004",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Lors de la mise en solution du chlorure d'hydrogène, pourquoi dit-on que l'eau est un solvant ionisant ?",
+      "verso": "Parce que la mise en solution de molécules polaires comme $\\mathrm{HCl}$ y conduit à leur ionisation : l'eau arrache le proton et crée des ions qui n'existaient pas dans le gaz.",
+      "difficulte": 2,
+      "tags": [
+        "solvant-ionisant"
+      ]
+    },
+    {
+      "id": "PCTD-C02-005",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre le chlorure d'hydrogène et l'acide chlorhydrique ?",
+      "verso": "Le chlorure d'hydrogène est un gaz moléculaire de formule $\\mathrm{HCl}$ ; l'acide chlorhydrique est la solution aqueuse, ionique, obtenue en dissolvant ce gaz dans l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "acide-chlorhydrique",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PCTD-C02-006",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Quels indices d'état portent le gaz, l'eau liquide et les ions dissous dans l'équation de mise en solution du chlorure d'hydrogène ?",
+      "verso": "Le gaz porte $(g)$, l'eau liquide $(\\ell)$ et les ions en solution $(aq)$ ; le gaz ne porte jamais l'indice $(aq)$.",
+      "difficulte": 1,
+      "tags": [
+        "indices-etat"
+      ]
+    },
+    {
+      "id": "PCTD-C02-007",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Quelles espèces contient une solution d'acide chlorhydrique ?",
+      "verso": "Le solvant $\\mathrm{H_2O}$, les ions $\\mathrm{H_3O^+}$ et $\\mathrm{Cl^-}$ (majoritaires) et les ions $\\mathrm{OH^-}$ (ultraminoritaires) ; aucune molécule $\\mathrm{HCl}$.",
+      "difficulte": 1,
+      "tags": [
+        "inventaire",
+        "acide-chlorhydrique"
+      ]
+    },
+    {
+      "id": "PCTD-C02-008",
+      "lecon": "Le chlorure d'hydrogène et sa mise en solution dans l'eau",
+      "type": "definition",
+      "recto": "Quel test met en évidence l'ion chlorure dans une solution ?",
+      "verso": "Avec le nitrate d'argent, il donne un précipité blanc de chlorure d'argent $\\mathrm{AgCl}$ qui noircit à la lumière.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "ion-chlorure"
+      ]
+    },
+    {
+      "id": "PCTD-C02-009",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "formule",
+      "recto": "Pour une solution d'acide chlorhydrique de concentration apportée $C_a$, quelle relation traduit la conservation de la matière ?",
+      "verso": "$\\left[\\mathrm{Cl^-}\\right] = C_a$, puisque toute la matière apportée se retrouve sous forme d'ions.",
+      "difficulte": 2,
+      "tags": [
+        "conservation-matiere"
+      ]
+    },
+    {
+      "id": "PCTD-C02-010",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "formule",
+      "recto": "Quelle relation d'électroneutralité vérifie une solution d'acide chlorhydrique ?",
+      "verso": "$\\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{Cl^-}\\right] + \\left[\\mathrm{OH^-}\\right]$ : la somme des concentrations des cations égale celle des anions (ions monochargés).",
+      "difficulte": 2,
+      "tags": [
+        "electroneutralite"
+      ]
+    },
+    {
+      "id": "PCTD-C02-011",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "formule",
+      "recto": "Quelle est l'expression du produit ionique de l'eau et sa valeur à $25~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "$K_e = \\left[\\mathrm{H_3O^+}\\right] \\times \\left[\\mathrm{OH^-}\\right] = 10^{-14}$ à $25~^{\\circ}\\mathrm{C}$, concentrations en $\\mathrm{mol/L}$.",
+      "difficulte": 1,
+      "tags": [
+        "produit-ionique"
+      ]
+    },
+    {
+      "id": "PCTD-C02-012",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "formule",
+      "recto": "Pour une solution d'acide chlorhydrique de concentration apportée $C_a$, quelle relation donne le pH, et sous quel domaine de validité ?",
+      "verso": "$\\mathrm{pH} = -\\log C_a$ (soit $C_a = 10^{-\\mathrm{pH}}$), à $25~^{\\circ}\\mathrm{C}$, valable pour $10^{-6}~\\mathrm{mol/L} \\leqslant C_a \\leqslant 10^{-2}~\\mathrm{mol/L}$, soit $2 \\leqslant \\mathrm{pH} \\leqslant 6$.",
+      "difficulte": 2,
+      "tags": [
+        "ph-acide-fort",
+        "domaine-validite"
+      ]
+    },
+    {
+      "id": "PCTD-C02-013",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "definition",
+      "recto": "Pourquoi une solution d'acide chlorhydrique à $10^{-8}~\\mathrm{mol/L}$ n'a-t-elle pas un pH de 8 ?",
+      "verso": "Sa concentration sort du domaine de validité de $\\mathrm{pH} = -\\log C_a$ : les ions apportés par l'eau ne sont plus négligeables. Son pH est voisin de 7, et une solution d'acide ne dépasse jamais 7.",
+      "difficulte": 3,
+      "tags": [
+        "domaine-validite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C02-014",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "definition",
+      "recto": "Pourquoi ne doit-on pas confondre $C_a$ et $\\left[\\mathrm{H_3O^+}\\right]$ dans une solution d'acide chlorhydrique ?",
+      "verso": "$C_a$ est la concentration apportée, $\\left[\\mathrm{H_3O^+}\\right]$ la concentration présente en solution. Leur égalité n'est qu'une conséquence de l'ionisation totale (et de $\\left[\\mathrm{OH^-}\\right]$ négligeable), qu'il faut justifier.",
+      "difficulte": 3,
+      "tags": [
+        "concentration-apportee",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C02-015",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "definition",
+      "recto": "Le solvant mis à part, qu'appelle-t-on espèce majoritaire, minoritaire et ultraminoritaire ?",
+      "verso": "Majoritaire : la plus concentrée du milieu ; minoritaire : au moins cent fois moins concentrée ; ultraminoritaire : négligeable dans tous les bilans.",
+      "difficulte": 2,
+      "tags": [
+        "classes-especes"
+      ]
+    },
+    {
+      "id": "PCTD-C02-016",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "formule",
+      "recto": "Selon quelle règle pratique peut-on négliger une concentration devant une autre dans un bilan ?",
+      "verso": "Lorsqu'elle est au moins cent fois plus petite, et à condition de le justifier par un calcul.",
+      "difficulte": 2,
+      "tags": [
+        "approximation"
+      ]
+    },
+    {
+      "id": "PCTD-C02-017",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "formule",
+      "recto": "De combien augmente le pH d'une solution d'acide fort diluée $k$ fois, dans le domaine de validité ?",
+      "verso": "Il augmente de $\\log k$ : une dilution par dix l'augmente d'une unité.",
+      "difficulte": 2,
+      "tags": [
+        "dilution"
+      ]
+    },
+    {
+      "id": "PCTD-C02-018",
+      "lecon": "Le caractère ionique total de la solution d'acide chlorhydrique et ses conséquences",
+      "type": "definition",
+      "recto": "Vers quelle valeur tend le pH d'une solution d'acide chlorhydrique diluée indéfiniment ?",
+      "verso": "Vers 7, par valeurs inférieures : $\\left[\\mathrm{H_3O^+}\\right]$ ne peut descendre sous $10^{-7}~\\mathrm{mol/L}$, valeur de l'eau pure à $25~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "limite"
+      ]
+    },
+    {
+      "id": "PCTD-C02-019",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un acide fort ?",
+      "verso": "Un acide dont l'ionisation dans l'eau est totale : en solution aqueuse, il n'en subsiste aucune molécule.",
+      "difficulte": 1,
+      "tags": [
+        "acide-fort"
+      ]
+    },
+    {
+      "id": "PCTD-C02-020",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un monoacide fort ?",
+      "verso": "Un acide fort dont chaque molécule libère un seul ion $\\mathrm{H_3O^+}$ : $\\mathrm{HCl}$, $\\mathrm{HNO_3}$, $\\mathrm{HBr}$, $\\mathrm{HI}$, $\\mathrm{HClO_4}$.",
+      "difficulte": 1,
+      "tags": [
+        "monoacide-fort"
+      ]
+    },
+    {
+      "id": "PCTD-C02-021",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un diacide fort ?",
+      "verso": "Un acide fort dont chaque molécule libère deux ions $\\mathrm{H_3O^+}$ ; exemple : l'acide sulfurique $\\mathrm{H_2SO_4}$.",
+      "difficulte": 1,
+      "tags": [
+        "diacide-fort"
+      ]
+    },
+    {
+      "id": "PCTD-C02-022",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction de l'acide sulfurique avec l'eau ?",
+      "verso": "$\\mathrm{H_2SO_4 + 2H_2O \\rightarrow 2H_3O^+ + SO_4^{2-}}$, réaction totale.",
+      "difficulte": 2,
+      "tags": [
+        "acide-sulfurique",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C02-023",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "formule",
+      "recto": "Pour un diacide fort de concentration apportée $C_a$, quelle relation donne le pH, et sous quelle condition ?",
+      "verso": "$\\left[\\mathrm{H_3O^+}\\right] = 2C_a$ et $\\mathrm{pH} = -\\log\\left(2C_a\\right)$, à $25~^{\\circ}\\mathrm{C}$, valable pour $10^{-6}~\\mathrm{mol/L} \\leqslant 2C_a \\leqslant 10^{-2}~\\mathrm{mol/L}$.",
+      "difficulte": 2,
+      "tags": [
+        "diacide-fort",
+        "ph"
+      ]
+    },
+    {
+      "id": "PCTD-C02-024",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "definition",
+      "recto": "Pourquoi un diacide fort n'a-t-il pas un pH deux fois plus petit qu'un monoacide fort de même concentration ?",
+      "verso": "C'est $\\left[\\mathrm{H_3O^+}\\right]$ qui double, pas le pH, qui passe par un logarithme : doubler la concentration retranche seulement $\\log 2 = 0{,}30$ au pH.",
+      "difficulte": 3,
+      "tags": [
+        "diacide-fort",
+        "logarithme"
+      ]
+    },
+    {
+      "id": "PCTD-C02-025",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle est l'écriture générale de la réaction d'un acide fort $\\mathrm{H_nA}$ avec l'eau ?",
+      "verso": "$\\mathrm{H_nA + n\\,H_2O \\rightarrow n\\,H_3O^+ + A^{n-}}$ ($n = 1$ monoacide, $n = 2$ diacide) ; l'ion $\\mathrm{A^{n-}}$ est spectateur.",
+      "difficulte": 2,
+      "tags": [
+        "acide-fort",
+        "ecriture-generale"
+      ]
+    },
+    {
+      "id": "PCTD-C02-026",
+      "lecon": "Généralisation : les acides forts en solution aqueuse",
+      "type": "formule",
+      "recto": "A partir de $C_a$ et du pH mesuré, quel critère permet de montrer qu'un monoacide est fort ?",
+      "verso": "$10^{-\\mathrm{pH}}$ est égal à $C_a$ aux erreurs de mesure près (à $2C_a$ pour un diacide) ; si $\\left[\\mathrm{H_3O^+}\\right]$ est nettement plus petite, l'acide n'est pas fort.",
+      "difficulte": 2,
+      "tags": [
+        "acide-fort",
+        "critere"
+      ]
+    },
+    {
+      "id": "PCTD-C02-027",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation de dissolution de l'hydroxyde de sodium dans l'eau ?",
+      "verso": "$\\mathrm{NaOH_{(s)}} \\longrightarrow \\mathrm{Na^+_{(aq)} + OH^-_{(aq)}}$, avec le mot « eau » écrit au-dessus de la flèche ; dissolution totale, rapide et fortement exothermique.",
+      "difficulte": 1,
+      "tags": [
+        "naoh",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C02-028",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Lors de la dissolution de l'hydroxyde de sodium, pourquoi dit-on que l'eau est un solvant dissociant ?",
+      "verso": "Parce que ses molécules polaires s'insèrent dans le cristal ionique, séparent les ions $\\mathrm{Na^+}$ et $\\mathrm{OH^-}$ qui existaient déjà et les entourent.",
+      "difficulte": 2,
+      "tags": [
+        "solvant-dissociant"
+      ]
+    },
+    {
+      "id": "PCTD-C02-029",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Pourquoi l'eau ne s'écrit-elle pas à gauche de la flèche dans l'équation de dissolution de l'hydroxyde de sodium ?",
+      "verso": "Elle n'est pas un réactif : elle n'est pas consommée et ne fait que séparer des ions préexistants. On l'écrit au-dessus de la flèche, alors qu'elle est un réactif dans l'ionisation de $\\mathrm{HCl}$.",
+      "difficulte": 3,
+      "tags": [
+        "solvant-dissociant",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C02-030",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelles relations de conservation de la matière et d'électroneutralité vérifie une solution d'hydroxyde de sodium de concentration $C_b$ ?",
+      "verso": "$\\left[\\mathrm{Na^+}\\right] = C_b$ et $\\left[\\mathrm{Na^+}\\right] + \\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{OH^-}\\right]$.",
+      "difficulte": 2,
+      "tags": [
+        "bilan",
+        "naoh"
+      ]
+    },
+    {
+      "id": "PCTD-C02-031",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Pour une solution d'hydroxyde de sodium de concentration apportée $C_b$, quelle relation donne le pH, et sous quel domaine de validité ?",
+      "verso": "$\\mathrm{pH} = 14 + \\log C_b$ (soit $C_b = 10^{\\mathrm{pH}-14}$), à $25~^{\\circ}\\mathrm{C}$, pour $10^{-6}~\\mathrm{mol/L} \\leqslant C_b \\leqslant 10^{-2}~\\mathrm{mol/L}$, soit $8 \\leqslant \\mathrm{pH} \\leqslant 12$.",
+      "difficulte": 2,
+      "tags": [
+        "ph-base-forte",
+        "domaine-validite"
+      ]
+    },
+    {
+      "id": "PCTD-C02-032",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Dans une solution de base forte, quelle relation lie le pH au $\\mathrm{pOH}$ à $25~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "$\\mathrm{pH} = 14 - \\mathrm{pOH}$, avec $\\mathrm{pOH} = -\\log\\left[\\mathrm{OH^-}\\right]$.",
+      "difficulte": 2,
+      "tags": [
+        "poh"
+      ]
+    },
+    {
+      "id": "PCTD-C02-033",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Pourquoi la concentration en ions hydronium d'une solution de soude n'est-elle jamais nulle ?",
+      "verso": "Le produit ionique $\\left[\\mathrm{H_3O^+}\\right]\\left[\\mathrm{OH^-}\\right] = 10^{-14}$ interdit qu'une concentration soit nulle : les ions $\\mathrm{H_3O^+}$ sont ultraminoritaires, jamais absents.",
+      "difficulte": 3,
+      "tags": [
+        "ultraminoritaire",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C02-034",
+      "lecon": "La solution aqueuse d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle règle de sécurité respecte-t-on pour préparer une solution d'hydroxyde de sodium ?",
+      "verso": "On ajoute la soude à l'eau, par petites portions, en agitant, jamais l'eau sur la soude : la dissolution est très exothermique et le liquide peut être projeté. Lunettes et gants obligatoires.",
+      "difficulte": 2,
+      "tags": [
+        "securite"
+      ]
+    },
+    {
+      "id": "PCTD-C02-035",
+      "lecon": "Généralisation : les bases fortes en solution aqueuse",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une base forte ?",
+      "verso": "Une base dont la mise en solution dans l'eau est totale : aucune unité de soluté ne subsiste sous forme non dissociée.",
+      "difficulte": 1,
+      "tags": [
+        "base-forte"
+      ]
+    },
+    {
+      "id": "PCTD-C02-036",
+      "lecon": "Généralisation : les bases fortes en solution aqueuse",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre une monobase forte et une dibase forte ?",
+      "verso": "Une monobase forte libère un ion $\\mathrm{OH^-}$ par unité apportée ($\\mathrm{NaOH}$, $\\mathrm{KOH}$) ; une dibase forte en libère deux ($\\mathrm{Ca(OH)_2}$, $\\mathrm{Ba(OH)_2}$).",
+      "difficulte": 2,
+      "tags": [
+        "monobase",
+        "dibase"
+      ]
+    },
+    {
+      "id": "PCTD-C02-037",
+      "lecon": "Généralisation : les bases fortes en solution aqueuse",
+      "type": "formule",
+      "recto": "Pour une dibase forte de concentration apportée $C_b$, quelle relation donne le pH, et sous quelle condition ?",
+      "verso": "$\\left[\\mathrm{OH^-}\\right] = 2C_b$ et $\\mathrm{pH} = 14 + \\log\\left(2C_b\\right)$, à $25~^{\\circ}\\mathrm{C}$, pour $10^{-6}~\\mathrm{mol/L} \\leqslant 2C_b \\leqslant 10^{-2}~\\mathrm{mol/L}$.",
+      "difficulte": 2,
+      "tags": [
+        "dibase",
+        "ph"
+      ]
+    },
+    {
+      "id": "PCTD-C02-038",
+      "lecon": "Généralisation : les bases fortes en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle est l'équation de dissolution de l'hydroxyde de calcium dans l'eau ?",
+      "verso": "$\\mathrm{Ca(OH)_{2(s)}} \\longrightarrow \\mathrm{Ca^{2+}_{(aq)} + 2OH^-_{(aq)}}$, l'eau étant écrite au-dessus de la flèche.",
+      "difficulte": 2,
+      "tags": [
+        "hydroxyde-calcium",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C02-039",
+      "lecon": "Généralisation : les bases fortes en solution aqueuse",
+      "type": "formule",
+      "recto": "Comment calcule-t-on $\\left[\\mathrm{H_3O^+}\\right]$ dans le mélange de deux solutions d'acides forts, volumes supposés additifs ?",
+      "verso": "On additionne les quantités de matière d'ions apportées, facteur 2 compris pour un diacide, puis on divise par le volume total : $\\left[\\mathrm{H_3O^+}\\right] = \\dfrac{n_1 + n_2}{V_1 + V_2}$. On n'additionne jamais les pH.",
+      "difficulte": 3,
+      "tags": [
+        "melange",
+        "piege"
+      ]
+    }
+  ]
+}

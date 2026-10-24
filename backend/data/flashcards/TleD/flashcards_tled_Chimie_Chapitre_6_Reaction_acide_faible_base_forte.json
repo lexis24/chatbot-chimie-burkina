@@ -1,0 +1,435 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 6 : La réaction entre une solution d'acide faible et une solution de base forte",
+  "source": "pc/tled/Chimie_Chapitre_6_Reaction_acide_faible_base_forte",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PCTD-C06-001",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium ?",
+      "verso": "$\\mathrm{CH_3COOH + OH^- \\rightarrow CH_3COO^- + H_2O}$, avec une flèche simple car la réaction est pratiquement totale ; l'ion $\\mathrm{Na^+}$ est spectateur.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "acide-ethanoique"
+      ]
+    },
+    {
+      "id": "PCTD-C06-002",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Pour un monoacide faible $\\mathrm{HA}$ quelconque réagissant avec une monobase forte, quelle est l'équation-bilan ?",
+      "verso": "$\\mathrm{HA + OH^- \\rightarrow A^- + H_2O}$ : le proton passe de la molécule $\\mathrm{HA}$ à l'ion hydroxyde.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "acide-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C06-003",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Dans la réaction entre une solution d'hydroxyde de sodium et un acide, pourquoi l'ion $\\mathrm{Na^+}$ ne figure-t-il pas dans l'équation-bilan ?",
+      "verso": "C'est un ion spectateur : il est présent sous la même forme et en même quantité avant et après la réaction. Il compte pourtant dans l'inventaire des espèces et dans l'électroneutralité.",
+      "difficulte": 2,
+      "tags": [
+        "ion-spectateur"
+      ]
+    },
+    {
+      "id": "PCTD-C06-004",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Quelles sont les caractéristiques de la réaction entre un acide faible et une base forte en solution aqueuse ?",
+      "verso": "Elle est rapide et exothermique ; limitée en toute rigueur, elle est considérée comme pratiquement totale.",
+      "difficulte": 1,
+      "tags": [
+        "caracteristiques",
+        "reaction-totale"
+      ]
+    },
+    {
+      "id": "PCTD-C06-005",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Pourquoi la réaction entre l'acide éthanoïque et l'ion hydroxyde est-elle pratiquement totale alors que l'acide est faible ?",
+      "verso": "L'ion $\\mathrm{OH^-}$ est la base la plus forte qui puisse exister dans l'eau : il capte sans difficulté le proton de l'acide. La faiblesse de l'acide concerne sa réaction avec l'eau, pas celle avec la base forte.",
+      "difficulte": 3,
+      "tags": [
+        "reaction-totale",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C06-006",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Pourquoi une solution d'éthanoate de sodium a-t-elle un pH supérieur à 7 ?",
+      "verso": "L'ion éthanoate, base conjuguée d'un acide faible, réagit partiellement avec l'eau : $\\mathrm{CH_3COO^- + H_2O \\rightleftarrows CH_3COOH + OH^-}$. La solution est donc basique.",
+      "difficulte": 2,
+      "tags": [
+        "ethanoate-de-sodium",
+        "solution-basique"
+      ]
+    },
+    {
+      "id": "PCTD-C06-007",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Lors de l'ajout de soude à une solution d'acide éthanoïque, que contient le bécher avant l'équivalence ?",
+      "verso": "Des molécules $\\mathrm{CH_3COOH}$ non encore transformées et des ions $\\mathrm{CH_3COO^-}$ déjà formés, en quantités comparables, plus l'ion spectateur $\\mathrm{Na^+}$ : les deux formes du couple coexistent.",
+      "difficulte": 2,
+      "tags": [
+        "avant-equivalence",
+        "inventaire-especes"
+      ]
+    },
+    {
+      "id": "PCTD-C06-008",
+      "lecon": "La réaction entre une solution d'acide éthanoïque et une solution d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Quelle erreur commet un élève qui écrit $\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$ pour la réaction de l'acide éthanoïque avec la soude ?",
+      "verso": "Cette équation vaut pour un acide fort. Pour un acide faible, l'espèce majoritaire est la molécule : on écrit $\\mathrm{CH_3COOH + OH^- \\rightarrow CH_3COO^- + H_2O}$.",
+      "difficulte": 3,
+      "tags": [
+        "equation-bilan",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C06-009",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "formule",
+      "recto": "Pour le dosage d'un monoacide faible par une monobase forte, quelle est la relation d'équivalence ?",
+      "verso": "$C_aV_a = C_bV_{bE}$, la même que pour un acide fort, car la réaction est pratiquement totale ($C$ en $\\mathrm{mol/L}$, volumes dans la même unité).",
+      "difficulte": 1,
+      "tags": [
+        "equivalence",
+        "relation"
+      ]
+    },
+    {
+      "id": "PCTD-C06-010",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Lors du dosage d'un acide faible par une base forte, qu'appelle-t-on la demi-équivalence ?",
+      "verso": "L'état du mélange obtenu quand on a versé la moitié du volume d'équivalence, $V_b = \\dfrac{V_{bE}}{2}$ : la moitié de l'acide a été transformée en sa base conjuguée.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C06-011",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "formule",
+      "recto": "Lors du dosage d'un acide faible par une base forte, que vaut le pH à la demi-équivalence ?",
+      "verso": "$\\mathrm{pH}_{1/2} = \\mathrm{p}K_a$, car $\\left[\\mathrm{A^-}\\right] = \\left[\\mathrm{HA}\\right]$ dans la relation $\\mathrm{pH} = \\mathrm{p}K_a + \\log \\dfrac{\\left[\\mathrm{A^-}\\right]}{\\left[\\mathrm{HA}\\right]}$.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equivalence",
+        "pka"
+      ]
+    },
+    {
+      "id": "PCTD-C06-012",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "formule",
+      "recto": "A l'équivalence du dosage d'un acide faible par une base forte, quelle est la concentration $C'$ du sel formé ?",
+      "verso": "$C' = \\dfrac{C_aV_a}{V_a + V_{bE}}$ : la quantité d'acide initiale divisée par le volume total du mélange.",
+      "difficulte": 2,
+      "tags": [
+        "equivalence",
+        "concentration-sel"
+      ]
+    },
+    {
+      "id": "PCTD-C06-013",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Pourquoi le pH à l'équivalence du dosage d'un acide faible par une base forte est-il supérieur à 7 ?",
+      "verso": "La solution obtenue contient la base conjuguée $\\mathrm{A^-}$ de l'acide faible, qui réagit partiellement avec l'eau en libérant des ions $\\mathrm{OH^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "ph-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C06-014",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Sur la courbe $\\mathrm{pH} = f(V_b)$ du dosage d'un acide faible, comment se présente le pH initial par rapport à celui d'un acide fort de même concentration ?",
+      "verso": "Il est plus élevé, car l'acide faible n'est que partiellement ionisé dans l'eau.",
+      "difficulte": 1,
+      "tags": [
+        "courbe-dosage",
+        "ph-initial"
+      ]
+    },
+    {
+      "id": "PCTD-C06-015",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Combien de points d'inflexion présente la courbe $\\mathrm{pH} = f(V_b)$ du dosage d'un acide faible par une base forte ?",
+      "verso": "Deux : le point de demi-équivalence $E_{1/2}$, au milieu du palier, et le point d'équivalence E. La courbe d'un acide fort n'en a qu'un.",
+      "difficulte": 2,
+      "tags": [
+        "points-inflexion",
+        "courbe-dosage"
+      ]
+    },
+    {
+      "id": "PCTD-C06-016",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Pourquoi le saut de pH est-il moins ample pour le dosage d'un acide faible que pour celui d'un acide fort ?",
+      "verso": "Juste avant l'équivalence, le couple $\\mathrm{HA/A^-}$ est encore présent et s'oppose aux variations de pH : le saut part de plus haut et s'arrête au même niveau, fixé par l'excès de base.",
+      "difficulte": 3,
+      "tags": [
+        "saut-de-ph"
+      ]
+    },
+    {
+      "id": "PCTD-C06-017",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Sur une courbe de dosage acido-basique, comment repère-t-on le point d'équivalence E ?",
+      "verso": "C'est le point de la courbe où la pente est maximale ; on le repère par la méthode des tangentes parallèles.",
+      "difficulte": 1,
+      "tags": [
+        "point-equivalence",
+        "tangentes-paralleles"
+      ]
+    },
+    {
+      "id": "PCTD-C06-018",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Quel indicateur coloré convient au dosage d'un acide faible par une base forte ?",
+      "verso": "La phénolphtaléine (zone de virage 8,2 à 10,0) : on choisit l'indicateur dont la zone de virage est contenue dans le saut de pH, au voisinage de $\\mathrm{pH}_E$, situé entre 8 et 9.",
+      "difficulte": 2,
+      "tags": [
+        "indicateur-colore",
+        "phenolphtaleine"
+      ]
+    },
+    {
+      "id": "PCTD-C06-019",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Pourquoi l'hélianthine convient-elle mal au dosage d'un acide faible par une base forte ?",
+      "verso": "Sa zone de virage (3,1 à 4,4) est traversée dès les premiers millilitres versés, au début du palier : le volume lu est très inférieur à $V_{bE}$.",
+      "difficulte": 3,
+      "tags": [
+        "helianthine",
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PCTD-C06-020",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "definition",
+      "recto": "Dans le dosage d'un acide faible par une base forte, quelle différence y a-t-il entre le point d'équivalence et le point de neutralité ?",
+      "verso": "Au point d'équivalence, les réactifs ont été mélangés en proportions stœchiométriques et $\\mathrm{pH} \\gt 7$ ; au point de neutralité, $\\mathrm{pH} = 7$. Confondus pour un acide fort, ils sont distincts pour un acide faible.",
+      "difficulte": 3,
+      "tags": [
+        "point-equivalence",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C06-021",
+      "lecon": "Le dosage d'un acide faible par une base forte et la courbe pH $= f(V_{b})$",
+      "type": "formule",
+      "recto": "Pour un dosage par une solution d'hydroxyde de calcium $\\mathrm{Ca(OH)_2}$ de concentration $C_b$, quelle quantité d'ions hydroxyde apporte un volume $V_b$ ?",
+      "verso": "$n(\\mathrm{OH^-}) = 2\\,C_bV_b$, car une mole de $\\mathrm{Ca(OH)_2}$ apporte deux moles d'ions $\\mathrm{OH^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "hydroxyde-de-calcium",
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C06-022",
+      "lecon": "Les solutions tampon",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une solution tampon ?",
+      "verso": "Une solution dont le pH varie très peu lors de l'addition modérée d'un acide, de l'addition modérée d'une base ou d'une dilution modérée.",
+      "difficulte": 1,
+      "tags": [
+        "solution-tampon"
+      ]
+    },
+    {
+      "id": "PCTD-C06-023",
+      "lecon": "Les solutions tampon",
+      "type": "definition",
+      "recto": "Quelle est la composition d'une solution tampon ?",
+      "verso": "Un mélange, en quantités du même ordre de grandeur, d'un acide faible $\\mathrm{HA}$ et de sa base conjuguée $\\mathrm{A^-}$ ; elle est la plus efficace quand les deux concentrations sont égales.",
+      "difficulte": 1,
+      "tags": [
+        "solution-tampon",
+        "composition"
+      ]
+    },
+    {
+      "id": "PCTD-C06-024",
+      "lecon": "Les solutions tampon",
+      "type": "formule",
+      "recto": "Quel est le pH d'une solution tampon contenant un acide faible $\\mathrm{HA}$ et sa base conjuguée $\\mathrm{A^-}$ ?",
+      "verso": "$\\mathrm{pH} = \\mathrm{p}K_a + \\log \\dfrac{\\left[\\mathrm{A^-}\\right]}{\\left[\\mathrm{HA}\\right]}$ ; il vaut $\\mathrm{p}K_a$ lorsque les deux concentrations sont égales.",
+      "difficulte": 2,
+      "tags": [
+        "ph-tampon",
+        "pka"
+      ]
+    },
+    {
+      "id": "PCTD-C06-025",
+      "lecon": "Les solutions tampon",
+      "type": "definition",
+      "recto": "Quelles sont les trois façons de préparer une solution tampon ?",
+      "verso": "Mélanger des quantités égales d'un acide faible et de sa base conjuguée ; verser sur un acide faible la moitié du volume de base forte nécessaire à l'équivalence ; verser sur une base faible la moitié du volume d'acide fort nécessaire à l'équivalence.",
+      "difficulte": 2,
+      "tags": [
+        "preparation-tampon"
+      ]
+    },
+    {
+      "id": "PCTD-C06-026",
+      "lecon": "Les solutions tampon",
+      "type": "formule",
+      "recto": "Comment une solution tampon $\\mathrm{HA/A^-}$ consomme-t-elle une petite quantité d'ions hydroxyde ajoutée ?",
+      "verso": "Les ions $\\mathrm{OH^-}$ sont captés par l'acide faible : $\\mathrm{HA + OH^- \\rightarrow A^- + H_2O}$. $\\mathrm{HA}$ diminue, $\\mathrm{A^-}$ augmente d'autant, le rapport et donc le pH changent peu.",
+      "difficulte": 2,
+      "tags": [
+        "effet-tampon"
+      ]
+    },
+    {
+      "id": "PCTD-C06-027",
+      "lecon": "Les solutions tampon",
+      "type": "definition",
+      "recto": "Quelles sont les principales applications des solutions tampon ?",
+      "verso": "L'étalonnage des pH-mètres (tampons de pH 4,0 ; 7,0 et 10,0), la régulation du pH du sang à 7,4 par le couple $\\mathrm{CO_2,H_2O/HCO_3^-}$, les milieux de culture, les bains de teinture et d'électrolyse, les cosmétiques.",
+      "difficulte": 2,
+      "tags": [
+        "applications-tampon",
+        "sang"
+      ]
+    },
+    {
+      "id": "PCTD-C06-028",
+      "lecon": "Les solutions tampon",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire qu'une solution tampon a un pH constant égal à 7 ?",
+      "verso": "Son pH est peu variable, pas constant, et seulement pour des ajouts modérés. Il dépend du couple : un tampon acide éthanoïque/éthanoate est à pH 4,8, un tampon ammonium/ammoniac à pH 9,2.",
+      "difficulte": 3,
+      "tags": [
+        "solution-tampon",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C06-029",
+      "lecon": "Les solutions tampon",
+      "type": "definition",
+      "recto": "Pourquoi un mélange d'acide chlorhydrique et de chlorure de sodium ne constitue-t-il pas une solution tampon ?",
+      "verso": "L'ion chlorure est la base conjuguée d'un acide fort : il ne capte aucun proton. Un tampon exige un acide faible et sa base conjuguée.",
+      "difficulte": 3,
+      "tags": [
+        "solution-tampon",
+        "acide-fort"
+      ]
+    },
+    {
+      "id": "PCTD-C06-030",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction entre une solution d'ammoniac et une solution d'acide chlorhydrique ?",
+      "verso": "$\\mathrm{NH_3 + H_3O^+ \\rightarrow NH_4^+ + H_2O}$, réaction rapide, exothermique et pratiquement totale ; l'ion chlorure est spectateur.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "ammoniac"
+      ]
+    },
+    {
+      "id": "PCTD-C06-031",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "formule",
+      "recto": "Pour le dosage d'une monobase faible par un monoacide fort, quelle est la relation d'équivalence ?",
+      "verso": "$C_bV_b = C_aV_{aE}$, avec $V_{aE}$ le volume d'acide versé à l'équivalence.",
+      "difficulte": 1,
+      "tags": [
+        "equivalence",
+        "base-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C06-032",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "definition",
+      "recto": "Pourquoi le pH à l'équivalence du dosage d'une base faible par un acide fort est-il inférieur à 7 ?",
+      "verso": "La solution obtenue contient l'acide conjugué $\\mathrm{BH^+}$ de la base faible, qui réagit avec l'eau : $\\mathrm{BH^+ + H_2O \\rightleftarrows B + H_3O^+}$.",
+      "difficulte": 2,
+      "tags": [
+        "ph-equivalence",
+        "base-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C06-033",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "definition",
+      "recto": "Lors du dosage d'une base faible par un acide fort, que vaut le pH à la demi-équivalence ?",
+      "verso": "A $V_a = \\dfrac{V_{aE}}{2}$, $\\left[\\mathrm{BH^+}\\right] = \\left[\\mathrm{B}\\right]$, donc $\\mathrm{pH} = \\mathrm{p}K_a$ du couple $\\mathrm{BH^+/B}$ ; le mélange est une solution tampon.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equivalence",
+        "base-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C06-034",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "definition",
+      "recto": "Quel indicateur coloré convient au dosage d'une base faible par un acide fort dont l'équivalence est voisine de pH 5,5 ?",
+      "verso": "Le rouge de méthyle (zone de virage 4,2 à 6,2), car sa zone de virage contient $\\mathrm{pH}_E$ ; pour une équivalence plus acide encore, l'hélianthine.",
+      "difficulte": 2,
+      "tags": [
+        "indicateur-colore",
+        "rouge-de-methyle"
+      ]
+    },
+    {
+      "id": "PCTD-C06-035",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "definition",
+      "recto": "Pourquoi ne faut-il pas écrire $\\mathrm{NH_4OH}$ dans l'équation du dosage de l'ammoniaque ?",
+      "verso": "Cette formule n'existe pas : l'ammoniaque est une solution aqueuse d'ammoniac $\\mathrm{NH_3}$, et c'est la molécule $\\mathrm{NH_3}$ qui réagit avec $\\mathrm{H_3O^+}$.",
+      "difficulte": 3,
+      "tags": [
+        "ammoniaque",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C06-036",
+      "lecon": "Le cas symétrique : une base faible dosée par un acide fort",
+      "type": "definition",
+      "recto": "Dans un dosage acido-basique, quelle règle donne le caractère acide, neutre ou basique de la solution à l'équivalence ?",
+      "verso": "Le pH à l'équivalence est imposé par l'espèce qui reste : sel d'ions indifférents, pH 7 ; base faible restante, pH supérieur à 7 ; acide faible restant, pH inférieur à 7.",
+      "difficulte": 2,
+      "tags": [
+        "ph-equivalence",
+        "regle"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import { stripFigureBlocks, splitBoldSegments, parseMarkdownLines, qcmToLines, c
 
 describe("convertLatexToPlainText", () => {
   it("leaves text without LaTeX untouched", () => {
-    expect(convertLatexToPlainText("Rien de mathématique ici.")).toBe("Rien de mathématique ici.")
+    expect(convertLatexToPlainText("Rien de scientifique ici.")).toBe("Rien de scientifique ici.")
   })
 
   it("converts a fraction and a blackboard-bold set", () => {
@@ -31,12 +31,32 @@ describe("convertLatexToPlainText", () => {
   })
 })
 
+describe("convertLatexToPlainText — chimie (\\ce{...})", () => {
+  it("converts formulas, ions and charges", () => {
+    expect(convertLatexToPlainText("$\\ce{H2O}$")).toBe("H₂O")
+    expect(convertLatexToPlainText("$\\ce{Cu^2+}$ et $\\ce{SO4^{2-}}$")).toBe("Cu²⁺ et SO₄²⁻")
+    expect(convertLatexToPlainText("$\\ce{H3O+}$, $\\ce{HO-}$")).toBe("H₃O⁺, HO⁻")
+    expect(convertLatexToPlainText("$\\ce{CH3-CH2-OH}$")).toBe("CH₃-CH₂-OH")
+  })
+
+  it("converts equations with coefficients, arrows and physical states", () => {
+    expect(convertLatexToPlainText("$\\ce{CH4 + 2O2 -> CO2 + 2H2O}$")).toBe("CH₄ + 2 O₂ → CO₂ + 2 H₂O")
+    expect(convertLatexToPlainText("$\\ce{CH3COOH + H2O <=> CH3COO- + H3O+}$")).toBe("CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺")
+    expect(convertLatexToPlainText("$\\ce{NaCl(s) -> Na+(aq) + Cl-(aq)}$")).toBe("NaCl(s) → Na⁺(aq) + Cl⁻(aq)")
+    expect(convertLatexToPlainText("$\\ce{Cu^2+ + 2e- -> Cu}$")).toBe("Cu²⁺ + 2 e⁻ → Cu")
+  })
+
+  it("keeps the surrounding LaTeX working", () => {
+    expect(convertLatexToPlainText("$n(\\ce{CO2}) = 2{,}0\\,\\text{mol}$")).toBe("n(CO₂) = 2,0 mol")
+  })
+})
+
 describe("stripFigureBlocks", () => {
   it("replaces a ```figure``` block with a textual placeholder", () => {
     const input = 'Avant\n```figure\n{"points":[]}\n```\nAprès'
     const result = stripFigureBlocks(input)
     expect(result).not.toContain("```figure")
-    expect(result).toContain("Figure géométrique")
+    expect(result).toContain("[Schéma — voir dans l'application]")
     expect(result).toContain("Avant")
     expect(result).toContain("Après")
   })
@@ -48,9 +68,9 @@ describe("stripFigureBlocks", () => {
 
 describe("splitBoldSegments", () => {
   it("splits **bold** markers into flagged segments, in order", () => {
-    expect(splitBoldSegments("Le **théorème de Pythagore** dit que...")).toEqual([
-      { text: "Le ", bold: false },
-      { text: "théorème de Pythagore", bold: true },
+    expect(splitBoldSegments("La **loi de Lavoisier** dit que...")).toEqual([
+      { text: "La ", bold: false },
+      { text: "loi de Lavoisier", bold: true },
       { text: " dit que...", bold: false },
     ])
   })
@@ -74,7 +94,7 @@ describe("parseMarkdownLines", () => {
 
   it("replaces figure blocks before splitting into lines", () => {
     const lines = parseMarkdownLines('```figure\n{}\n```')
-    expect(lines.some((l) => l.segments.some((s) => s.text.includes("Figure géométrique")))).toBe(true)
+    expect(lines.some((l) => l.segments.some((s) => s.text.includes("Schéma")))).toBe(true)
   })
 })
 

@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: ["class", '[data-theme="chatmaths-dark"]'],
+  darkMode: ["class", '[data-theme="chatchimie-dark"]'],
   theme: {
     extend: {
       fontFamily: {
@@ -41,7 +41,7 @@ export default {
         },
       },
       boxShadow: {
-        glow: "0 0 0 1px rgba(99,102,241,0.15), 0 8px 24px -8px rgba(99,102,241,0.35)",
+        glow: "0 0 0 1px rgba(159,18,57,0.15), 0 8px 24px -8px rgba(159,18,57,0.35)",
       },
     },
   },
@@ -49,42 +49,42 @@ export default {
   daisyui: {
     themes: [
       {
-        "chatmaths-light": {
-          primary: "#0d9488",
+        "chatchimie-light": {
+          primary: "#9f1239",
           "primary-content": "#ffffff",
-          secondary: "#0891b2",
+          secondary: "#b45309",
           "secondary-content": "#ffffff",
           accent: "#d97706",
           "accent-content": "#ffffff",
           neutral: "#1f2937",
           "base-100": "#ffffff",
-          "base-200": "#f1faf9",
-          "base-300": "#e1f1ee",
-          info: "#0891b2",
+          "base-200": "#fbf4f5",
+          "base-300": "#f3e3e6",
+          info: "#0369a1",
           success: "#16a34a",
           warning: "#d97706",
           error: "#dc2626",
         },
       },
       {
-        "chatmaths-dark": {
-          primary: "#2dd4bf",
-          "primary-content": "#062420",
-          secondary: "#22d3ee",
-          "secondary-content": "#062024",
+        "chatchimie-dark": {
+          primary: "#fb7185",
+          "primary-content": "#2a0610",
+          secondary: "#fbbf24",
+          "secondary-content": "#2b1a04",
           accent: "#fbbf24",
           "accent-content": "#2b1a04",
           neutral: "#e5e7eb",
-          "base-100": "#0b1615",
-          "base-200": "#101f1d",
-          "base-300": "#17302c",
-          info: "#22d3ee",
+          "base-100": "#160b0e",
+          "base-200": "#1f1014",
+          "base-300": "#33191f",
+          info: "#38bdf8",
           success: "#4ade80",
           warning: "#fbbf24",
           error: "#f87171",
         },
       },
     ],
-    darkTheme: "chatmaths-dark",
+    darkTheme: "chatchimie-dark",
   },
 }

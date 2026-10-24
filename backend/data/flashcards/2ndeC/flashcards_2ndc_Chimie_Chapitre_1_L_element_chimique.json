@@ -1,0 +1,453 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 1 : L'élément chimique",
+  "source": "pc/2ndc/Chimie_Chapitre_1_L_element_chimique",
+  "nombre_cartes": 37,
+  "cartes": [
+    {
+      "id": "PC2C-C01-001",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Quelles sont les principales propriétés physiques du métal cuivre ?",
+      "verso": "Solide rouge d'éclat métallique, malléable et ductile, bon conducteur du courant et de la chaleur ; masse volumique environ $8{,}9~\\mathrm{g/cm^3}$, fusion vers $1\\,085~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 1,
+      "tags": [
+        "cuivre",
+        "proprietes-physiques"
+      ]
+    },
+    {
+      "id": "PC2C-C01-002",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Pourquoi le métal cuivre est-il un corps pur simple ?",
+      "verso": "Parce qu'il ne renferme qu'une seule sorte d'atomes, de symbole $\\mathrm{Cu}$ : un seul élément.",
+      "difficulte": 1,
+      "tags": [
+        "corps-pur-simple",
+        "cuivre"
+      ]
+    },
+    {
+      "id": "PC2C-C01-003",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Quelles propriétés du cuivre expliquent son emploi dans les fils électriques et dans la plomberie ?",
+      "verso": "Sa conductivité électrique, la meilleure après celle de l'argent, pour les fils, câbles et bobinages ; sa conductivité thermique et sa résistance à la corrosion pour la plomberie et les serpentins de réfrigération.",
+      "difficulte": 2,
+      "tags": [
+        "usages",
+        "cuivre"
+      ]
+    },
+    {
+      "id": "PC2C-C01-004",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Quelle est la composition du laiton et celle du bronze ?",
+      "verso": "Le laiton est un mélange de cuivre et de zinc ; le bronze, un mélange de cuivre et d'étain. Ce sont des alliages.",
+      "difficulte": 1,
+      "tags": [
+        "alliages",
+        "laiton",
+        "bronze"
+      ]
+    },
+    {
+      "id": "PC2C-C01-005",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Comment distingue-t-on un corps pur simple d'un corps pur composé ?",
+      "verso": "On compte les éléments différents de sa formule : un seul élément, corps pur simple ($\\mathrm{Cu}$, $\\mathrm{O_2}$) ; plusieurs, corps pur composé ($\\mathrm{H_2O}$, $\\mathrm{CuO}$).",
+      "difficulte": 2,
+      "tags": [
+        "corps-pur",
+        "simple-compose"
+      ]
+    },
+    {
+      "id": "PC2C-C01-006",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Comment la fusion permet-elle de distinguer un corps pur d'un mélange ?",
+      "verso": "Un corps pur fond à une température fixe ; un mélange fond sur un intervalle de températures.",
+      "difficulte": 2,
+      "tags": [
+        "corps-pur",
+        "melange",
+        "fusion"
+      ]
+    },
+    {
+      "id": "PC2C-C01-007",
+      "lecon": "Le métal cuivre",
+      "type": "definition",
+      "recto": "Pourquoi le laiton, bien qu'homogène, n'est-il pas un corps pur ?",
+      "verso": "Homogène ne veut pas dire pur : le laiton contient deux espèces, cuivre et zinc, en proportions variables. C'est un mélange homogène.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "melange-homogene"
+      ]
+    },
+    {
+      "id": "PC2C-C01-008",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'action de l'acide nitrique concentré sur le métal cuivre ?",
+      "verso": "$\\mathrm{Cu + 4HNO_3 \\rightarrow Cu(NO_3)_2 + 2NO_2 + 2H_2O}$ : la solution devient bleue (ions cuivre (II)) et un gaz roux, le dioxyde d'azote, se dégage.",
+      "difficulte": 2,
+      "tags": [
+        "acide-nitrique",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-009",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "definition",
+      "recto": "Quel gaz se dégage quand le cuivre est attaqué par l'acide nitrique dilué ?",
+      "verso": "Le monoxyde d'azote $\\mathrm{NO}$, incolore, qui devient roux au contact du dioxygène de l'air : $\\mathrm{2NO + O_2 \\rightarrow 2NO_2}$.",
+      "difficulte": 3,
+      "tags": [
+        "acide-nitrique-dilue",
+        "monoxyde-azote"
+      ]
+    },
+    {
+      "id": "PC2C-C01-010",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'action de l'hydroxyde de sodium sur une solution d'ions cuivre (II) ?",
+      "verso": "$\\mathrm{Cu^{2+} + 2OH^- \\rightarrow Cu(OH)_2}$ : il se forme un précipité bleu d'hydroxyde de cuivre.",
+      "difficulte": 1,
+      "tags": [
+        "soude",
+        "precipite",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-011",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "definition",
+      "recto": "Pourquoi les ions sodium et nitrate n'apparaissent-ils pas dans l'équation de précipitation de l'hydroxyde de cuivre ?",
+      "verso": "Ils ne changent pas au cours de la transformation : ils restent dissous (nitrate de sodium), on ne les écrit donc pas.",
+      "difficulte": 2,
+      "tags": [
+        "ions-spectateurs",
+        "precipite"
+      ]
+    },
+    {
+      "id": "PC2C-C01-012",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'action de la chaleur sur l'hydroxyde de cuivre ?",
+      "verso": "$\\mathrm{Cu(OH)_2 \\rightarrow CuO + H_2O}$, par chauffage (signe $\\Delta$ sur la flèche) : le précipité bleu noircit et libère de la buée. C'est une déshydratation.",
+      "difficulte": 2,
+      "tags": [
+        "deshydratation",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-013",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'action du carbone sur l'oxyde de cuivre ?",
+      "verso": "$\\mathrm{2CuO + C \\rightarrow 2Cu + CO_2}$, par chauffage fort (signe $\\Delta$) : dépôt rouge de cuivre et gaz qui trouble l'eau de chaux.",
+      "difficulte": 2,
+      "tags": [
+        "carbone",
+        "oxyde-cuivre",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-014",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "definition",
+      "recto": "Quelle couleur présente chacune des quatre formes du cuivre du cycle : $\\mathrm{Cu}$, $\\mathrm{Cu^{2+}}$, $\\mathrm{Cu(OH)_2}$ et $\\mathrm{CuO}$ ?",
+      "verso": "Métal $\\mathrm{Cu}$ rouge ; ion $\\mathrm{Cu^{2+}}$ en solution bleu ; précipité $\\mathrm{Cu(OH)_2}$ bleu ; oxyde $\\mathrm{CuO}$ poudre noire.",
+      "difficulte": 1,
+      "tags": [
+        "couleurs",
+        "formes-cuivre"
+      ]
+    },
+    {
+      "id": "PC2C-C01-015",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "definition",
+      "recto": "Dans une équation chimique, que signifie le signe $\\Delta$ placé au-dessus de la flèche ?",
+      "verso": "Que la transformation exige un chauffage : c'est une condition de transformation, sans laquelle elle ne se produit pas ou trop lentement.",
+      "difficulte": 1,
+      "tags": [
+        "condition",
+        "chauffage"
+      ]
+    },
+    {
+      "id": "PC2C-C01-016",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "formule",
+      "recto": "Quelle équation traduit le noircissement d'un fil de cuivre chauffé à l'air ?",
+      "verso": "$\\mathrm{2Cu + O_2 \\rightarrow 2CuO}$, par chauffage : le métal fixe l'oxygène de l'air et se couvre d'oxyde de cuivre noir.",
+      "difficulte": 2,
+      "tags": [
+        "oxydation",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-017",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "formule",
+      "recto": "Quelle équation traduit le dépôt rouge sur un clou de fer plongé dans une solution d'ions cuivre (II) ?",
+      "verso": "$\\mathrm{Fe + Cu^{2+} \\rightarrow Fe^{2+} + Cu}$ : les ions cuivre (II) redeviennent métal cuivre et la solution pâlit ; avec le zinc, $\\mathrm{Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu}$.",
+      "difficulte": 2,
+      "tags": [
+        "fer",
+        "depot-cuivre",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-018",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre la solution bleue et le précipité bleu rencontrés dans le cycle du cuivre ?",
+      "verso": "La solution bleue contient l'ion $\\mathrm{Cu^{2+}}$ dissous ; le précipité bleu est le solide $\\mathrm{Cu(OH)_2}$ qui se dépose.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "couleurs"
+      ]
+    },
+    {
+      "id": "PC2C-C01-019",
+      "lecon": "Le cuivre dans tous ses états, quatre transformations",
+      "type": "definition",
+      "recto": "Lors du chauffage de l'oxyde de cuivre avec du carbone, à quel moment doit-on retirer le tube abducteur de l'eau de chaux ?",
+      "verso": "Avant d'arrêter le chauffage ; sinon l'eau de chaux remonte dans le tube brûlant et le fait éclater.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "eau-de-chaux"
+      ]
+    },
+    {
+      "id": "PC2C-C01-020",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on élément chimique ?",
+      "verso": "Ce qui est commun au corps pur simple et à tous ses composés. L'élément cuivre est présent dans $\\mathrm{Cu}$, $\\mathrm{Cu^{2+}}$, $\\mathrm{Cu(OH)_2}$, $\\mathrm{CuO}$, $\\mathrm{Cu(NO_3)_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "element-chimique"
+      ]
+    },
+    {
+      "id": "PC2C-C01-021",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "formule",
+      "recto": "Que devient le nombre d'atomes de chaque élément au cours d'une transformation chimique ?",
+      "verso": "Il reste le même avant et après : les éléments se conservent. L'ajustement d'une équation-bilan traduit cette conservation.",
+      "difficulte": 1,
+      "tags": [
+        "conservation",
+        "element"
+      ]
+    },
+    {
+      "id": "PC2C-C01-022",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "formule",
+      "recto": "Au cours d'une transformation chimique, que devient la masse d'un élément ?",
+      "verso": "Elle se retrouve intégralement dans les produits, même si la masse totale des solides pesés change : seule varie la masse des autres éléments associés.",
+      "difficulte": 2,
+      "tags": [
+        "conservation",
+        "masse"
+      ]
+    },
+    {
+      "id": "PC2C-C01-023",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Quelle est la suite des corps du cycle du cuivre ?",
+      "verso": "Métal rouge $\\mathrm{Cu}$ $\\rightarrow$ solution bleue d'ions $\\mathrm{Cu^{2+}}$ $\\rightarrow$ précipité bleu $\\mathrm{Cu(OH)_2}$ $\\rightarrow$ poudre noire $\\mathrm{CuO}$ $\\rightarrow$ métal rouge : quatre corps, un seul élément.",
+      "difficulte": 2,
+      "tags": [
+        "cycle-cuivre"
+      ]
+    },
+    {
+      "id": "PC2C-C01-024",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Pourquoi un élément ne peut-il pas disparaître au cours d'une transformation chimique ?",
+      "verso": "Parce qu'une transformation chimique ne fait que réarranger les atomes existants, sans toucher à leurs noyaux.",
+      "difficulte": 2,
+      "tags": [
+        "conservation",
+        "atomes"
+      ]
+    },
+    {
+      "id": "PC2C-C01-025",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre l'élément cuivre et le corps simple cuivre ?",
+      "verso": "Le corps simple est un métal rouge, conducteur, que l'on pèse ; l'élément est une sorte d'atomes, présente aussi dans des corps bleus ou noirs. Une couleur ou une masse volumique se rapporte toujours au corps.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "element-corps-simple"
+      ]
+    },
+    {
+      "id": "PC2C-C01-026",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Pourquoi une tôle de fer rouillée est-elle plus lourde sans que l'élément fer ait augmenté ?",
+      "verso": "La masse de l'élément fer se conserve : le supplément de masse vient de l'oxygène pris à l'air.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "rouille",
+        "conservation"
+      ]
+    },
+    {
+      "id": "PC2C-C01-027",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une pyrolyse ?",
+      "verso": "La décomposition d'un corps chauffé fortement à l'abri de l'air. Le sucre y laisse du carbone noir et de la buée : il renferme les éléments carbone, hydrogène et oxygène.",
+      "difficulte": 2,
+      "tags": [
+        "pyrolyse",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC2C-C01-028",
+      "lecon": "Le cycle du cuivre et la conservation de l'élément",
+      "type": "definition",
+      "recto": "Quel indice commun montre que le bois, le butane et le pétrole renferment l'élément carbone ?",
+      "verso": "En brûlant, ils donnent tous un gaz qui trouble l'eau de chaux, le dioxyde de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "element-carbone",
+        "eau-de-chaux"
+      ]
+    },
+    {
+      "id": "PC2C-C01-029",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Quelle règle d'écriture suit le symbole d'un élément chimique ?",
+      "verso": "Une ou deux lettres tirées du nom français ou latin : la première en majuscule, la seconde en minuscule. Le symbole est universel.",
+      "difficulte": 1,
+      "tags": [
+        "symbole"
+      ]
+    },
+    {
+      "id": "PC2C-C01-030",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Qu'est-ce que le numéro atomique $Z$ d'un élément ?",
+      "verso": "Le nombre de protons du noyau. C'est ce nombre, et lui seul, qui définit l'élément ; les éléments sont classés par $Z$ croissant.",
+      "difficulte": 1,
+      "tags": [
+        "numero-atomique"
+      ]
+    },
+    {
+      "id": "PC2C-C01-031",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Quels sont, dans l'ordre, les symboles des éléments de numéros atomiques 1 à 10 ?",
+      "verso": "H, He, Li, Be, B, C, N, O, F, Ne (hydrogène, hélium, lithium, béryllium, bore, carbone, azote, oxygène, fluor, néon).",
+      "difficulte": 2,
+      "tags": [
+        "vingt-premiers-elements"
+      ]
+    },
+    {
+      "id": "PC2C-C01-032",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Quels sont, dans l'ordre, les symboles des éléments de numéros atomiques 11 à 20 ?",
+      "verso": "Na, Mg, Al, Si, P, S, Cl, Ar, K, Ca (sodium, magnésium, aluminium, silicium, phosphore, soufre, chlore, argon, potassium, calcium).",
+      "difficulte": 2,
+      "tags": [
+        "vingt-premiers-elements"
+      ]
+    },
+    {
+      "id": "PC2C-C01-033",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Quels sont les symboles et numéros atomiques du fer, du cuivre, du zinc, de l'argent, de l'or et du plomb ?",
+      "verso": "Fer $\\mathrm{Fe}$ ($Z = 26$), cuivre $\\mathrm{Cu}$ ($Z = 29$), zinc $\\mathrm{Zn}$ ($Z = 30$), argent $\\mathrm{Ag}$ ($Z = 47$), or $\\mathrm{Au}$ ($Z = 79$), plomb $\\mathrm{Pb}$ ($Z = 82$).",
+      "difficulte": 2,
+      "tags": [
+        "symboles",
+        "metaux"
+      ]
+    },
+    {
+      "id": "PC2C-C01-034",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Quelle différence de sens y a-t-il entre les mots « oxygène » et « dioxygène » ?",
+      "verso": "« Oxygène » nomme l'élément ; « dioxygène » nomme le corps simple $\\mathrm{O_2}$ de l'air, le préfixe di indiquant deux atomes.",
+      "difficulte": 2,
+      "tags": [
+        "prefixes",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC2C-C01-035",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Pourquoi ne faut-il pas confondre $\\mathrm{CO}$ et $\\mathrm{Co}$ ?",
+      "verso": "$\\mathrm{Co}$ est le symbole du cobalt (un élément) ; $\\mathrm{CO}$ est le monoxyde de carbone, corps formé des deux éléments carbone et oxygène.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "symbole"
+      ]
+    },
+    {
+      "id": "PC2C-C01-036",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "formule",
+      "recto": "Comment compte-t-on les atomes d'un élément placé dans une parenthèse affectée d'un indice, par exemple dans $\\mathrm{(NH_4)_2SO_4}$ ?",
+      "verso": "On multiplie son indice par celui de la parenthèse : $\\mathrm{(NH_4)_2SO_4}$ contient $2$ atomes d'azote et $8$ atomes d'hydrogène.",
+      "difficulte": 2,
+      "tags": [
+        "formule",
+        "comptage-atomes"
+      ]
+    },
+    {
+      "id": "PC2C-C01-037",
+      "lecon": "Les éléments chimiques et leurs symboles",
+      "type": "definition",
+      "recto": "Quels sont les éléments les plus abondants, en masse, dans la croûte terrestre ?",
+      "verso": "L'oxygène (environ $46\\ \\%$), puis le silicium ($28\\ \\%$), l'aluminium ($8\\ \\%$) et le fer ($5\\ \\%$). Dans l'univers dominent l'hydrogène ($74\\ \\%$) et l'hélium ($24\\ \\%$).",
+      "difficulte": 2,
+      "tags": [
+        "abondance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 5 : La structure de l'atome",
+  "source": "pc/4eme/Chimie_Chapitre_5_La_structure_de_l_atome",
+  "nombre_cartes": 34,
+  "cartes": [
+    {
+      "id": "PC4E-C05-001",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'électrisation par frottement ?",
+      "verso": "Un corps frotté sur un autre devient électrisé : il attire alors les petits corps légers placés près de lui.",
+      "difficulte": 1,
+      "tags": [
+        "electrisation"
+      ]
+    },
+    {
+      "id": "PC4E-C05-002",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Quelles sont les deux sortes d'électricité ?",
+      "verso": "L'électricité positive, notée $+$, et l'électricité négative, notée $-$ ; il n'en existe que deux.",
+      "difficulte": 1,
+      "tags": [
+        "deux-electricites"
+      ]
+    },
+    {
+      "id": "PC4E-C05-003",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps électriquement neutre ?",
+      "verso": "Un corps qui ne porte aucune des deux sortes d'électricité en excès : il contient autant de charges positives que négatives.",
+      "difficulte": 2,
+      "tags": [
+        "neutre"
+      ]
+    },
+    {
+      "id": "PC4E-C05-004",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "formule",
+      "recto": "Quelle loi régit les actions entre deux corps électrisés ?",
+      "verso": "Deux corps de même signe se repoussent ; deux corps de signes contraires s'attirent.",
+      "difficulte": 1,
+      "tags": [
+        "attraction-repulsion",
+        "loi"
+      ]
+    },
+    {
+      "id": "PC4E-C05-005",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Par convention, quelle sorte d'électricité apparaît sur un verre frotté avec de la laine ?",
+      "verso": "L'électricité positive. Celle qui apparaît sur un plastique frotté avec un tissu est dite négative.",
+      "difficulte": 2,
+      "tags": [
+        "convention",
+        "signe"
+      ]
+    },
+    {
+      "id": "PC4E-C05-006",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "formule",
+      "recto": "Lors d'une électrisation par frottement, quel signe prend le corps qui gagne des électrons et celui qui en perd ?",
+      "verso": "Le corps qui gagne des électrons (excès) devient négatif ; celui qui en perd (défaut) devient positif.",
+      "difficulte": 2,
+      "tags": [
+        "transfert-electrons",
+        "signe"
+      ]
+    },
+    {
+      "id": "PC4E-C05-007",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Pourquoi le frottement électrise-t-il toujours deux corps à la fois ?",
+      "verso": "Parce qu'il fait passer des électrons d'un corps à l'autre : la quantité gagnée par l'un est exactement celle perdue par l'autre, d'où deux charges de signes contraires.",
+      "difficulte": 2,
+      "tags": [
+        "transfert-electrons"
+      ]
+    },
+    {
+      "id": "PC4E-C05-008",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire que le frottement fabrique de l'électricité ?",
+      "verso": "Le frottement ne crée aucune charge : il déplace seulement des électrons d'un corps vers l'autre.",
+      "difficulte": 3,
+      "tags": [
+        "transfert-electrons",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C05-009",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Pourquoi l'attraction entre un corps électrisé et un petit corps léger ne prouve-t-elle pas que ce dernier est chargé ?",
+      "verso": "Un corps électrisé attire aussi les corps légers neutres, quel que soit son signe : seule la répulsion prouve que deux corps portent des charges de même signe.",
+      "difficulte": 3,
+      "tags": [
+        "attraction-repulsion",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C05-010",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre électricité statique et électricité dynamique ?",
+      "verso": "L'électricité statique est celle des charges immobiles sur un corps électrisé ; l'électricité dynamique est celle des charges qui se déplacent, c'est-à-dire le courant.",
+      "difficulte": 2,
+      "tags": [
+        "statique",
+        "dynamique"
+      ]
+    },
+    {
+      "id": "PC4E-C05-011",
+      "lecon": "L'électrisation par frottement et les deux sortes d'électricité",
+      "type": "definition",
+      "recto": "Qu'est-ce qu'un pendule électrostatique ?",
+      "verso": "Une petite boule légère suspendue à un fil, que l'on emploie pour détecter les charges électriques.",
+      "difficulte": 1,
+      "tags": [
+        "pendule-electrostatique"
+      ]
+    },
+    {
+      "id": "PC4E-C05-012",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "De quoi un atome est-il constitué ?",
+      "verso": "D'un noyau central chargé positivement, autour duquel se déplacent des électrons chargés négativement, qui forment le nuage électronique.",
+      "difficulte": 1,
+      "tags": [
+        "constituants-atome"
+      ]
+    },
+    {
+      "id": "PC4E-C05-013",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Quelles particules contient le noyau d'un atome ?",
+      "verso": "Des nucléons de deux sortes : les protons, chargés positivement, et les neutrons, qui ne portent aucune charge.",
+      "difficulte": 1,
+      "tags": [
+        "noyau",
+        "nucleons"
+      ]
+    },
+    {
+      "id": "PC4E-C05-014",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "formule",
+      "recto": "Quelle est la valeur de la charge élémentaire $e$ ?",
+      "verso": "$e = 1{,}6 \\times 10^{-19}~\\mathrm{C}$ : c'est la plus petite quantité d'électricité existant dans la nature.",
+      "difficulte": 1,
+      "tags": [
+        "charge-elementaire"
+      ]
+    },
+    {
+      "id": "PC4E-C05-015",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "formule",
+      "recto": "Quelles sont les charges du proton, du neutron et de l'électron ?",
+      "verso": "Proton : $+e$ ; neutron : charge nulle ; électron : $-e$, avec $e = 1{,}6 \\times 10^{-19}~\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "charges",
+        "particules"
+      ]
+    },
+    {
+      "id": "PC4E-C05-016",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Quel est le symbole de l'électron ?",
+      "verso": "$\\mathrm{e^-}$.",
+      "difficulte": 1,
+      "tags": [
+        "electron",
+        "symbole"
+      ]
+    },
+    {
+      "id": "PC4E-C05-017",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Pourquoi un atome est-il électriquement neutre ?",
+      "verso": "Il contient autant d'électrons que de protons, et la charge de l'électron est exactement l'opposée de celle du proton : la somme des charges est nulle.",
+      "difficulte": 2,
+      "tags": [
+        "neutralite"
+      ]
+    },
+    {
+      "id": "PC4E-C05-018",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Que signifie l'expression « structure lacunaire de l'atome » ?",
+      "verso": "Le noyau est environ $100\\,000$ fois plus petit que l'atome et, entre le noyau et les électrons, il n'y a rien : l'atome est essentiellement vide.",
+      "difficulte": 2,
+      "tags": [
+        "structure-lacunaire"
+      ]
+    },
+    {
+      "id": "PC4E-C05-019",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "formule",
+      "recto": "Quels sont les ordres de grandeur du diamètre d'un atome et de celui de son noyau ?",
+      "verso": "Atome : environ $10^{-10}~\\mathrm{m}$ ; noyau : environ $10^{-15}~\\mathrm{m}$, soit cent mille fois plus petit.",
+      "difficulte": 2,
+      "tags": [
+        "ordre-de-grandeur",
+        "structure-lacunaire"
+      ]
+    },
+    {
+      "id": "PC4E-C05-020",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Dans un atome, où se trouve presque toute la masse ?",
+      "verso": "Dans le noyau : le proton et le neutron ont pratiquement la même masse, alors que l'électron est environ $1\\,836$ fois plus léger qu'un proton.",
+      "difficulte": 2,
+      "tags": [
+        "masse",
+        "noyau"
+      ]
+    },
+    {
+      "id": "PC4E-C05-021",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Qu'est-ce qui distingue les électrons d'un atome de fer de ceux d'un atome de cuivre ?",
+      "verso": "Rien : tous les électrons sont identiques. D'un élément à l'autre, c'est seulement leur nombre qui change.",
+      "difficulte": 3,
+      "tags": [
+        "electron",
+        "identiques"
+      ]
+    },
+    {
+      "id": "PC4E-C05-022",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le numéro atomique $Z$ d'un atome ?",
+      "verso": "Le nombre de protons de son noyau. Il caractérise l'élément : tout atome à 6 protons est un atome de carbone.",
+      "difficulte": 1,
+      "tags": [
+        "numero-atomique"
+      ]
+    },
+    {
+      "id": "PC4E-C05-023",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "formule",
+      "recto": "Combien d'électrons possède un atome neutre de numéro atomique $Z$ ?",
+      "verso": "$Z$ électrons, autant que de protons, puisque l'atome est électriquement neutre.",
+      "difficulte": 2,
+      "tags": [
+        "numero-atomique",
+        "electrons"
+      ]
+    },
+    {
+      "id": "PC4E-C05-024",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "formule",
+      "recto": "Quelle est la charge du noyau d'un atome de numéro atomique $Z$ ?",
+      "verso": "$Z \\times e$, avec $e = 1{,}6 \\times 10^{-19}~\\mathrm{C}$ : chaque proton porte $+e$ et les neutrons n'apportent aucune charge.",
+      "difficulte": 2,
+      "tags": [
+        "charge-noyau",
+        "numero-atomique"
+      ]
+    },
+    {
+      "id": "PC4E-C05-025",
+      "lecon": "La structure lacunaire de l'atome et le numéro atomique",
+      "type": "definition",
+      "recto": "Pourquoi ne faut-il pas confondre neutron et neutralité de l'atome ?",
+      "verso": "Le neutron est une particule sans charge du noyau ; la neutralité est une propriété de l'atome entier. Et $Z$ compte les protons, jamais les neutrons.",
+      "difficulte": 3,
+      "tags": [
+        "neutron",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C05-026",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Dans un métal, qu'appelle-t-on les électrons libres ?",
+      "verso": "Les électrons que chaque atome du cristal métallique abandonne (un ou deux) et qui circulent entre les atomes, restés en place et devenus positifs.",
+      "difficulte": 2,
+      "tags": [
+        "electrons-libres",
+        "metal"
+      ]
+    },
+    {
+      "id": "PC4E-C05-027",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Pourquoi tous les métaux sont-ils conducteurs ?",
+      "verso": "Parce qu'ils possèdent des électrons libres qui peuvent circuler entre les atomes du cristal métallique.",
+      "difficulte": 2,
+      "tags": [
+        "conducteur",
+        "electrons-libres"
+      ]
+    },
+    {
+      "id": "PC4E-C05-028",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Qu'est-ce que le courant électrique dans un métal ?",
+      "verso": "Un déplacement d'ensemble des électrons libres, tous dans le même sens.",
+      "difficulte": 1,
+      "tags": [
+        "courant-electrique",
+        "metal"
+      ]
+    },
+    {
+      "id": "PC4E-C05-029",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "formule",
+      "recto": "Dans un circuit, quel est le sens conventionnel du courant ?",
+      "verso": "Dans le circuit extérieur au générateur, il va de la borne positive vers la borne négative du générateur.",
+      "difficulte": 1,
+      "tags": [
+        "sens-conventionnel"
+      ]
+    },
+    {
+      "id": "PC4E-C05-030",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "formule",
+      "recto": "Dans un fil métallique d'un circuit, dans quel sens se déplacent les électrons libres ?",
+      "verso": "En sens contraire du courant conventionnel : de la borne négative vers la borne positive du générateur, à l'extérieur de celui-ci.",
+      "difficulte": 2,
+      "tags": [
+        "sens-electrons"
+      ]
+    },
+    {
+      "id": "PC4E-C05-031",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Quel est le rôle du générateur dans un circuit ?",
+      "verso": "Il met les électrons libres, déjà présents dans les fils, en mouvement ordonné et entretient ce mouvement : il les aspire par sa borne $+$ et les refoule par sa borne $-$.",
+      "difficulte": 2,
+      "tags": [
+        "generateur",
+        "role"
+      ]
+    },
+    {
+      "id": "PC4E-C05-032",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire qu'une pile fournit ses électrons au fil ?",
+      "verso": "Les électrons libres sont déjà dans le métal du fil ; la pile ne fait que les mettre en mouvement. Ce qui s'épuise dans la pile, ce sont ses produits chimiques.",
+      "difficulte": 3,
+      "tags": [
+        "generateur",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C05-033",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Pourquoi un isolant comme le plastique ne conduit-il pas le courant ?",
+      "verso": "Il contient des électrons, mais aucun n'est libre de circuler.",
+      "difficulte": 2,
+      "tags": [
+        "isolant"
+      ]
+    },
+    {
+      "id": "PC4E-C05-034",
+      "lecon": "Le courant électrique dans les métaux",
+      "type": "definition",
+      "recto": "Pourquoi le sens conventionnel du courant est-il opposé au sens de déplacement des électrons ?",
+      "verso": "Le sens du courant a été choisi par convention au début du dix-neuvième siècle, avant la découverte de l'électron en 1897 ; on a gardé cette convention.",
+      "difficulte": 3,
+      "tags": [
+        "sens-conventionnel",
+        "histoire"
+      ]
+    }
+  ]
+}

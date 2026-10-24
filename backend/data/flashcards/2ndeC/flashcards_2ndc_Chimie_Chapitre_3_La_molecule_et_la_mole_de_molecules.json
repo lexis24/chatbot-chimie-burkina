@@ -1,0 +1,404 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 3 : La molécule et la mole de molécules",
+  "source": "pc/2ndc/Chimie_Chapitre_3_La_molecule_et_la_mole_de_molecules",
+  "nombre_cartes": 34,
+  "cartes": [
+    {
+      "id": "PC2C-C03-001",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Qu'est-ce qu'une molécule ?",
+      "verso": "Un groupe d'atomes liés entre eux par des liaisons covalentes, électriquement neutre. Sa formule chimique indique la nature et le nombre de ses atomes.",
+      "difficulte": 1,
+      "tags": [
+        "molecule"
+      ]
+    },
+    {
+      "id": "PC2C-C03-002",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on atomicité d'une molécule ?",
+      "verso": "Son nombre d'atomes. Une molécule est diatomique si elle en compte deux ($\\mathrm{H_2}$, $\\mathrm{HCl}$), polyatomique si elle en compte plus ($\\mathrm{H_2O}$, $\\mathrm{CH_4}$).",
+      "difficulte": 1,
+      "tags": [
+        "atomicite"
+      ]
+    },
+    {
+      "id": "PC2C-C03-003",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Pourquoi les gaz rares de la 18e colonne sont-ils très stables et peu réactifs ?",
+      "verso": "Leur couche externe est saturée : à deux électrons pour l'hélium, à huit pour les suivants.",
+      "difficulte": 2,
+      "tags": [
+        "gaz-rares",
+        "stabilite"
+      ]
+    },
+    {
+      "id": "PC2C-C03-004",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "formule",
+      "recto": "Quelle règle distingue les atomes qui suivent la règle du duet de ceux qui suivent la règle de l'octet ?",
+      "verso": "Règle du duet : atomes de $Z \\leqslant 4$, en pratique l'hydrogène, qui tendent vers 2 électrons externes. Règle de l'octet : tous les autres, qui tendent vers 8 électrons externes.",
+      "difficulte": 2,
+      "tags": [
+        "duet",
+        "octet"
+      ]
+    },
+    {
+      "id": "PC2C-C03-005",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Dans une molécule, quelle structure électronique prennent l'hydrogène, l'oxygène et le chlore en respectant le duet ou l'octet ?",
+      "verso": "Celle du gaz rare le plus proche dans la classification : l'hélium pour l'hydrogène, le néon pour l'oxygène (comme pour C, N, F), l'argon pour le chlore (comme pour Si, P, S).",
+      "difficulte": 2,
+      "tags": [
+        "gaz-rare",
+        "structure"
+      ]
+    },
+    {
+      "id": "PC2C-C03-006",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on liaison covalente ?",
+      "verso": "La mise en commun, par deux atomes, de deux électrons, un fourni par chacun. Ces deux électrons forment un doublet liant, noté par un trait entre les symboles.",
+      "difficulte": 1,
+      "tags": [
+        "liaison-covalente",
+        "doublet-liant"
+      ]
+    },
+    {
+      "id": "PC2C-C03-007",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Dans un schéma de Lewis, qu'appelle-t-on doublet non liant ?",
+      "verso": "Une paire d'électrons de valence non engagés dans une liaison, notée par un trait porté par un seul atome.",
+      "difficulte": 1,
+      "tags": [
+        "doublet-non-liant",
+        "lewis"
+      ]
+    },
+    {
+      "id": "PC2C-C03-008",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on valence d'un atome ?",
+      "verso": "Le nombre de liaisons covalentes qu'il peut former, égal au nombre d'électrons qui lui manquent pour atteindre le duet ou l'octet.",
+      "difficulte": 1,
+      "tags": [
+        "valence"
+      ]
+    },
+    {
+      "id": "PC2C-C03-009",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Quelles sont les valences usuelles de l'hydrogène, du carbone, de l'azote, de l'oxygène, du soufre et du chlore ?",
+      "verso": "H : 1 ; C : 4 ; N : 3 ; O : 2 ; S : 2 ; Cl : 1.",
+      "difficulte": 2,
+      "tags": [
+        "valence",
+        "valeurs"
+      ]
+    },
+    {
+      "id": "PC2C-C03-010",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "formule",
+      "recto": "Quelle relation permet de contrôler le schéma de Lewis d'un atome dans une molécule ?",
+      "verso": "Valence $+ 2 \\times$ (nombre de doublets non liants) $=$ nombre d'électrons de valence ; par exemple pour l'azote, $3 + 2 \\times 1 = 5$.",
+      "difficulte": 2,
+      "tags": [
+        "lewis",
+        "controle"
+      ]
+    },
+    {
+      "id": "PC2C-C03-011",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Pourquoi le carbone forme-t-il exactement quatre liaisons covalentes ?",
+      "verso": "Sa structure $\\mathrm{K^2L^4}$ lui donne 4 électrons de valence : il lui en manque $8 - 4 = 4$ pour l'octet, donc il forme quatre liaisons.",
+      "difficulte": 2,
+      "tags": [
+        "carbone",
+        "tetravalent"
+      ]
+    },
+    {
+      "id": "PC2C-C03-012",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on liaison double et liaison triple ?",
+      "verso": "Deux atomes qui partagent deux doublets forment une liaison double ($\\mathrm{O = C = O}$) ; trois doublets, une liaison triple ($\\mathrm{N \\equiv N}$).",
+      "difficulte": 2,
+      "tags": [
+        "liaison-multiple"
+      ]
+    },
+    {
+      "id": "PC2C-C03-013",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre une liaison covalente et un transfert d'électrons ?",
+      "verso": "Dans la liaison covalente, les deux électrons sont mis en commun et appartiennent aux deux atomes ; un transfert d'électrons donnerait des ions, pas une molécule.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "liaison-covalente"
+      ]
+    },
+    {
+      "id": "PC2C-C03-014",
+      "lecon": "La molécule et la liaison covalente",
+      "type": "definition",
+      "recto": "Pourquoi l'oxygène n'est-il pas saturé avec deux électrons sur sa couche externe ?",
+      "verso": "La règle du duet ne concerne que les atomes de $Z \\leqslant 4$ ; l'oxygène ($Z = 8$) suit la règle de l'octet et doit atteindre huit électrons externes.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "octet"
+      ]
+    },
+    {
+      "id": "PC2C-C03-015",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre formule brute, formule développée plane et formule semi-développée ?",
+      "verso": "La brute compte les atomes ; la développée plane montre toutes les liaisons en traits ; la semi-développée regroupe les hydrogènes derrière leur atome porteur.",
+      "difficulte": 2,
+      "tags": [
+        "formules"
+      ]
+    },
+    {
+      "id": "PC2C-C03-016",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Dans une formule développée, combien de traits porte chaque atome ?",
+      "verso": "Autant de traits que sa valence : 4 pour le carbone, 3 pour l'azote, 2 pour l'oxygène, 1 pour l'hydrogène et le chlore.",
+      "difficulte": 1,
+      "tags": [
+        "formule-developpee",
+        "valence"
+      ]
+    },
+    {
+      "id": "PC2C-C03-017",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un modèle moléculaire compact et un modèle éclaté ?",
+      "verso": "Le modèle compact, à boules jointives, montre l'encombrement réel ; le modèle éclaté, à boules écartées, laisse voir les liaisons, donc la géométrie et les angles.",
+      "difficulte": 1,
+      "tags": [
+        "modeles-moleculaires"
+      ]
+    },
+    {
+      "id": "PC2C-C03-018",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Dans une molécule, qu'appelle-t-on longueur de liaison ?",
+      "verso": "La distance entre les noyaux de deux atomes liés, en picomètres ($1~\\mathrm{pm} = 10^{-12}~\\mathrm{m}$) ; de l'ordre de $100~\\mathrm{pm}$ pour l'hydrogène lié au carbone, à l'azote ou à l'oxygène.",
+      "difficulte": 2,
+      "tags": [
+        "longueur-de-liaison"
+      ]
+    },
+    {
+      "id": "PC2C-C03-019",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "formule",
+      "recto": "Comment varie la longueur d'une liaison entre deux mêmes atomes quand ils partagent davantage de doublets ?",
+      "verso": "Elle diminue : $\\mathrm{C - C}$ $154~\\mathrm{pm}$, $\\mathrm{C = C}$ $134~\\mathrm{pm}$, $\\mathrm{C \\equiv C}$ $120~\\mathrm{pm}$.",
+      "difficulte": 2,
+      "tags": [
+        "longueur-de-liaison",
+        "liaison-multiple"
+      ]
+    },
+    {
+      "id": "PC2C-C03-020",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "formule",
+      "recto": "Quelles sont la forme et l'angle de liaison des molécules $\\mathrm{H_2O}$, $\\mathrm{NH_3}$, $\\mathrm{CH_4}$ et $\\mathrm{CO_2}$ ?",
+      "verso": "$\\mathrm{H_2O}$ coudée, environ $105^{\\circ}$ ; $\\mathrm{NH_3}$ pyramidale, $107^{\\circ}$ ; $\\mathrm{CH_4}$ tétraédrique, $109{,}5^{\\circ}$ ; $\\mathrm{CO_2}$ linéaire, $180^{\\circ}$.",
+      "difficulte": 2,
+      "tags": [
+        "geometrie",
+        "angles"
+      ]
+    },
+    {
+      "id": "PC2C-C03-021",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "formule",
+      "recto": "Comment prévoit-on la forme d'une molécule à partir des directions autour de son atome central ?",
+      "verso": "Chaque liaison (simple, double ou triple) et chaque doublet non liant compte pour une direction, et elles s'écartent au maximum : 2 directions, linéaire ; 4 directions, tétraèdre, pyramide avec un doublet non liant, coudée avec deux.",
+      "difficulte": 3,
+      "tags": [
+        "geometrie",
+        "directions"
+      ]
+    },
+    {
+      "id": "PC2C-C03-022",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Pourquoi la formule développée plane $\\mathrm{H - O - H}$ ne prouve-t-elle pas que la molécule d'eau est linéaire ?",
+      "verso": "Une formule développée plane ne donne pas la forme réelle : les deux liaisons et les deux doublets non liants de l'oxygène s'écartent au maximum, et l'eau est coudée.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "geometrie"
+      ]
+    },
+    {
+      "id": "PC2C-C03-023",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on isomères ?",
+      "verso": "Des molécules de même formule brute mais d'enchaînements d'atomes différents : ce sont des corps purs différents, comme le butane et le méthylpropane, de formule $\\mathrm{C_4H_{10}}$.",
+      "difficulte": 2,
+      "tags": [
+        "isomeres"
+      ]
+    },
+    {
+      "id": "PC2C-C03-024",
+      "lecon": "Les écritures d'une molécule et les modèles moléculaires",
+      "type": "definition",
+      "recto": "Pourquoi une eau de forage limpide n'est-elle pas forcément un corps pur ?",
+      "verso": "La limpidité prouve seulement que le mélange est homogène ; l'eau de forage contient des sels dissous, c'est un mélange.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "corps-pur",
+        "melange"
+      ]
+    },
+    {
+      "id": "PC2C-C03-025",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on mole de molécules ?",
+      "verso": "La quantité de matière d'un système contenant $N_A = 6{,}02 \\times 10^{23}$ molécules, $N_A$ étant le nombre d'Avogadro, en $\\mathrm{mol^{-1}}$.",
+      "difficulte": 1,
+      "tags": [
+        "mole-de-molecules"
+      ]
+    },
+    {
+      "id": "PC2C-C03-026",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la masse molaire moléculaire d'un composé de formule $\\mathrm{A}_{x}\\mathrm{B}_{y}$ ?",
+      "verso": "$M = x \\times M(\\mathrm{A}) + y \\times M(\\mathrm{B})$, en $\\mathrm{g/mol}$ : on additionne les masses molaires atomiques, chacune multipliée par son indice.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire-moleculaire"
+      ]
+    },
+    {
+      "id": "PC2C-C03-027",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "formule",
+      "recto": "Quelle relation lie la quantité de matière $n$ d'un échantillon à sa masse $m$ et à la masse molaire moléculaire $M$ ?",
+      "verso": "$n = \\dfrac{m}{M}$, avec $n$ en mol, $m$ en g et $M$ en $\\mathrm{g/mol}$ ; on en tire $m = n \\times M$ et $M = \\dfrac{m}{n}$.",
+      "difficulte": 1,
+      "tags": [
+        "quantite-de-matiere"
+      ]
+    },
+    {
+      "id": "PC2C-C03-028",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "formule",
+      "recto": "Quelle relation donne la masse $m_0$ d'une seule molécule à partir de la masse molaire moléculaire $M$ ?",
+      "verso": "$m_0 = \\dfrac{M}{N_A}$, en grammes, avec $M$ en $\\mathrm{g/mol}$ et $N_A = 6{,}02 \\times 10^{23}~\\mathrm{mol^{-1}}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molecule"
+      ]
+    },
+    {
+      "id": "PC2C-C03-029",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "formule",
+      "recto": "Combien d'atomes contient un échantillon de $n$ moles d'une molécule formée de $p$ atomes ?",
+      "verso": "$N_{\\text{atomes}} = p \\times n \\times N_A$ : le nombre de molécules $n \\times N_A$, multiplié par le nombre d'atomes par molécule.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-atomes"
+      ]
+    },
+    {
+      "id": "PC2C-C03-030",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "formule",
+      "recto": "Comment calcule-t-on le pourcentage massique d'un élément A dans une molécule $\\mathrm{A}_{x}\\mathrm{B}_{y}$ de masse molaire $M$ ?",
+      "verso": "$\\%\\mathrm{A} = \\dfrac{x \\times M(\\mathrm{A})}{M} \\times 100$ ; la somme des pourcentages de tous les éléments vaut $100\\ \\%$.",
+      "difficulte": 2,
+      "tags": [
+        "composition-centesimale"
+      ]
+    },
+    {
+      "id": "PC2C-C03-031",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "definition",
+      "recto": "Pourquoi le pourcentage en nombre d'atomes d'un élément diffère-t-il de son pourcentage massique ?",
+      "verso": "Le pourcentage en nombre d'atomes, $\\dfrac{x}{x + y} \\times 100$, compte les atomes sans tenir compte de leur masse ; or les atomes des différents éléments n'ont pas la même masse.",
+      "difficulte": 3,
+      "tags": [
+        "composition",
+        "pourcentage"
+      ]
+    },
+    {
+      "id": "PC2C-C03-032",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "definition",
+      "recto": "Quelles sont les masses molaires atomiques usuelles de H, C, N, O, S et Cl ?",
+      "verso": "H : $1$ ; C : $12$ ; N : $14$ ; O : $16$ ; S : $32$ ; Cl : $35{,}5~\\mathrm{g/mol}$ (le chlore, mélange de deux isotopes, ne s'arrondit jamais à 36).",
+      "difficulte": 1,
+      "tags": [
+        "masses-molaires"
+      ]
+    },
+    {
+      "id": "PC2C-C03-033",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "definition",
+      "recto": "Pourquoi $18~\\mathrm{g}$ d'eau ne contiennent-ils pas $6{,}02 \\times 10^{23}$ atomes ?",
+      "verso": "$18~\\mathrm{g}$ d'eau sont une mole de molécules, soit $6{,}02 \\times 10^{23}$ molécules ; chacune a trois atomes, d'où $1{,}81 \\times 10^{24}$ atomes.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "molecules-atomes"
+      ]
+    },
+    {
+      "id": "PC2C-C03-034",
+      "lecon": "La mole de molécules et la masse molaire moléculaire",
+      "type": "definition",
+      "recto": "Quelle précaution sur l'unité de masse faut-il prendre avant d'appliquer $n = \\dfrac{m}{M}$ ?",
+      "verso": "Convertir la masse en grammes : $500~\\mathrm{mg} = 0{,}500~\\mathrm{g}$. Sans conversion, le résultat est faux d'un facteur mille.",
+      "difficulte": 2,
+      "tags": [
+        "unites",
+        "quantite-de-matiere"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 5 : La notion de stéréochimie",
+  "source": "pc/1ered/Chimie_Chapitre_5_La_notion_de_stereochimie",
+  "nombre_cartes": 37,
+  "cartes": [
+    {
+      "id": "PC1D-C05-001",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on la stéréochimie ?",
+      "verso": "L'étude de la disposition relative des atomes dans l'espace, à l'intérieur des molécules des composés chimiques.",
+      "difficulte": 1,
+      "tags": [
+        "stereochimie"
+      ]
+    },
+    {
+      "id": "PC1D-C05-002",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un carbone tétragonal ?",
+      "verso": "Un carbone qui ne porte que des liaisons simples : ses quatre liaisons pointent vers les sommets d'un tétraèdre régulier dont il occupe le centre. L'angle de valence vaut $109{,}5^{\\circ}$ ($109^{\\circ}28'$).",
+      "difficulte": 1,
+      "tags": [
+        "carbone-tetragonal",
+        "angle-de-valence"
+      ]
+    },
+    {
+      "id": "PC1D-C05-003",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un carbone trigonal ?",
+      "verso": "Un carbone qui porte une double liaison et deux liaisons simples ; ses trois liaisons sont dans un même plan, à $120^{\\circ}$ l'une de l'autre.",
+      "difficulte": 1,
+      "tags": [
+        "carbone-trigonal",
+        "angle-de-valence"
+      ]
+    },
+    {
+      "id": "PC1D-C05-004",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un carbone digonal ?",
+      "verso": "Un carbone qui porte une triple liaison et une liaison simple, ou deux doubles liaisons ; ses liaisons sont alignées, l'angle vaut $180^{\\circ}$.",
+      "difficulte": 2,
+      "tags": [
+        "carbone-digonal",
+        "angle-de-valence"
+      ]
+    },
+    {
+      "id": "PC1D-C05-005",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "formule",
+      "recto": "Quelles sont les longueurs usuelles des liaisons $\\mathrm{C-C}$, $\\mathrm{C=C}$, $\\mathrm{C\\equiv C}$ et $\\mathrm{C-H}$ ?",
+      "verso": "$\\mathrm{C-C}$ : $0{,}154~\\mathrm{nm}$ ; $\\mathrm{C=C}$ : $0{,}134~\\mathrm{nm}$ ; $\\mathrm{C\\equiv C}$ : $0{,}120~\\mathrm{nm}$ ; $\\mathrm{C-H}$ : $0{,}109~\\mathrm{nm}$ Plus une liaison compte de doublets, plus elle est courte et forte.",
+      "difficulte": 2,
+      "tags": [
+        "longueur-de-liaison"
+      ]
+    },
+    {
+      "id": "PC1D-C05-006",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "En représentation de Cram, que signifient un trait plein, un coin plein et un coin hachuré ?",
+      "verso": "Trait plein ordinaire : liaison dans le plan de la feuille. Coin plein (pointe sur l'atome) : liaison qui vient vers le lecteur. Coin hachuré (pointe sur l'atome) : liaison qui s'éloigne du lecteur.",
+      "difficulte": 1,
+      "tags": [
+        "cram",
+        "representation"
+      ]
+    },
+    {
+      "id": "PC1D-C05-007",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "Pourquoi un carbone tétragonal dessiné en Cram ne porte-t-il jamais deux coins pleins ?",
+      "verso": "Au plus deux liaisons tiennent dans le plan de la feuille ; les deux autres sont de part et d'autre de ce plan, l'une en avant et l'autre en arrière : il y a donc un seul coin plein et un seul coin hachuré.",
+      "difficulte": 3,
+      "tags": [
+        "cram",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C05-008",
+      "lecon": "Le carbone dans l'espace et la représentation de Cram",
+      "type": "definition",
+      "recto": "Pourquoi le cycle du cyclohexane $\\mathrm{C_6H_{12}}$ ne peut-il pas être plan, contrairement à celui du benzène ?",
+      "verso": "Un hexagone plan imposerait des angles de $120^{\\circ}$, incompatibles avec les $109{,}5^{\\circ}$ de ses carbones tétragonaux : le cycle se plisse. Les carbones du benzène sont trigonaux et exigent justement $120^{\\circ}$ : son cycle est plan.",
+      "difficulte": 3,
+      "tags": [
+        "cyclohexane",
+        "benzene"
+      ]
+    },
+    {
+      "id": "PC1D-C05-009",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Quels sont, de la plus pauvre à la plus riche en renseignements, les cinq types de formules d'une molécule ?",
+      "verso": "La formule brute, la formule développée plane, la formule semi-développée, la formule topologique et la formule spatiale (représentation de Cram).",
+      "difficulte": 1,
+      "tags": [
+        "types-de-formules"
+      ]
+    },
+    {
+      "id": "PC1D-C05-010",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Dans une formule topologique, comment sont représentés les atomes de carbone et d'hydrogène ?",
+      "verso": "Seul le squelette carboné est tracé en zigzag : chaque bout et chaque sommet est un carbone ; on n'écrit ni les carbones ni les hydrogènes qu'ils portent. Les autres atomes s'écrivent avec leur symbole et leurs hydrogènes, comme $\\mathrm{OH}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-topologique"
+      ]
+    },
+    {
+      "id": "PC1D-C05-011",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "A quelle condition deux composés sont-ils isomères ?",
+      "verso": "Ils ont la même formule brute et des structures différentes ; ce sont deux corps purs distincts.",
+      "difficulte": 1,
+      "tags": [
+        "isomeres"
+      ]
+    },
+    {
+      "id": "PC1D-C05-012",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on deux isomères de constitution ?",
+      "verso": "Deux isomères dont les atomes ne sont pas reliés dans le même ordre, c'est-à-dire dont les formules semi-développées sont différentes.",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-de-constitution"
+      ]
+    },
+    {
+      "id": "PC1D-C05-013",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'isomérie de chaîne ?",
+      "verso": "Une isomérie de constitution où les isomères ont même fonction et même position, mais un squelette carboné différent, comme le butane et le 2-méthylpropane ($\\mathrm{C_4H_{10}}$).",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-de-chaine"
+      ]
+    },
+    {
+      "id": "PC1D-C05-014",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'isomérie de position ?",
+      "verso": "Une isomérie de constitution où les isomères ont même chaîne et même fonction, mais où le groupe caractéristique ou la liaison multiple n'occupe pas la même place, comme le propan-1-ol et le propan-2-ol.",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-de-position"
+      ]
+    },
+    {
+      "id": "PC1D-C05-015",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'isomérie de fonction ?",
+      "verso": "Une isomérie de constitution où les deux isomères appartiennent à deux familles différentes, comme le propan-1-ol (alcool) et l'oxyde de méthyle et d'éthyle (éther-oxyde).",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-de-fonction"
+      ]
+    },
+    {
+      "id": "PC1D-C05-016",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "formule",
+      "recto": "Avec quelle famille les aldéhydes forment-ils des isomères de fonction ?",
+      "verso": "Avec les cétones, de même formule $\\mathrm{C_{n}H_{2n}O}$, comme le propanal $\\mathrm{CH_3-CH_2-CHO}$ et la propanone $\\mathrm{CH_3-CO-CH_3}$. De même, acides carboxyliques et esters sont isomères de fonction.",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-de-fonction",
+        "familles"
+      ]
+    },
+    {
+      "id": "PC1D-C05-017",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Pourquoi $\\mathrm{CH_3-CH_2-CH(CH_3)-CH_3}$ et $\\mathrm{CH_3-CH(CH_3)-CH_2-CH_3}$ ne sont-ils pas deux isomères ?",
+      "verso": "C'est la même formule écrite dans deux sens opposés : les deux portent le même nom, 2-méthylbutane, et désignent la même molécule.",
+      "difficulte": 3,
+      "tags": [
+        "doublon",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C05-018",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Pourquoi deux isomères de constitution comme le butane et le 2-méthylpropane bouillent-ils à des températures différentes malgré la même masse molaire ?",
+      "verso": "La température d'ébullition dépend de la force des attractions entre molécules voisines, qui dépend de la forme et des groupes portés : le butane bout à $-0{,}5~^{\\circ}\\mathrm{C}$, le 2-méthylpropane, plus compact, à $-12~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 3,
+      "tags": [
+        "temperature-ebullition",
+        "isomerie-de-chaine"
+      ]
+    },
+    {
+      "id": "PC1D-C05-019",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "En stéréochimie, qu'appelle-t-on une conformation d'une molécule ?",
+      "verso": "L'une des dispositions spatiales qu'elle prend par simple rotation autour de ses liaisons simples, sans rupture de liaison. Deux conformations sont le même corps pur, inséparable.",
+      "difficulte": 2,
+      "tags": [
+        "conformation"
+      ]
+    },
+    {
+      "id": "PC1D-C05-020",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "En stéréochimie, qu'appelle-t-on une configuration ?",
+      "verso": "Une disposition spatiale que l'on ne peut changer qu'en rompant des liaisons ; deux configurations différentes sont deux corps purs différents, séparables et de propriétés physiques différentes.",
+      "difficulte": 2,
+      "tags": [
+        "configuration"
+      ]
+    },
+    {
+      "id": "PC1D-C05-021",
+      "lecon": "Les types de formules et l'isomérie de constitution",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on des stéréoisomères ?",
+      "verso": "Deux isomères qui ont la même formule semi-développée et ne diffèrent que par la disposition de leurs atomes dans l'espace.",
+      "difficulte": 1,
+      "tags": [
+        "stereoisomeres"
+      ]
+    },
+    {
+      "id": "PC1D-C05-022",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "En projection de Newman, laquelle des deux conformations remarquables de l'éthane, décalée ou éclipsée, est la plus stable ?",
+      "verso": "La conformation décalée, où les liaisons de l'avant tombent entre celles de l'arrière, est la plus stable ; la conformation éclipsée, où elles se masquent, est la moins stable.",
+      "difficulte": 2,
+      "tags": [
+        "ethane",
+        "newman",
+        "conformation"
+      ]
+    },
+    {
+      "id": "PC1D-C05-023",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Pourquoi les conformations décalée et éclipsée de l'éthane ne sont-elles pas deux molécules différentes ?",
+      "verso": "La libre rotation autour de la liaison simple $\\mathrm{C-C}$, sans rupture de liaison, les transforme l'une en l'autre en permanence : c'est la même molécule, qu'on ne peut ni isoler ni nommer deux fois.",
+      "difficulte": 3,
+      "tags": [
+        "conformation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C05-024",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Laquelle des deux conformations du cyclohexane, chaise ou bateau, est la plus stable ?",
+      "verso": "La chaise, où trois carbones sont au-dessus du plan moyen et trois en dessous en alternance, est la plus stable ; le bateau est moins stable car des hydrogènes s'y font face.",
+      "difficulte": 2,
+      "tags": [
+        "cyclohexane",
+        "chaise",
+        "bateau"
+      ]
+    },
+    {
+      "id": "PC1D-C05-025",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "formule",
+      "recto": "A quelle condition un composé à double liaison $\\mathrm{C=C}$ présente-t-il la stéréoisomérie Z et E ?",
+      "verso": "Si, et seulement si, chacun des deux carbones de la double liaison porte deux groupes différents.",
+      "difficulte": 2,
+      "tags": [
+        "stereoisomerie-ze",
+        "condition"
+      ]
+    },
+    {
+      "id": "PC1D-C05-026",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Pour une double liaison $\\mathrm{C=C}$, que désignent les lettres Z et E ?",
+      "verso": "Z (de l'allemand zusammen, « ensemble ») : les deux groupes prioritaires sont du même côté. E (entgegen, « opposé ») : ils sont de part et d'autre de la double liaison.",
+      "difficulte": 1,
+      "tags": [
+        "stereoisomerie-ze"
+      ]
+    },
+    {
+      "id": "PC1D-C05-027",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "formule",
+      "recto": "Pour attribuer Z ou E, quelle règle désigne le groupe prioritaire porté par un carbone de la double liaison ?",
+      "verso": "Est prioritaire le groupe dont le premier atome a le plus grand numéro atomique ; en cas d'égalité, on compare les atomes suivants jusqu'à la première différence. Ordre utile : $\\mathrm{I \\gt Br \\gt Cl \\gt S \\gt O \\gt N \\gt C \\gt H}$.",
+      "difficulte": 2,
+      "tags": [
+        "regles-de-priorite"
+      ]
+    },
+    {
+      "id": "PC1D-C05-028",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Quelle erreur guette l'élève qui compare les groupes des deux carbones d'une double liaison pour attribuer Z ou E ?",
+      "verso": "La priorité se juge toujours entre les deux groupes d'un même carbone, chaque carbone séparément ; comparer les groupes d'un carbone à ceux de l'autre n'a pas de sens.",
+      "difficulte": 3,
+      "tags": [
+        "regles-de-priorite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C05-029",
+      "lecon": "Conformation et configuration : la stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on des diastéréoisomères, comme les isomères Z et E d'un même composé ?",
+      "verso": "Des stéréoisomères de configuration qui ne sont pas images l'un de l'autre dans un miroir ; leurs propriétés physiques sont différentes.",
+      "difficulte": 2,
+      "tags": [
+        "diastereoisomeres"
+      ]
+    },
+    {
+      "id": "PC1D-C05-030",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un carbone asymétrique ?",
+      "verso": "Un carbone tétragonal qui porte quatre groupes différents, l'hydrogène comptant comme un substituant ; on le repère par un astérisque, $\\mathrm{C^{*}}$.",
+      "difficulte": 1,
+      "tags": [
+        "carbone-asymetrique"
+      ]
+    },
+    {
+      "id": "PC1D-C05-031",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une molécule chirale ?",
+      "verso": "Une molécule qui n'est pas superposable à son image dans un miroir ; une molécule superposable à son image est dite achirale.",
+      "difficulte": 1,
+      "tags": [
+        "chiralite"
+      ]
+    },
+    {
+      "id": "PC1D-C05-032",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Pourquoi le fait qu'une molécule ait une image dans un miroir ne suffit-il pas à la dire chirale ?",
+      "verso": "Toute molécule a une image dans un miroir ; la molécule n'est chirale que si cette image n'est pas superposable à elle. Sinon, il n'y a qu'un seul corps.",
+      "difficulte": 3,
+      "tags": [
+        "chiralite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C05-033",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un couple d'énantiomères ?",
+      "verso": "Deux molécules images l'une de l'autre dans un miroir et non superposables ; ce sont des stéréoisomères de configuration.",
+      "difficulte": 1,
+      "tags": [
+        "enantiomeres"
+      ]
+    },
+    {
+      "id": "PC1D-C05-034",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Face à quel type de molécules deux énantiomères se comportent-ils différemment ?",
+      "verso": "Face aux autres molécules chirales (enzymes, récepteurs du nez) : ils ont sinon les mêmes propriétés physiques ordinaires (ébullition, densité, solubilité) et les mêmes propriétés chimiques face aux réactifs non chiraux.",
+      "difficulte": 2,
+      "tags": [
+        "enantiomeres",
+        "proprietes"
+      ]
+    },
+    {
+      "id": "PC1D-C05-035",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un mélange racémique ?",
+      "verso": "Un mélange qui contient les deux énantiomères d'un couple en quantités égales ; ce n'est pas un corps pur nouveau. Une synthèse à partir de réactifs non chiraux en fabrique un.",
+      "difficulte": 2,
+      "tags": [
+        "racemique"
+      ]
+    },
+    {
+      "id": "PC1D-C05-036",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "definition",
+      "recto": "Pourquoi un carbone engagé dans une double liaison n'est-il jamais asymétrique ?",
+      "verso": "Il est trigonal et n'a que trois voisins, alors qu'un carbone asymétrique doit être tétragonal et porter quatre groupes différents.",
+      "difficulte": 3,
+      "tags": [
+        "carbone-asymetrique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C05-037",
+      "lecon": "Le carbone asymétrique, la chiralité et l'énantiomérie",
+      "type": "formule",
+      "recto": "Combien de stéréoisomères de configuration admet au plus une molécule possédant $n$ carbones asymétriques ?",
+      "verso": "Au plus $2^{n}$ stéréoisomères de configuration.",
+      "difficulte": 2,
+      "tags": [
+        "denombrement"
+      ]
+    }
+  ]
+}

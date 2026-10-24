@@ -36,7 +36,7 @@ def test_conversation_and_messages_isolated_between_students(unique_username):
     student_a = _make_user(unique_username)
     student_b = _make_user(unique_username)
 
-    conv = db.create_conversation(student_a["id"], "3ème", "Théorème de Pythagore et sa réciproque")
+    conv = db.create_conversation(student_a["id"], "3ème", "La pile électrochimique")
     db.add_exchange(conv["id"], student_a["id"], "Question de A", "Réponse à A")
 
     # B ne doit jamais pouvoir lire la conversation ou les messages de A, même en connaissant
@@ -53,7 +53,7 @@ def test_conversation_and_messages_isolated_between_students(unique_username):
 def test_delete_conversation_is_scoped_to_owner(unique_username):
     student_a = _make_user(unique_username)
     student_b = _make_user(unique_username)
-    conv = db.create_conversation(student_a["id"], "6ème", "Les fractions")
+    conv = db.create_conversation(student_a["id"], "4ème", "Les atomes et les molécules")
 
     # B ne peut pas supprimer la conversation de A.
     assert db.delete_conversation(conv["id"], student_b["id"]) is False
@@ -66,7 +66,7 @@ def test_delete_conversation_is_scoped_to_owner(unique_username):
 
 def test_message_seq_is_ordered_and_incremental(unique_username):
     student = _make_user(unique_username)
-    conv = db.create_conversation(student["id"], "Tle", "Nombres complexes")
+    conv = db.create_conversation(student["id"], "Tle", "Les alcools")
 
     db.add_message(conv["id"], student["id"], "user", "Premier message")
     db.add_message(conv["id"], student["id"], "assistant", "Deuxième message")
@@ -81,13 +81,13 @@ def test_message_seq_is_ordered_and_incremental(unique_username):
 
 def test_title_set_from_first_user_message(unique_username):
     student = _make_user(unique_username)
-    conv = db.create_conversation(student["id"], "6ème", "Les fractions")
+    conv = db.create_conversation(student["id"], "4ème", "Les atomes et les molécules")
     assert conv["title"] == "Nouvelle conversation"
 
-    db.add_message(conv["id"], student["id"], "user", "Comment simplifier une fraction ?")
+    db.add_message(conv["id"], student["id"], "user", "C'est quoi une molécule ?")
 
     updated = db.get_conversation(conv["id"], student["id"])
-    assert updated["title"] == "Comment simplifier une fraction ?"
+    assert updated["title"] == "C'est quoi une molécule ?"
 
 
 def test_title_falls_back_to_chapter_when_first_message_is_an_exercise(unique_username):
@@ -97,34 +97,34 @@ def test_title_falls_back_to_chapter_when_first_message_is_an_exercise(unique_us
     uniquement) ne se déclenchait donc jamais, et le titre restait "Nouvelle conversation" pour
     toujours, même après de vrais échanges ensuite. C'est le bug remonté par l'utilisatrice."""
     student = _make_user(unique_username)
-    conv = db.create_conversation(student["id"], "Tle", "Suites numériques")
+    conv = db.create_conversation(student["id"], "Tle", "Les alcools")
 
     db.add_message(
         conv["id"], student["id"], "assistant",
         "Énoncé complet de l'exercice généré, potentiellement très long...",
-        kind="exercise", chapter="Suites numériques",
+        kind="exercise", chapter="Les alcools",
     )
 
     updated = db.get_conversation(conv["id"], student["id"])
-    assert updated["title"] == "Exercice : Suites numériques"
+    assert updated["title"] == "Exercice : Les alcools"
 
     # Un vrai échange ensuite ne doit PAS écraser ce titre déjà fixé.
     db.add_message(conv["id"], student["id"], "user", "Explique-moi la question 2")
     still = db.get_conversation(conv["id"], student["id"])
-    assert still["title"] == "Exercice : Suites numériques"
+    assert still["title"] == "Exercice : Les alcools"
 
 
 def test_title_falls_back_to_chapter_when_first_message_is_prerequis(unique_username):
     student = _make_user(unique_username)
-    conv = db.create_conversation(student["id"], "3ème", "Théorème de Pythagore et sa réciproque")
+    conv = db.create_conversation(student["id"], "3ème", "La pile électrochimique")
 
     db.add_message(
-        conv["id"], student["id"], "assistant", "QCM de prérequis : Théorème de Pythagore et sa réciproque",
-        kind="prerequis", chapter="Théorème de Pythagore et sa réciproque",
+        conv["id"], student["id"], "assistant", "QCM de prérequis : La pile électrochimique",
+        kind="prerequis", chapter="La pile électrochimique",
     )
 
     updated = db.get_conversation(conv["id"], student["id"])
-    assert updated["title"] == "Prérequis : Théorème de Pythagore et sa réciproque"
+    assert updated["title"] == "Prérequis : La pile électrochimique"
 
 
 def test_title_stays_neutral_for_other_assistant_first_messages(unique_username):
@@ -132,7 +132,7 @@ def test_title_stays_neutral_for_other_assistant_first_messages(unique_username)
     normalement jamais être le tout premier message d'une conversation, mais si ça arrivait, mieux
     vaut garder le titre neutre que d'en afficher un absurde)."""
     student = _make_user(unique_username)
-    conv = db.create_conversation(student["id"], "6ème", "Les fractions")
+    conv = db.create_conversation(student["id"], "4ème", "Les atomes et les molécules")
 
     db.add_message(conv["id"], student["id"], "assistant", "Un message quelconque", kind="chat")
 
@@ -220,15 +220,15 @@ def test_flashcard_review_unknown_card_never_appears_in_state(unique_username):
     """Une carte jamais revue n'a pas de ligne : get_flashcards (main.py) la traite alors comme
     due par défaut plutôt que de dépendre d'une valeur par défaut ambiguë en base."""
     student = _make_user(unique_username)
-    state = db.get_flashcard_review_state(student["id"], "6ème", "Les fractions")
+    state = db.get_flashcard_review_state(student["id"], "4ème", "Les atomes et les molécules")
     assert state == {}
 
 
 def test_flashcard_review_correct_answer_pushes_due_date_forward(unique_username):
     student = _make_user(unique_username)
-    db.upsert_flashcard_review(student["id"], "6ème", "Les fractions", "card-1", True)
+    db.upsert_flashcard_review(student["id"], "4ème", "Les atomes et les molécules", "card-1", True)
 
-    state = db.get_flashcard_review_state(student["id"], "6ème", "Les fractions")
+    state = db.get_flashcard_review_state(student["id"], "4ème", "Les atomes et les molécules")
     assert "card-1" in state
     assert state["card-1"]["repetitions"] == 1
     assert state["card-1"]["last_correct"] is True
@@ -240,12 +240,12 @@ def test_flashcard_review_correct_answer_pushes_due_date_forward(unique_username
 def test_flashcard_review_wrong_answer_resets_repetitions_and_is_due_soon(unique_username):
     student = _make_user(unique_username)
     # Deux succès d'affilée font grandir l'intervalle...
-    db.upsert_flashcard_review(student["id"], "6ème", "Les fractions", "card-1", True)
-    db.upsert_flashcard_review(student["id"], "6ème", "Les fractions", "card-1", True)
+    db.upsert_flashcard_review(student["id"], "4ème", "Les atomes et les molécules", "card-1", True)
+    db.upsert_flashcard_review(student["id"], "4ème", "Les atomes et les molécules", "card-1", True)
     # ... puis un échec doit repartir de zéro, pas juste réduire légèrement l'intervalle.
-    db.upsert_flashcard_review(student["id"], "6ème", "Les fractions", "card-1", False)
+    db.upsert_flashcard_review(student["id"], "4ème", "Les atomes et les molécules", "card-1", False)
 
-    state = db.get_flashcard_review_state(student["id"], "6ème", "Les fractions")
+    state = db.get_flashcard_review_state(student["id"], "4ème", "Les atomes et les molécules")
     assert state["card-1"]["repetitions"] == 0
     assert state["card-1"]["last_correct"] is False
 
@@ -256,9 +256,9 @@ def test_flashcard_review_is_scoped_per_student(unique_username):
     student_a = _make_user(unique_username)
     student_b = _make_user(unique_username)
 
-    db.upsert_flashcard_review(student_a["id"], "6ème", "Les fractions", "card-1", True)
+    db.upsert_flashcard_review(student_a["id"], "4ème", "Les atomes et les molécules", "card-1", True)
 
-    state_a = db.get_flashcard_review_state(student_a["id"], "6ème", "Les fractions")
-    state_b = db.get_flashcard_review_state(student_b["id"], "6ème", "Les fractions")
+    state_a = db.get_flashcard_review_state(student_a["id"], "4ème", "Les atomes et les molécules")
+    state_b = db.get_flashcard_review_state(student_b["id"], "4ème", "Les atomes et les molécules")
     assert "card-1" in state_a
     assert "card-1" not in state_b

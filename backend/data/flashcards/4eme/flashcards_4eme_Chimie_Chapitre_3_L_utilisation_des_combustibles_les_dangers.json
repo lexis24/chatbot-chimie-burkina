@@ -1,0 +1,472 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 3 : L'utilisation des combustibles et les dangers",
+  "source": "pc/4eme/Chimie_Chapitre_3_L_utilisation_des_combustibles_les_dangers",
+  "nombre_cartes": 38,
+  "cartes": [
+    {
+      "id": "PC4E-C03-001",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "definition",
+      "recto": "Pourquoi ajoute-t-on un gaz odorant au butane avant de le livrer ?",
+      "verso": "Le butane est naturellement inodore ; le gaz odorant permet de déceler une fuite à l'odeur.",
+      "difficulte": 1,
+      "tags": [
+        "butane",
+        "odorant",
+        "fuite-de-gaz"
+      ]
+    },
+    {
+      "id": "PC4E-C03-002",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "formule",
+      "recto": "Quel volume de gaz donne environ $1~\\mathrm{L}$ de butane liquide, liquéfié sous pression dans sa bouteille ?",
+      "verso": "Environ $230~\\mathrm{L}$ de gaz.",
+      "difficulte": 2,
+      "tags": [
+        "butane",
+        "liquefaction"
+      ]
+    },
+    {
+      "id": "PC4E-C03-003",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "definition",
+      "recto": "Dans une installation au butane, quel est le rôle du détendeur ?",
+      "verso": "Il abaisse la pression de la bouteille jusqu'à la pression de service et la maintient constante.",
+      "difficulte": 1,
+      "tags": [
+        "detendeur",
+        "installation"
+      ]
+    },
+    {
+      "id": "PC4E-C03-004",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre le détendeur et le robinet d'une installation au gaz ?",
+      "verso": "Le détendeur fait baisser la pression du gaz sortant de la bouteille ; le robinet règle le débit.",
+      "difficulte": 3,
+      "tags": [
+        "detendeur",
+        "robinet",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C03-005",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "definition",
+      "recto": "Dans un réchaud à gaz, quels sont les rôles respectifs de l'injecteur et du brûleur ?",
+      "verso": "L'injecteur laisse sortir le gaz en un jet fin ; le brûleur mélange ce gaz à l'air et le distribue en petites flammes.",
+      "difficulte": 2,
+      "tags": [
+        "injecteur",
+        "bruleur"
+      ]
+    },
+    {
+      "id": "PC4E-C03-006",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "formule",
+      "recto": "Comment fonctionne un brûleur à gaz ?",
+      "verso": "Le gaz sort de l'injecteur à grande vitesse ; ce jet entraîne de l'air par les orifices d'air situés sous le brûleur. Le mélange gaz + air monte et brûle en sortant par les trous du chapeau.",
+      "difficulte": 2,
+      "tags": [
+        "bruleur",
+        "fonctionnement"
+      ]
+    },
+    {
+      "id": "PC4E-C03-007",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "formule",
+      "recto": "Sur un bec Bunsen, quel est l'effet de la position de la virole sur la flamme ?",
+      "verso": "Virole ouverte : l'air entre, la flamme est bleue, peu éclairante et chaude, la combustion est complète. Virole fermée : le dioxygène manque, la flamme est jaune, éclairante, moins chaude et noircit les objets, la combustion est incomplète.",
+      "difficulte": 2,
+      "tags": [
+        "bec-bunsen",
+        "virole",
+        "flamme"
+      ]
+    },
+    {
+      "id": "PC4E-C03-008",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "definition",
+      "recto": "Que signale une flamme jaune et éclairante sur un réchaud à gaz ?",
+      "verso": "Des orifices d'air bouchés : la combustion est incomplète et produit du monoxyde de carbone. Elle chauffe moins qu'une flamme bleue et noircit les marmites.",
+      "difficulte": 3,
+      "tags": [
+        "flamme-jaune",
+        "combustion-incomplete",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C03-009",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "formule",
+      "recto": "Pour éteindre un réchaud à gaz, dans quel ordre ferme-t-on les robinets ?",
+      "verso": "On ferme d'abord le robinet de la bouteille, on laisse la flamme consommer le gaz du tuyau, puis on ferme celui du réchaud.",
+      "difficulte": 2,
+      "tags": [
+        "rechaud",
+        "extinction",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC4E-C03-010",
+      "lecon": "L'utilisation des combustibles gazeux : le brûleur à gaz et l'installation",
+      "type": "formule",
+      "recto": "Pour allumer un réchaud à gaz, dans quel ordre fait-on les gestes de l'allumette et du robinet ?",
+      "verso": "On craque l'allumette d'abord, on l'approche du brûleur, puis on ouvre le robinet, dans un local ventilé.",
+      "difficulte": 1,
+      "tags": [
+        "rechaud",
+        "allumage",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC4E-C03-011",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Quels sont les cinq dangers liés à l'utilisation des combustibles ?",
+      "verso": "L'intoxication par les gaz toxiques produits, l'asphyxie par manque de dioxygène, la brûlure par les effets thermiques, l'incendie par propagation du feu et l'explosion par inflammation brutale d'un gaz accumulé.",
+      "difficulte": 1,
+      "tags": [
+        "dangers"
+      ]
+    },
+    {
+      "id": "PC4E-C03-012",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre une asphyxie et une intoxication ?",
+      "verso": "Dans l'asphyxie, il manque le dioxygène ; dans l'intoxication, il y a en trop un poison. Le remède immédiat est le même, l'air libre, mais la prévention diffère.",
+      "difficulte": 3,
+      "tags": [
+        "asphyxie",
+        "intoxication"
+      ]
+    },
+    {
+      "id": "PC4E-C03-013",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Quelles propriétés du monoxyde de carbone empêchent de le détecter ?",
+      "verso": "C'est un gaz incolore, inodore, sans saveur et non irritant : rien n'avertit de sa présence. Seule la ventilation permanente en protège.",
+      "difficulte": 2,
+      "tags": [
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C03-014",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Comment le monoxyde de carbone agit-il sur l'organisme ?",
+      "verso": "Il se fixe sur le sang beaucoup plus facilement que le dioxygène et prend sa place : le sang ne transporte plus assez de dioxygène. C'est un poison violent, souvent mortel.",
+      "difficulte": 2,
+      "tags": [
+        "monoxyde-de-carbone",
+        "sang"
+      ]
+    },
+    {
+      "id": "PC4E-C03-015",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Quels signes doivent faire penser à une intoxication au monoxyde de carbone ?",
+      "verso": "Maux de tête, nausées, vertiges, fatigue soudaine ou somnolence, puis perte de connaissance ; surtout lorsque plusieurs personnes de la même pièce sont malades en même temps et vont mieux dehors.",
+      "difficulte": 2,
+      "tags": [
+        "intoxication",
+        "signes"
+      ]
+    },
+    {
+      "id": "PC4E-C03-016",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "formule",
+      "recto": "Quelle est la conduite à tenir devant une intoxication au monoxyde de carbone ?",
+      "verso": "Ouvrir en grand, arrêter l'appareil en cause, sortir tout le monde à l'air libre, ne rien rallumer, appeler les secours au 18 et ne pas réintégrer les lieux avant leur accord.",
+      "difficulte": 2,
+      "tags": [
+        "intoxication",
+        "conduite-a-tenir"
+      ]
+    },
+    {
+      "id": "PC4E-C03-017",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "formule",
+      "recto": "Comment doit être assurée la ventilation d'un local où brûle un combustible ?",
+      "verso": "Par deux ouvertures jamais bouchées : une basse, qui laisse entrer l'air neuf, et une haute, qui laisse sortir les gaz chauds. Une porte entrebâillée ne suffit pas.",
+      "difficulte": 2,
+      "tags": [
+        "ventilation"
+      ]
+    },
+    {
+      "id": "PC4E-C03-018",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Pourquoi ne faut-il pas confondre le dioxyde de carbone et le monoxyde de carbone parmi les dangers des combustions ?",
+      "verso": "Le dioxyde de carbone, produit par toute combustion, n'est pas un poison mais contribue à l'effet de serre. Le monoxyde de carbone, produit par les seules combustions incomplètes, est un poison violent.",
+      "difficulte": 3,
+      "tags": [
+        "monoxyde-de-carbone",
+        "dioxyde-de-carbone",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C03-019",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "definition",
+      "recto": "Comment reconnaît-on les trois degrés d'une brûlure ?",
+      "verso": "Premier degré : peau rouge. Deuxième degré : cloque. Troisième degré : peau blanche, cartonnée ou noire, et indolore ; c'est la plus grave, même si elle ne fait pas mal.",
+      "difficulte": 2,
+      "tags": [
+        "brulure",
+        "degres"
+      ]
+    },
+    {
+      "id": "PC4E-C03-020",
+      "lecon": "Les dangers liés aux combustibles : intoxication, asphyxie, brûlure",
+      "type": "formule",
+      "recto": "Quel est le geste immédiat à faire sur une brûlure ?",
+      "verso": "Arroser à l'eau du robinet, ni glacée ni chaude, pendant 15 minutes, sans frotter. On ne met ni karité, ni huile, ni dentifrice, qui enferment la chaleur.",
+      "difficulte": 1,
+      "tags": [
+        "brulure",
+        "premiers-secours"
+      ]
+    },
+    {
+      "id": "PC4E-C03-021",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "Sur quel critère classe-t-on les feux en classes A, B, C, D et F ?",
+      "verso": "D'après la nature du combustible qui brûle. A : feux secs (bois, papier, tissu, paille) ; B : feux gras (essence, pétrole, alcool, plastique fondu) ; C : feux de gaz ; D : feux de métaux ; F : feux d'huiles et de graisses de cuisson.",
+      "difficulte": 1,
+      "tags": [
+        "classes-de-feu"
+      ]
+    },
+    {
+      "id": "PC4E-C03-022",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "Pourquoi les feux d'origine électrique ne forment-ils pas une classe de feu ?",
+      "verso": "Ils prennent la classe du matériau qui brûle, mais imposent de couper le courant avant toute action. L'extincteur à dioxyde de carbone, qui ne laisse aucun résidu, convient aux appareils électriques.",
+      "difficulte": 3,
+      "tags": [
+        "feu-electrique",
+        "classes-de-feu"
+      ]
+    },
+    {
+      "id": "PC4E-C03-023",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "formule",
+      "recto": "Quel moyen d'extinction convient à chaque usage : eau, sable sec, couvercle ou couverture ?",
+      "verso": "L'eau refroidit : classe A. Le sable sec étouffe et couvre : classes A, B et D en début de feu. Le couvercle ou la couverture épaisse en coton étouffe : classe F et feu sur une personne.",
+      "difficulte": 2,
+      "tags": [
+        "extinction",
+        "classes-de-feu"
+      ]
+    },
+    {
+      "id": "PC4E-C03-024",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "formule",
+      "recto": "A quelles classes de feu convient l'extincteur à poudre polyvalente ?",
+      "verso": "Aux classes A, B et C : c'est le plus utile dans une maison ou un atelier.",
+      "difficulte": 1,
+      "tags": [
+        "extincteur",
+        "poudre"
+      ]
+    },
+    {
+      "id": "PC4E-C03-025",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "Pourquoi l'eau n'éteint-elle pas tous les feux ?",
+      "verso": "Sur un feu de liquide, une friture ou un appareil sous tension, l'eau aggrave le feu. Elle ne convient qu'aux feux secs de classe A.",
+      "difficulte": 3,
+      "tags": [
+        "eau",
+        "classes-de-feu",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C03-026",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "formule",
+      "recto": "Devant une fuite de gaz enflammée, pourquoi coupe-t-on l'arrivée du gaz avant d'éteindre la flamme ?",
+      "verso": "Eteindre la flamme sans couper le gaz laisse celui-ci s'accumuler et prépare une explosion bien plus grave. On ferme d'abord le robinet de la bouteille.",
+      "difficulte": 2,
+      "tags": [
+        "feu-de-gaz",
+        "explosion"
+      ]
+    },
+    {
+      "id": "PC4E-C03-027",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "De quelles manières un incendie se propage-t-il ?",
+      "verso": "Par contact de la flamme, le long des pièces métalliques qui s'échauffent, par les gaz chauds qui montent et embrasent le plafond, et à distance par la chaleur que le feu envoie autour de lui.",
+      "difficulte": 2,
+      "tags": [
+        "propagation",
+        "incendie"
+      ]
+    },
+    {
+      "id": "PC4E-C03-028",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la pyrogénation ?",
+      "verso": "La décomposition d'une substance par la chaleur, en l'absence d'air. Le bois chauffé sans brûler libère des gaz combustibles qui s'enflamment plus loin : le feu semble « sauter ».",
+      "difficulte": 2,
+      "tags": [
+        "pyrogenation"
+      ]
+    },
+    {
+      "id": "PC4E-C03-029",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un combustible volatil ?",
+      "verso": "Un combustible qui s'évapore facilement, comme l'essence ou l'alcool.",
+      "difficulte": 1,
+      "tags": [
+        "combustible-volatil",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC4E-C03-030",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "definition",
+      "recto": "Pour un liquide inflammable comme l'essence, qu'est-ce qui brûle réellement ?",
+      "verso": "Ce ne sont pas le liquide mais ses vapeurs qui brûlent. Plus denses que l'air, elles rampent au sol et peuvent atteindre une flamme à plusieurs mètres.",
+      "difficulte": 2,
+      "tags": [
+        "liquide-inflammable",
+        "vapeurs"
+      ]
+    },
+    {
+      "id": "PC4E-C03-031",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "formule",
+      "recto": "Dans un local enfumé par un incendie, pourquoi faut-il se baisser pour avancer ?",
+      "verso": "Les gaz brûlants et la fumée montent sous le plafond : l'air respirable se trouve près du sol.",
+      "difficulte": 2,
+      "tags": [
+        "incendie",
+        "fumee",
+        "conduite-a-tenir"
+      ]
+    },
+    {
+      "id": "PC4E-C03-032",
+      "lecon": "L'incendie : propagation, classes de feu, extinction et conduite à tenir",
+      "type": "formule",
+      "recto": "Avant d'ouvrir une porte pendant un incendie, quel test fait-on ?",
+      "verso": "On touche la porte du dos de la main : si elle est chaude, on ne l'ouvre pas, on se signale par la fenêtre et on bouche le bas de la porte avec un linge mouillé.",
+      "difficulte": 2,
+      "tags": [
+        "incendie",
+        "porte",
+        "conduite-a-tenir"
+      ]
+    },
+    {
+      "id": "PC4E-C03-033",
+      "lecon": "La combustion du tabac et les produits nocifs de la fumée",
+      "type": "definition",
+      "recto": "Comment brûle le tabac d'une cigarette ?",
+      "verso": "Sans flamme, par incandescence, avec un apport d'air faible : la combustion est incomplète et produit un grand nombre de corps nocifs.",
+      "difficulte": 2,
+      "tags": [
+        "tabac",
+        "incandescence",
+        "combustion-incomplete"
+      ]
+    },
+    {
+      "id": "PC4E-C03-034",
+      "lecon": "La combustion du tabac et les produits nocifs de la fumée",
+      "type": "definition",
+      "recto": "Que met en évidence l'expérience de la bouteille à fumer ?",
+      "verso": "La fumée de la cigarette, aspirée à travers un coton blanc, le rend brun et collant : le coton a retenu les goudrons que la fumée contient.",
+      "difficulte": 2,
+      "tags": [
+        "bouteille-a-fumer",
+        "goudrons"
+      ]
+    },
+    {
+      "id": "PC4E-C03-035",
+      "lecon": "La combustion du tabac et les produits nocifs de la fumée",
+      "type": "definition",
+      "recto": "Quels sont les effets des goudrons de la fumée du tabac ?",
+      "verso": "Matières brunes et collantes, ils se déposent dans les poumons et provoquent des bronchites chroniques, des laryngites et des cancers des voies respiratoires.",
+      "difficulte": 1,
+      "tags": [
+        "goudrons",
+        "sante"
+      ]
+    },
+    {
+      "id": "PC4E-C03-036",
+      "lecon": "La combustion du tabac et les produits nocifs de la fumée",
+      "type": "definition",
+      "recto": "Quels sont les effets de la nicotine de la fumée du tabac ?",
+      "verso": "Elle crée la dépendance, accélère le coeur, augmente la pression du sang, provoque des maladies du coeur et des vaisseaux et empoisonne le système nerveux. Ce ne sont pas elle mais les goudrons qui provoquent les cancers.",
+      "difficulte": 3,
+      "tags": [
+        "nicotine",
+        "sante",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C03-037",
+      "lecon": "La combustion du tabac et les produits nocifs de la fumée",
+      "type": "definition",
+      "recto": "Quels sont les effets de l'acroléine contenue dans la fumée du tabac ?",
+      "verso": "C'est une substance irritante pour les yeux, la gorge et les bronches ; elle paralyse les fins cils qui nettoient les voies respiratoires et provoque des bronchites et une gêne respiratoire.",
+      "difficulte": 2,
+      "tags": [
+        "acroleine",
+        "sante"
+      ]
+    },
+    {
+      "id": "PC4E-C03-038",
+      "lecon": "La combustion du tabac et les produits nocifs de la fumée",
+      "type": "definition",
+      "recto": "Pourquoi la fumée du tabac atteint-elle aussi les personnes qui ne fument pas ?",
+      "verso": "Les gaz de la fumée sont expansibles et miscibles à l'air : la fumée occupe toute la pièce et se mêle à l'air respiré par chacun. C'est la fumée passive.",
+      "difficulte": 2,
+      "tags": [
+        "fumee-passive"
+      ]
+    }
+  ]
+}

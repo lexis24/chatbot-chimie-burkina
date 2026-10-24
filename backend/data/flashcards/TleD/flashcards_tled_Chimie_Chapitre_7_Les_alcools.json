@@ -1,0 +1,438 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 7 : Les alcools",
+  "source": "pc/tled/Chimie_Chapitre_7_Les_alcools",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PCTD-C07-001",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un alcool en chimie organique ?",
+      "verso": "Un composé organique portant un groupe hydroxyle $\\mathrm{-OH}$ fixé sur un carbone tétragonal, appelé carbone fonctionnel ; formule générale $\\mathrm{R-OH}$.",
+      "difficulte": 1,
+      "tags": [
+        "alcool",
+        "carbone-fonctionnel"
+      ]
+    },
+    {
+      "id": "PCTD-C07-002",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "formule",
+      "recto": "Quelle est la masse molaire d'un monoalcool saturé à chaîne ouverte comportant $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+2}O}$, soit $\\mathrm{C_{n}H_{2n+1}OH}$, de masse molaire $M = 14n + 18$ en $\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PCTD-C07-003",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Comment détermine-t-on la classe d'un alcool ?",
+      "verso": "On compte les atomes de carbone liés au carbone fonctionnel : un, alcool primaire ; deux, secondaire ; trois, tertiaire.",
+      "difficulte": 1,
+      "tags": [
+        "classe-alcool"
+      ]
+    },
+    {
+      "id": "PCTD-C07-004",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "formule",
+      "recto": "Quels sont les motifs des alcools primaire, secondaire et tertiaire ?",
+      "verso": "Primaire : $\\mathrm{R-CH_2-OH}$ ; secondaire : $\\mathrm{R-CHOH-R'}$ ; tertiaire : $\\mathrm{R-C(R')(R'')-OH}$.",
+      "difficulte": 2,
+      "tags": [
+        "classe-alcool",
+        "motif"
+      ]
+    },
+    {
+      "id": "PCTD-C07-005",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "A quelle classe appartient le méthanol $\\mathrm{CH_3-OH}$, dont le carbone fonctionnel n'a aucun voisin carboné ?",
+      "verso": "Il est rangé par convention parmi les alcools primaires.",
+      "difficulte": 2,
+      "tags": [
+        "methanol",
+        "classe-alcool"
+      ]
+    },
+    {
+      "id": "PCTD-C07-006",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Pourquoi n'existe-t-il pas d'alcool quaternaire ?",
+      "verso": "Le carbone engage quatre liaisons et le carbone fonctionnel en consacre une à l'oxygène du groupe $\\mathrm{-OH}$ : il lui reste au plus trois voisins carbonés, la classe tertiaire est la dernière possible.",
+      "difficulte": 3,
+      "tags": [
+        "classe-alcool",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C07-007",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Pourquoi le pentan-1-ol et le décan-1-ol sont-ils tous deux des alcools primaires malgré leurs nombres de carbones différents ?",
+      "verso": "La classe se compte en carbones voisins du carbone fonctionnel, jamais en nombre total de carbones : dans les deux cas, le carbone fonctionnel n'a qu'un seul voisin carboné.",
+      "difficulte": 3,
+      "tags": [
+        "classe-alcool",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C07-008",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un polyol ?",
+      "verso": "Un polyalcool : une molécule portant plusieurs groupes $\\mathrm{-OH}$ sur des carbones différents. On garde le « e » de l'alcane et on ajoute « diol » ou « triol » précédé des indices (propane-1,2-diol).",
+      "difficulte": 2,
+      "tags": [
+        "polyol",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PCTD-C07-009",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Quel est le nom systématique du glycol ?",
+      "verso": "L'éthane-1,2-diol, $\\mathrm{CH_2OH-CH_2OH}$.",
+      "difficulte": 1,
+      "tags": [
+        "glycol",
+        "polyol"
+      ]
+    },
+    {
+      "id": "PCTD-C07-010",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Quel est le nom systématique du glycérol ?",
+      "verso": "Le propane-1,2,3-triol, $\\mathrm{CH_2OH-CHOH-CH_2OH}$.",
+      "difficulte": 1,
+      "tags": [
+        "glycerol",
+        "polyol"
+      ]
+    },
+    {
+      "id": "PCTD-C07-011",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Quand dit-on que le carbone fonctionnel d'un alcool est asymétrique ?",
+      "verso": "Quand son carbone fonctionnel est lié à quatre atomes ou groupes différents (carbone 2 du butan-2-ol) ; l'alcool existe alors sous deux énantiomères, images l'un de l'autre dans un miroir.",
+      "difficulte": 2,
+      "tags": [
+        "carbone-asymetrique",
+        "enantiomeres"
+      ]
+    },
+    {
+      "id": "PCTD-C07-012",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "En convention de Cram, comment représente-t-on les quatre liaisons d'un carbone asymétrique ?",
+      "verso": "Deux liaisons dans le plan de la feuille en traits pleins, une liaison en avant du plan en triangle plein, une liaison en arrière du plan en triangle hachuré.",
+      "difficulte": 2,
+      "tags": [
+        "convention-cram"
+      ]
+    },
+    {
+      "id": "PCTD-C07-013",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Quelle relation d'isomérie existe entre un alcool et un éther-oxyde $\\mathrm{R-O-R'}$ de même formule brute ?",
+      "verso": "Ce sont des isomères de fonction : deux corps différents, l'alcool réagit avec le sodium et bout plus haut, l'éther-oxyde non.",
+      "difficulte": 2,
+      "tags": [
+        "isomerie",
+        "ether-oxyde"
+      ]
+    },
+    {
+      "id": "PCTD-C07-014",
+      "lecon": "Les classes d'alcools et les polyols",
+      "type": "definition",
+      "recto": "Comment la température d'ébullition d'un alcool se compare-t-elle à celle de l'alcane de masse molaire voisine ?",
+      "verso": "Elle est beaucoup plus élevée, et elle croît avec le nombre $n$ d'atomes de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "proprietes-physiques"
+      ]
+    },
+    {
+      "id": "PCTD-C07-015",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction d'un alcool $\\mathrm{R-OH}$ avec le sodium ?",
+      "verso": "$\\mathrm{2\\,R-OH + 2\\,Na \\rightarrow 2\\,R-O^-Na^+ + H_2}$ : il se forme un alcoolate de sodium et du dihydrogène.",
+      "difficulte": 1,
+      "tags": [
+        "sodium",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PCTD-C07-016",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Quelle est la nature de la réaction de l'éthanol avec le sodium ?",
+      "verso": "C'est une oxydoréduction : le sodium est oxydé en ions $\\mathrm{Na^+}$ et l'hydrogène du groupe hydroxyle est réduit en dihydrogène.",
+      "difficulte": 2,
+      "tags": [
+        "sodium",
+        "oxydoreduction"
+      ]
+    },
+    {
+      "id": "PCTD-C07-017",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Quels sont les produits de la réaction de l'éthanol $\\mathrm{C_2H_5OH}$ avec le sodium ?",
+      "verso": "L'éthanolate de sodium $\\mathrm{CH_3-CH_2-O^-Na^+}$ et le dihydrogène $\\mathrm{H_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "ethanolate",
+        "sodium"
+      ]
+    },
+    {
+      "id": "PCTD-C07-018",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Dans le test au sodium, comment identifie-t-on le gaz dégagé ?",
+      "verso": "Approché d'une flamme, il détone d'un bruit sec : c'est du dihydrogène. Ce n'est pas du dioxyde de carbone, qui troublerait l'eau de chaux.",
+      "difficulte": 2,
+      "tags": [
+        "dihydrogene",
+        "test-sodium"
+      ]
+    },
+    {
+      "id": "PCTD-C07-019",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Pourquoi le test au sodium ne permet-il pas de déterminer la classe d'un alcool ?",
+      "verso": "Il prouve seulement la présence d'un hydrogène porté par un oxygène : les trois classes réagissent, plus ou moins vite. La classe se lit sur la formule.",
+      "difficulte": 3,
+      "tags": [
+        "test-sodium",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C07-020",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Pourquoi le tube et l'alcool doivent-ils être secs lors du test au sodium ?",
+      "verso": "Une trace d'eau réagirait elle aussi avec le sodium, plus violemment encore, et l'on attribuerait à l'alcool une effervescence qui ne vient pas de lui.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "test-sodium"
+      ]
+    },
+    {
+      "id": "PCTD-C07-021",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "formule",
+      "recto": "Que devient un alcoolate de sodium au contact de l'eau ?",
+      "verso": "Il est détruit et redonne l'alcool : $\\mathrm{R-O^- + H_2O \\rightarrow R-OH + OH^-}$, réaction totale ; l'ion alcoolate est une base plus forte que l'ion hydroxyde.",
+      "difficulte": 3,
+      "tags": [
+        "alcoolate",
+        "base"
+      ]
+    },
+    {
+      "id": "PCTD-C07-022",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "formule",
+      "recto": "Quelle est l'équation générale de l'estérification d'un alcool $\\mathrm{R'-OH}$ par un acide carboxylique $\\mathrm{R-COOH}$ ?",
+      "verso": "$\\mathrm{R-COOH + R'-OH \\rightleftarrows R-COO-R' + H_2O}$ : il se forme un ester et de l'eau ; la double flèche indique que la réaction se fait dans les deux sens.",
+      "difficulte": 1,
+      "tags": [
+        "esterification",
+        "ester"
+      ]
+    },
+    {
+      "id": "PCTD-C07-023",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Quel ester obtient-on par réaction de l'acide éthanoïque avec l'éthanol ?",
+      "verso": "L'éthanoate d'éthyle, $\\mathrm{CH_3-COO-CH_2-CH_3}$, avec de l'eau.",
+      "difficulte": 1,
+      "tags": [
+        "esterification",
+        "ethanoate-d-ethyle"
+      ]
+    },
+    {
+      "id": "PCTD-C07-024",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction d'un alcool $\\mathrm{R-OH}$ avec l'acide phosphorique ?",
+      "verso": "$\\mathrm{R-OH + H_3PO_4 \\rightarrow R-O-PO_3H_2 + H_2O}$ : on obtient un ester phosphorique et de l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "acide-phosphorique",
+        "ester"
+      ]
+    },
+    {
+      "id": "PCTD-C07-025",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction du glycérol avec l'acide nitrique ?",
+      "verso": "$\\mathrm{C_3H_5(OH)_3 + 3\\,HNO_3 \\rightarrow C_3H_5(ONO_2)_3 + 3\\,H_2O}$, en présence d'acide sulfurique concentré ; le produit est le trinitrate de glycéryle (nitroglycérine).",
+      "difficulte": 2,
+      "tags": [
+        "glycerol",
+        "nitroglycerine"
+      ]
+    },
+    {
+      "id": "PCTD-C07-026",
+      "lecon": "La réaction avec le sodium et l'estérification",
+      "type": "definition",
+      "recto": "Quelles sont les principales applications du glycol et du glycérol ?",
+      "verso": "Glycol : antigel des circuits de refroidissement des moteurs, synthèse de fibres polyesters, explosifs. Glycérol : explosifs (nitroglycérine de la dynamite) et polyesters.",
+      "difficulte": 2,
+      "tags": [
+        "glycol",
+        "glycerol",
+        "applications"
+      ]
+    },
+    {
+      "id": "PCTD-C07-027",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la déshydratation intramoléculaire d'un alcool sur alumine ou par l'acide sulfurique concentré à chaud ?",
+      "verso": "$\\mathrm{R-CH_2-CH(OH)-R' \\rightarrow R-CH=CH-R' + H_2O}$ : on obtient un alcène, sur alumine $\\mathrm{Al_2O_3}$ vers $350~^{\\circ}\\mathrm{C}$ ou avec l'acide sulfurique concentré vers $170~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "deshydratation-intramoleculaire",
+        "alcene"
+      ]
+    },
+    {
+      "id": "PCTD-C07-028",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la déshydratation intermoléculaire d'un alcool $\\mathrm{R-OH}$ par l'acide sulfurique concentré vers $140~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "$\\mathrm{2\\,R-OH \\rightarrow R-O-R + H_2O}$ : deux molécules d'alcool perdent ensemble une molécule d'eau et donnent un éther-oxyde.",
+      "difficulte": 2,
+      "tags": [
+        "deshydratation-intermoleculaire",
+        "ether-oxyde"
+      ]
+    },
+    {
+      "id": "PCTD-C07-029",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "definition",
+      "recto": "Lors de la déshydratation intramoléculaire d'un alcool, d'où provient l'atome d'hydrogène qui part avec le groupe $\\mathrm{-OH}$ ?",
+      "verso": "D'un carbone voisin du carbone fonctionnel ; la double liaison se forme entre ces deux carbones.",
+      "difficulte": 2,
+      "tags": [
+        "deshydratation-intramoleculaire"
+      ]
+    },
+    {
+      "id": "PCTD-C07-030",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "definition",
+      "recto": "Quels alcènes la déshydratation intramoléculaire du butan-2-ol peut-elle donner ?",
+      "verso": "Le but-1-ène $\\mathrm{CH_2=CH-CH_2-CH_3}$ et le but-2-ène $\\mathrm{CH_3-CH=CH-CH_3}$, car les carbones 1 et 3, voisins du carbone fonctionnel, portent tous deux des hydrogènes.",
+      "difficulte": 3,
+      "tags": [
+        "butan-2-ol",
+        "alcene"
+      ]
+    },
+    {
+      "id": "PCTD-C07-031",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "definition",
+      "recto": "Pourquoi le 2-méthylpropan-2-ol ne donne-t-il qu'un seul alcène par déshydratation ?",
+      "verso": "Ses trois carbones voisins du carbone fonctionnel sont trois groupes $\\mathrm{CH_3}$ identiques : les trois possibilités donnent la même molécule, le 2-méthylpropène $\\mathrm{CH_2=C(CH_3)-CH_3}$.",
+      "difficulte": 3,
+      "tags": [
+        "alcool-tertiaire",
+        "alcene"
+      ]
+    },
+    {
+      "id": "PCTD-C07-032",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "definition",
+      "recto": "Quel produit obtient-on en chauffant l'éthanol avec l'acide sulfurique concentré vers $140~^{\\circ}\\mathrm{C}$ plutôt que vers $170~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "Vers $140~^{\\circ}\\mathrm{C}$, la déshydratation est intermoléculaire et donne l'oxyde d'éthyle ; l'éthène n'est obtenu que vers $170~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 3,
+      "tags": [
+        "temperature",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C07-033",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "definition",
+      "recto": "Dans la déshydratation des alcools, quel est le rôle de l'alumine ou de l'acide sulfurique ?",
+      "verso": "Ce sont des catalyseurs : ils accélèrent la réaction sans être consommés, n'apparaissent pas dans le bilan et s'écrivent au-dessus de la flèche.",
+      "difficulte": 1,
+      "tags": [
+        "catalyseur"
+      ]
+    },
+    {
+      "id": "PCTD-C07-034",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'hydratation de l'éthène en présence d'acide sulfurique dilué ?",
+      "verso": "$\\mathrm{CH_2=CH_2 + H_2O \\rightarrow CH_3-CH_2-OH}$ : l'alcène fixe une molécule d'eau et donne l'éthanol.",
+      "difficulte": 1,
+      "tags": [
+        "hydratation",
+        "ethene"
+      ]
+    },
+    {
+      "id": "PCTD-C07-035",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "definition",
+      "recto": "Lors de l'hydratation d'un alcène dissymétrique, que dit la règle de Markovnikov ?",
+      "verso": "L'hydrogène se fixe sur le carbone de la double liaison qui en porte déjà le plus : l'alcool majoritaire (produit Markovnikov) est celui de la classe la plus élevée.",
+      "difficulte": 2,
+      "tags": [
+        "markovnikov",
+        "hydratation"
+      ]
+    },
+    {
+      "id": "PCTD-C07-036",
+      "lecon": "La déshydratation des alcools et leur préparation par hydratation des alcènes",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la fermentation alcoolique du glucose ?",
+      "verso": "$\\mathrm{C_6H_{12}O_6 \\rightarrow 2\\,C_2H_5OH + 2\\,CO_2}$ : le sucre est transformé en éthanol et en dioxyde de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "fermentation",
+        "glucose"
+      ]
+    }
+  ]
+}

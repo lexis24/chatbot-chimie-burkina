@@ -1,0 +1,417 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 8 : La réduction de l'oxyde ferrique et de l'oxyde cuivrique",
+  "source": "pc/3eme/Chimie_Chapitre_8_La_reduction_de_l_oxyde_ferrique_et_de_l_oxyde_cuivrique",
+  "nombre_cartes": 34,
+  "cartes": [
+    {
+      "id": "PC3E-C08-001",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on une réduction ?",
+      "verso": "C'est une réaction au cours de laquelle un corps perd de l'oxygène. Le corps qui perd son oxygène est dit réduit.",
+      "difficulte": 1,
+      "tags": [
+        "reduction",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C08-002",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Dans une réaction de transfert d'oxygène, qu'appelle-t-on une oxydation ?",
+      "verso": "C'est une réaction au cours de laquelle un corps gagne de l'oxygène. Le corps qui gagne l'oxygène est dit oxydé.",
+      "difficulte": 1,
+      "tags": [
+        "oxydation",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C08-003",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'oxydant d'une réaction d'oxydoréduction ?",
+      "verso": "C'est le corps qui donne son oxygène à l'autre : il perd de l'oxygène, il est donc réduit.",
+      "difficulte": 1,
+      "tags": [
+        "oxydant",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C08-004",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le réducteur d'une réaction d'oxydoréduction ?",
+      "verso": "C'est le corps qui prend (arrache) l'oxygène à l'autre : il gagne de l'oxygène, il est donc oxydé.",
+      "difficulte": 1,
+      "tags": [
+        "reducteur",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C08-005",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction d'oxydoréduction ?",
+      "verso": "C'est une réaction où une réduction et une oxydation se produisent en même temps : l'oxygène perdu par l'un des corps est exactement l'oxygène gagné par l'autre.",
+      "difficulte": 2,
+      "tags": [
+        "oxydoreduction",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C08-006",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Pourquoi l'oxydant ne doit-il pas être confondu avec le corps oxydé ?",
+      "verso": "Ce sont deux corps différents de la même équation : l'oxydant donne l'oxygène et il est réduit ; c'est le réducteur qui est oxydé.",
+      "difficulte": 3,
+      "tags": [
+        "oxydant",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C08-007",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire qu'il y a « d'abord une réduction, puis une oxydation » ?",
+      "verso": "Parce qu'il n'y a pas deux moments : c'est le même transfert d'oxygène vu des deux côtés, dans la même réaction.",
+      "difficulte": 3,
+      "tags": [
+        "oxydoreduction",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C08-008",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réduction de l'oxyde cuivrique par le dihydrogène ?",
+      "verso": "$\\mathrm{CuO + H_2 \\rightarrow Cu + H_2O}$ : l'oxyde cuivrique noir, chauffé dans un courant de dihydrogène, donne du cuivre rouge et de l'eau.",
+      "difficulte": 1,
+      "tags": [
+        "oxyde-cuivrique",
+        "dihydrogene"
+      ]
+    },
+    {
+      "id": "PC3E-C08-009",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Dans la réduction de l'oxyde cuivrique par le dihydrogène, quel corps est l'oxydant et quel corps est le réducteur ?",
+      "verso": "L'oxyde cuivrique $\\mathrm{CuO}$ est l'oxydant (il est réduit en cuivre) ; le dihydrogène $\\mathrm{H_2}$ est le réducteur (il est oxydé en eau).",
+      "difficulte": 2,
+      "tags": [
+        "oxydant",
+        "reducteur"
+      ]
+    },
+    {
+      "id": "PC3E-C08-010",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "Lors de la réduction de l'oxyde cuivrique par le dihydrogène, pourquoi la buée prouve-t-elle le transfert d'oxygène ?",
+      "verso": "Le tube ne reçoit que du dihydrogène : l'oxygène de l'eau formée ne peut venir que de l'oxyde cuivrique. Un changement de couleur n'est qu'un indice, la buée est la preuve.",
+      "difficulte": 2,
+      "tags": [
+        "buee",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "PC3E-C08-011",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "formule",
+      "recto": "Sur l'équation d'une oxydoréduction, comment trace-t-on les deux flèches du transfert d'oxygène ?",
+      "verso": "Au-dessus, la flèche « oxydation » va du réducteur vers l'oxyde qu'il forme ; au-dessous, la flèche « réduction » va de l'oxydant vers le métal libéré.",
+      "difficulte": 2,
+      "tags": [
+        "fleches",
+        "notation"
+      ]
+    },
+    {
+      "id": "PC3E-C08-012",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "formule",
+      "recto": "Comment reconnaît-on l'oxydant dans une équation de réduction d'un oxyde ?",
+      "verso": "On suit chaque élément : le corps qui avait de l'oxygène et n'en a plus a subi une réduction, c'est l'oxydant. Celui qui n'en avait pas et en a maintenant est le réducteur.",
+      "difficulte": 2,
+      "tags": [
+        "oxydant",
+        "identification"
+      ]
+    },
+    {
+      "id": "PC3E-C08-013",
+      "lecon": "La réduction de l'oxyde cuivrique par le dihydrogène, oxydant et réducteur",
+      "type": "definition",
+      "recto": "D'où vient le mot « réduire » employé en chimie ?",
+      "verso": "Du latin reducere, « ramener en arrière » : réduire un oxyde, c'est ramener le métal à son état de métal.",
+      "difficulte": 1,
+      "tags": [
+        "etymologie",
+        "reduction"
+      ]
+    },
+    {
+      "id": "PC3E-C08-014",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réduction de l'oxyde cuivrique par le carbone ?",
+      "verso": "$\\mathrm{2CuO + C \\rightarrow 2Cu + CO_2}$ : l'oxyde cuivrique noir, chauffé avec du carbone, donne du cuivre et du dioxyde de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "oxyde-cuivrique",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C08-015",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "definition",
+      "recto": "Dans la réduction de l'oxyde cuivrique par le carbone, quel corps est oxydé ?",
+      "verso": "Le carbone : il gagne l'oxygène et devient du dioxyde de carbone, c'est le réducteur. L'oxyde cuivrique est réduit, c'est l'oxydant.",
+      "difficulte": 2,
+      "tags": [
+        "carbone",
+        "reducteur"
+      ]
+    },
+    {
+      "id": "PC3E-C08-016",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "definition",
+      "recto": "Pourquoi le mélange d'oxyde cuivrique et de carbone doit-il être chauffé jusqu'à l'incandescence ?",
+      "verso": "L'oxygène est solidement retenu par le cuivre dans l'oxyde : il faut de l'énergie pour amorcer le transfert. Un chauffage doux ne donne rien, le mélange reste noir.",
+      "difficulte": 2,
+      "tags": [
+        "incandescence",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "PC3E-C08-017",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "definition",
+      "recto": "Quels sont les deux oxydes du cuivre et leurs couleurs ?",
+      "verso": "L'oxyde cuivrique (oxyde de cuivre II) $\\mathrm{CuO}$, noir, et l'oxyde cuivreux $\\mathrm{Cu_2O}$, rouge brique.",
+      "difficulte": 2,
+      "tags": [
+        "oxydes-de-cuivre",
+        "couleur"
+      ]
+    },
+    {
+      "id": "PC3E-C08-018",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "definition",
+      "recto": "Pourquoi un dépôt rouge obtenu en réduisant l'oxyde cuivrique ne prouve-t-il pas à lui seul la présence de cuivre ?",
+      "verso": "L'oxyde cuivreux $\\mathrm{Cu_2O}$ est rouge lui aussi. Une couleur oriente ; c'est un réactif caractéristique qui conclut.",
+      "difficulte": 3,
+      "tags": [
+        "cuivre",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C08-019",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "formule",
+      "recto": "Quel réactif utilise-t-on pour caractériser le cuivre formé, et qu'observe-t-on ?",
+      "verso": "L'acide nitrique, versé par le professeur seul : le dépôt est attaqué, il se dégage des vapeurs rousses et la solution devient bleue. Ce test prouve la présence de l'élément cuivre, mais ne distingue pas le métal de l'oxyde cuivreux $\\mathrm{Cu_2O}$, attaqué lui aussi.",
+      "difficulte": 2,
+      "tags": [
+        "acide-nitrique",
+        "test"
+      ]
+    },
+    {
+      "id": "PC3E-C08-020",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "definition",
+      "recto": "Quelles précautions impose l'acide nitrique utilisé pour caractériser le cuivre ?",
+      "verso": "Il est corrosif et ses vapeurs rousses sont toxiques : seul le professeur le manipule, sous une fenêtre ouverte, avec lunettes et gants, sur de très petites quantités.",
+      "difficulte": 2,
+      "tags": [
+        "acide-nitrique",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC3E-C08-021",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "formule",
+      "recto": "Dans l'équation d'une réduction d'oxyde métallique, quel élément équilibre-t-on en premier ?",
+      "verso": "L'oxygène, qui est l'élément qui voyage d'un corps à l'autre ; on termine par le métal.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C08-022",
+      "lecon": "La réduction de l'oxyde cuivrique par le carbone",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire que le charbon « brûle » dans le tube où il réduit l'oxyde cuivrique ?",
+      "verso": "Le carbone ne se combine pas au dioxygène de l'air : il prend l'oxygène à l'oxyde. C'est une réduction de l'oxyde, pas une combustion.",
+      "difficulte": 3,
+      "tags": [
+        "carbone",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C08-023",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réduction de l'oxyde ferrique par l'aluminium ?",
+      "verso": "$\\mathrm{Fe_2O_3 + 2Al \\rightarrow 2Fe + Al_2O_3}$ : il se forme du fer et de l'alumine.",
+      "difficulte": 2,
+      "tags": [
+        "aluminothermie",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C08-024",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "definition",
+      "recto": "Quels produits se forment lors de la réduction de l'oxyde ferrique par l'aluminium ?",
+      "verso": "Du fer, obtenu à l'état fondu, et de l'alumine (oxyde d'aluminium) $\\mathrm{Al_2O_3}$.",
+      "difficulte": 1,
+      "tags": [
+        "aluminothermie",
+        "produits"
+      ]
+    },
+    {
+      "id": "PC3E-C08-025",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "formule",
+      "recto": "Quelle est la formule de l'alumine ?",
+      "verso": "$\\mathrm{Al_2O_3}$ : deux atomes d'aluminium pour trois atomes d'oxygène (et non $\\mathrm{AlO}$ ni $\\mathrm{Al_3O_2}$).",
+      "difficulte": 1,
+      "tags": [
+        "alumine",
+        "formule"
+      ]
+    },
+    {
+      "id": "PC3E-C08-026",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "definition",
+      "recto": "Dans la réduction de l'oxyde ferrique par l'aluminium, quel corps est l'oxydant ?",
+      "verso": "L'oxyde ferrique $\\mathrm{Fe_2O_3}$ : il perd son oxygène, il est réduit. L'aluminium, qui gagne l'oxygène, est le réducteur et il est oxydé.",
+      "difficulte": 2,
+      "tags": [
+        "oxydant",
+        "oxyde-ferrique"
+      ]
+    },
+    {
+      "id": "PC3E-C08-027",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'aluminothermie ?",
+      "verso": "C'est la réduction de l'oxyde ferrique par l'aluminium, réaction très exothermique qui donne du fer fondu. Amorcée par un ruban de magnésium, elle sert à souder les rails.",
+      "difficulte": 2,
+      "tags": [
+        "aluminothermie",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C08-028",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "definition",
+      "recto": "Pourquoi le fer sort-il fondu lors de l'aluminothermie ?",
+      "verso": "La réaction est très exothermique : la chaleur dégagée en quelques secondes dans un petit volume dépasse la température de fusion du fer.",
+      "difficulte": 2,
+      "tags": [
+        "aluminothermie",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "PC3E-C08-029",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "formule",
+      "recto": "Comment met-on en évidence le fer formé par réduction de l'oxyde ferrique ?",
+      "verso": "On approche un aimant du produit refroidi : le fer est attiré.",
+      "difficulte": 1,
+      "tags": [
+        "fer",
+        "test"
+      ]
+    },
+    {
+      "id": "PC3E-C08-030",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "formule",
+      "recto": "Quelle proportion de masses de référence traduit la réduction de l'oxyde ferrique par l'aluminium ?",
+      "verso": "$160~\\mathrm{g}$ d'oxyde ferrique réagissent avec $54~\\mathrm{g}$ d'aluminium et donnent $112~\\mathrm{g}$ de fer et $102~\\mathrm{g}$ d'alumine ($160 + 54 = 112 + 102$).",
+      "difficulte": 2,
+      "tags": [
+        "proportion",
+        "aluminothermie"
+      ]
+    },
+    {
+      "id": "PC3E-C08-031",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réduction de l'oxyde ferrique par le carbone ?",
+      "verso": "$\\mathrm{2Fe_2O_3 + 3C \\rightarrow 4Fe + 3CO_2}$ : c'est la réaction du bas fourneau des forgerons.",
+      "difficulte": 2,
+      "tags": [
+        "oxyde-ferrique",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C08-032",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "definition",
+      "recto": "Quels avantages et inconvénients a l'aluminium sur le carbone pour réduire l'oxyde ferrique ?",
+      "verso": "Avec l'aluminium, tout se joue en quelques secondes, sans apport de chaleur, et le fer sort fondu ; mais la poudre d'aluminium coûte bien plus cher que le charbon. Le carbone exige un feu de plusieurs heures et dégage du monoxyde de carbone.",
+      "difficulte": 3,
+      "tags": [
+        "aluminium",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C08-033",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "definition",
+      "recto": "Pourquoi le monoxyde de carbone $\\mathrm{CO}$ dégagé lors des réductions au carbone est-il si dangereux ?",
+      "verso": "C'est un gaz mortel, incolore et inodore : on ne le détecte pas au nez. Toute réduction au carbone se fait fenêtre ouverte, on ventile.",
+      "difficulte": 3,
+      "tags": [
+        "monoxyde-de-carbone",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C08-034",
+      "lecon": "La réduction de l'oxyde ferrique par l'aluminium et par le carbone",
+      "type": "formule",
+      "recto": "Lors d'une réduction d'oxyde, sur quoi porte la conservation de la masse ?",
+      "verso": "Sur l'ensemble des corps : masse des réactifs $=$ masse des produits. Aucun corps ne garde sa masse : $160~\\mathrm{g}$ d'oxyde ferrique ne donnent que $112~\\mathrm{g}$ de fer.",
+      "difficulte": 2,
+      "tags": [
+        "conservation-masse"
+      ]
+    }
+  ]
+}

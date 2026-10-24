@@ -1,0 +1,467 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 2 : Les alcènes et les alcynes",
+  "source": "pc/1ered/Chimie_Chapitre_2_Les_alcenes_et_les_alcynes",
+  "nombre_cartes": 39,
+  "cartes": [
+    {
+      "id": "PC1D-C02-001",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un alcène ?",
+      "verso": "Un hydrocarbure insaturé à chaîne ouverte qui contient une double liaison carbone-carbone $\\mathrm{C=C}$. On dit aussi hydrocarbure éthylénique.",
+      "difficulte": 1,
+      "tags": [
+        "alcene",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C02-002",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "formule",
+      "recto": "Quelle est la formule générale des alcènes ?",
+      "verso": "$\\mathrm{C_{n}H_{2n}}$, avec $n \\geqslant 2$.",
+      "difficulte": 1,
+      "tags": [
+        "alcene",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC1D-C02-003",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "definition",
+      "recto": "Quel est le premier terme de la famille des alcènes ?",
+      "verso": "L'éthylène, de nom officiel éthène, de formule brute $\\mathrm{C_2H_4}$.",
+      "difficulte": 1,
+      "tags": [
+        "ethylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-004",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "definition",
+      "recto": "De quelles deux liaisons de nature différente une double liaison $\\mathrm{C=C}$ est-elle formée ?",
+      "verso": "D'une liaison axiale solide, du même type que celles des alcanes, et d'une liaison latérale plus fragile, qui se rompt facilement et explique la réactivité des alcènes.",
+      "difficulte": 2,
+      "tags": [
+        "double-liaison"
+      ]
+    },
+    {
+      "id": "PC1D-C02-005",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "definition",
+      "recto": "Quelle est la géométrie de la molécule d'éthylène autour des carbones de sa double liaison ?",
+      "verso": "La molécule est plane ; chaque carbone de la double liaison est trigonal, lié à trois voisins dans des directions faisant des angles voisins de $120^{\\circ}$.",
+      "difficulte": 2,
+      "tags": [
+        "geometrie",
+        "ethylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-006",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "formule",
+      "recto": "Quelle est la longueur de la double liaison $\\mathrm{C=C}$, comparée à celle de la liaison simple $\\mathrm{C-C}$ ?",
+      "verso": "$\\ell(\\mathrm{C=C}) = 134~\\mathrm{pm}$, plus courte que $\\ell(\\mathrm{C-C}) = 154~\\mathrm{pm}$.",
+      "difficulte": 1,
+      "tags": [
+        "longueur-liaison"
+      ]
+    },
+    {
+      "id": "PC1D-C02-007",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "formule",
+      "recto": "Dans le nom d'un alcène, quelle règle de numérotation de la chaîne principale passe avant toutes les autres ?",
+      "verso": "On numérote de façon à donner le plus petit indice possible à la double liaison, même si les ramifications reçoivent alors des indices plus grands. Exemple : but-1-ène, et non but-3-ène.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PC1D-C02-008",
+      "lecon": "Les alcènes, la double liaison et la nomenclature",
+      "type": "definition",
+      "recto": "Dans le nom « but-2-ène », que signifient « but » et le chiffre 2 ?",
+      "verso": "« But » annonce une chaîne principale de 4 carbones ; le 2 repère la double liaison, située entre les carbones 2 et 3.",
+      "difficulte": 3,
+      "tags": [
+        "nomenclature",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C02-009",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "En chimie, quand dit-on que deux composés sont isomères ?",
+      "verso": "Lorsqu'ils ont la même formule brute et des structures différentes. Ce sont deux corps distincts, aux propriétés physiques différentes.",
+      "difficulte": 1,
+      "tags": [
+        "isomerie"
+      ]
+    },
+    {
+      "id": "PC1D-C02-010",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Pour les alcènes, qu'appelle-t-on l'isomérie de position ?",
+      "verso": "Des isomères de même chaîne carbonée dont la double liaison n'occupe pas la même place, comme le but-1-ène $\\mathrm{CH_2=CH-CH_2-CH_3}$ et le but-2-ène $\\mathrm{CH_3-CH=CH-CH_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "isomerie-position"
+      ]
+    },
+    {
+      "id": "PC1D-C02-011",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Pour un alcène, que désignent les lettres Z et E de la stéréoisomérie ?",
+      "verso": "Z (zusammen, « ensemble ») : les deux groupes prioritaires sont du même côté de la double liaison. E (entgegen, « opposé ») : ils sont de part et d'autre.",
+      "difficulte": 1,
+      "tags": [
+        "stereoisomerie",
+        "z-e"
+      ]
+    },
+    {
+      "id": "PC1D-C02-012",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "formule",
+      "recto": "A quelle condition un alcène présente-t-il la stéréoisomérie Z et E ?",
+      "verso": "Si, et seulement si, chacun des deux carbones de la double liaison porte deux groupes différents. Un seul carbone portant deux groupes identiques suffit à supprimer l'isomérie.",
+      "difficulte": 2,
+      "tags": [
+        "stereoisomerie",
+        "condition"
+      ]
+    },
+    {
+      "id": "PC1D-C02-013",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Pourquoi le but-1-ène ne présente-t-il pas d'isomérie Z et E, alors que le but-2-ène en présente une ?",
+      "verso": "Dans le but-1-ène, le carbone 1 porte deux atomes d'hydrogène, deux groupes identiques : la condition n'est pas remplie. Dans le but-2-ène, chaque carbone de la double liaison porte un H et un $\\mathrm{CH_3}$.",
+      "difficulte": 3,
+      "tags": [
+        "stereoisomerie",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C02-014",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre deux conformations et deux configurations d'une molécule ?",
+      "verso": "Deux conformations se déduisent l'une de l'autre par simple rotation autour d'une liaison simple : c'est le même corps. Deux configurations ne s'obtiennent qu'en rompant une liaison : ce sont deux corps différents, comme Z et E.",
+      "difficulte": 3,
+      "tags": [
+        "conformation",
+        "configuration"
+      ]
+    },
+    {
+      "id": "PC1D-C02-015",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Pourquoi la rotation autour d'une double liaison $\\mathrm{C=C}$ est-elle bloquée ?",
+      "verso": "Tourner une moitié de la molécule romprait la liaison latérale, qui ne tient que si les deux carbones restent dans le même plan ; l'énergie nécessaire n'est pas disponible à la température ordinaire.",
+      "difficulte": 2,
+      "tags": [
+        "rotation-bloquee"
+      ]
+    },
+    {
+      "id": "PC1D-C02-016",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "formule",
+      "recto": "Sur un carbone de la double liaison, comment désigne-t-on le groupe prioritaire pour attribuer Z ou E ?",
+      "verso": "C'est le groupe dont le premier atome est le plus lourd (C l'emporte sur H, Cl ou Br sur C) ; si les premiers atomes sont identiques, on compare les atomes qui leur sont liés (éthyle avant méthyle).",
+      "difficulte": 2,
+      "tags": [
+        "groupe-prioritaire"
+      ]
+    },
+    {
+      "id": "PC1D-C02-017",
+      "lecon": "L'isomérie des alcènes, position et stéréoisomérie Z et E",
+      "type": "definition",
+      "recto": "Quelle différence sépare l'isomérie de position de la stéréoisomérie Z et E ?",
+      "verso": "Dans l'isomérie de position, la double liaison change de place et la formule semi-développée change ; dans la stéréoisomérie, la formule semi-développée est identique, seule la disposition dans l'espace change.",
+      "difficulte": 3,
+      "tags": [
+        "isomerie-position",
+        "stereoisomerie"
+      ]
+    },
+    {
+      "id": "PC1D-C02-018",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on un alcyne ?",
+      "verso": "Un hydrocarbure insaturé à chaîne ouverte qui contient une triple liaison carbone-carbone. On dit aussi hydrocarbure acétylénique.",
+      "difficulte": 1,
+      "tags": [
+        "alcyne",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C02-019",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "formule",
+      "recto": "Quelle est la formule générale des alcynes ?",
+      "verso": "$\\mathrm{C_{n}H_{2n-2}}$, avec $n \\geqslant 2$ ; le $-2$ porte sur le nombre d'hydrogènes (pour $n = 4$ : $\\mathrm{C_4H_6}$).",
+      "difficulte": 1,
+      "tags": [
+        "alcyne",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC1D-C02-020",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "definition",
+      "recto": "Quel est le premier terme de la famille des alcynes ?",
+      "verso": "L'acétylène, de nom officiel éthyne, de formule brute $\\mathrm{C_2H_2}$ : chaque carbone ne porte qu'un hydrogène.",
+      "difficulte": 1,
+      "tags": [
+        "acetylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-021",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "definition",
+      "recto": "Quelle est la géométrie de la molécule d'acétylène autour des carbones de sa triple liaison ?",
+      "verso": "La molécule est linéaire, ses quatre atomes sont alignés ; chaque carbone est digonal, lié à deux voisins dans deux directions opposées faisant un angle de $180^{\\circ}$.",
+      "difficulte": 2,
+      "tags": [
+        "geometrie",
+        "acetylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-022",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "formule",
+      "recto": "Comment varie la longueur de la liaison carbone-carbone de la liaison simple à la liaison triple ?",
+      "verso": "Plus la liaison est multiple, plus elle est courte : $154~\\mathrm{pm}$ pour la simple, $134~\\mathrm{pm}$ pour la double, $120~\\mathrm{pm}$ pour la triple.",
+      "difficulte": 2,
+      "tags": [
+        "longueur-liaison"
+      ]
+    },
+    {
+      "id": "PC1D-C02-023",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "definition",
+      "recto": "Pourquoi un alcyne ne présente-t-il jamais d'isomérie Z et E ?",
+      "verso": "La géométrie est linéaire : chaque carbone de la triple liaison ne porte qu'un seul autre groupe, il n'y a pas de côtés à distinguer.",
+      "difficulte": 3,
+      "tags": [
+        "alcyne",
+        "stereoisomerie",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C02-024",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la préparation de l'acétylène à partir du carbure de calcium ?",
+      "verso": "$\\mathrm{CaC_2 + 2H_2O \\rightarrow C_2H_2 + Ca(OH)_2}$ : une mole de carbure de calcium donne une mole d'acétylène.",
+      "difficulte": 2,
+      "tags": [
+        "acetylene",
+        "preparation"
+      ]
+    },
+    {
+      "id": "PC1D-C02-025",
+      "lecon": "Les alcynes, la triple liaison et la préparation de l'acétylène",
+      "type": "formule",
+      "recto": "Comment définit-on le rendement $r$ d'une préparation chimique ?",
+      "verso": "$r = \\dfrac{n_{\\text{obtenu}}}{n_{\\text{maximal}}}$, sans unité, compris entre 0 et 1, où $n_{\\text{maximal}}$ est la quantité que donnerait une réaction totale.",
+      "difficulte": 2,
+      "tags": [
+        "rendement"
+      ]
+    },
+    {
+      "id": "PC1D-C02-026",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on une réaction d'addition ?",
+      "verso": "Une réaction au cours de laquelle une molécule se fixe en entier sur une liaison multiple, qui perd une de ses liaisons ; aucun atome n'est éliminé.",
+      "difficulte": 1,
+      "tags": [
+        "addition",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC1D-C02-027",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'hydrogénation catalytique de l'éthylène ?",
+      "verso": "$\\mathrm{CH_2=CH_2 + H_2 \\rightarrow CH_3-CH_3}$, en présence d'un catalyseur : nickel, platine ou palladium.",
+      "difficulte": 2,
+      "tags": [
+        "hydrogenation",
+        "ethylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-028",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Lors de l'hydrogénation d'un alcyne, quel catalyseur arrête la réaction à l'alcène ?",
+      "verso": "Le palladium désactivé, peu actif : $\\mathrm{C_2H_2 + H_2 \\rightarrow C_2H_4}$. Avec le nickel ou le platine, elle va jusqu'à l'alcane : $\\mathrm{C_{n}H_{2n-2} + 2H_2 \\rightarrow C_{n}H_{2n+2}}$.",
+      "difficulte": 3,
+      "tags": [
+        "hydrogenation",
+        "alcyne",
+        "catalyseur"
+      ]
+    },
+    {
+      "id": "PC1D-C02-029",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'addition du dichlore sur l'éthylène ?",
+      "verso": "$\\mathrm{CH_2=CH_2 + Cl_2 \\rightarrow CH_2Cl-CH_2Cl}$, le 1,2-dichloroéthane : les deux atomes de chlore se fixent sur les deux carbones de l'ancienne double liaison.",
+      "difficulte": 1,
+      "tags": [
+        "halogenation",
+        "ethylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-030",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'hydratation de l'éthylène, catalysée par l'acide sulfurique ?",
+      "verso": "$\\mathrm{CH_2=CH_2 + H_2O \\rightarrow CH_3-CH_2OH}$ (éthanol), catalysée par l'acide sulfurique ; en général un alcène donne un alcool $\\mathrm{C_{n}H_{2n+1}OH}$.",
+      "difficulte": 2,
+      "tags": [
+        "hydratation",
+        "ethylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-031",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Quel produit donne l'addition d'une molécule de chlorure d'hydrogène sur l'acétylène, en présence de chlorure de mercure II ?",
+      "verso": "Le chlorure de vinyle $\\mathrm{CH_2=CHCl}$ : $\\mathrm{C_2H_2 + HCl \\rightarrow CH_2=CHCl}$. Avec un excès de $\\mathrm{HCl}$, une seconde addition donne majoritairement le 1,1-dichloroéthane $\\mathrm{CH_3-CHCl_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "hydrohalogenation",
+        "acetylene",
+        "chlorure-de-vinyle"
+      ]
+    },
+    {
+      "id": "PC1D-C02-032",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "definition",
+      "recto": "Lors de l'hydratation de l'acétylène, qu'appelle-t-on l'énol formé en premier ?",
+      "verso": "Une molécule instable qui porte le groupe $\\mathrm{OH}$ sur un carbone de double liaison, $\\mathrm{CH_2=CH-OH}$ ; elle se réorganise aussitôt en éthanal $\\mathrm{CH_3-CHO}$.",
+      "difficulte": 3,
+      "tags": [
+        "hydratation",
+        "enol"
+      ]
+    },
+    {
+      "id": "PC1D-C02-033",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Que dit la règle de Markovnikov pour l'addition d'une molécule $\\mathrm{H-A}$ sur un alcène dissymétrique ?",
+      "verso": "L'atome d'hydrogène se fixe majoritairement sur le carbone de la double liaison qui porte déjà le plus grand nombre d'atomes d'hydrogène ($\\mathrm{A}$ = Cl, Br ou OH va sur l'autre). L'autre produit se forme en quantité minoritaire.",
+      "difficulte": 2,
+      "tags": [
+        "markovnikov"
+      ]
+    },
+    {
+      "id": "PC1D-C02-034",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Selon la règle de Markovnikov, quel est le produit majoritaire de l'addition de $\\mathrm{HCl}$ sur le propène $\\mathrm{CH_2=CH-CH_3}$ ?",
+      "verso": "Le 2-chloropropane $\\mathrm{CH_3-CHCl-CH_3}$ : l'hydrogène se fixe sur le carbone 1, le plus hydrogéné. Le 1-chloropropane est minoritaire.",
+      "difficulte": 3,
+      "tags": [
+        "markovnikov",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C02-035",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un catalyseur ?",
+      "verso": "Une espèce qui accélère une réaction, ne figure pas dans le bilan et se retrouve intacte à la fin. Il ne fournit pas d'énergie.",
+      "difficulte": 1,
+      "tags": [
+        "catalyseur"
+      ]
+    },
+    {
+      "id": "PC1D-C02-036",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Comment l'eau de brome permet-elle de distinguer un hydrocarbure insaturé d'un alcane ?",
+      "verso": "L'eau de brome jaune orangé est décolorée par un hydrocarbure insaturé et non décolorée par un alcane, à condition d'opérer à froid et à l'abri de la lumière vive (sinon l'alcane réagit par substitution).",
+      "difficulte": 2,
+      "tags": [
+        "test-eau-de-brome"
+      ]
+    },
+    {
+      "id": "PC1D-C02-037",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "definition",
+      "recto": "Pour une polymérisation, que désignent le monomère, le motif et l'indice de polymérisation $n$ ?",
+      "verso": "Le monomère est la petite molécule de départ ; le motif est le groupe d'atomes répété dans la chaîne, écrit entre crochets ; $n$ est le nombre de répétitions du motif, avec $M_{\\text{polymère}} = n \\times M_{\\text{motif}}$.",
+      "difficulte": 2,
+      "tags": [
+        "polymerisation",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC1D-C02-038",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la polymérisation de l'éthylène ?",
+      "verso": "$n\\,\\mathrm{CH_2=CH_2 \\rightarrow -\\left[CH_2-CH_2\\right]_{n}-}$ : le motif n'a plus de double liaison, elle s'est ouverte pour former la chaîne.",
+      "difficulte": 2,
+      "tags": [
+        "polymerisation",
+        "polyethylene"
+      ]
+    },
+    {
+      "id": "PC1D-C02-039",
+      "lecon": "Les réactions d'addition, le test de reconnaissance et la polymérisation",
+      "type": "definition",
+      "recto": "Quel est le monomère du polychlorure de vinyle (PVC) ?",
+      "verso": "Du chlorure de vinyle $\\mathrm{CH_2=CHCl}$. Le PVC sert à fabriquer les tuyaux d'adduction d'eau, les gaines électriques et les revêtements de sol.",
+      "difficulte": 1,
+      "tags": [
+        "pvc",
+        "polymere"
+      ]
+    }
+  ]
+}

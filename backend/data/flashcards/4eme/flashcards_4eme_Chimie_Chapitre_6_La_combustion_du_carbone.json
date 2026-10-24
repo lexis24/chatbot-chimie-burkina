@@ -1,0 +1,395 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 6 : La combustion du carbone",
+  "source": "pc/4eme/Chimie_Chapitre_6_La_combustion_du_carbone",
+  "nombre_cartes": 33,
+  "cartes": [
+    {
+      "id": "PC4E-C06-001",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Dans quels corps courants trouve-t-on le carbone presque pur ?",
+      "verso": "Dans le charbon de bois, le fusain et, sous une autre apparence, le diamant. Le carbone, de symbole $\\mathrm{C}$, est un solide noir.",
+      "difficulte": 1,
+      "tags": [
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C06-002",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Comment brûle un morceau de carbone porté au rouge et plongé dans un flacon de dioxygène ?",
+      "verso": "Il brûle sans flamme, avec un vif éclat et des étincelles, en dégageant beaucoup de chaleur.",
+      "difficulte": 1,
+      "tags": [
+        "combustion-carbone",
+        "observation"
+      ]
+    },
+    {
+      "id": "PC4E-C06-003",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Que signifie l'adjectif « exothermique » pour une combustion ?",
+      "verso": "Que la combustion dégage de la chaleur ; c'est le cas de toute combustion.",
+      "difficulte": 1,
+      "tags": [
+        "exothermique"
+      ]
+    },
+    {
+      "id": "PC4E-C06-004",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Pourquoi le carbone qui brûle dans le dioxygène ne produit-il pas de flamme ?",
+      "verso": "Une flamme est un gaz qui brûle ; or le carbone reste solide et brûle directement à sa surface : il n'y a que de l'incandescence.",
+      "difficulte": 3,
+      "tags": [
+        "incandescence",
+        "flamme",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C06-005",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Pourquoi la combustion du carbone est-elle plus vive dans le dioxygène pur que dans l'air ?",
+      "verso": "Dans l'air, le dioxygène n'est qu'un cinquième environ : il y a moins de comburant au contact du solide. Dans le dioxygène pur, le solide est entouré uniquement de comburant : la combustion est beaucoup plus vive.",
+      "difficulte": 2,
+      "tags": [
+        "air",
+        "dioxygene"
+      ]
+    },
+    {
+      "id": "PC4E-C06-006",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Quand dit-on que la combustion du carbone est complète ?",
+      "verso": "Lorsque le dioxygène est en quantité suffisante : le seul corps formé est alors le dioxyde de carbone $\\mathrm{CO_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-complete"
+      ]
+    },
+    {
+      "id": "PC4E-C06-007",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Quel est le nom et la formule du corps formé lors de la combustion complète du carbone ?",
+      "verso": "Le dioxyde de carbone, appelé aussi gaz carbonique, de formule $\\mathrm{CO_2}$ : un gaz incolore et inodore.",
+      "difficulte": 1,
+      "tags": [
+        "dioxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C06-008",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "formule",
+      "recto": "Quel test permet de mettre en évidence le dioxyde de carbone ?",
+      "verso": "L'eau de chaux, limpide au départ, se trouble et devient blanchâtre en présence de dioxyde de carbone (après agitation dans le flacon fermé).",
+      "difficulte": 2,
+      "tags": [
+        "eau-de-chaux",
+        "test"
+      ]
+    },
+    {
+      "id": "PC4E-C06-009",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "formule",
+      "recto": "Quel est le bilan en toutes lettres de la combustion complète du carbone ?",
+      "verso": "carbone $+$ dioxygène $\\rightarrow$ dioxyde de carbone.",
+      "difficulte": 1,
+      "tags": [
+        "bilan"
+      ]
+    },
+    {
+      "id": "PC4E-C06-010",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "formule",
+      "recto": "Quels produits se forment quand le carbone brûle avec un dioxygène insuffisant ?",
+      "verso": "Du noir de fumée et du monoxyde de carbone $\\mathrm{CO}$ : c'est une combustion incomplète, d'équation $2\\,\\mathrm{C} + \\mathrm{O_2} \\rightarrow 2\\,\\mathrm{CO}$.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-incomplete",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C06-011",
+      "lecon": "La combustion du carbone dans le dioxygène",
+      "type": "definition",
+      "recto": "Pourquoi le monoxyde de carbone est-il si dangereux ?",
+      "verso": "Il est incolore, inodore, non irritant et très toxique : il tue sans avertir. Il ne trouble pas l'eau de chaux ; on l'évite en aérant, jamais de brasero dans une pièce fermée.",
+      "difficulte": 3,
+      "tags": [
+        "monoxyde-de-carbone",
+        "securite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C06-012",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction chimique ?",
+      "verso": "Une transformation au cours de laquelle des corps disparaissent et des corps nouveaux se forment.",
+      "difficulte": 1,
+      "tags": [
+        "reaction-chimique"
+      ]
+    },
+    {
+      "id": "PC4E-C06-013",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Dans une réaction chimique, qu'appelle-t-on les réactifs ?",
+      "verso": "Les corps qui disparaissent au cours de la réaction ; ils s'écrivent à gauche de la flèche.",
+      "difficulte": 1,
+      "tags": [
+        "reactifs"
+      ]
+    },
+    {
+      "id": "PC4E-C06-014",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Dans une réaction chimique, qu'appelle-t-on les produits ?",
+      "verso": "Les corps qui se forment au cours de la réaction ; ils s'écrivent à droite de la flèche.",
+      "difficulte": 1,
+      "tags": [
+        "produits"
+      ]
+    },
+    {
+      "id": "PC4E-C06-015",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Quels sont les réactifs et le produit de la combustion complète du carbone ?",
+      "verso": "Réactifs : le carbone et le dioxygène ; produit : le dioxyde de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "reactifs",
+        "produits",
+        "combustion-carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C06-016",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "formule",
+      "recto": "Quel est l'énoncé du principe de conservation des atomes ?",
+      "verso": "Au cours d'une réaction chimique, les atomes ne sont ni créés ni détruits : on retrouve exactement les mêmes atomes, en même nombre et de même nature, seulement réarrangés.",
+      "difficulte": 2,
+      "tags": [
+        "conservation-atomes"
+      ]
+    },
+    {
+      "id": "PC4E-C06-017",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "formule",
+      "recto": "Quel est l'énoncé du principe de conservation de la masse ?",
+      "verso": "Au cours d'une réaction chimique, la masse totale des réactifs disparus est égale à la masse totale des produits formés.",
+      "difficulte": 2,
+      "tags": [
+        "conservation-masse"
+      ]
+    },
+    {
+      "id": "PC4E-C06-018",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Pourquoi la masse se conserve-t-elle au cours d'une réaction chimique ?",
+      "verso": "C'est une conséquence de la conservation des atomes : les mêmes atomes se retrouvent à l'arrivée et chaque atome garde sa masse.",
+      "difficulte": 2,
+      "tags": [
+        "conservation-masse",
+        "conservation-atomes"
+      ]
+    },
+    {
+      "id": "PC4E-C06-019",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Pourquoi la cendre d'un brasero pèse-t-elle beaucoup moins que le charbon brûlé ?",
+      "verso": "Le brasero est ouvert : le dioxyde de carbone formé part dans l'air. La conservation de la masse ne se vérifie qu'en récipient fermé ; la cendre n'est que la part incombustible.",
+      "difficulte": 3,
+      "tags": [
+        "conservation-masse",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C06-020",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Quelle relation y a-t-il entre combustion et réaction chimique ?",
+      "verso": "Toute combustion est une réaction chimique, mais toute réaction chimique n'est pas une combustion : la rouille du fer est une réaction chimique sans feu.",
+      "difficulte": 2,
+      "tags": [
+        "reaction-chimique",
+        "combustion"
+      ]
+    },
+    {
+      "id": "PC4E-C06-021",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Quel critère permet de reconnaître une réaction chimique ?",
+      "verso": "L'apparition de corps nouveaux à l'arrivée ; ni la flamme, ni la chaleur, ni la vitesse ne sont des critères.",
+      "difficulte": 2,
+      "tags": [
+        "reaction-chimique",
+        "critere"
+      ]
+    },
+    {
+      "id": "PC4E-C06-022",
+      "lecon": "La réaction chimique : réactifs, produits, conservation",
+      "type": "definition",
+      "recto": "Au cours d'une réaction chimique, qu'est-ce qui se conserve : les atomes ou les molécules ?",
+      "verso": "Les atomes ; le nombre de molécules peut très bien changer.",
+      "difficulte": 3,
+      "tags": [
+        "conservation-atomes",
+        "molecules"
+      ]
+    },
+    {
+      "id": "PC4E-C06-023",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'équation-bilan d'une réaction chimique ?",
+      "verso": "Son écriture symbolique : chaque nom est remplacé par sa formule, les réactifs à gauche de la flèche, les produits à droite, deux corps du même côté séparés par $+$.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC4E-C06-024",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète du carbone ?",
+      "verso": "$\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}$ : un atome de carbone réagit avec une molécule de dioxygène pour donner une molécule de dioxyde de carbone.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "combustion-complete"
+      ]
+    },
+    {
+      "id": "PC4E-C06-025",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Quand dit-on qu'une équation-bilan est équilibrée ?",
+      "verso": "Lorsque, pour chaque sorte d'atome, on compte le même nombre d'atomes à gauche et à droite de la flèche ; c'est la traduction écrite de la conservation des atomes.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage"
+      ]
+    },
+    {
+      "id": "PC4E-C06-026",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Dans une équation-bilan, qu'appelle-t-on les coefficients ?",
+      "verso": "Les nombres entiers placés devant les formules pour équilibrer l'équation ; le coefficient 1 ne s'écrit jamais.",
+      "difficulte": 2,
+      "tags": [
+        "coefficients"
+      ]
+    },
+    {
+      "id": "PC4E-C06-027",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "formule",
+      "recto": "Quelle règle d'or faut-il respecter pour équilibrer une équation-bilan ?",
+      "verso": "On ne modifie jamais une formule, donc jamais un indice : on agit uniquement sur les coefficients, écrits devant les formules.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "regle-d-or"
+      ]
+    },
+    {
+      "id": "PC4E-C06-028",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Pourquoi n'a-t-on pas le droit de changer un indice pour équilibrer une équation ?",
+      "verso": "Les indices sont fixés par la nature du corps : changer un indice remplace un corps par un autre ($\\mathrm{CO}$ et $\\mathrm{CO_2}$ sont deux gaz différents) et décrit une autre réaction.",
+      "difficulte": 3,
+      "tags": [
+        "indice",
+        "equilibrage",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C06-029",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Dans une équation-bilan, quelle différence y a-t-il entre l'indice et le coefficient ?",
+      "verso": "L'indice, en bas à droite d'un symbole, compte les atomes de cette sorte dans une molécule ; le coefficient, devant la formule, compte les molécules (ou atomes isolés).",
+      "difficulte": 2,
+      "tags": [
+        "indice",
+        "coefficients"
+      ]
+    },
+    {
+      "id": "PC4E-C06-030",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "formule",
+      "recto": "Comment compte-t-on les atomes d'une sorte donnée dans un terme comme $3\\,\\mathrm{CO_2}$ ?",
+      "verso": "On multiplie le coefficient par l'indice : $3 \\times 1 = 3$ atomes de carbone et $3 \\times 2 = 6$ atomes d'oxygène.",
+      "difficulte": 2,
+      "tags": [
+        "comptage-atomes"
+      ]
+    },
+    {
+      "id": "PC4E-C06-031",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Pourquoi écrit-on $\\mathrm{O_2}$ et non $2\\,\\mathrm{O}$ pour le dioxygène dans une équation-bilan ?",
+      "verso": "Le dioxygène est fait de molécules à deux atomes : le réactif est la molécule $\\mathrm{O_2}$, pas l'atome d'oxygène isolé. On écrit $\\mathrm{C} + \\mathrm{O_2} \\rightarrow \\mathrm{CO_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "dioxygene",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC4E-C06-032",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Quelles sont les deux représentations schématiques de la combustion du carbone ?",
+      "verso": "Le bilan en toutes lettres et le dessin à boules (un atome de carbone et une molécule de dioxygène réarrangés en une molécule de dioxyde de carbone).",
+      "difficulte": 2,
+      "tags": [
+        "representation-schematique"
+      ]
+    },
+    {
+      "id": "PC4E-C06-033",
+      "lecon": "L'écriture et l'équilibrage de l'équation-bilan",
+      "type": "definition",
+      "recto": "Comment se lit la flèche $\\rightarrow$ dans une équation-bilan ?",
+      "verso": "Elle se lit « donne » et va des réactifs, à gauche, vers les produits, à droite ; ce n'est pas un signe égal.",
+      "difficulte": 1,
+      "tags": [
+        "fleche",
+        "equation-bilan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 6 : La mise en solution des solides ioniques",
+  "source": "pc/2ndc/Chimie_Chapitre_6_La_mise_en_solution_des_solides_ioniques",
+  "nombre_cartes": 38,
+  "cartes": [
+    {
+      "id": "PC2C-C06-001",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une solution aqueuse ?",
+      "verso": "Un mélange homogène dont le solvant est l'eau ; le corps dissous s'appelle le soluté.",
+      "difficulte": 1,
+      "tags": [
+        "solution-aqueuse",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC2C-C06-002",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un électrolyte ?",
+      "verso": "Une solution qui contient des ions et qui conduit le courant électrique.",
+      "difficulte": 1,
+      "tags": [
+        "electrolyte"
+      ]
+    },
+    {
+      "id": "PC2C-C06-003",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Pourquoi dit-on que la molécule d'eau $\\mathrm{H_2O}$ est polaire ?",
+      "verso": "Elle est coudée (angle voisin de $105^{\\circ}$) et l'oxygène attire plus fortement les électrons des liaisons : il porte $\\delta^-$, chaque hydrogène $\\delta^+$, et ces charges partielles ne se compensent pas. C'est un dipôle permanent.",
+      "difficulte": 2,
+      "tags": [
+        "molecule-eau",
+        "polarite"
+      ]
+    },
+    {
+      "id": "PC2C-C06-004",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Quelles sont, dans l'ordre, les trois étapes de la dissolution d'un solide ionique dans l'eau ?",
+      "verso": "La dissociation (l'eau arrache les ions du cristal), l'hydratation ou solvatation (chaque ion s'entoure de molécules d'eau), puis la dispersion des ions hydratés dans tout le volume.",
+      "difficulte": 1,
+      "tags": [
+        "etapes-dissolution"
+      ]
+    },
+    {
+      "id": "PC2C-C06-005",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Lors de l'hydratation d'un ion, comment les molécules d'eau s'orientent-elles autour d'un cation et autour d'un anion ?",
+      "verso": "L'oxygène, porteur de $\\delta^-$, est tourné vers le cation ; les hydrogènes, porteurs de $\\delta^+$, sont tournés vers l'anion.",
+      "difficulte": 2,
+      "tags": [
+        "hydratation",
+        "solvatation"
+      ]
+    },
+    {
+      "id": "PC2C-C06-006",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "formule",
+      "recto": "Quelle est l'équation de dissolution du sulfate d'aluminium solide $\\mathrm{Al_2(SO_4)_3}$ dans l'eau ?",
+      "verso": "$\\mathrm{Al_2(SO_4)_{3\\,(s)} \\rightarrow 2Al^{3+}_{(aq)} + 3SO^{2-}_{4\\,(aq)}}$ : les indices de la formule deviennent les coefficients, l'ion sulfate reste entier et la somme des charges à droite est nulle.",
+      "difficulte": 2,
+      "tags": [
+        "equation-dissolution"
+      ]
+    },
+    {
+      "id": "PC2C-C06-007",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Pourquoi l'huile ne dissout-elle pas le sel de cuisine ?",
+      "verso": "Les molécules d'huile sont apolaires : elles n'ont pas de côté nettement chargé pour attirer les ions. Un solvant polaire dissout les composés ioniques, un solvant apolaire ne les dissout pas.",
+      "difficulte": 2,
+      "tags": [
+        "solvant-apolaire"
+      ]
+    },
+    {
+      "id": "PC2C-C06-008",
+      "lecon": "La dissolution d'un solide ionique dans l'eau",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux d'écrire que le sel « fond » ou « disparaît » dans l'eau ?",
+      "verso": "Le sel se dissout : ses ions sont séparés et hydratés, et on le retrouve en évaporant l'eau. La fusion est un autre phénomène, qui exige $801~^{\\circ}\\mathrm{C}$ pour le chlorure de sodium.",
+      "difficulte": 3,
+      "tags": [
+        "dissoudre-fondre",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C06-009",
+      "lecon": "L'effet thermique des dissolutions",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction exothermique ?",
+      "verso": "Une réaction qui libère de la chaleur vers le milieu extérieur : la température de la solution augmente. Exemple : la dissolution de l'hydroxyde de sodium.",
+      "difficulte": 1,
+      "tags": [
+        "exothermique"
+      ]
+    },
+    {
+      "id": "PC2C-C06-010",
+      "lecon": "L'effet thermique des dissolutions",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction endothermique ?",
+      "verso": "Une réaction qui absorbe de la chaleur prise au milieu extérieur : la température de la solution diminue. Exemple : la dissolution du nitrate d'ammonium.",
+      "difficulte": 1,
+      "tags": [
+        "endothermique"
+      ]
+    },
+    {
+      "id": "PC2C-C06-011",
+      "lecon": "L'effet thermique des dissolutions",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction athermique ?",
+      "verso": "Une réaction qui n'échange pratiquement pas de chaleur : la température ne varie pas sensiblement. La dissolution du chlorure de sodium est presque athermique.",
+      "difficulte": 1,
+      "tags": [
+        "athermique"
+      ]
+    },
+    {
+      "id": "PC2C-C06-012",
+      "lecon": "L'effet thermique des dissolutions",
+      "type": "definition",
+      "recto": "D'où vient l'effet thermique de la dissolution d'un solide ionique ?",
+      "verso": "Casser le réseau cristallin demande de l'énergie, hydrater les ions en restitue. Si l'hydratation rend plus, la solution chauffe ; si elle rend moins, elle refroidit ; si les deux s'équilibrent, la température ne varie pas.",
+      "difficulte": 2,
+      "tags": [
+        "effet-thermique"
+      ]
+    },
+    {
+      "id": "PC2C-C06-013",
+      "lecon": "L'effet thermique des dissolutions",
+      "type": "definition",
+      "recto": "Quelle conclusion tirer d'une variation de température plus petite que la précision de la mesure lors d'une dissolution ?",
+      "verso": "On ne peut conclure ni à un échauffement ni à un refroidissement : la dissolution est considérée comme athermique.",
+      "difficulte": 3,
+      "tags": [
+        "athermique",
+        "precision"
+      ]
+    },
+    {
+      "id": "PC2C-C06-014",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution de chlorure de sodium, quelle demi-équation se produit à l'anode ?",
+      "verso": "Une oxydation des ions chlorure : $\\mathrm{2Cl^- \\rightarrow Cl_2 + 2e^-}$. L'anode est reliée au pôle $+$.",
+      "difficulte": 2,
+      "tags": [
+        "electrolyse",
+        "anode"
+      ]
+    },
+    {
+      "id": "PC2C-C06-015",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution de chlorure de sodium, quelle demi-équation se produit à la cathode ?",
+      "verso": "Une réduction de l'eau : $\\mathrm{2H_2O + 2e^- \\rightarrow H_2 + 2OH^-}$. La cathode est reliée au pôle $-$.",
+      "difficulte": 2,
+      "tags": [
+        "electrolyse",
+        "cathode"
+      ]
+    },
+    {
+      "id": "PC2C-C06-016",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'électrolyse d'une solution de chlorure de sodium ?",
+      "verso": "$\\mathrm{2Cl^- + 2H_2O \\rightarrow Cl_2 + H_2 + 2OH^-}$ : du dichlore, du dihydrogène, et il reste de la soude en solution.",
+      "difficulte": 2,
+      "tags": [
+        "electrolyse",
+        "bilan"
+      ]
+    },
+    {
+      "id": "PC2C-C06-017",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "formule",
+      "recto": "Comment distinguer un solide ionique d'un solide moléculaire à partir de leurs solutions aqueuses ?",
+      "verso": "Si la solution conduit le courant, le solide est ionique (le sel) ; si elle ne le conduit pas, il est moléculaire (le sucre).",
+      "difficulte": 1,
+      "tags": [
+        "solide-ionique",
+        "conduction"
+      ]
+    },
+    {
+      "id": "PC2C-C06-018",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "definition",
+      "recto": "Pourquoi le chlorure de sodium sec ne conduit-il pas le courant alors qu'il est fait d'ions ?",
+      "verso": "Dans le cristal, chaque ion est bloqué par ses voisins : les ions sont immobiles. Le courant exige des porteurs de charge mobiles, libérés par la dissolution ou la fusion.",
+      "difficulte": 3,
+      "tags": [
+        "conduction",
+        "ions-mobiles",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C06-019",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution de chlorure de sodium, comment se comportent la phénolphtaléine et le BBT près de chaque électrode ?",
+      "verso": "Près de la cathode, des ions $\\mathrm{OH^-}$ se forment : phénolphtaléine rose, BBT bleu. Près de l'anode, les indicateurs se décolorent, car le dichlore est un décolorant.",
+      "difficulte": 2,
+      "tags": [
+        "indicateurs-colores",
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC2C-C06-020",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "definition",
+      "recto": "Pourquoi l'électrolyse d'une solution de chlorure de sodium donne-t-elle du dihydrogène et non du sodium à la cathode ?",
+      "verso": "Dans l'eau, c'est l'eau elle-même qui est réduite le plus facilement ; l'ion $\\mathrm{Na^+}$ reste spectateur. Le sodium métallique ne s'obtient que par électrolyse du sel fondu.",
+      "difficulte": 3,
+      "tags": [
+        "sel-fondu",
+        "ion-spectateur",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C06-021",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "formule",
+      "recto": "D'après le bilan de l'électrolyse d'une solution de chlorure de sodium, quelle relation lie les quantités de dichlore et de dihydrogène formées à la quantité d'ions chlorure consommés ?",
+      "verso": "$n(\\mathrm{Cl_2}) = n(\\mathrm{H_2}) = \\dfrac{n(\\mathrm{Cl^-})_{\\text{consommés}}}{2}$, et $n(\\mathrm{OH^-})_{\\text{formés}} = n(\\mathrm{Cl^-})_{\\text{consommés}}$.",
+      "difficulte": 3,
+      "tags": [
+        "bilan-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C06-022",
+      "lecon": "La solution de chlorure de sodium et son électrolyse",
+      "type": "definition",
+      "recto": "Quels produits fournit l'électrolyse chlore-soude utilisée dans l'industrie ?",
+      "verso": "La soude (pour le savon), le dichlore (désinfection de l'eau, plastiques), l'eau de Javel obtenue par réaction du dichlore sur la soude, et le dihydrogène récupéré comme combustible.",
+      "difficulte": 2,
+      "tags": [
+        "chlore-soude",
+        "industrie"
+      ]
+    },
+    {
+      "id": "PC2C-C06-023",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "formule",
+      "recto": "Quelle relation définit la concentration molaire $C$ en soluté apporté ?",
+      "verso": "$C = \\dfrac{n}{V}$, avec $C$ en mol/L, $n$ la quantité de soluté versée en mol et $V$ le volume de la solution en L.",
+      "difficulte": 1,
+      "tags": [
+        "concentration-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C06-024",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "formule",
+      "recto": "Quelle relation définit la concentration massique $C_m$ d'une solution ?",
+      "verso": "$C_m = \\dfrac{m}{V}$, avec $C_m$ en g/L, $m$ la masse de soluté apportée en g et $V$ le volume de la solution en L.",
+      "difficulte": 1,
+      "tags": [
+        "concentration-massique"
+      ]
+    },
+    {
+      "id": "PC2C-C06-025",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "formule",
+      "recto": "Quelle relation lie la concentration massique $C_m$, la concentration molaire $C$ et la masse molaire $M$ du soluté ?",
+      "verso": "$C_m = C \\times M$ (et $C = \\dfrac{C_m}{M}$), avec $C_m$ en g/L, $C$ en mol/L et $M$ en g/mol.",
+      "difficulte": 2,
+      "tags": [
+        "cm-c-m"
+      ]
+    },
+    {
+      "id": "PC2C-C06-026",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "definition",
+      "recto": "Comment appelle-t-on une solution de concentration $1~\\mathrm{mol/L}$, $0{,}1~\\mathrm{mol/L}$ et $0{,}01~\\mathrm{mol/L}$ ?",
+      "verso": "Respectivement une solution molaire, décimolaire et centimolaire.",
+      "difficulte": 1,
+      "tags": [
+        "unites",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC2C-C06-027",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "definition",
+      "recto": "Quelle différence de notation fait-on entre $C$ et $[\\mathrm{X}]$ ?",
+      "verso": "$C$, sans crochets, est la concentration en soluté apporté ; $[\\mathrm{X}]$, avec crochets, est la concentration effective de l'espèce $\\mathrm{X}$ réellement présente en solution.",
+      "difficulte": 2,
+      "tags": [
+        "concentration-effective",
+        "notation"
+      ]
+    },
+    {
+      "id": "PC2C-C06-028",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "formule",
+      "recto": "Pour une solution de chlorure de calcium de concentration apportée $C$, que valent $[\\mathrm{Ca^{2+}}]$ et $[\\mathrm{Cl^-}]$ ?",
+      "verso": "$\\mathrm{CaCl_2 \\rightarrow Ca^{2+} + 2Cl^-}$, donc $[\\mathrm{Ca^{2+}}] = C$ et $[\\mathrm{Cl^-}] = 2C$ : le coefficient de l'ion est le facteur. Ecrire $[\\mathrm{Cl^-}] = C$ est faux.",
+      "difficulte": 3,
+      "tags": [
+        "concentration-effective",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C06-029",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "formule",
+      "recto": "Comment s'écrit l'électroneutralité d'une solution de chlorure de calcium ?",
+      "verso": "$2[\\mathrm{Ca^{2+}}] = [\\mathrm{Cl^-}]$ : la somme des charges positives égale celle des charges négatives, chaque concentration étant multipliée par le nombre de charges de l'ion.",
+      "difficulte": 2,
+      "tags": [
+        "electroneutralite"
+      ]
+    },
+    {
+      "id": "PC2C-C06-030",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "definition",
+      "recto": "Pourquoi la concentration d'un prélèvement est-elle égale à celle de la solution homogène d'origine ?",
+      "verso": "Le prélèvement de volume $V'$ contient $n' = C \\times V'$ de soluté, donc sa concentration vaut $\\dfrac{C V'}{V'} = C$. Seule la quantité de matière a diminué.",
+      "difficulte": 2,
+      "tags": [
+        "prelevement"
+      ]
+    },
+    {
+      "id": "PC2C-C06-031",
+      "lecon": "Les concentrations : soluté apporté, ions, masse",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la solubilité d'un solide ?",
+      "verso": "La concentration de sa solution saturée à une température donnée : la plus grande masse (ou quantité de matière) de ce solide qu'un litre de solution peut contenir dissoute, en g/L ou en mol/L.",
+      "difficulte": 2,
+      "tags": [
+        "solubilite",
+        "solution-saturee"
+      ]
+    },
+    {
+      "id": "PC2C-C06-032",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "formule",
+      "recto": "Quelle masse $m$ de solide de masse molaire $M$ faut-il peser pour préparer un volume $V$ de solution de concentration $C$ ?",
+      "verso": "$m = C \\times V \\times M$, avec $V$ le volume de la solution en L, $C$ en mol/L, $M$ en g/mol et $m$ en g.",
+      "difficulte": 1,
+      "tags": [
+        "preparation",
+        "dissolution"
+      ]
+    },
+    {
+      "id": "PC2C-C06-033",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on diluer une solution ?",
+      "verso": "Ajouter du solvant sans changer la quantité de matière de soluté ; la solution de départ est la solution mère, celle obtenue la solution fille.",
+      "difficulte": 1,
+      "tags": [
+        "dilution"
+      ]
+    },
+    {
+      "id": "PC2C-C06-034",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "formule",
+      "recto": "Lors d'une dilution, quelle relation lie $C_1$, $V_1$ de la solution mère et $C_2$, $V_2$ de la solution fille ?",
+      "verso": "$C_1 V_1 = C_2 V_2$, car la quantité de soluté se conserve ($n_1 = n_2$) ; les deux volumes s'expriment dans la même unité.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "c1v1"
+      ]
+    },
+    {
+      "id": "PC2C-C06-035",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "formule",
+      "recto": "Comment s'exprime le facteur de dilution $F$ ?",
+      "verso": "$F = \\dfrac{C_1}{C_2} = \\dfrac{V_2}{V_1}$, toujours supérieur à 1 : la dilution diminue la concentration et augmente le volume.",
+      "difficulte": 2,
+      "tags": [
+        "facteur-dilution"
+      ]
+    },
+    {
+      "id": "PC2C-C06-036",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "definition",
+      "recto": "Lors d'une dilution d'un volume $V_1$ jusqu'au volume final $V_2$, pourquoi le volume d'eau à ajouter n'est-il pas $V_2$ ?",
+      "verso": "$V_2$ est le volume final de la solution fille, prélèvement compris : le volume d'eau ajouté vaut $V_2 - V_1$.",
+      "difficulte": 3,
+      "tags": [
+        "dilution",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C06-037",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "definition",
+      "recto": "Quel est le rôle de la fiole jaugée, de la pipette jaugée et de la burette graduée ?",
+      "verso": "La fiole jaugée contient un volume de solution exact, la pipette jaugée prélève un volume exact, la burette graduée délivre un volume variable mesuré. Bécher et éprouvette ne donnent que des mesures approchées.",
+      "difficulte": 2,
+      "tags": [
+        "verrerie"
+      ]
+    },
+    {
+      "id": "PC2C-C06-038",
+      "lecon": "Préparer une solution par dissolution ou par dilution",
+      "type": "formule",
+      "recto": "Pour préparer une solution avec un solide hydraté comme $\\mathrm{CuSO_4,5H_2O}$, quelle masse molaire utilise-t-on ?",
+      "verso": "Celle du solide tel qu'il est dans le flacon, eau de cristallisation comprise : $M = 159{,}5 + 5 \\times 18 = 249{,}5~\\mathrm{g/mol}$.",
+      "difficulte": 3,
+      "tags": [
+        "solide-hydrate",
+        "masse-molaire"
+      ]
+    }
+  ]
+}

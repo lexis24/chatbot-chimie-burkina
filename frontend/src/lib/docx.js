@@ -28,7 +28,7 @@ function formatExportDate(iso) {
   return date.toLocaleDateString("fr-FR", { day: "2-digit", month: "long", year: "numeric" })
 }
 
-/** En-tête "Élève"/"Prof Amira" d'un message, suivi de son heure si connue ("Élève · 14:32") —
+/** En-tête "Élève"/"Prof Karim" d'un message, suivi de son heure si connue ("Élève · 14:32") —
  * partagé entre exportMessagesToDocx (session courante) et historyMessageToParagraphs (historique
  * serveur), dont les champs d'horodatage diffèrent (createdAt côté client, created_at côté serveur —
  * voir l'appelant de chaque fonction). */
@@ -99,7 +99,7 @@ function prerequisParagraphs(docxLib, notions) {
   return qcmLinesToParagraphs(docxLib, prerequisToLines(notions))
 }
 
-export async function exportMessagesToDocx(messages, { filename = "chatmaths.docx", title = "", subtitle = "" } = {}) {
+export async function exportMessagesToDocx(messages, { filename = "chatchimie.docx", title = "", subtitle = "" } = {}) {
   const docxLib = await import("docx")
   const { Document, Packer, Paragraph, TextRun, HeadingLevel } = docxLib
 
@@ -109,10 +109,10 @@ export async function exportMessagesToDocx(messages, { filename = "chatmaths.doc
 
   for (const msg of messages) {
     if (msg.type === "user") {
-      children.push(speakerLabelParagraph(docxLib, "Élève", "0D9488", msg.createdAt, { before: 240, after: 60 }))
+      children.push(speakerLabelParagraph(docxLib, "Élève", "9F1239", msg.createdAt, { before: 240, after: 60 }))
       children.push(...markdownToParagraphs(docxLib, msg.text))
     } else if (msg.type === "bot") {
-      children.push(speakerLabelParagraph(docxLib, "Prof Amira", "9333EA", msg.createdAt, { before: 120, after: 60 }))
+      children.push(speakerLabelParagraph(docxLib, "Prof Karim", "B45309", msg.createdAt, { before: 120, after: 60 }))
       children.push(...markdownToParagraphs(docxLib, msg.text))
     } else if (msg.type === "exercise") {
       const ex = msg.data || {}
@@ -148,8 +148,8 @@ export async function exportMessagesToDocx(messages, { filename = "chatmaths.doc
   }
 
   const doc = new Document({
-    title: title || "Session ChatMaths Burkina",
-    description: "Export de conversation ChatMaths Burkina",
+    title: title || "Session ChatChimie Burkina",
+    description: "Export de conversation ChatChimie Burkina",
     sections: [{ children }],
   })
 
@@ -174,8 +174,8 @@ function triggerDownload(blob, filename) {
  * GET /api/export/history côté API). */
 function historyMessageToParagraphs(docxLib, msg) {
   const { Paragraph, TextRun } = docxLib
-  const label = msg.role === "user" ? "Élève" : "Prof Amira"
-  const color = msg.role === "user" ? "0D9488" : "9333EA"
+  const label = msg.role === "user" ? "Élève" : "Prof Karim"
+  const color = msg.role === "user" ? "9F1239" : "B45309"
   const out = [speakerLabelParagraph(docxLib, label, color, msg.created_at, { before: 160, after: 60 })]
 
   const payload = msg.payload || {}
@@ -206,7 +206,7 @@ function historyMessageToParagraphs(docxLib, msg) {
  * exportMessagesToDocx (une seule session, objets frontend) : ici la source est directement la
  * réponse serveur (voir api.js::exportHistory), pas l'état React `messages`.
  */
-export async function exportHistoryToDocx(conversations, { filename = "chatmaths-historique.docx", title = "" } = {}) {
+export async function exportHistoryToDocx(conversations, { filename = "chatchimie-historique.docx", title = "" } = {}) {
   const docxLib = await import("docx")
   const { Document, Packer, Paragraph, TextRun, HeadingLevel } = docxLib
 
@@ -227,8 +227,8 @@ export async function exportHistoryToDocx(conversations, { filename = "chatmaths
   }
 
   const doc = new Document({
-    title: title || "Historique ChatMaths Burkina",
-    description: "Export complet de l'historique ChatMaths Burkina",
+    title: title || "Historique ChatChimie Burkina",
+    description: "Export complet de l'historique ChatChimie Burkina",
     sections: [{ children }],
   })
 

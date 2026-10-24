@@ -1,0 +1,427 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 8 : L'oxydation ménagée des composés organiques oxygénés",
+  "source": "pc/tled/Chimie_Chapitre_8_L_oxydation_menagee_des_composes_organiques_oxygenes",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PCTD-C08-001",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'oxydation ménagée d'un composé organique ?",
+      "verso": "Une oxydation qui conserve le squelette carboné de la molécule : le nombre d'atomes de carbone ne change pas.",
+      "difficulte": 1,
+      "tags": [
+        "oxydation-menagee"
+      ]
+    },
+    {
+      "id": "PCTD-C08-002",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre l'oxydation ménagée d'un alcool et sa combustion complète ?",
+      "verso": "L'oxydation ménagée conserve le nombre d'atomes de carbone ; la combustion (oxydation brutale) détruit la chaîne et ne laisse que du dioxyde de carbone et de l'eau.",
+      "difficulte": 3,
+      "tags": [
+        "combustion",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C08-003",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'oxydation ménagée d'un alcool primaire par le dioxygène, l'oxydant étant en quantité limitée ?",
+      "verso": "$\\mathrm{R-CH_2-OH + \\frac{1}{2}O_2 \\rightarrow R-CHO + H_2O}$ : on s'arrête à l'aldéhyde (catalyseur cuivre).",
+      "difficulte": 2,
+      "tags": [
+        "alcool-primaire",
+        "aldehyde"
+      ]
+    },
+    {
+      "id": "PCTD-C08-004",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'oxydation ménagée d'un aldéhyde $\\mathrm{R-CHO}$ par le dioxygène ?",
+      "verso": "$\\mathrm{R-CHO + \\frac{1}{2}O_2 \\rightarrow R-COOH}$ : l'aldéhyde donne un acide carboxylique.",
+      "difficulte": 1,
+      "tags": [
+        "aldehyde",
+        "acide-carboxylique"
+      ]
+    },
+    {
+      "id": "PCTD-C08-005",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'oxydation ménagée d'un alcool secondaire par le dioxygène ?",
+      "verso": "$\\mathrm{R-CHOH-R' + \\frac{1}{2}O_2 \\rightarrow R-CO-R' + H_2O}$ : on obtient une cétone, et l'oxydation s'arrête là, même si l'oxydant est en excès.",
+      "difficulte": 2,
+      "tags": [
+        "alcool-secondaire",
+        "cetone"
+      ]
+    },
+    {
+      "id": "PCTD-C08-006",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Pourquoi un alcool tertiaire ne subit-il pas d'oxydation ménagée ?",
+      "verso": "Son carbone fonctionnel ne porte aucun atome d'hydrogène : la double liaison $\\mathrm{C=O}$ ne peut pas se former. La réaction est impossible, pas seulement lente.",
+      "difficulte": 3,
+      "tags": [
+        "alcool-tertiaire",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C08-007",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Quels produits donne l'oxydation ménagée d'un alcool primaire selon la quantité d'oxydant ?",
+      "verso": "Avec l'oxydant en défaut, un aldéhyde $\\mathrm{R-CHO}$ ; avec l'oxydant en excès, un acide carboxylique $\\mathrm{R-COOH}$.",
+      "difficulte": 1,
+      "tags": [
+        "alcool-primaire",
+        "produits"
+      ]
+    },
+    {
+      "id": "PCTD-C08-008",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Dans l'oxydation ménagée d'un alcool par le dioxygène sur un fil de cuivre chauffé, quel est le rôle du cuivre ?",
+      "verso": "C'est un catalyseur : il n'est pas consommé, on l'écrit au-dessus de la flèche, jamais dans le bilan.",
+      "difficulte": 2,
+      "tags": [
+        "catalyseur",
+        "cuivre"
+      ]
+    },
+    {
+      "id": "PCTD-C08-009",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la déshydrogénation catalytique d'un alcool primaire sur cuivre vers $300~^{\\circ}\\mathrm{C}$, sans dioxygène ?",
+      "verso": "$\\mathrm{R-CH_2-OH \\rightarrow R-CHO + H_2}$ : l'alcool perd deux atomes d'hydrogène et donne l'aldéhyde.",
+      "difficulte": 2,
+      "tags": [
+        "deshydrogenation"
+      ]
+    },
+    {
+      "id": "PCTD-C08-010",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Qu'est-ce qui distingue un aldéhyde d'une cétone dans la structure du groupe carbonyle ?",
+      "verso": "Dans un aldéhyde $\\mathrm{R-CHO}$, le carbone fonctionnel est en bout de chaîne et porte un hydrogène ; dans une cétone $\\mathrm{R-CO-R'}$, il est encadré par deux carbones et n'en porte aucun.",
+      "difficulte": 1,
+      "tags": [
+        "aldehyde",
+        "cetone"
+      ]
+    },
+    {
+      "id": "PCTD-C08-011",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "formule",
+      "recto": "Quelle est la masse molaire d'un aldéhyde ou d'une cétone saturé à chaîne ouverte comportant $n$ atomes de carbone ?",
+      "verso": "Formule brute $\\mathrm{C_{n}H_{2n}O}$, donc $M = 14n + 16$ en $\\mathrm{g/mol}$ ; aldéhydes et cétones de même $n$ sont isomères de fonction.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire",
+        "formule-brute"
+      ]
+    },
+    {
+      "id": "PCTD-C08-012",
+      "lecon": "L'oxydation ménagée d'un alcool par le dioxygène et le rôle de la classe",
+      "type": "definition",
+      "recto": "Pourquoi le nom « butan-1-al » est-il incorrect ?",
+      "verso": "Le carbone fonctionnel d'un aldéhyde porte toujours le numéro 1 : on n'écrit jamais d'indice. Le nom exact est butanal. Une cétone, elle, prend un indice (butan-2-one).",
+      "difficulte": 3,
+      "tags": [
+        "nomenclature",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C08-013",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "definition",
+      "recto": "Quels sont les oxydants doux utilisés pour l'oxydation ménagée des alcools ?",
+      "verso": "Le dioxygène en présence de cuivre et, en solution diluée et en milieu acide, les ions dichromate $\\mathrm{Cr_2O_7^{2-}}$ et permanganate $\\mathrm{MnO_4^-}$.",
+      "difficulte": 1,
+      "tags": [
+        "oxydants-doux"
+      ]
+    },
+    {
+      "id": "PCTD-C08-014",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation de réduction de l'ion dichromate en milieu acide ?",
+      "verso": "$\\mathrm{Cr_2O_7^{2-} + 14\\,H^+ + 6\\,e^- \\rightarrow 2\\,Cr^{3+} + 7\\,H_2O}$ ; la solution passe de l'orange au vert.",
+      "difficulte": 2,
+      "tags": [
+        "dichromate",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PCTD-C08-015",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation de réduction de l'ion permanganate en milieu acide ?",
+      "verso": "$\\mathrm{MnO_4^- + 8\\,H^+ + 5\\,e^- \\rightarrow Mn^{2+} + 4\\,H_2O}$ ; la solution violette se décolore.",
+      "difficulte": 2,
+      "tags": [
+        "permanganate",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PCTD-C08-016",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "definition",
+      "recto": "Quels changements de couleur traduisent l'oxydation d'un alcool par le dichromate puis par le permanganate en milieu acide ?",
+      "verso": "L'ion dichromate orange devient l'ion $\\mathrm{Cr^{3+}}$ vert ; l'ion permanganate violet devient l'ion $\\mathrm{Mn^{2+}}$ presque incolore : la solution se décolore, elle ne verdit pas.",
+      "difficulte": 3,
+      "tags": [
+        "couleurs",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C08-017",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation d'oxydation d'un alcool primaire en aldéhyde ?",
+      "verso": "$\\mathrm{R-CH_2-OH \\rightarrow R-CHO + 2\\,H^+ + 2\\,e^-}$ : le réducteur du couple est l'alcool, composé le moins oxydé.",
+      "difficulte": 2,
+      "tags": [
+        "couple-organique",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PCTD-C08-018",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation d'oxydation d'un aldéhyde en acide carboxylique ?",
+      "verso": "$\\mathrm{R-CHO + H_2O \\rightarrow R-COOH + 2\\,H^+ + 2\\,e^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "couple-organique",
+        "acide-carboxylique"
+      ]
+    },
+    {
+      "id": "PCTD-C08-019",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation d'oxydation d'un alcool secondaire en cétone ?",
+      "verso": "$\\mathrm{R-CHOH-R' \\rightarrow R-CO-R' + 2\\,H^+ + 2\\,e^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "couple-organique",
+        "cetone"
+      ]
+    },
+    {
+      "id": "PCTD-C08-020",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'oxydation d'un alcool primaire par le dichromate en milieu acide, l'oxydant étant en défaut ?",
+      "verso": "$\\mathrm{3\\,R-CH_2-OH + Cr_2O_7^{2-} + 8\\,H^+ \\rightarrow 3\\,R-CHO + 2\\,Cr^{3+} + 7\\,H_2O}$ : trois moles d'alcool pour une mole de dichromate.",
+      "difficulte": 2,
+      "tags": [
+        "dichromate",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PCTD-C08-021",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'oxydation d'un alcool primaire par le dichromate en milieu acide, l'oxydant étant en excès ?",
+      "verso": "$\\mathrm{3\\,R-CH_2-OH + 2\\,Cr_2O_7^{2-} + 16\\,H^+ \\rightarrow 3\\,R-COOH + 4\\,Cr^{3+} + 11\\,H_2O}$ : on obtient l'acide carboxylique.",
+      "difficulte": 3,
+      "tags": [
+        "dichromate",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PCTD-C08-022",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'oxydation d'un alcool secondaire par le permanganate en milieu acide ?",
+      "verso": "$\\mathrm{5\\,R-CHOH-R' + 2\\,MnO_4^- + 6\\,H^+ \\rightarrow 5\\,R-CO-R' + 2\\,Mn^{2+} + 8\\,H_2O}$ : la cétone formée ne s'oxyde plus.",
+      "difficulte": 2,
+      "tags": [
+        "permanganate",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PCTD-C08-023",
+      "lecon": "L'oxydation par le dichromate et le permanganate de potassium",
+      "type": "definition",
+      "recto": "Lors de l'oxydation d'un alcool par une solution acidifiée de dichromate ou de permanganate, que révèle une solution qui garde sa couleur ?",
+      "verso": "Qu'aucune réaction n'a eu lieu : l'alcool est tertiaire. C'est le test le plus simple de la classe tertiaire.",
+      "difficulte": 2,
+      "tags": [
+        "alcool-tertiaire",
+        "test-classe"
+      ]
+    },
+    {
+      "id": "PCTD-C08-024",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Quel résultat donne la 2,4-DNPH avec un aldéhyde ou une cétone ?",
+      "verso": "A froid, un précipité jaune orangé (une 2,4-dinitrophénylhydrazone), avec un aldéhyde comme avec une cétone : c'est le test du groupe carbonyle.",
+      "difficulte": 1,
+      "tags": [
+        "dnph",
+        "groupe-carbonyle"
+      ]
+    },
+    {
+      "id": "PCTD-C08-025",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Pourquoi un précipité jaune orangé avec la 2,4-DNPH ne suffit-il pas à conclure à la présence d'un aldéhyde ?",
+      "verso": "La 2,4-DNPH révèle le groupe carbonyle, commun aux aldéhydes et aux cétones ; pour trancher, il faut la liqueur de Fehling, le réactif de Tollens ou celui de Schiff.",
+      "difficulte": 3,
+      "tags": [
+        "dnph",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C08-026",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la condensation de la 2,4-DNPH $\\mathrm{H_2N-NH-Ar}$ sur un composé carbonylé $\\mathrm{R-CO-R'}$ ?",
+      "verso": "$\\mathrm{R-CO-R' + H_2N-NH-Ar \\rightarrow R(R')C=N-NH-Ar + H_2O}$, $\\mathrm{R'}$ étant un atome d'hydrogène pour un aldéhyde.",
+      "difficulte": 3,
+      "tags": [
+        "dnph",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C08-027",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Quel résultat donne la liqueur de Fehling chauffée au bain-marie avec un aldéhyde ?",
+      "verso": "Un précipité rouge brique d'oxyde de cuivre (I) $\\mathrm{Cu_2O}$ : les ions $\\mathrm{Cu^{2+}}$ sont réduits et l'aldéhyde est oxydé en ion carboxylate. Avec une cétone, la liqueur reste bleue.",
+      "difficulte": 1,
+      "tags": [
+        "fehling",
+        "aldehyde"
+      ]
+    },
+    {
+      "id": "PCTD-C08-028",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Quel résultat donne le réactif de Tollens chauffé doucement avec un aldéhyde ?",
+      "verso": "Un miroir d'argent sur la paroi du tube : les ions $\\mathrm{[Ag(NH_3)_2]^+}$ sont réduits en argent $\\mathrm{Ag}$. Avec une cétone, rien ne se dépose.",
+      "difficulte": 1,
+      "tags": [
+        "tollens",
+        "miroir-argent"
+      ]
+    },
+    {
+      "id": "PCTD-C08-029",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Quel résultat donne le réactif de Schiff avec un aldéhyde ?",
+      "verso": "Ajouté à froid, ce réactif incolore (fuchsine décolorée par $\\mathrm{SO_2}$) se recolore en rose violacé. Avec une cétone, il reste incolore.",
+      "difficulte": 1,
+      "tags": [
+        "schiff",
+        "aldehyde"
+      ]
+    },
+    {
+      "id": "PCTD-C08-030",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Pourquoi le réactif de Schiff doit-il être utilisé à froid ?",
+      "verso": "Chauffé, il se recolore de lui-même et donne un faux résultat positif.",
+      "difficulte": 2,
+      "tags": [
+        "schiff",
+        "securite"
+      ]
+    },
+    {
+      "id": "PCTD-C08-031",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Dans le test de Fehling, en quelle espèce l'aldéhyde est-il transformé ?",
+      "verso": "En ion carboxylate $\\mathrm{R-COO^-}$, car le milieu est basique ; l'acide carboxylique n'apparaît qu'après acidification.",
+      "difficulte": 2,
+      "tags": [
+        "fehling",
+        "carboxylate"
+      ]
+    },
+    {
+      "id": "PCTD-C08-032",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Pourquoi une cétone ne réduit-elle pas la liqueur de Fehling ?",
+      "verso": "Son carbone fonctionnel, lié à deux carbones, ne porte aucun hydrogène : elle ne peut céder d'électrons en se transformant en carboxylate. Elle n'est pas un réducteur, contrairement à l'aldéhyde.",
+      "difficulte": 2,
+      "tags": [
+        "cetone",
+        "reducteur"
+      ]
+    },
+    {
+      "id": "PCTD-C08-033",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Quels résultats de tests permettent de conclure qu'un composé est une cétone ?",
+      "verso": "Une 2,4-DNPH positive associée à un test de Fehling négatif ; un Fehling négatif seul ne prouve rien, car un alcool, un éther-oxyde ou de l'eau le laissent aussi bleu.",
+      "difficulte": 3,
+      "tags": [
+        "cetone",
+        "test-croise"
+      ]
+    },
+    {
+      "id": "PCTD-C08-034",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "definition",
+      "recto": "Après oxydation ménagée d'un alcool, quels résultats de tests sur le produit indiquent un alcool primaire ?",
+      "verso": "La 2,4-DNPH et la liqueur de Fehling sont positives : le produit est un aldéhyde. En excès d'oxydant, l'acide formé rougit le papier pH.",
+      "difficulte": 2,
+      "tags": [
+        "test-classe",
+        "alcool-primaire"
+      ]
+    },
+    {
+      "id": "PCTD-C08-035",
+      "lecon": "Les tests de reconnaissance des composés carbonylés",
+      "type": "formule",
+      "recto": "Quelle relation lie la masse molaire de l'acide carboxylique obtenu par oxydation ménagée d'un alcool primaire à celle de cet alcool ?",
+      "verso": "$M_{\\text{alcool}} = M_{\\text{acide}} - 14~\\mathrm{g/mol}$, car $\\mathrm{R-CH_2-OH}$ devient $\\mathrm{R-COOH}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire",
+        "acide-carboxylique"
+      ]
+    }
+  ]
+}

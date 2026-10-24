@@ -1,162 +1,81 @@
-# Curriculum data for Burkina Faso - Mathematics
-# Source: sommaire officiel de la Collection Hakili Lab (Édition 2026), fourni par l'équipe
-# pédagogique (fichier "structure_manuels (3).xlsx"). Les intitulés reprennent exactement ceux
-# des manuels réellement déposés dans data/documents/ (ex: "Chapitre_6_Pythagore.pdf" <->
-# "Théorème de Pythagore et sa réciproque"), pour que la recherche de cours et le classement
-# automatique des documents (voir document_processor.py, ingest_documents.py) fonctionnent.
+# Curriculum data for Burkina Faso - Chimie
+# Source : manuels de Physique-Chimie de la Collection Hakili Lab (Édition 2026), de la 4ème à la
+# Terminale D — partie chimie uniquement (la physique a sa propre application). Les intitulés
+# reprennent EXACTEMENT ceux de la première page de chaque chapitre des manuels (« CHAPITRE N : ... »,
+# vérifiés un par un contre les PDF de data/documents/ et le champ "chapitre" des flashcards), dans
+# l'ordre des manuels : le chapitre N d'une classe est à l'index N-1 de sa liste. C'est ce qui permet
+# à la recherche de cours et au classement automatique des documents (voir document_processor.py,
+# ingest_documents.py) de fonctionner. La chimie n'est pas enseignée en 6ème/5ème.
 
 CURRICULUM = {
-    "6ème": {
-        "name": "Sixième",
-        "chapters": [
-            "Bien démarrer en 6ème",
-            "Éléments de géométrie et vocabulaire ensembliste",
-            "La numération décimale",
-            "Les angles",
-            "Sens et techniques d'exécution des opérations",
-            "Le parallélogramme",
-            "Parallélogrammes particuliers et trapèze",
-            "Comparaison et rangement de nombres",
-            "Le triangle",
-            "Cercle et disque",
-            "Médiatrice d'un segment",
-            "Symétrie orthogonale",
-            "Les fractions",
-            "Égalités à « trous »",
-            "Nombres relatifs",
-            "Relations et fonctions",
-            "Proportionnalité",
-            "Repérage",
-            "Parallélépipède rectangle et cube"
-        ]
-    },
-    "5ème": {
-        "name": "Cinquième",
-        "chapters": [
-            "Bien continuer en 5ème",
-            "La symétrie centrale (1) : construction",
-            "Multiples et diviseurs d'un entier naturel · Nombres premiers",
-            "La symétrie centrale (2) : propriétés, centre de symétrie, repérage",
-            "PGCD et PPCM",
-            "Opérations sur les fractions",
-            "Les angles : opposés par le sommet, alternes-internes, correspondants · Les triangles",
-            "Addition et soustraction dans 𝔻",
-            "Valeur absolue et comparaison de nombres relatifs",
-            "Cylindre de révolution et prisme droit",
-            "Multiplication dans 𝔻 · Développement et factorisation",
-            "Puissances entières d'un nombre",
-            "Cône de révolution et pyramide",
-            "Égalités et opérations",
-            "Équations dans 𝔻",
-            "Sphère et boule",
-            "Masse volumique, vitesse et débit",
-            "Échelle : agrandissement et réduction"
-        ]
-    },
     "4ème": {
         "name": "Quatrième",
         "chapters": [
-            "Bien continuer en 4ème",
-            "Droites du plan : parallélisme et perpendicularité",
-            "Nombres décimaux et puissances de dix : l'écriture scientifique",
-            "Repérage sur une droite",
-            "Repérage dans le plan",
-            "Calculs sur les quotients d'entiers relatifs",
-            "Projection et théorème des milieux",
-            "Les polygones",
-            "Les nombres rationnels",
-            "Les vecteurs (1) : bipoints, vecteur, égalité, somme",
-            "Les nombres réels",
-            "Les vecteurs (2) : propriétés de l'addition et caractérisations",
-            "La statistique",
-            "Les applications",
-            "Les translations",
-            "Développement, factorisation et identités remarquables",
-            "Équations et inéquations du premier degré dans ℝ",
-            "Compositions d'applications du plan",
-            "Sections de solides par un plan"
+            "La combustion avec ou sans flamme",
+            "Les aspects pratiques des combustions",
+            "L'utilisation des combustibles et les dangers",
+            "Les atomes et les molécules",
+            "La structure de l'atome",
+            "La combustion du carbone",
+            "La combustion du dihydrogène"
         ]
     },
     "3ème": {
         "name": "Troisième",
         "chapters": [
-            "Bien réussir sa 3ème",
-            "Les nombres réels : intervalles, encadrement, valeur absolue",
-            "Les vecteurs du plan : multiplication par un réel et colinéarité",
-            "Le repère cartésien : coordonnées d'un vecteur",
-            "Racine carrée d'un nombre réel positif",
-            "Le rapport de projection",
-            "Théorème de Pythagore et sa réciproque",
-            "Équations et inéquations du premier degré dans ℝ",
-            "Théorème de Thalès et sa réciproque",
-            "Monômes et polynômes",
-            "Repère orthonormal : distance et orthogonalité",
-            "Fonctions rationnelles",
-            "Angles inscrits",
-            "Équations de droites",
-            "Trigonométrie dans le triangle rectangle",
-            "Équations et systèmes du premier degré dans ℝ×ℝ",
-            "Positions relatives d'une droite et d'un cercle",
-            "Applications linéaires et applications affines",
-            "Les isométries du plan",
-            "Statistiques",
-            "Sections de solides",
-            "Remédiation Hakili Lab (bases à revoir avant la 3ème)"
+            "Les transformations électrochimiques du cuivre et de l'ion cuivre",
+            "Les transformations chimiques du cuivre et de l'ion cuivre",
+            "La pile électrochimique",
+            "Les gaz",
+            "L'électrolyse et la synthèse de l'eau",
+            "Les alcanes et leur combustion",
+            "L'oxydation du carbone, du soufre et du fer",
+            "La réduction de l'oxyde ferrique et de l'oxyde cuivrique",
+            "L'importance industrielle de la réduction des oxydes",
+            "Les notions d'acide et de base"
         ]
     },
     "2nde": {
         "name": "Seconde C",
         "chapters": [
-            "Bien commencer la 2nde C",
-            "Calculs dans ℝ",
-            "Équations et inéquations dans ℝ",
-            "Vecteurs du plan",
-            "Systèmes d'équations et d'inéquations linéaires",
-            "Généralités sur les fonctions",
-            "Fonctions de référence",
-            "Fonctions circulaires",
-            "Produit scalaire dans le plan",
-            "Géométrie plane",
-            "Les transformations géométriques",
-            "La géométrie dans l'espace",
-            "Les statistiques"
+            "L'élément chimique",
+            "L'atome et la mole d'atomes",
+            "La molécule et la mole de molécules",
+            "Les ions et la mole d'ions",
+            "La réaction chimique",
+            "La mise en solution des solides ioniques",
+            "L'hydroxyde de sodium et sa solution",
+            "Le chlorure d'hydrogène et sa solution",
+            "Les acides et les bases"
         ]
     },
     "1ère": {
         "name": "Première D",
         "chapters": [
-            "Bien commencer la 1ère D",
-            "Les applications : injection, surjection, bijection",
-            "Polynômes et fonctions rationnelles",
-            "Problèmes algébriques et numériques",
-            "Suites numériques",
-            "Trigonométrie",
-            "Les fonctions numériques (généralités)",
-            "Les limites",
-            "Dérivation et étude de fonction",
-            "Transformations du plan",
-            "Dénombrement",
-            "Géométrie dans l'espace",
-            "Les statistiques",
-            "Remédiation Hakili Lab (bases à revoir avant la 1ère-Tle)"
+            "Les alcanes",
+            "Les alcènes et les alcynes",
+            "Les composés aromatiques",
+            "Les composés organiques oxygénés",
+            "La notion de stéréochimie",
+            "Les réactions d'oxydoréduction en solution aqueuse",
+            "Les potentiels d'oxydoréduction",
+            "Le dosage d'oxydoréduction",
+            "L'oxydoréduction par voie sèche"
         ]
     },
     "Tle": {
         "name": "Terminale D",
         "chapters": [
-            "Bien réussir sa Terminale D",
-            "Nombres complexes",
-            "Limites et continuité",
-            "Calcul différentiel, primitives et étude de fonctions",
-            "Fonction logarithme népérien",
-            "Fonction exponentielle et fonctions puissances",
-            "Suites numériques",
-            "Calcul intégral et équations différentielles",
-            "Probabilités",
-            "Courbes paramétrées du plan",
-            "Géométrie dans l'espace",
-            "Statistiques à deux variables",
-            "Remédiation Hakili Lab (bases à revoir avant la 1ère-Tle)"
+            "Les solutions aqueuses",
+            "Les solutions aqueuses d'acide chlorhydrique et d'hydroxyde de sodium",
+            "Les couples acide/base",
+            "La classification des couples acide/base dans l'eau",
+            "La réaction entre une solution d'acide chlorhydrique et une solution d'hydroxyde de sodium",
+            "La réaction entre une solution d'acide faible et une solution de base forte",
+            "Les alcools",
+            "L'oxydation ménagée des composés organiques oxygénés",
+            "Les amines, les amides et les acides alpha-aminés",
+            "L'estérification, l'hydrolyse et la saponification"
         ]
     }
 }

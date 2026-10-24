@@ -1,0 +1,464 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 1 : Les alcanes",
+  "source": "pc/1ered/Chimie_Chapitre_1_Les_alcanes",
+  "nombre_cartes": 39,
+  "cartes": [
+    {
+      "id": "PC1D-C01-001",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la chimie organique ?",
+      "verso": "La chimie des composés du carbone, à l'exception du carbone lui-même, des oxydes $\\mathrm{CO}$ et $\\mathrm{CO_2}$, des carbonates et des hydrogénocarbonates, qui restent minéraux.",
+      "difficulte": 1,
+      "tags": [
+        "chimie-organique"
+      ]
+    },
+    {
+      "id": "PC1D-C01-002",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "definition",
+      "recto": "Pourquoi le dioxyde de carbone $\\mathrm{CO_2}$ n'est-il pas un composé organique alors qu'il contient du carbone ?",
+      "verso": "Parce que la chimie organique exclut expressément le carbone lui-même, ses oxydes $\\mathrm{CO}$ et $\\mathrm{CO_2}$, les carbonates et les hydrogénocarbonates, qui restent des composés minéraux.",
+      "difficulte": 3,
+      "tags": [
+        "chimie-organique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C01-003",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "formule",
+      "recto": "Quels tests permettent de mettre en évidence l'élément carbone dans un composé ?",
+      "verso": "La pyrolyse (chauffage à l'abri de l'air) qui laisse un résidu noir de carbone ; la combustion suivie du test à l'eau de chaux, qui se trouble en présence de $\\mathrm{CO_2}$ ; l'action d'un acide concentré déshydratant, qui noircit le composé.",
+      "difficulte": 2,
+      "tags": [
+        "mise-en-evidence-carbone",
+        "eau-de-chaux"
+      ]
+    },
+    {
+      "id": "PC1D-C01-004",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un hydrocarbure ?",
+      "verso": "Un composé organique formé uniquement de carbone et d'hydrogène, de formule brute $\\mathrm{C_{x}H_{y}}$.",
+      "difficulte": 1,
+      "tags": [
+        "hydrocarbure"
+      ]
+    },
+    {
+      "id": "PC1D-C01-005",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "definition",
+      "recto": "Pourquoi l'atome de carbone est-il tétravalent ?",
+      "verso": "Sa structure électronique est $(\\mathrm{K})^{2}(\\mathrm{L})^{4}$ : il a quatre électrons de valence et il lui en manque quatre pour l'octet, donc il forme quatre liaisons covalentes simples.",
+      "difficulte": 2,
+      "tags": [
+        "tetravalence",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC1D-C01-006",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "definition",
+      "recto": "En chimie organique, qu'appelle-t-on la caténation ?",
+      "verso": "La propriété des atomes de carbone de se lier les uns aux autres en chaînes sans limite pratique ; ces chaînes carbonées peuvent être linéaires, ramifiées ou cycliques.",
+      "difficulte": 2,
+      "tags": [
+        "catenation",
+        "chaine-carbonee"
+      ]
+    },
+    {
+      "id": "PC1D-C01-007",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "formule",
+      "recto": "Dans l'analyse d'un composé organique, comment calcule-t-on les masses de carbone et d'hydrogène à partir des masses de $\\mathrm{CO_2}$ et de $\\mathrm{H_2O}$ formées ?",
+      "verso": "$m_{\\mathrm{C}} = \\dfrac{12}{44} \\times m_{\\mathrm{CO_2}}$ et $m_{\\mathrm{H}} = \\dfrac{2}{18} \\times m_{\\mathrm{H_2O}}$ (et non $\\dfrac{1}{18}$, car une molécule d'eau porte deux hydrogènes).",
+      "difficulte": 2,
+      "tags": [
+        "analyse-elementaire"
+      ]
+    },
+    {
+      "id": "PC1D-C01-008",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "definition",
+      "recto": "Pourquoi la masse d'oxygène d'un composé organique analysé par combustion se calcule-t-elle par différence ?",
+      "verso": "Parce que le dioxygène utilisé pour la combustion apporte lui aussi de l'oxygène aux produits : on calcule $m_{\\mathrm{O}} = m - (m_{\\mathrm{C}} + m_{\\mathrm{H}})$.",
+      "difficulte": 3,
+      "tags": [
+        "analyse-elementaire",
+        "oxygene"
+      ]
+    },
+    {
+      "id": "PC1D-C01-009",
+      "lecon": "La chimie organique et l'élément carbone",
+      "type": "formule",
+      "recto": "Pour un composé $\\mathrm{C_{x}H_{y}O_{z}}$ de masse molaire $M$, quelle relation lie les indices à sa composition centésimale massique ?",
+      "verso": "$\\dfrac{12\\,x}{\\%\\mathrm{C}} = \\dfrac{y}{\\%\\mathrm{H}} = \\dfrac{16\\,z}{\\%\\mathrm{O}} = \\dfrac{M}{100}$, les indices $x$, $y$, $z$ étant des entiers.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "composition-centesimale"
+      ]
+    },
+    {
+      "id": "PC1D-C01-010",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un alcane ?",
+      "verso": "Un hydrocarbure saturé à chaîne ouverte : tous ses atomes de carbone sont reliés par des liaisons simples. Sa formule générale est $\\mathrm{C_{n}H_{2n+2}}$ avec $n \\geqslant 1$.",
+      "difficulte": 1,
+      "tags": [
+        "alcane",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC1D-C01-011",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "formule",
+      "recto": "Quelle est la masse molaire d'un alcane à $n$ atomes de carbone ?",
+      "verso": "$M = 12\\,n + (2n + 2) = 14\\,n + 2$, en $\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PC1D-C01-012",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "formule",
+      "recto": "Quelle est la géométrie des liaisons autour d'un atome de carbone d'un alcane ?",
+      "verso": "Les quatre liaisons pointent vers les sommets d'un tétraèdre régulier, avec un angle de $109{,}5^{\\circ}$ ; la chaîne carbonée est donc en zigzag.",
+      "difficulte": 1,
+      "tags": [
+        "tetraedre",
+        "structure-spatiale"
+      ]
+    },
+    {
+      "id": "PC1D-C01-013",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Dans la représentation de Cram, comment dessine-t-on une liaison dirigée vers l'arrière de la feuille ?",
+      "verso": "Par un triangle hachuré (ou des pointillés) ; un triangle plein indique une liaison vers l'avant et un trait plein une liaison dans le plan.",
+      "difficulte": 2,
+      "tags": [
+        "cram"
+      ]
+    },
+    {
+      "id": "PC1D-C01-014",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Dans une formule topologique, comment repère-t-on les atomes de carbone et d'hydrogène ?",
+      "verso": "Chaque sommet et chaque extrémité de la ligne brisée en zigzag est un carbone, sans symbole ; les hydrogènes liés au carbone ne s'écrivent pas, on les rétablit en complétant chaque carbone à quatre liaisons.",
+      "difficulte": 2,
+      "tags": [
+        "formule-topologique"
+      ]
+    },
+    {
+      "id": "PC1D-C01-015",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on des conformères ?",
+      "verso": "Les différentes positions d'une même molécule obtenues par libre rotation autour d'une liaison simple C–C. En représentation de Newman, la conformation décalée de l'éthane est la plus stable, l'éclipsée la moins stable.",
+      "difficulte": 2,
+      "tags": [
+        "conformeres",
+        "newman"
+      ]
+    },
+    {
+      "id": "PC1D-C01-016",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on deux isomères ?",
+      "verso": "Deux composés de même formule brute mais de formules semi-développées différentes ; pour les alcanes, on parle d'isomérie de chaîne.",
+      "difficulte": 1,
+      "tags": [
+        "isomeres"
+      ]
+    },
+    {
+      "id": "PC1D-C01-017",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Pourquoi les deux conformations de l'éthane ne sont-elles pas deux isomères ?",
+      "verso": "On passe de l'une à l'autre par simple rotation autour de la liaison C–C : ce sont des conformères, c'est-à-dire la même molécule, alors que des isomères sont des molécules différentes.",
+      "difficulte": 3,
+      "tags": [
+        "conformeres",
+        "isomeres",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C01-018",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "formule",
+      "recto": "Combien d'isomères possèdent les alcanes de formules $\\mathrm{C_{4}H_{10}}$, $\\mathrm{C_{5}H_{12}}$ et $\\mathrm{C_{6}H_{14}}$ ?",
+      "verso": "Respectivement 2, 3 et 5 isomères (puis 9 pour $\\mathrm{C_{7}H_{16}}$ et 18 pour $\\mathrm{C_{8}H_{18}}$) ; méthane, éthane et propane n'en ont pas.",
+      "difficulte": 2,
+      "tags": [
+        "isomeres",
+        "nombre"
+      ]
+    },
+    {
+      "id": "PC1D-C01-019",
+      "lecon": "Les alcanes : structure spatiale et écritures",
+      "type": "definition",
+      "recto": "Pourquoi un cyclane n'est-il pas un alcane ?",
+      "verso": "Sa chaîne est fermée en cycle : c'est un hydrocarbure saturé de formule $\\mathrm{C_{n}H_{2n}}$ ($n \\geqslant 3$), et non $\\mathrm{C_{n}H_{2n+2}}$.",
+      "difficulte": 2,
+      "tags": [
+        "cyclane"
+      ]
+    },
+    {
+      "id": "PC1D-C01-020",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "definition",
+      "recto": "Comment se forme le nom d'un alcane à chaîne droite ?",
+      "verso": "Par un préfixe indiquant le nombre de carbones (mét-, ét-, prop-, but-, pent-, hex-, hept-, oct-, non-, déc- pour 1 à 10) suivi de la terminaison -ane.",
+      "difficulte": 1,
+      "tags": [
+        "nomenclature",
+        "prefixes"
+      ]
+    },
+    {
+      "id": "PC1D-C01-021",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un groupe alkyle ?",
+      "verso": "Ce qu'il reste d'un alcane auquel on a retiré un atome d'hydrogène ; formule $-\\mathrm{C_{n}H_{2n+1}}$, nom obtenu en remplaçant -ane par -yle (méthyle, éthyle, propyle).",
+      "difficulte": 1,
+      "tags": [
+        "groupe-alkyle"
+      ]
+    },
+    {
+      "id": "PC1D-C01-022",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "formule",
+      "recto": "Quel est le nom systématique du groupe $-\\mathrm{CH(CH_3)_2}$ ?",
+      "verso": "Le 1-méthyléthyle, de nom usuel isopropyle. Le groupe $-\\mathrm{C(CH_3)_3}$ est le 1,1-diméthyléthyle, ou tertiobutyle.",
+      "difficulte": 3,
+      "tags": [
+        "groupe-alkyle",
+        "isopropyle"
+      ]
+    },
+    {
+      "id": "PC1D-C01-023",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "formule",
+      "recto": "Pour nommer un alcane ramifié, comment choisit-on la chaîne principale ?",
+      "verso": "C'est la chaîne carbonée continue la plus longue, même si elle fait un coude ; à longueur égale, celle qui porte le plus de ramifications.",
+      "difficulte": 2,
+      "tags": [
+        "chaine-principale"
+      ]
+    },
+    {
+      "id": "PC1D-C01-024",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "formule",
+      "recto": "Pour nommer un alcane ramifié, comment numérote-t-on la chaîne principale ?",
+      "verso": "A partir du bout qui donne aux ramifications les indices les plus petits : on retient le jeu d'indices dont le premier indice différent est le plus petit.",
+      "difficulte": 2,
+      "tags": [
+        "numerotation"
+      ]
+    },
+    {
+      "id": "PC1D-C01-025",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "formule",
+      "recto": "Dans le nom d'un alcane ramifié, dans quel ordre cite-t-on les ramifications ?",
+      "verso": "Par ordre alphabétique des groupes alkyles, sans tenir compte des préfixes di-, tri-, tétra- : on écrit 4-éthyl-2-méthylhexane et non 2-méthyl-4-éthylhexane.",
+      "difficulte": 2,
+      "tags": [
+        "ordre-alphabetique"
+      ]
+    },
+    {
+      "id": "PC1D-C01-026",
+      "lecon": "La nomenclature systématique des alcanes",
+      "type": "definition",
+      "recto": "Pourquoi le nom « 2-diméthylpropane » est-il incorrect ?",
+      "verso": "Quand un même groupe revient, chaque occurrence garde son indice : il faut écrire 2,2-diméthylpropane.",
+      "difficulte": 3,
+      "tags": [
+        "indices",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C01-027",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, quel est l'état physique des alcanes à chaîne droite selon leur nombre $n$ de carbones ?",
+      "verso": "Gazeux de $n = 1$ à 4, liquides de 5 à 17, solides au-delà.",
+      "difficulte": 1,
+      "tags": [
+        "etat-physique"
+      ]
+    },
+    {
+      "id": "PC1D-C01-028",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "formule",
+      "recto": "Comment varie la température d'ébullition des alcanes avec la longueur de la chaîne et avec la ramification ?",
+      "verso": "Elle augmente avec la masse molaire, donc avec la longueur de la chaîne ; à nombre de carbones égal, un alcane ramifié bout plus bas que l'alcane à chaîne droite.",
+      "difficulte": 2,
+      "tags": [
+        "temperature-ebullition"
+      ]
+    },
+    {
+      "id": "PC1D-C01-029",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "definition",
+      "recto": "Quelles sont les propriétés de solubilité et de densité des alcanes par rapport à l'eau ?",
+      "verso": "Ils sont insolubles dans l'eau et moins denses qu'elle, mais très solubles les uns dans les autres.",
+      "difficulte": 1,
+      "tags": [
+        "solubilite"
+      ]
+    },
+    {
+      "id": "PC1D-C01-030",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète d'un alcane $\\mathrm{C_{n}H_{2n+2}}$ ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+2}} + \\dfrac{3n+1}{2}\\,\\mathrm{O_2} \\rightarrow n\\,\\mathrm{CO_2} + (n+1)\\,\\mathrm{H_2O}$, en excès de dioxygène, avec une flamme bleue.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-complete",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC1D-C01-031",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "formule",
+      "recto": "Quels produits forme la combustion incomplète d'un alcane ?",
+      "verso": "Avec un dioxygène insuffisant, la flamme est jaune et fuligineuse : il se forme du monoxyde de carbone $\\mathrm{CO}$ (incolore, inodore, mortel) et du carbone (suie), en plus de l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-incomplete",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC1D-C01-032",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "definition",
+      "recto": "Pourquoi une flamme jaune sur un réchaud à gaz est-elle un signal d'alarme ?",
+      "verso": "Elle n'est pas plus chaude : elle est mal alimentée en air et produit du monoxyde de carbone, gaz mortel qui ne trouble pas l'eau de chaux. On nettoie les orifices d'air du brûleur.",
+      "difficulte": 3,
+      "tags": [
+        "securite",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C01-033",
+      "lecon": "Propriétés physiques et combustion des alcanes",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la préparation du méthane par action de l'eau sur le carbure d'aluminium ?",
+      "verso": "$\\mathrm{Al_4C_3 + 12H_2O \\rightarrow 3CH_4 + 4Al(OH)_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "methane",
+        "preparation"
+      ]
+    },
+    {
+      "id": "PC1D-C01-034",
+      "lecon": "Les réactions de substitution et les applications",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction de substitution ?",
+      "verso": "Une réaction au cours de laquelle un atome, ou un groupe d'atomes, est remplacé par un autre, la chaîne carbonée restant intacte.",
+      "difficulte": 1,
+      "tags": [
+        "substitution"
+      ]
+    },
+    {
+      "id": "PC1D-C01-035",
+      "lecon": "Les réactions de substitution et les applications",
+      "type": "formule",
+      "recto": "Quelle est l'équation générale de l'halogénation d'un alcane par un halogène $\\mathrm{X_2}$ ?",
+      "verso": "$\\mathrm{C_{n}H_{2n+2} + X_2 \\rightarrow C_{n}H_{2n+1}X + HX}$, sous l'action de la lumière (ou de la chaleur), notée au-dessus de la flèche.",
+      "difficulte": 2,
+      "tags": [
+        "halogenation",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC1D-C01-036",
+      "lecon": "Les réactions de substitution et les applications",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la première étape de la chloration du méthane ?",
+      "verso": "$\\mathrm{CH_4 + Cl_2 \\rightarrow CH_3Cl + HCl}$, à la lumière ; le produit est le chlorométhane. La chloration est une substitution, pas une addition.",
+      "difficulte": 1,
+      "tags": [
+        "chloration",
+        "methane"
+      ]
+    },
+    {
+      "id": "PC1D-C01-037",
+      "lecon": "Les réactions de substitution et les applications",
+      "type": "formule",
+      "recto": "Quels dérivés chlorés successifs forme la chloration du méthane, jusqu'au bilan global ?",
+      "verso": "Chlorométhane $\\mathrm{CH_3Cl}$, dichlorométhane $\\mathrm{CH_2Cl_2}$, trichlorométhane $\\mathrm{CHCl_3}$ et tétrachlorométhane $\\mathrm{CCl_4}$ ; bilan $\\mathrm{CH_4 + 4Cl_2 \\rightarrow CCl_4 + 4HCl}$. On obtient toujours un mélange.",
+      "difficulte": 2,
+      "tags": [
+        "chloration",
+        "derives-chlores"
+      ]
+    },
+    {
+      "id": "PC1D-C01-038",
+      "lecon": "Les réactions de substitution et les applications",
+      "type": "definition",
+      "recto": "Dans l'expérience de chloration du méthane sur eau salée, pourquoi l'eau monte-t-elle dans l'éprouvette éclairée ?",
+      "verso": "Le chlorure d'hydrogène $\\mathrm{HCl}$ formé se dissout dans l'eau, donc le volume de gaz diminue ; l'éprouvette témoin, sous cache, ne change pas, ce qui prouve le rôle de la lumière.",
+      "difficulte": 2,
+      "tags": [
+        "chloration",
+        "experience"
+      ]
+    },
+    {
+      "id": "PC1D-C01-039",
+      "lecon": "Les réactions de substitution et les applications",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre le craquage et le reformage des produits pétroliers ?",
+      "verso": "Le craquage casse les longues chaînes en molécules plus courtes ; le reformage réorganise les molécules (par exemple un alcane droit en isomère ramifié) pour améliorer l'indice d'octane.",
+      "difficulte": 3,
+      "tags": [
+        "craquage",
+        "reformage",
+        "piege"
+      ]
+    }
+  ]
+}

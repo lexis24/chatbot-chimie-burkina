@@ -1,0 +1,443 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 7 : L'oxydation du carbone, du soufre et du fer",
+  "source": "pc/3eme/Chimie_Chapitre_7_L_oxydation_du_carbone_du_soufre_et_du_fer",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC3E-C07-001",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on une oxydation ?",
+      "verso": "C'est une réaction au cours de laquelle un corps fixe des atomes d'oxygène (il gagne de l'oxygène). Le plus souvent, ces atomes viennent du dioxygène $\\mathrm{O_2}$, avec lequel le corps se combine.",
+      "difficulte": 1,
+      "tags": [
+        "oxydation",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C07-002",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une combustion ?",
+      "verso": "C'est une oxydation vive : rapide, avec dégagement de chaleur et de lumière.",
+      "difficulte": 1,
+      "tags": [
+        "combustion",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C07-003",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Quelle relation d'inclusion lie les combustions et les oxydations ?",
+      "verso": "Toute combustion est une oxydation, mais toute oxydation n'est pas une combustion : la rouille, par exemple, est une oxydation lente.",
+      "difficulte": 3,
+      "tags": [
+        "combustion",
+        "oxydation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C07-004",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion du carbone dans le dioxygène ?",
+      "verso": "$\\mathrm{C + O_2 \\rightarrow CO_2}$ : le carbone se combine au dioxygène et donne du dioxyde de carbone (gaz carbonique).",
+      "difficulte": 1,
+      "tags": [
+        "carbone",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C07-005",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Comment se comporte un morceau de charbon de bois incandescent plongé dans un flacon de dioxygène ?",
+      "verso": "Il rougeoie plus vivement, sans flamme, et diminue de taille. L'eau de chaux versée ensuite dans le flacon et agitée se trouble.",
+      "difficulte": 2,
+      "tags": [
+        "carbone",
+        "experience"
+      ]
+    },
+    {
+      "id": "PC3E-C07-006",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "formule",
+      "recto": "Quel est le réactif caractéristique du dioxyde de carbone $\\mathrm{CO_2}$ ?",
+      "verso": "L'eau de chaux : elle se trouble en présence de dioxyde de carbone.",
+      "difficulte": 1,
+      "tags": [
+        "dioxyde-de-carbone",
+        "test"
+      ]
+    },
+    {
+      "id": "PC3E-C07-007",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Comment brûle le soufre, dans l'air puis dans le dioxygène pur ?",
+      "verso": "Il fond, puis brûle avec une flamme bleue, bleu pâle dans l'air et bleu vif dans le dioxygène.",
+      "difficulte": 2,
+      "tags": [
+        "soufre",
+        "combustion"
+      ]
+    },
+    {
+      "id": "PC3E-C07-008",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Pourquoi la flamme du soufre est-elle plus vive dans le dioxygène pur que dans l'air ?",
+      "verso": "L'air ne contient qu'un cinquième de dioxygène, le reste étant surtout du diazote qui ne brûle pas. Dans le dioxygène pur, le soufre rencontre beaucoup plus de molécules de dioxygène : la réaction est plus rapide.",
+      "difficulte": 3,
+      "tags": [
+        "soufre",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "PC3E-C07-009",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion du soufre donnant le dioxyde de soufre ?",
+      "verso": "$\\mathrm{S + O_2 \\rightarrow SO_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "soufre",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C07-010",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Quelles sont les propriétés du dioxyde de soufre $\\mathrm{SO_2}$ ?",
+      "verso": "C'est un gaz incolore, d'odeur suffocante, soluble dans l'eau, toxique et irritant. On ne brûle donc qu'une pointe de soufre, sous hotte ou en plein air.",
+      "difficulte": 2,
+      "tags": [
+        "dioxyde-de-soufre",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC3E-C07-011",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "formule",
+      "recto": "Quel est le réactif caractéristique du dioxyde de soufre $\\mathrm{SO_2}$ ?",
+      "verso": "La solution violette de permanganate de potassium, qui se décolore en présence de dioxyde de soufre.",
+      "difficulte": 1,
+      "tags": [
+        "dioxyde-de-soufre",
+        "test"
+      ]
+    },
+    {
+      "id": "PC3E-C07-012",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Quelle erreur commet-on en écrivant que l'eau de chaux se décolore en présence de dioxyde de soufre ?",
+      "verso": "On confond les deux réactifs : l'eau de chaux se trouble avec le dioxyde de carbone ; c'est le permanganate de potassium qui se décolore avec le dioxyde de soufre.",
+      "difficulte": 3,
+      "tags": [
+        "test",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C07-013",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "formule",
+      "recto": "Quelle équation-bilan traduit la formation du trioxyde de soufre $\\mathrm{SO_3}$ à partir du soufre ?",
+      "verso": "$\\mathrm{2S + 3O_2 \\rightarrow 2SO_3}$. On l'écrit aussi à partir du dioxyde : $\\mathrm{2SO_2 + O_2 \\rightarrow 2SO_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "trioxyde-de-soufre",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C07-014",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Quelle différence d'état physique distingue le dioxyde de soufre du trioxyde de soufre formés lors de la combustion du soufre ?",
+      "verso": "Le dioxyde $\\mathrm{SO_2}$ est un gaz ; le trioxyde $\\mathrm{SO_3}$ apparaît en fines particules solides blanches.",
+      "difficulte": 2,
+      "tags": [
+        "oxydes-de-soufre",
+        "distinction"
+      ]
+    },
+    {
+      "id": "PC3E-C07-015",
+      "lecon": "La combustion du soufre et la notion d'oxydation",
+      "type": "definition",
+      "recto": "Dans le nom d'un oxyde, que compte le préfixe placé devant le mot « oxyde » ?",
+      "verso": "Il compte les atomes d'oxygène de la molécule : un dans le monoxyde de carbone $\\mathrm{CO}$, deux dans le dioxyde de carbone $\\mathrm{CO_2}$, trois dans le trioxyde de soufre $\\mathrm{SO_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "oxyde"
+      ]
+    },
+    {
+      "id": "PC3E-C07-016",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "definition",
+      "recto": "Comment se déroule la combustion du fer chauffé au rouge puis plongé dans un flacon de dioxygène ?",
+      "verso": "Le fer brûle vivement en projetant une gerbe d'étincelles, sans flamme véritable. La réaction est très exothermique ; le fond du flacon est tapissé de sable.",
+      "difficulte": 2,
+      "tags": [
+        "fer",
+        "combustion"
+      ]
+    },
+    {
+      "id": "PC3E-C07-017",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "definition",
+      "recto": "Quel produit se forme lors de la combustion du fer dans le dioxygène ?",
+      "verso": "L'oxyde magnétique de fer $\\mathrm{Fe_3O_4}$, solide noir (gris-noir) et cassant, attiré par l'aimant.",
+      "difficulte": 1,
+      "tags": [
+        "oxyde-magnetique",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC3E-C07-018",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "formule",
+      "recto": "Comment met-on en évidence l'oxyde magnétique de fer formé par la combustion du fer ?",
+      "verso": "Par sa couleur noire et par son attraction par un aimant.",
+      "difficulte": 2,
+      "tags": [
+        "oxyde-magnetique",
+        "test"
+      ]
+    },
+    {
+      "id": "PC3E-C07-019",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion du fer dans le dioxygène ?",
+      "verso": "$\\mathrm{3Fe + 2O_2 \\rightarrow Fe_3O_4}$ : 3 atomes de fer et 4 atomes d'oxygène de chaque côté.",
+      "difficulte": 2,
+      "tags": [
+        "fer",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C07-020",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "formule",
+      "recto": "Quelle proportion de masses de référence traduit la combustion du fer dans le dioxygène ?",
+      "verso": "$168~\\mathrm{g}$ de fer fixent $64~\\mathrm{g}$ de dioxygène et donnent $232~\\mathrm{g}$ d'oxyde magnétique de fer. Les autres masses s'en déduisent par proportionnalité.",
+      "difficulte": 2,
+      "tags": [
+        "proportion",
+        "masse"
+      ]
+    },
+    {
+      "id": "PC3E-C07-021",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "formule",
+      "recto": "Lors de la combustion du fer, quelle relation lie la masse de l'oxyde formé à celle du fer ?",
+      "verso": "Masse de l'oxyde $=$ masse du fer $+$ masse du dioxygène fixé : l'oxyde est plus lourd que le fer de départ (conservation de la masse).",
+      "difficulte": 2,
+      "tags": [
+        "conservation-masse",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC3E-C07-022",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "definition",
+      "recto": "Pourquoi le charbon semble-t-il disparaître en brûlant alors que le fer devient plus lourd ?",
+      "verso": "L'oxyde du carbone est un gaz qui s'envole, la balance ne pèse que ce qui reste ; l'oxyde du fer est un solide qui reste avec l'oxygène fixé. La masse totale se conserve toujours.",
+      "difficulte": 3,
+      "tags": [
+        "conservation-masse",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C07-023",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "formule",
+      "recto": "Quelle relation donne la masse $m$ d'un gaz connaissant son volume $V$ et sa masse volumique $a$ ?",
+      "verso": "$m = a \\times V$, avec $V$ en litres si $a$ est en grammes par litre ($m$ en g).",
+      "difficulte": 2,
+      "tags": [
+        "masse-volumique",
+        "gaz"
+      ]
+    },
+    {
+      "id": "PC3E-C07-024",
+      "lecon": "La combustion du fer dans le dioxygène",
+      "type": "definition",
+      "recto": "Quelle différence de couleur et d'origine distingue l'oxyde magnétique $\\mathrm{Fe_3O_4}$ de l'oxyde ferrique $\\mathrm{Fe_2O_3}$ ?",
+      "verso": "$\\mathrm{Fe_3O_4}$ est noir et vient de la combustion du fer dans le dioxygène ; $\\mathrm{Fe_2O_3}$ est roux et constitue l'essentiel de la rouille.",
+      "difficulte": 3,
+      "tags": [
+        "oxydes-de-fer",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C07-025",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une oxydation lente ?",
+      "verso": "C'est une oxydation qui se produit lentement, sans flamme et sans lumière, sans dégagement de chaleur sensible. C'est une véritable réaction chimique, au même titre qu'une combustion.",
+      "difficulte": 1,
+      "tags": [
+        "oxydation-lente",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C07-026",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Qu'est-ce que la rouille ?",
+      "verso": "C'est le solide roux, poreux et friable qui se forme à la surface du fer laissé à l'air humide. Son constituant principal est l'oxyde ferrique $\\mathrm{Fe_2O_3}$.",
+      "difficulte": 1,
+      "tags": [
+        "rouille",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C07-027",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "formule",
+      "recto": "Quelles sont les conditions de formation de la rouille ?",
+      "verso": "La présence simultanée de dioxygène et d'eau, c'est-à-dire de l'air humide. Si l'un des deux manque, le fer ne rouille pas.",
+      "difficulte": 2,
+      "tags": [
+        "rouille",
+        "conditions"
+      ]
+    },
+    {
+      "id": "PC3E-C07-028",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Pourquoi répondre « il faut de l'air » ne suffit-il pas pour donner les conditions de la rouille ?",
+      "verso": "Parce qu'il faut le dioxygène et l'eau ensemble : dans un air bien sec, le fer ne rouille pas.",
+      "difficulte": 3,
+      "tags": [
+        "rouille",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C07-029",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "formule",
+      "recto": "Quelle équation-bilan simplifiée traduit la formation de l'oxyde ferrique lors de la rouille ?",
+      "verso": "$\\mathrm{4Fe + 3O_2 \\rightarrow 2Fe_2O_3}$.",
+      "difficulte": 2,
+      "tags": [
+        "rouille",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C07-030",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "formule",
+      "recto": "Quelle proportion de masses de référence traduit la formation de l'oxyde ferrique à partir du fer ?",
+      "verso": "$112~\\mathrm{g}$ de fer fixent $48~\\mathrm{g}$ de dioxygène et donnent $160~\\mathrm{g}$ d'oxyde ferrique.",
+      "difficulte": 2,
+      "tags": [
+        "proportion",
+        "oxyde-ferrique"
+      ]
+    },
+    {
+      "id": "PC3E-C07-031",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Pourquoi une tôle rouillée finit-elle par se percer ?",
+      "verso": "La rouille est poreuse et friable : elle laisse passer l'eau et le dioxygène et se détache. Elle ne protège pas le métal, et l'attaque continue jusqu'à traverser la tôle.",
+      "difficulte": 2,
+      "tags": [
+        "rouille",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "PC3E-C07-032",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "formule",
+      "recto": "Sur quel principe reposent tous les moyens de protection du fer contre la rouille ?",
+      "verso": "Isoler le fer de l'air humide : peinture ou vernis, huile ou graisse, couche de zinc (galvanisation), émaillage, rangement au sec. On peut aussi employer de l'acier inoxydable.",
+      "difficulte": 2,
+      "tags": [
+        "protection",
+        "rouille"
+      ]
+    },
+    {
+      "id": "PC3E-C07-033",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la galvanisation du fer ?",
+      "verso": "C'est le dépôt d'une couche de zinc sur le fer, qui l'isole de l'air humide ; on l'emploie pour les tôles et les clous.",
+      "difficulte": 1,
+      "tags": [
+        "galvanisation",
+        "protection"
+      ]
+    },
+    {
+      "id": "PC3E-C07-034",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Pour une pièce de fer mobile, comme une chaîne de vélo, quel moyen de protection contre la rouille convient ?",
+      "verso": "La graisse, renouvelée régulièrement, car une peinture y serait arrachée. La peinture ou le vernis conviennent aux pièces fixes.",
+      "difficulte": 2,
+      "tags": [
+        "protection",
+        "graisse"
+      ]
+    },
+    {
+      "id": "PC3E-C07-035",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Quelle grandeur distingue une oxydation vive d'une oxydation lente ?",
+      "verso": "La vitesse : la vive dure quelques secondes avec chaleur et lumière, la lente des jours ou des années sans lumière ni chaleur perceptible. Dans les deux cas, il se forme un oxyde.",
+      "difficulte": 2,
+      "tags": [
+        "oxydation-lente",
+        "combustion"
+      ]
+    },
+    {
+      "id": "PC3E-C07-036",
+      "lecon": "L'oxydation lente, la rouille et la protection du fer",
+      "type": "definition",
+      "recto": "Que désignent les expressions « oxydation du fer à chaud » et « oxydation du fer à froid » ?",
+      "verso": "A chaud : la combustion du fer dans le dioxygène, qui donne l'oxyde magnétique noir $\\mathrm{Fe_3O_4}$. A froid : la rouille, qui donne l'oxyde ferrique roux $\\mathrm{Fe_2O_3}$.",
+      "difficulte": 3,
+      "tags": [
+        "oxydes-de-fer",
+        "vocabulaire"
+      ]
+    }
+  ]
+}

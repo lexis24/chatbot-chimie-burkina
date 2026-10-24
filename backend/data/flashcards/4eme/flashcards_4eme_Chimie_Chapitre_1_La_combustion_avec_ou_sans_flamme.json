@@ -1,0 +1,426 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 1 : La combustion avec ou sans flamme",
+  "source": "pc/4eme/Chimie_Chapitre_1_La_combustion_avec_ou_sans_flamme",
+  "nombre_cartes": 34,
+  "cartes": [
+    {
+      "id": "PC4E-C01-001",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on une combustion ?",
+      "verso": "Une transformation de la matière au cours de laquelle un corps brûle en présence d'un autre corps, avec dégagement de chaleur et, le plus souvent, de lumière. Les corps de départ disparaissent et de nouveaux corps apparaissent.",
+      "difficulte": 1,
+      "tags": [
+        "combustion",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC4E-C01-002",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "definition",
+      "recto": "Dans une combustion, qu'appelle-t-on le combustible ?",
+      "verso": "Le corps qui brûle, celui qui se consume. Il peut être solide (bois, charbon de bois, paille), liquide (pétrole lampant, essence, gasoil) ou gazeux (butane).",
+      "difficulte": 1,
+      "tags": [
+        "combustible"
+      ]
+    },
+    {
+      "id": "PC4E-C01-003",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "definition",
+      "recto": "Dans une combustion, qu'appelle-t-on le comburant ?",
+      "verso": "Le corps qui permet au combustible de brûler et qui entretient la combustion. Dans la vie courante, c'est le dioxygène de l'air.",
+      "difficulte": 1,
+      "tags": [
+        "comburant",
+        "dioxygene"
+      ]
+    },
+    {
+      "id": "PC4E-C01-004",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "formule",
+      "recto": "Quelles sont les trois conditions, représentées par le triangle du feu, qui doivent être réunies pour qu'une combustion ait lieu ?",
+      "verso": "Un combustible, un comburant et une source de chaleur suffisante pour l'allumage, réunis en même temps. Si l'un des trois côtés est supprimé, la combustion s'arrête.",
+      "difficulte": 2,
+      "tags": [
+        "triangle-du-feu",
+        "conditions"
+      ]
+    },
+    {
+      "id": "PC4E-C01-005",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "formule",
+      "recto": "D'après le triangle du feu, comment agit-on pour activer une combustion ?",
+      "verso": "On renforce un côté du triangle du feu : ajouter du combustible (du bois), apporter de l'air (souffler, éventer, ouvrir les trous d'aération) ou concentrer la chaleur.",
+      "difficulte": 2,
+      "tags": [
+        "triangle-du-feu",
+        "activer"
+      ]
+    },
+    {
+      "id": "PC4E-C01-006",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "formule",
+      "recto": "D'après le triangle du feu, comment distingue-t-on ralentir et arrêter une combustion ?",
+      "verso": "Pour ralentir, on affaiblit un côté sans le supprimer (écarter les bûches, réduire l'arrivée d'air ou le débit de gaz). Pour arrêter, on supprime un côté en entier : fermer le robinet du gaz, étouffer sous un couvercle ou du sable, refroidir à l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "triangle-du-feu",
+        "ralentir",
+        "arreter"
+      ]
+    },
+    {
+      "id": "PC4E-C01-007",
+      "lecon": "La combustion, le combustible et le comburant ; le triangle du feu",
+      "type": "formule",
+      "recto": "Pourquoi ne jette-t-on jamais d'eau sur une poêle d'huile enflammée ?",
+      "verso": "L'eau passe sous l'huile, s'y vaporise brutalement et projette l'huile enflammée. On coupe la chaleur, puis on étouffe le feu sous un couvercle.",
+      "difficulte": 3,
+      "tags": [
+        "securite",
+        "feu-d-huile",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C01-008",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Dans quel cas une combustion se fait-elle avec une flamme ?",
+      "verso": "Lorsque le combustible brûle à l'état gazeux : butane, gaz d'un briquet, vapeur de cire d'une bougie, gaz dégagés par le bois chauffé. Une flamme est un gaz qui brûle.",
+      "difficulte": 2,
+      "tags": [
+        "flamme",
+        "etat-gazeux"
+      ]
+    },
+    {
+      "id": "PC4E-C01-009",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la capillarité ?",
+      "verso": "La montée d'un liquide à travers un corps qui comporte de petits interstices, comme la mèche d'une bougie, un morceau de sucre ou un papier buvard.",
+      "difficulte": 1,
+      "tags": [
+        "capillarite",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC4E-C01-010",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Dans une bougie qui brûle, quel est le rôle de la mèche ?",
+      "verso": "Elle fait monter par capillarité la cire fondue (paraffine) jusqu'à l'intérieur de la flamme, où celle-ci se vaporise. C'est un conduit d'alimentation, non le combustible principal.",
+      "difficulte": 2,
+      "tags": [
+        "bougie",
+        "meche",
+        "capillarite"
+      ]
+    },
+    {
+      "id": "PC4E-C01-011",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Pourquoi dire « dans une bougie, c'est la mèche qui brûle » est-il une erreur ?",
+      "verso": "La mèche ne fait que conduire la cire liquide par capillarité ; elle serait détruite en quelques secondes si elle était le vrai combustible. Ce qui brûle, c'est la cire à l'état gazeux.",
+      "difficulte": 3,
+      "tags": [
+        "bougie",
+        "meche",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C01-012",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Quelles sont, de l'intérieur vers l'extérieur, les trois zones de la flamme d'une bougie ?",
+      "verso": "La zone sombre autour de la mèche, la zone éclairante jaune ou orange, puis la zone bleue sur le pourtour extérieur, au contact de l'air.",
+      "difficulte": 1,
+      "tags": [
+        "flamme",
+        "zones"
+      ]
+    },
+    {
+      "id": "PC4E-C01-013",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Dans la flamme d'une bougie, comment la température se répartit-elle entre les zones ?",
+      "verso": "La plus chaude est la mince zone bleue extérieure, où la combustion est complète. La plus froide est la zone sombre, autour de la mèche, pleine de vapeurs de cire non brûlées faute de dioxygène.",
+      "difficulte": 3,
+      "tags": [
+        "flamme",
+        "zones",
+        "temperature",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C01-014",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Qu'est-ce qui rend une flamme éclairante ?",
+      "verso": "La présence de particules solides de carbone portées à l'incandescence. Sans elles, comme sur un réchaud à gaz bien réglé, la flamme est bleue et éclaire peu.",
+      "difficulte": 2,
+      "tags": [
+        "flamme",
+        "zone-eclairante",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C01-015",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Quelle est la composition en volume de l'air, en valeurs arrondies ?",
+      "verso": "L'air est un mélange de gaz : environ 78 % de diazote, 21 % de dioxygène et 1 % d'autres gaz, dont le dioxyde de carbone et la vapeur d'eau.",
+      "difficulte": 1,
+      "tags": [
+        "air",
+        "composition"
+      ]
+    },
+    {
+      "id": "PC4E-C01-016",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "formule",
+      "recto": "Dans un volume d'air $V$, quelles relations donnent le volume de dioxygène et le volume de diazote ?",
+      "verso": "$V_{\\text{dioxygène}} = \\dfrac{21}{100} \\times V$ et $V_{\\text{diazote}} = \\dfrac{78}{100} \\times V$, tous les volumes étant exprimés dans la même unité.",
+      "difficulte": 2,
+      "tags": [
+        "air",
+        "calcul-volume"
+      ]
+    },
+    {
+      "id": "PC4E-C01-017",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "formule",
+      "recto": "Connaissant le volume de dioxygène $V_{\\text{dioxygène}}$ contenu dans de l'air, quelle relation donne le volume d'air $V$ ?",
+      "verso": "$V = \\dfrac{V_{\\text{dioxygène}} \\times 100}{21}$, les deux volumes dans la même unité.",
+      "difficulte": 2,
+      "tags": [
+        "air",
+        "calcul-volume"
+      ]
+    },
+    {
+      "id": "PC4E-C01-018",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "formule",
+      "recto": "Quand un énoncé impose les valeurs arrondies 1/5 et 4/5 pour l'air, comment calcule-t-on les volumes de dioxygène et de diazote dans un volume d'air $V$ ?",
+      "verso": "$V_{\\text{dioxygène}} = \\dfrac{V}{5}$ et $V_{\\text{diazote}} = 4 \\times V_{\\text{dioxygène}}$. Sans cette consigne, on prend 21 % et 78 %.",
+      "difficulte": 2,
+      "tags": [
+        "air",
+        "calcul-volume",
+        "valeurs-arrondies"
+      ]
+    },
+    {
+      "id": "PC4E-C01-019",
+      "lecon": "La bougie qui brûle et le rôle du dioxygène de l'air",
+      "type": "definition",
+      "recto": "Dans une combustion, quel est le rôle du diazote, constituant majoritaire de l'air ?",
+      "verso": "Aucun : le diazote ne brûle pas et n'entretient pas la combustion. C'est le dioxygène de l'air qui entretient la combustion, c'est lui le comburant.",
+      "difficulte": 2,
+      "tags": [
+        "dioxygene",
+        "diazote",
+        "comburant"
+      ]
+    },
+    {
+      "id": "PC4E-C01-020",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "definition",
+      "recto": "Quels sont les deux principaux produits de la combustion d'une bougie, du bois, du butane ou du pétrole ?",
+      "verso": "De l'eau, qui part d'abord sous forme de vapeur, et du dioxyde de carbone, un gaz invisible.",
+      "difficulte": 1,
+      "tags": [
+        "produits",
+        "eau",
+        "dioxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C01-021",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "formule",
+      "recto": "Quel test permet de mettre en évidence le dioxyde de carbone ?",
+      "verso": "L'eau de chaux, limpide, se trouble en présence de dioxyde de carbone : elle devient blanchâtre.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "dioxyde-de-carbone",
+        "eau-de-chaux"
+      ]
+    },
+    {
+      "id": "PC4E-C01-022",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "formule",
+      "recto": "Quel test permet de mettre en évidence l'eau ?",
+      "verso": "Le sulfate de cuivre anhydre, poudre blanche, devient bleu en présence d'eau.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "eau",
+        "sulfate-de-cuivre"
+      ]
+    },
+    {
+      "id": "PC4E-C01-023",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "definition",
+      "recto": "Au cours de la combustion d'une bougie, quel est le bilan des corps disparus et des corps formés ?",
+      "verso": "La paraffine (sous forme de vapeur) et le dioxygène de l'air disparaissent, et la bougie perd de la masse. L'eau et le dioxyde de carbone apparaissent, ainsi que du carbone si l'air manque.",
+      "difficulte": 2,
+      "tags": [
+        "bougie",
+        "bilan"
+      ]
+    },
+    {
+      "id": "PC4E-C01-024",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une combustion complète ?",
+      "verso": "Une combustion où le dioxygène est en quantité suffisante : la flamme est bleue et peu éclairante, il ne se forme ni fumée noire ni suie, et les seuls produits sont le dioxyde de carbone et l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-complete"
+      ]
+    },
+    {
+      "id": "PC4E-C01-025",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une combustion incomplète ?",
+      "verso": "Une combustion où le dioxygène est insuffisant : la flamme est jaune et fuligineuse, elle noircit les récipients, et il se forme en plus du noir de fumée (carbone), visible, et du monoxyde de carbone, invisible.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-incomplete"
+      ]
+    },
+    {
+      "id": "PC4E-C01-026",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "definition",
+      "recto": "Quelles sont les propriétés du monoxyde de carbone qui le rendent si dangereux ?",
+      "verso": "C'est un gaz incolore, inodore et très toxique, qui provoque des intoxications mortelles dans les locaux mal ventilés.",
+      "difficulte": 2,
+      "tags": [
+        "monoxyde-de-carbone",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC4E-C01-027",
+      "lecon": "Les produits de la combustion ; combustion complète et combustion incomplète",
+      "type": "definition",
+      "recto": "Pourquoi ne faut-il pas confondre le dioxyde de carbone et le monoxyde de carbone produits par les combustions ?",
+      "verso": "Le dioxyde de carbone est produit par toute combustion. Le monoxyde de carbone n'est produit que par une combustion incomplète, et c'est lui le poison violent.",
+      "difficulte": 3,
+      "tags": [
+        "monoxyde-de-carbone",
+        "dioxyde-de-carbone",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C01-028",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Dans quel cas une combustion se fait-elle sans flamme ?",
+      "verso": "Lorsque le combustible brûle à l'état solide, à sa surface, sans se vaporiser au préalable. Le corps devient incandescent : il rougeoie et dégage beaucoup de chaleur.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-sans-flamme"
+      ]
+    },
+    {
+      "id": "PC4E-C01-029",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Quels sont des exemples de combustions sans flamme ?",
+      "verso": "La combustion du charbon de bois dans un brasero, la braise d'un foyer en fin de feu, l'extrémité rougeoyante d'une cigarette, la combustion du graphite et celle du fusain.",
+      "difficulte": 1,
+      "tags": [
+        "combustion-sans-flamme",
+        "exemples"
+      ]
+    },
+    {
+      "id": "PC4E-C01-030",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre l'incandescence et une flamme ?",
+      "verso": "L'incandescence est l'émission de lumière par un solide très chaud ; une flamme est un gaz en train de brûler.",
+      "difficulte": 3,
+      "tags": [
+        "incandescence",
+        "flamme"
+      ]
+    },
+    {
+      "id": "PC4E-C01-031",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une transformation physique ?",
+      "verso": "Une transformation au cours de laquelle la nature des corps ne change pas, par exemple la fusion de la glace, la vaporisation de l'eau, la dissolution du sucre ou le broyage du mil.",
+      "difficulte": 1,
+      "tags": [
+        "transformation-physique"
+      ]
+    },
+    {
+      "id": "PC4E-C01-032",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une transformation chimique ?",
+      "verso": "Une transformation au cours de laquelle des corps disparaissent et des corps nouveaux apparaissent, par exemple une combustion, la rouille du fer, la cuisson d'un aliment ou le lait qui tourne. On l'appelle aussi réaction chimique.",
+      "difficulte": 2,
+      "tags": [
+        "transformation-chimique",
+        "reaction-chimique"
+      ]
+    },
+    {
+      "id": "PC4E-C01-033",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Pourquoi l'ébullition de l'eau est-elle une transformation physique et non chimique ?",
+      "verso": "La vapeur d'eau est toujours de l'eau : aucun corps nouveau n'apparaît, et elle se recondense sur un couvercle froid.",
+      "difficulte": 2,
+      "tags": [
+        "transformation-physique",
+        "ebullition"
+      ]
+    },
+    {
+      "id": "PC4E-C01-034",
+      "lecon": "La combustion sans flamme et la notion de réaction chimique",
+      "type": "definition",
+      "recto": "Comment le bois brûle-t-il, depuis l'allumage jusqu'à la fin du feu ?",
+      "verso": "Chauffé, il dégage d'abord des gaz combustibles qui donnent de grandes flammes jaunes. Ces gaz épuisés, il reste la braise, un solide riche en carbone qui brûle sans flamme en rougeoyant.",
+      "difficulte": 2,
+      "tags": [
+        "bois",
+        "braise"
+      ]
+    }
+  ]
+}

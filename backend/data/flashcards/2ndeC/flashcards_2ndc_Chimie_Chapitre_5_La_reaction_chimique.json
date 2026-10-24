@@ -1,0 +1,419 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 5 : La réaction chimique",
+  "source": "pc/2ndc/Chimie_Chapitre_5_La_reaction_chimique",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PC2C-C05-001",
+      "lecon": "Le système chimique, l'état initial et l'état final",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on le système chimique ?",
+      "verso": "L'ensemble des espèces chimiques que l'on décide d'étudier, avec leurs conditions (température et pression). Tout ce qui lui est extérieur forme le milieu extérieur.",
+      "difficulte": 1,
+      "tags": [
+        "systeme-chimique"
+      ]
+    },
+    {
+      "id": "PC2C-C05-002",
+      "lecon": "Le système chimique, l'état initial et l'état final",
+      "type": "definition",
+      "recto": "Pour un système chimique, quelle différence y a-t-il entre l'état initial et l'état final ?",
+      "verso": "L'état initial décrit les espèces présentes et leurs quantités de matière avant la transformation ; l'état final donne la même description après, quand plus rien n'évolue.",
+      "difficulte": 1,
+      "tags": [
+        "etat-initial",
+        "etat-final"
+      ]
+    },
+    {
+      "id": "PC2C-C05-003",
+      "lecon": "Le système chimique, l'état initial et l'état final",
+      "type": "definition",
+      "recto": "Au cours d'une réaction chimique, qu'est-ce qui distingue les réactifs, les produits et les espèces spectatrices ?",
+      "verso": "Les réactifs sont consommés, les produits sont formés, et les espèces spectatrices, présentes, ne sont ni consommées ni formées (comme le diazote de l'air dans une combustion).",
+      "difficulte": 2,
+      "tags": [
+        "reactif",
+        "produit",
+        "espece-spectatrice"
+      ]
+    },
+    {
+      "id": "PC2C-C05-004",
+      "lecon": "Le système chimique, l'état initial et l'état final",
+      "type": "formule",
+      "recto": "Que dit la loi de Lavoisier sur une réaction chimique ?",
+      "verso": "La masse totale du système se conserve : la somme des masses des réactifs consommés est égale à la somme des masses des produits formés, car les atomes ne sont ni créés ni détruits.",
+      "difficulte": 1,
+      "tags": [
+        "lavoisier",
+        "conservation-masse"
+      ]
+    },
+    {
+      "id": "PC2C-C05-005",
+      "lecon": "Le système chimique, l'état initial et l'état final",
+      "type": "definition",
+      "recto": "Pourquoi la balance affiche-t-elle moins après une réaction en récipient ouvert, sans que la loi de Lavoisier soit fausse ?",
+      "verso": "Un gaz formé est sorti du système. La loi porte sur la masse du système, pas sur celle du plateau : en incluant le gaz, la masse est conservée, et la différence des pesées donne la masse du gaz.",
+      "difficulte": 3,
+      "tags": [
+        "lavoisier",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C05-006",
+      "lecon": "Le système chimique, l'état initial et l'état final",
+      "type": "definition",
+      "recto": "Quels produits polluants peuvent provenir de réactions chimiques mal maîtrisées ?",
+      "verso": "Le monoxyde de carbone $\\mathrm{CO}$ d'une combustion incomplète (gaz inodore et mortel), le dioxyde de soufre $\\mathrm{SO_2}$ des fours et moteurs (pluies acides), le mercure de l'orpaillage, les pesticides mal dosés.",
+      "difficulte": 2,
+      "tags": [
+        "pollution"
+      ]
+    },
+    {
+      "id": "PC2C-C05-007",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'équation-bilan d'une réaction chimique ?",
+      "verso": "Son écriture symbolique : formules des réactifs à gauche, formules des produits à droite, séparées par une flèche qui indique le sens de la transformation. Elle donne le bilan, pas le chemin suivi.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC2C-C05-008",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "definition",
+      "recto": "Dans une équation-bilan, que représentent les coefficients stoechiométriques ?",
+      "verso": "Les nombres placés devant les formules ; ils indiquent les proportions dans lesquelles les réactifs sont consommés et les produits formés. Le coefficient 1 ne s'écrit pas.",
+      "difficulte": 1,
+      "tags": [
+        "coefficient-stoechiometrique"
+      ]
+    },
+    {
+      "id": "PC2C-C05-009",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "formule",
+      "recto": "A quelles conditions une équation-bilan est-elle équilibrée ?",
+      "verso": "Chaque élément est présent en même nombre d'atomes dans les deux membres ; si l'équation contient des ions ou des électrons, la somme algébrique des charges est aussi la même des deux côtés.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "conservation"
+      ]
+    },
+    {
+      "id": "PC2C-C05-010",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "definition",
+      "recto": "Pourquoi ne modifie-t-on jamais un indice pour équilibrer une équation, en écrivant par exemple $\\mathrm{H_2O_2}$ au lieu de $\\mathrm{H_2O}$ ?",
+      "verso": "Les indices font partie de l'identité du corps : les changer remplace un corps par un autre ($\\mathrm{H_2O_2}$ est l'eau oxygénée) et décrit une autre réaction. Seuls les coefficients se modifient : $\\mathrm{2\\,H_2 + O_2 \\rightarrow 2\\,H_2O}$.",
+      "difficulte": 3,
+      "tags": [
+        "indice",
+        "equilibrage",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C05-011",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "formule",
+      "recto": "Comment se lit l'équation $\\mathrm{CH_4 + 2\\,O_2 \\rightarrow CO_2 + 2\\,H_2O}$ à l'échelle macroscopique ?",
+      "verso": "Une mole de méthane réagit avec deux moles de dioxygène pour former une mole de dioxyde de carbone et deux moles d'eau. C'est cette lecture en moles qui sert aux calculs.",
+      "difficulte": 2,
+      "tags": [
+        "lecture-equation",
+        "mole"
+      ]
+    },
+    {
+      "id": "PC2C-C05-012",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète d'un hydrocarbure $\\mathrm{C}_x\\mathrm{H}_y$ ?",
+      "verso": "$\\mathrm{C}_x\\mathrm{H}_y + \\left(x + \\dfrac{y}{4}\\right)\\mathrm{O_2} \\rightarrow x\\,\\mathrm{CO_2} + \\dfrac{y}{2}\\,\\mathrm{H_2O}$. Pour un composé $\\mathrm{C}_x\\mathrm{H}_y\\mathrm{O}_z$, le coefficient de $\\mathrm{O_2}$ devient $x + \\dfrac{y}{4} - \\dfrac{z}{2}$.",
+      "difficulte": 3,
+      "tags": [
+        "combustion",
+        "hydrocarbure"
+      ]
+    },
+    {
+      "id": "PC2C-C05-013",
+      "lecon": "L'équation-bilan et son équilibrage",
+      "type": "formule",
+      "recto": "Dans quel ordre ajuste-t-on les coefficients pour équilibrer la combustion d'un composé carboné ?",
+      "verso": "D'abord l'élément présent dans le moins de formules, en général le carbone puis l'hydrogène, et en dernier l'oxygène, présent partout. Un coefficient fractionnaire impose de tout multiplier par 2.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "methode"
+      ]
+    },
+    {
+      "id": "PC2C-C05-014",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'avancement $x$ d'une réaction chimique ?",
+      "verso": "La quantité de matière, en moles, de réaction qui s'est produite ; il vaut 0 à l'état initial et croît au cours de la transformation.",
+      "difficulte": 1,
+      "tags": [
+        "avancement"
+      ]
+    },
+    {
+      "id": "PC2C-C05-015",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "formule",
+      "recto": "Pour la réaction $a\\,\\mathrm{A} + b\\,\\mathrm{B} \\rightarrow c\\,\\mathrm{C} + d\\,\\mathrm{D}$, quelles quantités de A et de C contient le système quand l'avancement vaut $x$ ?",
+      "verso": "$n(\\mathrm{A}) = n_0(\\mathrm{A}) - a\\,x$ pour le réactif, et $n(\\mathrm{C}) = c\\,x$ pour le produit absent au départ ($x$ en mol).",
+      "difficulte": 2,
+      "tags": [
+        "tableau-avancement"
+      ]
+    },
+    {
+      "id": "PC2C-C05-016",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "definition",
+      "recto": "Quelles lignes comporte un tableau d'avancement ?",
+      "verso": "Trois lignes : l'état initial (avancement 0), un état intermédiaire (avancement $x$) et l'état final (avancement $x_{\\max}$), avec une colonne par espèce chimique.",
+      "difficulte": 1,
+      "tags": [
+        "tableau-avancement"
+      ]
+    },
+    {
+      "id": "PC2C-C05-017",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "formule",
+      "recto": "Comment détermine-t-on l'avancement maximal $x_{\\max}$ d'une réaction ?",
+      "verso": "On calcule $\\dfrac{n_0}{\\text{coefficient}}$ pour chaque réactif et on retient la plus petite valeur : c'est la plus grande valeur de $x$ sans qu'aucune quantité devienne négative.",
+      "difficulte": 2,
+      "tags": [
+        "avancement-maximal"
+      ]
+    },
+    {
+      "id": "PC2C-C05-018",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le réactif limitant d'une réaction ?",
+      "verso": "Le réactif qui donne la plus petite valeur de $\\dfrac{n_0}{\\text{coefficient}}$ : il a entièrement disparu à l'état final (il est en défaut). Les autres réactifs, dont il reste, sont en excès.",
+      "difficulte": 2,
+      "tags": [
+        "reactif-limitant",
+        "exces"
+      ]
+    },
+    {
+      "id": "PC2C-C05-019",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "formule",
+      "recto": "Pour la réaction $a\\,\\mathrm{A} + b\\,\\mathrm{B} \\rightarrow \\ldots$, quelle condition définit un mélange stoechiométrique ?",
+      "verso": "$\\dfrac{n_0(\\mathrm{A})}{a} = \\dfrac{n_0(\\mathrm{B})}{b}$ : les quantités initiales sont dans les proportions des coefficients, et tous les réactifs disparaissent en même temps.",
+      "difficulte": 2,
+      "tags": [
+        "melange-stoechiometrique"
+      ]
+    },
+    {
+      "id": "PC2C-C05-020",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "definition",
+      "recto": "Pourquoi le réactif de plus petite masse n'est-il pas forcément le réactif limitant ?",
+      "verso": "Seul compte le nombre d'entités rapporté au coefficient. Ex. : 5 g de $\\mathrm{H_2}$ (2,5 mol) et 40 g de $\\mathrm{O_2}$ (1,25 mol) pour $\\mathrm{2\\,H_2 + O_2 \\rightarrow 2\\,H_2O}$ donnent $\\dfrac{2{,}5}{2} = \\dfrac{1{,}25}{1}$ : mélange stoechiométrique.",
+      "difficulte": 3,
+      "tags": [
+        "reactif-limitant",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C05-021",
+      "lecon": "Le tableau d'avancement et le réactif limitant",
+      "type": "definition",
+      "recto": "Quelle erreur guette l'élève qui écrit $n(\\mathrm{O_2}) = 1{,}0 - x$ pour la réaction $\\mathrm{2\\,C_4H_{10} + 13\\,O_2 \\rightarrow 8\\,CO_2 + 10\\,H_2O}$ ?",
+      "verso": "L'oubli du coefficient stoechiométrique devant $x$ : il faut écrire $n(\\mathrm{O_2}) = 1{,}0 - 13x$.",
+      "difficulte": 3,
+      "tags": [
+        "tableau-avancement",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C05-022",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "formule",
+      "recto": "Que dit la loi d'Avogadro sur les gaz ?",
+      "verso": "Dans les mêmes conditions de température et de pression, des volumes égaux de gaz différents contiennent le même nombre de molécules.",
+      "difficulte": 1,
+      "tags": [
+        "avogadro"
+      ]
+    },
+    {
+      "id": "PC2C-C05-023",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le volume molaire $V_m$ d'un gaz ?",
+      "verso": "Le volume occupé par une mole de gaz ; d'après la loi d'Avogadro, il est le même pour tous les gaz dans des conditions données de température et de pression. Il s'exprime en $\\mathrm{L/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "volume-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C05-024",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "formule",
+      "recto": "Quelle est la valeur du volume molaire des gaz dans les conditions normales de température et de pression ?",
+      "verso": "$V_m = 22{,}4~\\mathrm{L/mol}$ dans les CNTP, c'est-à-dire à $0~^{\\circ}\\mathrm{C}$ sous $1013~\\mathrm{hPa}$. Vers $20~^{\\circ}\\mathrm{C}$ sous la pression ordinaire, $V_m = 24~\\mathrm{L/mol}$.",
+      "difficulte": 1,
+      "tags": [
+        "cntp",
+        "volume-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C05-025",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "formule",
+      "recto": "Quelle relation lie la quantité de matière $n$ d'un gaz à son volume $V$ ?",
+      "verso": "$n = \\dfrac{V}{V_m}$, soit $V = n \\times V_m$, avec $n$ en mol, $V$ en L et $V_m$ en L/mol, la valeur de $V_m$ dépendant des conditions de température et de pression.",
+      "difficulte": 2,
+      "tags": [
+        "quantite-de-matiere",
+        "volume"
+      ]
+    },
+    {
+      "id": "PC2C-C05-026",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "formule",
+      "recto": "Dans quel cas les coefficients d'une équation-bilan donnent-ils directement les proportions en volume ?",
+      "verso": "Pour des corps tous gazeux pris dans les mêmes conditions de température et de pression, car ils ont le même $V_m$. Ex. : $\\mathrm{2\\,H_2 + O_2 \\rightarrow 2\\,H_2O}$, 2 volumes de $\\mathrm{H_2}$ pour 1 de $\\mathrm{O_2}$. Jamais pour un solide ou un liquide.",
+      "difficulte": 3,
+      "tags": [
+        "proportions-volume",
+        "avogadro"
+      ]
+    },
+    {
+      "id": "PC2C-C05-027",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "definition",
+      "recto": "Pourquoi ne passe-t-on jamais directement d'une masse de réactif à une masse de produit avec les coefficients ?",
+      "verso": "Les coefficients comptent des moles, pas des grammes : il faut convertir la masse en moles ($n = \\dfrac{m}{M}$), appliquer les coefficients, puis revenir à la masse ($m = n \\times M$).",
+      "difficulte": 2,
+      "tags": [
+        "chaine-calcul",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C05-028",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "formule",
+      "recto": "Comment calcule-t-on le rendement $r$ d'une réaction ?",
+      "verso": "$r = \\dfrac{m_{\\text{obtenue}}}{m_{\\text{théorique}}} \\times 100$ (ou avec les quantités de matière), la valeur théorique étant prévue par le tableau d'avancement. Il s'exprime en pourcentage et ne dépasse jamais $100\\ \\%$.",
+      "difficulte": 2,
+      "tags": [
+        "rendement"
+      ]
+    },
+    {
+      "id": "PC2C-C05-029",
+      "lecon": "Masses et volumes gazeux à partir d'une équation, rendement",
+      "type": "formule",
+      "recto": "Comment définit-on la pureté d'un échantillon ?",
+      "verso": "$\\text{pureté} = \\dfrac{m_{\\text{corps pur}}}{m_{\\text{échantillon}}} \\times 100$, en pourcentage en masse ; seule la masse du corps pur entre dans $n = \\dfrac{m}{M}$.",
+      "difficulte": 2,
+      "tags": [
+        "purete"
+      ]
+    },
+    {
+      "id": "PC2C-C05-030",
+      "lecon": "La densité d'un gaz, d'un solide et d'un liquide",
+      "type": "formule",
+      "recto": "Comment définit-on la densité d'un solide ou d'un liquide ?",
+      "verso": "$d = \\dfrac{\\rho}{\\rho_{\\text{eau}}}$, rapport de sa masse volumique à celle de l'eau, avec $\\rho_{\\text{eau}} = 1~\\mathrm{kg/L} = 1\\,000~\\mathrm{kg/m^3}$. C'est un nombre sans unité.",
+      "difficulte": 1,
+      "tags": [
+        "densite",
+        "solide-liquide"
+      ]
+    },
+    {
+      "id": "PC2C-C05-031",
+      "lecon": "La densité d'un gaz, d'un solide et d'un liquide",
+      "type": "formule",
+      "recto": "Quelle relation donne la densité $d$ d'un gaz à partir de sa masse molaire $M$ ?",
+      "verso": "$d = \\dfrac{\\rho_{\\text{gaz}}}{\\rho_{\\text{air}}} = \\dfrac{M}{29}$, avec $M$ en g/mol, le gaz et l'air étant pris dans les mêmes conditions. Inversement, $M = 29\\,d$.",
+      "difficulte": 2,
+      "tags": [
+        "densite-gaz"
+      ]
+    },
+    {
+      "id": "PC2C-C05-032",
+      "lecon": "La densité d'un gaz, d'un solide et d'un liquide",
+      "type": "definition",
+      "recto": "Que représente le nombre 29 dans la relation $d = \\dfrac{M}{29}$ donnant la densité d'un gaz ?",
+      "verso": "La masse, en grammes, de 22,4 L d'air dans les CNTP, c'est-à-dire la masse molaire moyenne de l'air : $29~\\mathrm{g/mol}$ (environ 80 % de $\\mathrm{N_2}$ et 20 % de $\\mathrm{O_2}$).",
+      "difficulte": 2,
+      "tags": [
+        "air",
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C05-033",
+      "lecon": "La densité d'un gaz, d'un solide et d'un liquide",
+      "type": "definition",
+      "recto": "Que peut-on prévoir du comportement d'un gaz selon que sa densité est supérieure ou inférieure à 1 ?",
+      "verso": "Si $d \\gt 1$, le gaz est plus lourd que l'air : il descend et s'accumule au sol (butane, $d = 2{,}0$). Si $d \\lt 1$, il est plus léger : il monte et se disperse (méthane, $d \\approx 0{,}55$).",
+      "difficulte": 2,
+      "tags": [
+        "densite-gaz",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC2C-C05-034",
+      "lecon": "La densité d'un gaz, d'un solide et d'un liquide",
+      "type": "definition",
+      "recto": "Pourquoi ne doit-on pas écrire « la densité du butane vaut $2{,}0~\\mathrm{kg/L}$ » ?",
+      "verso": "La densité est un nombre sans unité : $d = \\dfrac{58}{29} = 2{,}0$. C'est la masse volumique qui porte une unité ; et la référence d'un gaz est l'air, pas l'eau.",
+      "difficulte": 3,
+      "tags": [
+        "densite",
+        "masse-volumique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C05-035",
+      "lecon": "La densité d'un gaz, d'un solide et d'un liquide",
+      "type": "definition",
+      "recto": "Pourquoi la densité d'un gaz par rapport à l'air ne dépend-elle pas de la température ?",
+      "verso": "Le gaz et l'air, pris dans les mêmes conditions, ont le même volume molaire $V_m$ : dans $d = \\dfrac{\\rho_{\\text{gaz}}}{\\rho_{\\text{air}}} = \\dfrac{M / V_m}{29 / V_m}$, $V_m$ se simplifie.",
+      "difficulte": 3,
+      "tags": [
+        "densite-gaz",
+        "volume-molaire"
+      ]
+    }
+  ]
+}

@@ -140,7 +140,7 @@ def verify_candidat_libre() -> bool:
 
 def verify_conversation_and_message() -> bool:
     user_id = created_user_ids[0]
-    conv = db.create_conversation(user_id, "3ème", "Les fractions")
+    conv = db.create_conversation(user_id, "3ème", "Les gaz")
 
     sent = {
         "role": "user",
@@ -148,7 +148,7 @@ def verify_conversation_and_message() -> bool:
         "kind": "chat",
         "payload": {"note": "vérification Neon"},
         "class_code": "3ème",
-        "chapter": "Les fractions",
+        "chapter": "Les gaz",
         "difficulty": 2,
         "from_rag": False,
     }

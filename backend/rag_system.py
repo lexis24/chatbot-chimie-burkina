@@ -2,6 +2,7 @@
 import re
 import json
 import base64
+import unicodedata
 from urllib.parse import urlparse
 from typing import Optional
 from llama_index.core import VectorStoreIndex, StorageContext, Document, Settings as LlamaSettings
@@ -25,61 +26,159 @@ EMBED_DIM = 384  # sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 EMBED_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hf_cache")
 
 
-FIGURE_FORMAT_INSTRUCTIONS = """FIGURES GÉOMÉTRIQUES — RÈGLE ABSOLUE, PRIORITAIRE SUR TOUT LE RESTE :
-Dès qu'une figure, un schéma ou un dessin serait utile (triangle, cercle, angle, repère, configuration de \
-Thalès/Pythagore, solide, droites...), tu DOIS le produire EXCLUSIVEMENT avec un bloc de code étiqueté `figure` \
-contenant du JSON valide. C'est INTERDIT de dessiner une figure autrement.
-INTERDICTIONS STRICTES, sans AUCUNE exception, même si on te le demande explicitement : jamais de schéma en ASCII \
-art (jamais de caractères `|`, `/`, `\\`, `-`, `_`, `+` alignés pour représenter des traits ou des côtés), jamais \
-un bloc de code sans l'étiquette `figure`, jamais de description uniquement textuelle à la place du schéma. \
-Un triangle esquissé avec des barres et des traits est un ÉCHEC : utilise TOUJOURS le JSON ci-dessous à la place.
+# Modèles de montages dessinés par le frontend (components/figures/MontageFigure.jsx) : le modèle de
+# langage choisit le modèle et remplit les étiquettes, le dessin place lui-même le matériel — bien
+# plus fiable que de lui faire positionner chaque pièce de verrerie par coordonnées.
+MONTAGE_MODELS = {
+    "dosage": ("burette", "becher", "agitateur", "sonde"),
+    "electrolyse": ("generateur", "cathode", "anode", "gaz_cathode", "gaz_anode", "solution"),
+    "pile": ("electrode_gauche", "solution_gauche", "electrode_droite", "solution_droite", "pont_salin", "appareil"),
+    "chauffage_reflux": ("refrigerant", "eau_entree", "eau_sortie", "ballon", "chauffe_ballon"),
+    "recueil_gaz": ("reactifs", "tube_degagement", "gaz", "cuve"),
+    "combustion": ("gaz", "combustible", "cuillere", "liquide"),
+    "tube_essai": ("ajout", "contenu", "observation"),
+}
 
-Syntaxe exacte à reproduire (l'étiquette `figure` après les trois backticks est obligatoire) :
+FIGURE_SCHEMAS = """SCHÉMAS DE CHIMIE — un schéma est un objet JSON dont le champ "type" vaut "montage", "graphique", \
+"echelle", "molecule" ou "geometrie". Étiquettes en TEXTE SIMPLE, jamais de $ ni de \\ce dans le JSON : formules \
+chimiques avec _ pour les indices et ^ pour les charges (H_2O, CO_2, Cu^{2+}, SO_4^{2-}, H_3O^+, CH_3COOH), lettres \
+grecques et symboles directement en Unicode (λ, °C) — c'est la seule exception à la règle \\ce, propre au JSON des \
+schémas. Étiquettes COURTES (20 caractères au plus). N'inclus une clé facultative que si elle sert au schéma.
+
+1. "montage" — montage de laboratoire DÉJÀ DESSINÉ : choisis le "modele" et remplis seulement les étiquettes utiles \
+(une étiquette absente garde son nom générique) :
+{"type": "montage", "modele": "dosage", "etiquettes": {"burette": "NaOH 0,10 mol/L", "becher": "HCl + BBT", "sonde": "pH-mètre"}}
+Modèles et étiquettes possibles :
+- "dosage" : burette, becher, agitateur, sonde (sonde = pH-mètre, dessiné seulement si l'étiquette est donnée) ;
+- "electrolyse" (électrolyseur à deux tubes retournés) : generateur, cathode, anode, gaz_cathode, gaz_anode, solution ;
+- "pile" (deux demi-piles reliées par un pont salin) : electrode_gauche, solution_gauche, electrode_droite, \
+solution_droite, pont_salin, appareil (appareil : "V", "A" ou "lampe" dans le champ "appareil" du schéma) ;
+- "chauffage_reflux" : refrigerant, eau_entree, eau_sortie, ballon, chauffe_ballon ;
+- "recueil_gaz" (recueil par déplacement d'eau) : reactifs, tube_degagement, gaz, cuve ;
+- "combustion" (combustion dans un flacon) : gaz, combustible, cuillere, liquide (liquide, ex. eau de chaux, dessiné \
+seulement si l'étiquette est donnée) ;
+- "tube_essai" (test d'identification) : ajout, contenu, observation (observation dessinée seulement si donnée).
+
+2. "graphique" — courbe ou mesures avec axes gradués (courbe de dosage, avancement, étalonnage) :
+{"type": "graphique",
+ "x": {"grandeur": "V_b", "unite": "mL", "min": 0, "max": 20, "pas": 5},
+ "y": {"grandeur": "pH", "unite": "", "min": 0, "max": 14, "pas": 2},
+ "series": [{"nom": "pH = f(V_b)", "points": [[0, 1.0], [5, 1.2], [9, 1.7], [10, 7.0], [11, 11.7], [15, 12.3], [20, 12.5]], "style": "ligne"}],
+ "reperes": [{"axe": "x", "valeur": 10, "label": "V_bE = 10 mL"}],
+ "annotations": [{"texte": "E", "position": [10.6, 7]}]}
+TOUJOURS une grandeur ET son unité sur chaque axe (unité vide seulement pour le pH). "style" : points (mesures), \
+ligne (courbe) ou points+ligne. Pour une courbe de dosage, donne une vingtaine de points calculés avec le saut \
+de pH autour de l'équivalence. "reperes" = droite en pointillés (équivalence, demi-équivalence, valeur lue).
+
+3. "echelle" — axe gradué avec zones ou couples :
+- horizontale (échelle de pH, diagramme de prédominance) :
+{"type": "echelle", "grandeur": "pH", "min": 0, "max": 14,
+ "zones": [{"de": 0, "a": 4.8, "label": "CH_3COOH prédomine"}, {"de": 4.8, "a": 14, "label": "CH_3COO^- prédomine"}],
+ "reperes": [{"valeur": 4.8, "label": "pK_a = 4,8"}]}
+- verticale (classification des couples oxydant/réducteur ou acide/base) : "couples" avec la valeur (E° en V, ou \
+pKa) et les deux espèces ; "gauche"/"droite" = titres des colonnes :
+{"type": "echelle", "grandeur": "E° (V)", "gauche": "Oxydant", "droite": "Réducteur",
+ "couples": [{"valeur": 0.34, "gauche": "Cu^{2+}", "droite": "Cu"}, {"valeur": -0.76, "gauche": "Zn^{2+}", "droite": "Zn"}]}
+
+4. "molecule" — formule développée ou schéma de Lewis (atomes sur une grille, longueur de liaison 1) :
+{"type": "molecule", "titre": "Éthanol",
+ "atomes": [{"id": "C1", "symbole": "C", "position": [0, 0]}, {"id": "C2", "symbole": "C", "position": [1, 0]},
+            {"id": "O", "symbole": "O", "position": [2, 0]}, {"id": "H1", "symbole": "H", "position": [3, 0]},
+            {"id": "H2", "symbole": "H", "position": [-1, 0]}, {"id": "H3", "symbole": "H", "position": [0, 1]},
+            {"id": "H4", "symbole": "H", "position": [0, -1]}, {"id": "H5", "symbole": "H", "position": [1, 1]},
+            {"id": "H6", "symbole": "H", "position": [1, -1]}],
+ "liaisons": [{"de": "C1", "vers": "C2"}, {"de": "C2", "vers": "O"}, {"de": "O", "vers": "H1"}, {"de": "C1", "vers": "H2"},
+              {"de": "C1", "vers": "H3"}, {"de": "C1", "vers": "H4"}, {"de": "C2", "vers": "H5"}, {"de": "C2", "vers": "H6"}],
+ "doublets": [{"atome": "O", "nombre": 2}]}
+"ordre" d'une liaison : 1 (défaut), 2 ou 3. Représentation de Cram : "cram": "avant" (coin plein) ou "arriere" \
+(coin hachuré), du premier atome vers le second. "doublets" = doublets non liants (schéma de Lewis seulement). \
+"symbole" peut être un groupe (CH_3, OH, COOH) pour une formule semi-développée ; "charge" : "+" ou "-". \
+Angles réalistes pour la géométrie (positions en zigzag pour une chaîne carbonée si utile).
+
+5. "geometrie" — construction géométrique simple, si aucun type ci-dessus ne convient :
+{"type": "geometrie", "points": [{"id": "A", "x": 0, "y": 0}, {"id": "B", "x": 4, "y": 0}],
+ "segments": [{"from": "A", "to": "B"}], "labels": [{"text": "4 cm", "x": 2, "y": -0.4}]}
+(clés facultatives : "angles" [{"vertex","from","to","right"}], "polygons", "circles" [{"center","radius"}])."""
+
+FIGURE_FORMAT_INSTRUCTIONS = f"""SCHÉMAS — RÈGLE ABSOLUE, PRIORITAIRE SUR TOUT LE RESTE :
+Dès qu'un schéma serait utile (montage expérimental, courbe de dosage ou d'avancement, échelle de pH ou de pKa, \
+classification de couples, formule développée ou schéma de Lewis), tu DOIS le produire EXCLUSIVEMENT avec un bloc \
+de code étiqueté `figure` contenant UN objet JSON valide, placé directement au bon endroit dans ta réponse :
 ```figure
-{"points":[{"id":"A","x":0,"y":0},{"id":"B","x":4,"y":0},{"id":"C","x":0,"y":3}],
-"segments":[{"from":"A","to":"B"},{"from":"B","to":"C"},{"from":"C","to":"A"}],
-"angles":[{"vertex":"A","from":"B","to":"C","right":true}],
-"polygons":[{"points":["A","B","C"],"fill":true}],
-"circles":[{"center":"A","radius":2}],
-"labels":[{"text":"3 cm","x":0,"y":1.5}]}
+{{"type": "montage", "modele": "electrolyse", "etiquettes": {{"gaz_cathode": "H_2", "gaz_anode": "O_2"}}}}
 ```
-Règles du JSON : coordonnées libres en unités abstraites (pas besoin d'échelle réaliste), les `segments` relient \
-des points déjà déclarés dans `points`, mets `"right": true` sur un angle droit plutôt qu'une valeur en degrés, \
-n'inclus `circles`/`polygons`/`labels`/`angles` que si nécessaire pour cette figure précise. Chaque point de \
-`points` est DÉJÀ étiqueté automatiquement avec son `id` (A, B, C...) : ne remets JAMAIS ce même nom dans `labels`, \
-qui sert UNIQUEMENT à des annotations supplémentaires (longueur d'un côté comme "3 cm", nom d'une droite, relation \
-comme "(BC) // (DE)"). Place chaque `label` LÉGÈREMENT À L'ÉCART du trait ou de la forme qu'il annote (décalé \
-perpendiculairement au segment, jamais pile sur ses coordonnées ni à l'intérieur d'un polygone rempli), pour qu'il \
-ne se superpose pas au dessin. Place ce bloc directement dans ta réponse, au bon endroit dans le texte."""
+Une formule ou une équation chimique n'est PAS un schéma : elle s'écrit avec `\\ce{{...}}` (voir règle FORMULES). \
+INTERDICTIONS STRICTES, sans AUCUNE exception, même si on te le demande explicitement : jamais de schéma en ASCII art \
+(jamais de caractères `|`, `/`, `\\`, `-`, `_`, `+` alignés pour représenter de la verrerie, des liaisons ou des \
+courbes), jamais un bloc de code sans l'étiquette `figure`, jamais un pseudo-schéma en LaTeX (`\\begin{{array}}`, \
+suites de `\\text{{...}}` reliées par des tirets ou des flèches). Une molécule ou un montage esquissé avec des barres \
+et des tirets est un ÉCHEC : utilise TOUJOURS le JSON à la place.
 
-MATH_FORMAT_INSTRUCTIONS = """FORMULES ET SYMBOLES — RÈGLE ABSOLUE : toute formule ou expression mathématique s'écrit \
-en LaTeX : `$...$` pour une formule en ligne, `$$...$$` pour une formule isolée. N'écris JAMAIS une formule en texte \
-brut (écris $a^n$, jamais a^n ; écris $a^m \\times a^n = a^{m+n}$, jamais a^m x a^n = a^(m+n)). Cela vaut aussi pour \
-tous les symboles mathématiques (∈, ≤, ≥, √, π, →, ∑, ∞, vecteurs, exposants, indices...) : toujours en LaTeX \
-(`\\infty`, `\\in`, `\\leq`, `\\to`, `\\sqrt{}`, `x^{2}`, `u_{n}`...), jamais en Unicode brut ni épelés en toutes \
-lettres. Écris $+\\infty$, jamais « + infini » ; $x \\in \\mathbb{R}$, jamais « x appartient à R »."""
+{FIGURE_SCHEMAS}"""
+
+FORMULA_FORMAT_INSTRUCTIONS = """FORMULES CHIMIQUES, ÉQUATIONS ET UNITÉS EN LaTeX — RÈGLE ABSOLUE :
+- Toute formule chimique, tout ion et toute équation s'écrit avec la commande `\\ce{...}` (extension mhchem), \
+à l'intérieur de `$...$` (en ligne) ou `$$...$$` (isolée) : $\\ce{H2O}$, $\\ce{CO2}$, $\\ce{NaCl}$, $\\ce{Cu^2+}$, \
+$\\ce{SO4^2-}$, $\\ce{H3O+}$, $\\ce{HO-}$, $\\ce{CH3-CH2-OH}$, $\\ce{CH3COOH}$. Équation-bilan : \
+$\\ce{CH4 + 2O2 -> CO2 + 2H2O}$ ; équilibre : $\\ce{CH3COOH + H2O <=> CH3COO- + H3O+}$ ; états physiques : \
+$\\ce{NaCl(s) -> Na+(aq) + Cl-(aq)}$ ; demi-équation électronique : $\\ce{Cu^2+ + 2e- -> Cu}$ ; couple : \
+$\\ce{Cu^2+}/\\ce{Cu}$. N'écris JAMAIS une formule en texte brut (H2O, Cu2+, CO_2), ni en Unicode (H₂O, Cu²⁺), ni \
+avec `\\mathrm` ou des indices `_` à la place de `\\ce{...}`.
+- Toute autre relation, grandeur ou valeur numérique avec son unité s'écrit aussi en LaTeX : $n = \\dfrac{m}{M}$, \
+$C = \\dfrac{n}{V}$, $\\mathrm{pH} = -\\log[\\ce{H3O+}]$, $K_a$, $\\mathrm{p}K_a$. L'unité s'écrit en romain avec \
+`\\text{}`, séparée de la valeur par une espace fine `\\,`, et la virgule décimale s'écrit `{,}` : \
+$18\\,\\text{g/mol}$, $0{,}10\\,\\text{mol/L}$, $24\\,\\text{L/mol}$, $25\\,^{\\circ}\\text{C}$, \
+$6{,}02 \\times 10^{23}\\,\\text{mol}^{-1}$."""
+
+CHEMISTRY_RIGOR_INSTRUCTIONS = """RIGUEUR EN CHIMIE — RÈGLE ABSOLUE :
+- Une équation-bilan est TOUJOURS équilibrée : conservation des éléments ET des charges. Vérifie-la avant de \
+l'écrire ; précise les états physiques ((s), (l), (g), (aq)) quand ils comptent pour le raisonnement.
+- Quantité de matière (à partir de la 2nde) : $n = \\dfrac{m}{M}$, $n = C \\times V$, $n = \\dfrac{V}{V_m}$ pour un \
+gaz. Utilise les masses molaires atomiques et le volume molaire donnés par l'énoncé ou par le CONTEXTE DOCUMENTAIRE ; \
+à défaut, les valeurs usuelles (H : 1 ; C : 12 ; N : 14 ; O : 16 ; Na : 23 ; Cl : 35,5 ; Cu : 63,5 ; Fe : 56 ; en \
+g/mol), en signalant que tu les choisis.
+- Tout calcul se fait en trois temps : expression littérale, application numérique (valeurs ET unités), résultat \
+avec son unité ; convertis d'abord dans les unités utiles (mL en L, g en kg si besoin...) en montrant la conversion. \
+Un résultat numérique SANS unité est faux. À partir de la 2nde, respecte les chiffres significatifs.
+- Pour une réaction à partir de la 2nde, raisonne avec un tableau d'avancement quand c'est utile (réactif limitant, \
+avancement maximal, bilan de matière).
+- Nomenclature officielle (UICPA, en français) : éthanol, acide éthanoïque, but-2-ène, 2-méthylpropane... ; en chimie \
+organique, donne la formule semi-développée quand elle éclaire la réponse.
+- Niveau : en 4ème/3ème, reste au modèle simple (atomes, molécules, ions, équations-bilans) sans parler de mole ; la \
+mole, les concentrations et l'avancement apparaissent en 2nde ; pH, $K_a$ et $\\mathrm{p}K_a$ sont détaillés en Tle.
+- SÉCURITÉ : quand une expérience est évoquée, rappelle les précautions du laboratoire scolaire (lunettes, gants, \
+hotte ou pièce aérée, verser l'acide dans l'eau et jamais l'inverse, ne jamais goûter ni respirer directement un \
+produit). Ne donne JAMAIS de mode opératoire pour fabriquer chez soi un produit dangereux (explosif, gaz toxique, \
+mélange de produits ménagers comme eau de Javel + acide...) : explique plutôt pourquoi c'est dangereux."""
 
 NO_EMOJI_INSTRUCTIONS = """TON ET MISE EN FORME — RÈGLE ABSOLUE : N'utilise JAMAIS d'emoji ni de pictogramme (aucun symbole \
-du type ✅, ⚠️, 💡, 🎉, 👋, 💪, 📐, 🚀, ✨, etc.), nulle part dans ta réponse, même pour marquer une réussite, un \
+du type ✅, ⚠️, 💡, 🎉, 👋, 💪, 🧪, 🚀, ✨, etc.), nulle part dans ta réponse, même pour marquer une réussite, un \
 conseil ou un encouragement. Marque l'importance uniquement avec la mise en forme Markdown : **gras** pour les \
 notions clés, `##`/`###` pour les titres, `>` pour une remarque importante. Écris comme un professeur ou un manuel \
 scolaire soigné, jamais comme un assistant conversationnel générique.
 
-TABLEAUX (tableau de signes, tableau de variations, tableau de valeurs...) : utilise TOUJOURS un vrai tableau \
-Markdown (syntaxe standard avec des `|` pour séparer les colonnes ET une ligne `|---|---|` juste sous l'en-tête), \
-jamais des tirets ou des espaces alignés à la main pour simuler des colonnes. Exemple pour un tableau de signes :
-| $x$ | $-\\infty$ | | $2$ | | $+\\infty$ |
+TABLEAUX (tableau d'avancement, tableau de mesures, tests d'identification des ions...) : utilise TOUJOURS un vrai \
+tableau Markdown (syntaxe standard avec des `|` pour séparer les colonnes ET une ligne `|---|---|` juste sous \
+l'en-tête), jamais des tirets ou des espaces alignés à la main pour simuler des colonnes. Exemple pour un tableau \
+d'avancement :
+| État | Avancement | $n(\\ce{CH4})$ | $n(\\ce{O2})$ | $n(\\ce{CO2})$ | $n(\\ce{H2O})$ |
 |---|---|---|---|---|---|
-| $f(x)$ | | $-$ | $0$ | $+$ | |"""
+| Initial | $0$ | $n_1$ | $n_2$ | $0$ | $0$ |
+| En cours | $x$ | $n_1 - x$ | $n_2 - 2x$ | $x$ | $2x$ |"""
 
-OFF_TOPIC_INSTRUCTIONS = """PORTÉE — RÈGLE ABSOLUE : tu es un professeur de MATHÉMATIQUES, rien d'autre. Si l'élève pose \
-une question qui ne relève pas des mathématiques (une autre matière scolaire, la culture générale, l'actualité, des \
-conseils personnels, de l'aide en programmation, écrire un texte/une histoire, etc.), décline poliment et brièvement : \
-dis que tu es spécialisée en mathématiques et invite-le à reformuler une question de maths. Ne réponds JAMAIS à la \
-question hors-sujet elle-même, même partiellement, même « pour rendre service ». EXCEPTIONS à cette règle : les \
-salutations, remerciements, et questions sur le fonctionnement de l'outil (« comment ça marche ? », « c'est quoi ce \
-site ? ») ne sont pas concernées, réponds-y normalement et brièvement. Un exercice de maths mis en contexte (marché, \
-agriculture, sport, argent...) reste une question de maths : ce n'est PAS hors-sujet, ne le décline surtout pas."""
+OFF_TOPIC_INSTRUCTIONS = """PORTÉE — RÈGLE ABSOLUE : tu es un professeur de CHIMIE, rien d'autre. Si l'élève pose \
+une question qui ne relève pas de la chimie (une autre matière scolaire — y compris la PHYSIQUE et les MATHÉMATIQUES, \
+qui ont chacune leur propre assistant Hakili Lab —, la culture générale, l'actualité, des conseils personnels, de \
+l'aide en programmation, écrire un texte/une histoire, etc.), décline poliment et brièvement : dis que tu es \
+spécialisé en chimie et invite-le à reformuler une question de chimie. Ne réponds JAMAIS à la question hors-sujet \
+elle-même, même partiellement, même « pour rendre service ». EXCEPTIONS à cette règle : les salutations, \
+remerciements, et questions sur le fonctionnement de l'outil (« comment ça marche ? », « c'est quoi ce site ? ») ne \
+sont pas concernées, réponds-y normalement et brièvement. Un outil mathématique utilisé POUR résoudre un problème de \
+chimie (proportionnalité, pourcentages, puissances de dix, logarithme du pH...) fait partie de la chimie : aide \
+l'élève sur ce calcul. Les questions de sécurité liées aux produits chimiques (intoxication au monoxyde de carbone, \
+produits ménagers, brûlures par un acide) relèvent aussi de la chimie. Un exercice de chimie mis en contexte (savon au \
+beurre de karité, charbon de bois, gaz butane, engrais, eau du forage...) reste une question de chimie : ce n'est PAS \
+hors-sujet, ne le décline surtout pas."""
 
 # Certains modèles récents (dont celui configuré ici) refusent qu'une conversation se termine
 # par un tour "assistant" (pas de préremplissage) : la relance automatique en cas de réponse
@@ -89,8 +188,8 @@ CONTINUE_INSTRUCTION = ("Continue exactement là où tu t'es arrêté ci-dessus,
                         "réponse précédente et cette suite bout à bout.")
 
 # \b \f \r \t sont des échappements JSON valides à part entière, mais dans CE contexte (texte
-# mathématique LaTeX) ce sont presque toujours le début d'une commande cassée (\frac, \times,
-# \text, \to, \tan, \forall, \boxed, \begin...), jamais un vrai caractère de contrôle voulu — les
+# scientifique LaTeX) ce sont presque toujours le début d'une commande cassée (\frac, \times,
+# \text, \to, \boxed, \begin...), jamais un vrai caractère de contrôle voulu — les
 # exclure du jeu "sûr" pour qu'ils soient réparés. \n reste sûr (sauts de ligne très fréquents et
 # légitimes dans les solutions), au prix d'un résidu rare (\neq/\nabla cassés seraient mal réparés).
 _JSON_VALID_ESCAPE_CHARS = '"\\/nu'
@@ -104,6 +203,20 @@ def _repair_latex_json_escapes(text: str) -> str:
     return re.sub(r"\\(.)", lambda m: m.group(0) if m.group(1) in _JSON_VALID_ESCAPE_CHARS else "\\\\" + m.group(1),
                   text, flags=re.DOTALL)
 
+
+def _loads_model_json(candidate: str):
+    """json.loads d'un objet JSON écrit par le modèle, de plus en plus tolérant : tel quel, puis
+    échappements LaTeX réparés (voir _repair_latex_json_escapes), puis en acceptant de vrais
+    caractères de contrôle (saut de ligne, tabulation) non échappés dans les chaînes — observé sur
+    de longs énoncés en Markdown, que json.loads refuse par défaut. None si rien ne passe."""
+    repaired = _repair_latex_json_escapes(candidate)
+    for text, strict in ((candidate, True), (repaired, True), (repaired, False)):
+        try:
+            return json.loads(text, strict=strict)
+        except json.JSONDecodeError:
+            continue
+    return None
+
 # Échelle de difficulté des exercices, en étoiles (1 à 5) : le niveau 4 correspond aux
 # "situations d'intégration" du programme burkinabè (énoncé contextualisé, plusieurs notions),
 # le niveau 5 sort volontairement du programme direct (type olympiades/concours) — voir
@@ -111,8 +224,10 @@ def _repair_latex_json_escapes(text: str) -> str:
 # aucun contenu de ce type dedans, vérifié).
 STAR_DIFFICULTY_LABELS = {
     1: "1 ÉTOILE — QCM D'APPLICATION DIRECTE (questions de cours)",
-    2: "2 ÉTOILES — APPLICATION DIRECTE DES DEFINITIONS, PROPRIETES, AXIOMES, REGLES ...",
-    3: "3 ÉTOILES — NOTIONS COMBINÉES (plusieurs étapes, proche d'une évaluation de classe)",
+    2: "2 ÉTOILES — APPLICATION DIRECTE DES DÉFINITIONS, LOIS ET RELATIONS DU COURS (une équation à équilibrer, "
+       "une relation à appliquer)",
+    3: "3 ÉTOILES — NOTIONS COMBINÉES (plusieurs étapes enchaînées : équation, quantités de matière, bilan... "
+       "proche d'une évaluation de classe)",
     4: "4 ÉTOILES — SITUATION D'INTÉGRATION (énoncé contextualisé complexe, plusieurs notions combinées, niveau examen)",
     5: "5 ÉTOILES — TYPE OLYMPIADES (problème de concours : astuce ou idée non standard, hors du cadre direct du "
        "programme, difficulté nettement au-dessus d'une situation d'intégration)",
@@ -288,7 +403,9 @@ class RAGSystem:
     def collection_count(self):
         try:
             import psycopg
-            with psycopg.connect(config.DATABASE_URL) as conn:
+            # Délai borné : /api/health appelle cette méthode à chaque fois, et ne doit jamais
+            # rester bloqué sur une connexion lente ou un port 5432 filtré.
+            with psycopg.connect(config.DATABASE_URL, connect_timeout=10) as conn:
                 with conn.cursor() as cur:
                     cur.execute(f'SELECT COUNT(*) FROM "data_{self.table_name}"')
                     return cur.fetchone()[0]
@@ -367,8 +484,8 @@ class RAGSystem:
                         ]
                     else:
                         # Le budget de tokens a ete integralement consomme par le raisonnement
-                        # interne du modele (frequent sur les exercices complexes/figures
-                        # geometriques), sans laisser une seule reponse textuelle : impossible de
+                        # interne du modele (frequent sur les exercices complexes/schemas
+                        # detailles), sans laisser une seule reponse textuelle : impossible de
                         # "continuer" un tour assistant vide (l'API le refuse), donc on relance la
                         # meme requete depuis le debut plutot que d'abandonner silencieusement.
                         current_messages = list(messages)
@@ -391,7 +508,7 @@ class RAGSystem:
         """Filet de sécurité contre une réponse marquée correcte à tort : les parseurs JSON
         (_parse_exercise_json, _parse_prerequis_json) ne valident QUE la forme d'un QCM généré
         (4 choix, un index entre 0 et 3), jamais si cet index pointe VRAIMENT vers la bonne
-        réponse — un exercice de maths qui affirme une mauvaise réponse avec la même assurance
+        réponse — un exercice de chimie qui affirme une mauvaise réponse avec la même assurance
         qu'une bonne est le pire scénario pour un tuteur (l'élève apprend l'erreur en confiance).
 
         Un second appel Claude, dédié UNIQUEMENT à la relecture (température 0, pas de rédaction
@@ -412,11 +529,13 @@ class RAGSystem:
                 ],
                 ensure_ascii=False,
             )
-            system_prompt = f"""Tu es un correcteur de mathématiques rigoureux, pas un rédacteur. On te \
+            system_prompt = f"""Tu es un correcteur de chimie rigoureux, pas un rédacteur. On te \
 soumet une liste de questions à choix multiples de niveau {class_level}{f" ({chapter})" if chapter else ""}, \
 chacune avec l'index (0 à 3) actuellement marqué comme la bonne réponse. Pour CHAQUE question, résous-la \
 intégralement par toi-même AVANT de comparer au marquage — ne te contente jamais de faire confiance à \
-"reponse_marquee".
+"reponse_marquee". Vérifie en particulier l'équilibrage des équations (éléments ET charges), les formules et les \
+charges des ions, les masses molaires et l'unité de chaque choix : un choix numériquement juste mais avec une \
+mauvaise unité, ou une équation mal équilibrée, est FAUX.
 
 QUESTIONS :
 {payload}
@@ -577,33 +696,33 @@ résolution, que le marquage initial soit juste ou faux."""
         classe_txt = class_level if class_level else \
             "non précisée par l'élève — déduis un niveau de langage raisonnable à partir de la question elle-même"
         chapitre_txt = chapter if chapter else \
-            "non précisé par l'élève — identifie toi-même le thème mathématique concerné"
+            "non précisé par l'élève — identifie toi-même le thème de chimie concerné"
 
         if chapter:
             # Le chapitre sélectionné dans la barre latérale est un CONTEXTE, pas une contrainte :
-            # une question hors-sujet mais toujours mathématique doit recevoir une vraie réponse,
+            # une question hors-sujet mais toujours de chimie doit recevoir une vraie réponse,
             # pas une tentative forcée de rattachement à ce chapitre (source de réponses confuses
             # et lentes, le modèle passant du temps à chercher un lien qui n'existe pas).
             mission = (
                 f"Aider un élève {f'de {class_level} ' if class_level else ''}à réellement comprendre ses "
-                f"questions de mathématiques, pas seulement lui donner un résultat. Il suit actuellement le "
+                f"questions de chimie, pas seulement lui donner un résultat. Il suit actuellement le "
                 f"chapitre « {chapter} », mais si sa question porte sur un tout autre sujet, réponds quand "
                 "même complètement à SA question réelle, sans essayer de forcer artificiellement un lien "
                 f"avec « {chapter} »."
             )
         elif class_level:
             mission = (
-                f"Aider un élève de {class_level} à réellement comprendre sa question de mathématiques, "
+                f"Aider un élève de {class_level} à réellement comprendre sa question de chimie, "
                 "pas seulement lui donner un résultat."
             )
         else:
             mission = (
-                "Aider un élève du Burkina Faso à réellement comprendre sa question de mathématiques, "
+                "Aider un élève du Burkina Faso à réellement comprendre sa question de chimie, "
                 "pas seulement lui donner un résultat, même s'il n'a pas précisé sa classe ni son chapitre."
             )
 
-        system_prompt = f"""Tu es « Prof Amira », un professeur de mathématiques expérimenté et bienveillant, \
-expert du programme officiel du Burkina Faso (de la 6ème à la Terminale).
+        system_prompt = f"""Tu es « Prof Karim », un professeur de chimie expérimenté et bienveillant, \
+expert du programme officiel du Burkina Faso (de la 4ème à la Terminale D).
 
 MISSION
 {mission}
@@ -616,32 +735,36 @@ MISSION
 
 RÈGLES À SUIVRE ABSOLUMENT :
 1. Utilise en priorité le CONTEXTE DOCUMENTAIRE fourni ci-dessous (extraits de manuels officiels). S'il est vide ou \
-insuffisant, réponds quand même avec tes connaissances mathématiques solides (sauf si la question est hors-sujet, \
-voir la règle de PORTÉE ci-dessus). NE DIS JAMAIS que tu ne peux pas répondre à une question de mathématiques.
+insuffisant, réponds quand même avec tes connaissances solides en chimie (sauf si la question est hors-sujet, \
+voir la règle de PORTÉE ci-dessus). NE DIS JAMAIS que tu ne peux pas répondre à une question de chimie.
 2. N'invente jamais un fait, une source précise (page, numéro) que tu ne peux pas justifier avec le contexte fourni.
 3. Adapte le niveau de langue et la profondeur des explications à la classe : {classe_txt} \
-(vocabulaire simple en 6ème/5ème, formalisme rigoureux en Terminale).
+(vocabulaire simple, observations et expériences concrètes en 4ème/3ème ; quantités de matière et tableau \
+d'avancement à partir de la 2nde ; formalisme rigoureux — $K_a$, $\\mathrm{{p}}K_a$, mécanismes de chimie organique \
+du programme — en Terminale).
 4. Structure TOUJOURS ta réponse en Markdown clair : titres courts avec ##, **gras** sur les notions clés, \
 listes numérotées pour les étapes de résolution.
-5. Pour TOUTE formule ou expression mathématique, utilise la syntaxe LaTeX : `$...$` pour une formule en ligne \
-et `$$...$$` pour une formule isolée. N'écris jamais une formule en texte brut (ex: écris $x^2 + 3x$, jamais x^2 + 3x). \
-Cela vaut aussi pour tous les symboles mathématiques (∈, ≤, ≥, √, π, →, ∑, ∞, vecteurs, etc.) : toujours en LaTeX \
-(`\\infty`, `\\in`, `\\leq`, `\\to`, `\\sqrt{{}}`...), jamais en Unicode brut ni épelés en toutes lettres. Écris \
-$+\\infty$, jamais « + infini » ; $x \\in \\mathbb{{R}}$, jamais « x appartient à R » ; un symbole mathématique \
-ne se remplace JAMAIS par le mot français qui le désigne.
-6. Si l'élève demande d'expliquer une notion ou un théorème (question de cours), explique-la normalement avec un \
-exemple complet et entièrement résolu. En revanche, si l'élève te soumet SON PROPRE exercice ou calcul à résoudre, \
+5. Applique strictement les règles FORMULES CHIMIQUES et RIGUEUR EN CHIMIE ci-dessous dans toute ta réponse.
+6. Si l'élève demande d'expliquer une notion, une loi ou une réaction (question de cours), explique-la normalement : \
+définition précise, équation-bilan quand il y a une réaction, signification de chaque grandeur avec son unité, puis \
+un exemple chiffré complet et entièrement résolu. Quand c'est utile, décris l'expérience qui met la notion en \
+évidence (matériel, observations, interprétation) avec ses précautions de sécurité. En revanche, si l'élève te soumet SON PROPRE exercice ou calcul à résoudre, \
 NE DONNE PAS directement le résultat final : rappelle la méthode/formule à utiliser, détaille la première étape, \
 donne une piste sur la suivante, puis invite-le à continuer et à te dire où il en est. Donne la résolution \
 complète, étape par étape jusqu'au résultat, UNIQUEMENT si l'élève la demande explicitement (« donne-moi la \
 solution », « corrige mon calcul », « je suis bloqué, montre-moi », « je ne trouve pas »), ou s'il te montre déjà \
 sa propre tentative et te demande de la vérifier.
-7. Illustre avec un exemple concret et réaliste du quotidien burkinabè (marché, agriculture, artisanat, transport) \
+7. Illustre avec un exemple concret et réaliste du quotidien burkinabè (savon au beurre de karité, charbon de bois \
+et foyers améliorés, gaz butane, eau de Javel, engrais, rouille des tôles, piles et batteries, eau du forage...) \
 quand c'est pertinent pour la notion.
 8. Termine ta réponse par une courte question de compréhension ou une invitation à s'entraîner \
 (« Essaie maintenant avec... », « Est-ce plus clair ou veux-tu un autre exemple ? »).
 9. Si un historique de conversation est fourni, reste parfaitement cohérent avec les échanges précédents.
 10. Reste toujours encourageant et bienveillant, jamais condescendant.
+
+{FORMULA_FORMAT_INSTRUCTIONS}
+
+{CHEMISTRY_RIGOR_INSTRUCTIONS}
 
 CONTEXTE DOCUMENTAIRE (programme officiel burkinabè, peut être vide) :
 {context if context else "(Aucun document indexé pour ce chapitre — appuie-toi sur tes connaissances.)"}
@@ -709,17 +832,19 @@ Question de l'élève : {question}"""
     def simplify_answer(self, question: str, original_answer: str, class_level: str, chapter: str = "") -> str:
         """Utilise Claude pour reformuler une réponse de façon nettement plus simple."""
 
-        system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso. \
+        system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso. \
 Un élève de {class_level} n'a PAS compris ta première explication sur « {chapter or "ce chapitre"} ». \
 Tu dois RÉEXPLIQUER, pas répéter.
 
 RÈGLES :
 - N'utilise PAS les mêmes phrases ni le même ordre que l'explication originale : change vraiment d'angle.
 - Utilise des mots TRÈS SIMPLES, comme si tu parlais à un enfant de 10-12 ans, quelle que soit la classe réelle.
-- Donne un exemple concret et imagé du quotidien au Burkina Faso (marché, terrain de foot, famille, etc.).
+- Donne un exemple concret et imagé du quotidien au Burkina Faso (cuisine, feu de bois, savon, marché, etc.) ; \
+une image simple aide souvent (les atomes comme des briques qu'on réassemble sans en perdre aucune).
 - Sois chaleureux et rassurant : commence par une phrase du type « Pas de souci, on reprend autrement. »
 - Découpe en 2 à 4 étapes très courtes, une idée par étape.
-- Formules en LaTeX (`$...$`) si nécessaire, mais garde-les minimales.
+- Formules en LaTeX si nécessaire, mais garde-les minimales : formules chimiques avec `\\ce{{...}}` \
+(ex : $\\ce{{H2O}}$), chaque valeur avec son unité (ex : $18\\,\\text{{g/mol}}$).
 - Termine par une phrase d'encouragement.
 
 {NO_EMOJI_INSTRUCTIONS}
@@ -748,7 +873,7 @@ Réécris cette explication de façon beaucoup plus simple et différente dans l
         """Analyse la photo (ou le PDF scanné) d'un exercice envoyé par l'élève et renvoie la
         méthode à suivre puis la correction détaillée. Claude lit le fichier directement (vision
         pour une image, lecture native pour un PDF) : plus fiable qu'un OCR classique pour des
-        notations mathématiques. `chapter` est le chapitre actuellement suivi dans la discussion,
+        notations scientifiques (formules, équations, unités). `chapter` est le chapitre actuellement suivi dans la discussion,
         pas nécessairement celui de l'exercice photographié (l'élève peut envoyer une photo sans
         rapport avec la discussion en cours) : c'est un indice, jamais une contrainte."""
         classe_txt = f"un élève de {class_level}" if class_level else "un élève"
@@ -768,19 +893,21 @@ Réécris cette explication de façon beaucoup plus simple et différente dans l
             if is_followup else ""
         )
 
-        system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso, expert du \
-programme officiel (de la 6ème à la Terminale). Un élève t'envoie {support_txt} d'un exercice de maths \
+        system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso, expert du \
+programme officiel (de la 4ème à la Terminale D). Un élève t'envoie {support_txt} d'un exercice de chimie \
 (papier, manuscrit ou imprimé) et attend ton aide.
 
 MISSION
 1. Identifie précisément l'énoncé de l'exercice à partir du document fourni (recopie-le brièvement \
 pour confirmer à l'élève que tu l'as bien lu, y compris s'il est manuscrit ou de mauvaise qualité).
-2. Si le document est illisible, flou, ou ne contient pas d'exercice de maths exploitable, dis-le \
+2. Si le document est illisible, flou, ou ne contient pas d'exercice de chimie exploitable, dis-le \
 clairement et demande un envoi plus net plutôt que d'inventer un énoncé.
-3. Explique la méthode à suivre (quelle notion, quelle démarche, quelle formule) pour cet exercice précis.
+3. Explique la méthode à suivre (quelle notion, quelle réaction, quelle relation, quelles conversions) pour cet \
+exercice précis. Relève les données de l'énoncé avec leurs unités.
 4. NE DONNE PAS directement la correction complète et le résultat final de cet exercice. Donne des pistes \
 progressives : détaille la première étape à faire, ce qu'il faut calculer ou chercher, un point de vigilance \
-fréquent sur ce type d'exercice — juste assez pour que l'élève puisse continuer seul. Termine en l'invitant à \
+fréquent sur ce type d'exercice (souvent une équation mal équilibrée, une charge d'ion oubliée ou une conversion \
+de volume) — juste assez pour que l'élève puisse continuer seul. Termine en l'invitant à \
 essayer et à te dire où il en est (son résultat, ou l'étape où il bloque).
 5. EXCEPTION à la règle 4 : donne la correction complète, détaillée étape par étape jusqu'au résultat, si (a) \
 l'élève le demande explicitement (« donne-moi la solution/correction/réponse », « je suis bloqué, montre-moi »), \
@@ -789,7 +916,7 @@ détail, en indiquant précisément où est l'erreur s'il y en a une.
 6. Si l'élève a ajouté une consigne ou une question précise avec son envoi, réponds D'ABORD à cette \
 demande précise (ex: "seulement la question 2", "vérifie juste mon calcul") plutôt qu'à tout l'exercice — \
 sauf si cette consigne est elle-même hors-sujet (voir la règle de PORTÉE ci-dessous), auquel cas décline-la \
-et contente-toi d'aider sur l'exercice de maths photographié.
+et contente-toi d'aider sur l'exercice de chimie photographié.
 7. Adapte le niveau de langue à {classe_txt}.{chapitre_txt}{followup_txt}
 
 {OFF_TOPIC_INSTRUCTIONS}
@@ -800,8 +927,12 @@ et contente-toi d'aider sur l'exercice de maths photographié.
 
 RÈGLES DE MISE EN FORME :
 - Structure en Markdown clair : ## pour les titres courts, **gras** pour les notions clés.
-- Toute formule ou symbole mathématique en LaTeX (`$...$` ou `$$...$$`), jamais en texte brut ni en Unicode.
+- Applique les règles FORMULES CHIMIQUES et RIGUEUR EN CHIMIE ci-dessous.
 - Termine par une courte question de compréhension ou une invitation à s'entraîner sur un exercice similaire.
+
+{FORMULA_FORMAT_INSTRUCTIONS}
+
+{CHEMISTRY_RIGOR_INSTRUCTIONS}
 """
 
         # PDF : bloc "document" (lu nativement par Claude, page par page). Image : bloc "image" (vision).
@@ -817,9 +948,9 @@ RÈGLES DE MISE EN FORME :
                 "Continue à m'aider sur ce même exercice."
         else:
             instruction_txt = (
-                f"Voici {support_txt} de mon exercice de maths. {user_prompt.strip()}"
+                f"Voici {support_txt} de mon exercice de chimie. {user_prompt.strip()}"
                 if user_prompt and user_prompt.strip()
-                else f"Voici {support_txt} de mon exercice de maths. Aide-moi à le résoudre : "
+                else f"Voici {support_txt} de mon exercice de chimie. Aide-moi à le résoudre : "
                      "explique-moi la méthode et guide-moi pas à pas."
             )
         user_content = [
@@ -862,10 +993,11 @@ RÈGLES DE MISE EN FORME :
         l'élève doit pouvoir relire la notion avant de s'y confronter, pas deviner à l'aveugle puis
         recevoir une correction. Renvoie une liste de groupes {notion, rappel, exercices} (voir
         _parse_prerequis_json), PAS une liste plate de questions.
-        Les fiches de cours Hakili Lab listent presque toujours ces prérequis explicitement en tête de
-        chapitre (ex: « Prérequis : le milieu d'un segment (Ch. 1), les angles (Ch. 3)... ») — voir le
-        bloc de retrieval ci-dessous, qui cible spécifiquement cette ligne plutôt que le contenu général
-        du chapitre. Si l'élève a posé des questions récentes, elles pèsent sur QUELLES notions méritent
+        Les manuels de chimie Hakili Lab n'ont pas de ligne « Prérequis : ... », mais chaque chapitre
+        (vérifié sur les 45 PDF) ouvre sur une section « CE QUE TU DOIS DEJA SAVOIR » : exercices
+        P1, P2... puis un tableau « savoir-faire (Pn) / rappel ». Le bloc de retrieval ci-dessous cible
+        cette section plutôt que le contenu général du chapitre ; à défaut, le modèle déduit les
+        prérequis du programme des chapitres antérieurs. Si l'élève a posé des questions récentes, elles pèsent sur QUELLES notions méritent
         2 exercices plutôt qu'un seul, pas sur le fait de tester le chapitre en cours (voir
         _local_prerequis pour le repli si Claude est indisponible)."""
 
@@ -887,49 +1019,68 @@ RÈGLES DE MISE EN FORME :
             context_block = ("L'élève n'a pas encore posé de question précise : répartis les exercices "
                               "de façon équilibrée entre les notions prérequises identifiées.")
 
-        # Repère utile quand le document de cours cite un chapitre antérieur par son numéro
-        # (ex: « Prérequis : ... (Ch. 3) », voir document_block plus bas) : le modèle peut alors
-        # relier ce numéro au bon intitulé plutôt que de deviner.
+        # Ce qui a DÉJÀ été vu : les chapitres antérieurs de cette classe (numérotés comme dans les
+        # manuels, à partir de 1) et le programme de chimie des classes précédentes.
         previous_chapters_block = ""
         chapters_list = CURRICULUM.get(class_level, {}).get("chapters", [])
         if chapter in chapters_list:
             idx = chapters_list.index(chapter)
             if idx > 0:
-                previous_chapters_block = "\n".join(f"Ch. {i} — {c}" for i, c in enumerate(chapters_list[:idx]))
+                previous_chapters_block = "\n".join(f"Ch. {i} — {c}" for i, c in enumerate(chapters_list[:idx], 1))
+        class_codes = list(CURRICULUM.keys())
+        earlier_classes = class_codes[:class_codes.index(class_level)] if class_level in class_codes else []
+        earlier_classes_block = "\n".join(
+            f"{c} : " + " ; ".join(CURRICULUM[c]["chapters"]) for c in earlier_classes
+        )
         previous_chapters_context = (
-            f"\nCHAPITRES ANTÉRIEURS DE {class_level}, POUR RÉFÉRENCE (numérotés comme dans les fiches de "
-            f"cours) :\n{previous_chapters_block}\n" if previous_chapters_block else ""
+            f"\nCHAPITRES DÉJÀ VUS EN {class_level} AVANT CELUI-CI (numérotés comme dans les manuels) :\n"
+            f"{previous_chapters_block}\n" if previous_chapters_block else ""
+        ) + (
+            f"\nPROGRAMME DE CHIMIE DES CLASSES PRÉCÉDENTES :\n{earlier_classes_block}\n" if earlier_classes_block else ""
         )
 
-        # Ancrage documentaire : la fiche de CE chapitre commence quasi-systématiquement par une ligne
-        # « Prérequis : notion (Ch. X), notion (Ch. Y)... » (vérifié sur les PDF Hakili Lab déposés) —
-        # la requête cible explicitement cette ligne, contrairement à une recherche générique sur le
-        # nom du chapitre qui ramènerait plutôt le contenu du chapitre lui-même.
+        # Ancrage documentaire : chaque chapitre des manuels de chimie ouvre sur une section « CE QUE
+        # TU DOIS DEJA SAVOIR » (exercices P1, P2... et tableau savoir-faire/rappel, vérifié sur les
+        # 45 PDF) — la requête cible cette section, contrairement à une recherche générique sur le nom
+        # du chapitre qui ramènerait plutôt le contenu du chapitre lui-même.
         document_block = ""
         try:
-            context_nodes = self._retrieve_with_filters(
-                f"Prérequis nécessaires avant d'aborder le chapitre {chapter}",
-                [self._exact_filter("class", class_level), self._exact_filter("chapter", chapter)],
-                top_k=3,
-            )
-            if context_nodes:
-                document_excerpts = "\n---\n".join(n.get_content()[:800] for n in context_nodes)
+            # Recherche TEXTUELLE de la section d'abord (marqueurs littéraux fiables, 45/45 chapitres
+            # couverts) : la recherche sémantique seule ne la retrouvait que pour 30 chapitres sur
+            # 45, le modèle d'embeddings la confondant avec le contenu général du chapitre.
+            excerpts = self._prerequisite_section(class_level, chapter)
+            if not excerpts:
+                context_nodes = self._retrieve_with_filters(
+                    "Ce que tu dois déjà savoir : exercices P1 P2 P3, rappel de ce qu'il faut savoir, "
+                    "savoirs et savoir-faire indispensables, acquis des chapitres précédents",
+                    [self._exact_filter("class", class_level), self._exact_filter("chapter", chapter)],
+                    top_k=4,
+                )
+                excerpts = [n.get_content() for n in context_nodes]
+            if excerpts:
+                document_excerpts = "\n---\n".join(e[:1200] for e in excerpts)
                 document_block = f"""
-DOCUMENT DE COURS DE CE CHAPITRE — il commence presque toujours par une ligne « Prérequis : ... » qui liste \
-EXPLICITEMENT les notions attendues (et le chapitre antérieur où elles ont été vues) : si cette ligne apparaît \
-ci-dessous, base-toi DESSUS EN PRIORITÉ plutôt que d'inventer des prérequis toi-même :
+EXTRAITS DU MANUEL DE CE CHAPITRE — le manuel ouvre chaque chapitre sur une section « CE QUE TU DOIS DEJA \
+SAVOIR » (exercices P1, P2... puis un tableau « savoir-faire (Pn) / rappel ») qui liste EXPLICITEMENT les acquis \
+attendus. Si cette section apparaît ci-dessous, base-toi DESSUS EN PRIORITÉ (mêmes notions, sans recopier ses \
+exercices) ; sinon, repère dans les extraits les notions que le chapitre UTILISE sans les réexpliquer :
 {document_excerpts}
 """
         except Exception as e:
             print(f"[WARN] Recherche de contexte pour les prérequis echouee: {e}")
 
-        system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso. \
+        system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso. \
 Un élève de {class_level} va commencer le chapitre « {chapter} ». AVANT qu'il ne s'y lance, tu vérifies \
 qu'il maîtrise encore les notions prérequises — vues dans des chapitres ANTÉRIEURS, de cette année ou \
 d'une année précédente — dont ce chapitre a besoin. Tu ne testes JAMAIS le contenu du chapitre « {chapter} » \
-lui-même, seulement ce qui doit déjà être acquis avant de l'aborder.
+lui-même, seulement ce qui doit déjà être acquis avant de l'aborder. Un prérequis peut être une notion de chimie \
+vue avant (atome, ion, formule, équation-bilan, mole...), une notion de physique utile (états de la matière, \
+masse et volume) ou un outil mathématique indispensable (proportionnalité, pourcentages, puissances de dix, \
+conversions d'unités).
 
-{MATH_FORMAT_INSTRUCTIONS}
+{FORMULA_FORMAT_INSTRUCTIONS}
+
+{CHEMISTRY_RIGOR_INSTRUCTIONS}
 {previous_chapters_context}
 {context_block}
 {document_block}
@@ -950,8 +1101,8 @@ JAMAIS 7 exercices.
 - Chaque exercice est COURT et ACCESSIBLE (application directe du rappel, sans piège ni astuce) : le but \
 est de vérifier que la notion est acquise, pas de la retester en profondeur ni d'évaluer le chapitre à venir.
 - Chaque exercice a EXACTEMENT 4 choix, une seule bonne réponse.
-- Le champ "notion" reprend le nom court du PRÉREQUIS (2-5 mots, ex: "Milieu d'un segment", "Angles \
-alternes-internes") — jamais une notion du chapitre « {chapter} » lui-même.
+- Le champ "notion" reprend le nom court du PRÉREQUIS (2-5 mots, ex: "Formule d'un ion", "Équilibrer une \
+équation", "Masse molaire") — jamais une notion du chapitre « {chapter} » lui-même.
 - Pour chaque exercice, donne une "explication" courte confirmant la bonne réponse (1-2 phrases) — le \
 rappel de cours a déjà enseigné la notion, cette explication ne fait que confirmer, pas réexpliquer en entier.
 - Reste concis partout (rappel, exercice, explication) : pas de phrases superflues.
@@ -988,6 +1139,28 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
 
     generate_remediation = generate_prerequis
 
+    # Marqueurs de la section « CE QUE TU DOIS DEJA SAVOIR » des manuels de chimie (titre, exercices
+    # « Exercice P1 », tableau « Rappel de ce qu'il faut savoir ») — pas les « Corrigés des
+    # prérequis » de fin de chapitre, qui commencent par « P1. ».
+    _PREREQ_SECTION_PATTERN = r"dois d.j. savoir|exercice p[0-9]|rappel de ce qu"
+
+    def _prerequisite_section(self, class_level: str, chapter: str, limit: int = 3) -> list:
+        """Passages indexés de la section « CE QUE TU DOIS DEJA SAVOIR » de ce chapitre, dans
+        l'ordre du document (ordre d'insertion), ou [] si l'index n'en contient pas."""
+        try:
+            import psycopg
+            with psycopg.connect(config.DATABASE_URL, connect_timeout=10) as conn, conn.cursor() as cur:
+                cur.execute(
+                    f'SELECT text FROM "data_{self.table_name}" '
+                    "WHERE metadata_->>'class' = %s AND metadata_->>'chapter' = %s AND text ~* %s "
+                    "ORDER BY id LIMIT %s",
+                    (class_level, chapter, self._PREREQ_SECTION_PATTERN, limit),
+                )
+                return [row[0] for row in cur.fetchall()]
+        except Exception as e:
+            print(f"[WARN] Recherche de la section des prérequis echouee: {e}")
+            return []
+
     @staticmethod
     def _parse_prerequis_json(raw_text: str):
         """Extrait et valide les groupes {notion, rappel, exercices} du diagnostic de prérequis
@@ -1001,14 +1174,9 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
         if start == -1 or end == -1 or end <= start:
             return None
 
-        candidate = text[start:end + 1]
-        try:
-            data = json.loads(candidate)
-        except json.JSONDecodeError:
-            try:
-                data = json.loads(_repair_latex_json_escapes(candidate))
-            except json.JSONDecodeError:
-                return None
+        data = _loads_model_json(text[start:end + 1])
+        if not isinstance(data, dict):
+            return None
 
         raw_notions = data.get("notions")
         if not isinstance(raw_notions, list):
@@ -1089,7 +1257,7 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
             for t in topics
         ) or "Aucun chapitre travaillé pour l'instant."
 
-        system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso. \
+        system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso. \
 Un élève nommé {username} vient de se connecter à l'application. Tu as accès à son historique \
 récent. Rédige un court message d'accueil personnalisé (DEUX PHRASES MAXIMUM, en Markdown léger) qui :
 - Salue-le par son prénom/pseudo de façon chaleureuse et mentionne de façon concrète 1 lacune réelle \
@@ -1162,10 +1330,12 @@ Ne mets pas de titre Markdown (##), juste le message directement, comme si tu pa
             return 2
         text = " ".join(recent).lower()
         advanced_markers = [
-            "démontre", "démontrer", "démonstration", "justifie", "justifier", "prouve", "prouver",
-            "étudier les variations", "étudie les variations", "dérivée", "dérivées", "primitive",
-            "intégrale", "limite", "récurrence", "produit scalaire", "loi binomiale", "second degré",
-            "logarithme", "exponentielle", "asymptote", "continuité",
+            "démontre", "démontrer", "justifie", "justifier", "établis", "établir l'expression",
+            "tableau d'avancement", "avancement maximal", "réactif limitant", "quantité de matière",
+            "concentration molaire", "dosage", "équivalence", "constante d'acidité", "pka", "solution tampon",
+            "diagramme de prédominance", "demi-équation", "potentiel standard", "force électromotrice",
+            "nombre d'oxydation", "stéréoisomère", "isomérie z", "carbone asymétrique", "estérification",
+            "saponification", "oxydation ménagée", "rendement", "acide alpha-aminé",
         ]
         basic_markers = [
             "c'est quoi", "qu'est-ce que", "comment on fait", "définition", "exemple simple",
@@ -1231,9 +1401,10 @@ pour que l'exercice reste ORIGINAL plutôt qu'un copier-coller :
             context_instructions = """
 Ce niveau sort volontairement du programme direct de la classe (voir la consigne OLYMPIADES \
 ci-dessous) : ne te limite pas aux documents de cours. Compose un problème ORIGINAL à partir de \
-tes connaissances des grands classiques de concours (olympiades francophones, Kangourou, RMT, \
-CIAM...) plutôt que de chercher à en citer un exact — l'objectif est un exercice inédit et bien \
-calibré pour la classe, pas une citation d'archive.
+tes connaissances des grands classiques de concours de chimie (olympiades nationales de chimie, \
+problèmes préparatoires des olympiades internationales de chimie adaptés au niveau...) plutôt que de \
+chercher à en citer un exact — l'objectif est un exercice inédit et bien calibré pour la classe, pas \
+une citation d'archive.
 """
             # Pas d'outil de recherche web ici : un aller-retour de recherche consomme une bonne
             # partie du budget de tokens avant même de generer l'exercice, ce qui faisait souvent
@@ -1271,7 +1442,7 @@ Indique EXACTEMENT l'intitulé retenu (repris tel quel dans la liste ci-dessus) 
 """
 
         if difficulty == 1:
-            system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso. \
+            system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso. \
 Tu génères une série de mini-questions à choix multiples ORIGINALES pour un élève de {class_level} sur le \
 chapitre « {chapter_txt} », en application DIRECTE du cours (restitution immédiate, pas de raisonnement à \
 plusieurs étapes).
@@ -1280,8 +1451,13 @@ plusieurs étapes).
 CONTRAINTES :
 - Fournis entre 3 et 4 mini-questions QCM, chacune sur une notion de base différente du chapitre.
 - Chaque question a EXACTEMENT 4 choix, une seule bonne réponse.
-- Contexte réaliste et local burkinabè quand c'est pertinent (marché, agriculture, élevage...).
+- Contexte réaliste et local burkinabè quand c'est pertinent (cuisine au gaz ou au charbon, savon, engrais, eau du \
+forage...).
 - Une courte "explication" accompagne chaque question (pourquoi cette réponse est la bonne).
+- Les distracteurs reprennent des erreurs typiques d'élèves : équation mal équilibrée, charge d'ion oubliée ou \
+fausse, confusion atome/molécule/ion, oubli d'unité ou conversion oubliée.
+
+{FORMULA_FORMAT_INSTRUCTIONS}
 
 {NO_EMOJI_INSTRUCTIONS}
 
@@ -1292,11 +1468,14 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
         else:
             olympiad_instructions = f"""
 - CONSIGNE OLYMPIADES (niveau 5 uniquement) : ce n'est PAS un exercice de plus dans le programme de la classe — \
-c'est un problème de concours, nettement plus dur qu'une "situation d'intégration" (niveau 4). Choisis UNE \
-technique classique de concours et construis le problème AUTOUR d'elle (ne te contente pas de la nommer) : \
-raisonnement par l'absurde, principe des tiroirs (pigeonhole), argument d'invariant ou de coloriage, principe \
-extrémal (considérer le plus grand/petit cas), récurrence non triviale, télescopage, symétrie ou changement de \
-variable astucieux, dénombrement à double compte, factorisation ou identité algébrique cachée. \
+c'est un problème de concours de chimie, nettement plus dur qu'une "situation d'intégration" (niveau 4). Choisis \
+UNE idée non standard et construis le problème AUTOUR d'elle (ne te contente pas de la nommer) : identifier une \
+espèce inconnue à partir d'indices expérimentaux (tests caractéristiques, masses, volumes de gaz), retrouver une \
+formule brute à partir de pourcentages massiques ou d'une combustion, raisonner sur la conservation des éléments \
+ou des charges dans une suite de réactions, détecter le réactif limitant caché, estimer un ordre de grandeur \
+(nombre de molécules, quantité de matière dans un objet courant), interpréter des résultats expérimentaux \
+contradictoires, ou concevoir un protocole simple et sûr pour distinguer deux solutions. Les outils \
+mathématiques restent ceux de la classe. \
 INTERDIT : un exercice qui se résout en appliquant une formule du cours une ou deux fois, même avec des nombres \
 compliqués — ce n'est qu'un niveau 4 déguisé, pas un niveau 5. Un élève sérieux de {class_level} doit pouvoir \
 comprendre l'énoncé et les notions utilisées, mais PAS voir le chemin de résolution immédiatement : il doit \
@@ -1304,23 +1483,30 @@ chercher, essayer, se tromper avant de trouver l'angle d'attaque. L'indice uniqu
 technique utiliser), jamais vers une étape de calcul. La solution doit expliquer POURQUOI cette idée fonctionne, \
 pas seulement dérouler le calcul final.""" if difficulty == 5 else ""
 
-            system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso. \
+            system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso. \
 Tu génères un exercice d'entraînement ORIGINAL pour un élève de {class_level} sur le chapitre « {chapter_txt} ».
 {chapter_instructions}
 {context_instructions}
 CONTRAINTES :
 - Niveau de difficulté : {difficulty_label}{olympiad_instructions}
-- Contexte réaliste et local burkinabè (marché, agriculture, élevage, artisanat, construction, transport en commun...)
+- Contexte réaliste et local burkinabè (savon au beurre de karité, charbon de bois et foyers améliorés, gaz butane, \
+engrais, eau du forage, rouille des tôles, piles et batteries, vinaigre et jus de citron...)
+- Données numériques réalistes, chacune avec son unité ; donne dans l'énoncé les masses molaires atomiques, le \
+volume molaire ou les constantes nécessaires (ex : $M(\\ce{{C}}) = 12\\,\\text{{g/mol}}$).
 - Fournis exactement 1 indice qui guide SANS donner le résultat.
 - NE RÉDIGE PAS de solution ni de réponse finale ici — uniquement l'énoncé et l'indice (la correction est générée \
 séparément, à la demande de l'élève, voir generate_exercise_solution). Formule quand même l'énoncé de façon \
 suffisamment précise et autonome pour qu'une solution complète et non ambiguë puisse en être déduite plus tard.
-- OBLIGATOIRE si l'exercice implique une figure géométrique, même indirectement (triangle, champ/terrain rectangulaire, \
-cercle, angle, repère, configuration de Thalès/Pythagore, solide...) : remplis le champ "figure" avec le schéma \
-correspondant. Sinon mets "figure" à null. N'essaie JAMAIS de représenter une figure avec des caractères ASCII \
-(`|`, `/`, `\\`, `-`) dans "enonce" : uniquement le champ "figure" prévu à cet effet (ce champ est un mécanisme \
-différent des blocs ```figure``` du chat : ici toujours un objet JSON dédié, jamais du texte).
-{MATH_FORMAT_INSTRUCTIONS}
+- OBLIGATOIRE si l'énoncé s'appuie sur un schéma (montage d'électrolyse, de pile, de dosage, de chauffage ou de \
+recueil de gaz, courbe de dosage à exploiter, échelle de pKa ou de potentiels, formule développée à analyser...) : \
+remplis le champ "figure" avec ce schéma (voir SCHÉMAS DE CHIMIE ci-dessous). Sinon mets "figure" à null. Le schéma \
+de l'énoncé ne doit JAMAIS dévoiler la réponse (pas de gaz identifié s'il faut l'identifier, pas de volume équivalent \
+dans un repère s'il faut le déterminer). N'essaie JAMAIS de dessiner avec des caractères ASCII (`|`, `/`, `\\`, `-`) \
+dans "enonce" : uniquement le champ "figure" (ce champ est un mécanisme différent des blocs ```figure``` du chat : ici \
+toujours un objet JSON dédié, jamais du texte).
+{CHEMISTRY_RIGOR_INSTRUCTIONS}
+
+{FORMULA_FORMAT_INSTRUCTIONS}
 
 {NO_EMOJI_INSTRUCTIONS}
 
@@ -1328,14 +1514,9 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
 exactement sous cette forme :
 {{"chapitre": "{chapter if chapter else '...'}", "enonce": "...", "indices": ["..."], "figure": null}}
 
-Si présente, la "figure" doit être un OBJET JSON (pas une chaîne de caractères échappée) suivant exactement ce schéma :
-{{"points": [{{"id": "A", "x": 0, "y": 0}}, ...], "segments": [{{"from": "A", "to": "B"}}, ...], \
-"angles": [{{"vertex": "A", "from": "B", "to": "C", "right": true}}], "polygons": [{{"points": ["A","B","C"], "fill": true}}], \
-"circles": [{{"center": "A", "radius": 2}}], "labels": [{{"text": "3 cm", "x": 0, "y": 1.5}}]}}
-Coordonnées en unités abstraites, "right": true pour un angle droit plutôt qu'une valeur en degrés. Chaque point \
-est déjà étiqueté automatiquement avec son "id" : n'ajoute JAMAIS ce même nom dans "labels" (qui sert uniquement \
-aux annotations comme une longueur de côté). Décale légèrement chaque "label" à l'écart du trait ou de la forme \
-qu'il annote (jamais pile sur un segment ni à l'intérieur d'un polygone rempli) pour qu'il ne se superpose pas au dessin.
+Si présente, la "figure" doit être un OBJET JSON (pas une chaîne de caractères échappée) suivant l'un des formats \
+ci-dessous :
+{FIGURE_SCHEMAS}
 """
 
         user_message = (
@@ -1367,21 +1548,47 @@ qu'il annote (jamais pile sur un segment ni à l'intérieur d'un polygone rempli
         print("[WARN] Claude indisponible ou reponse non structuree pour l'exercice, fallback local...")
         return self._local_generate_exercise(class_level, chapter or self._default_chapter(class_level), difficulty)
 
+    # Clés minimales qui rendent un schéma dessinable, par type (voir FIGURE_SCHEMAS et
+    # frontend/src/lib/figureSpec.js) : un schéma sans aucun élément dessinable est ignoré plutôt
+    # que servi vide. Sans "type", une figure avec des "points" est une figure géométrique. Le
+    # montage, lui, se valide sur son "modele" (voir MONTAGE_MODELS), pas sur une liste.
+    _FIGURE_REQUIRED_KEYS = {
+        "graphique": ("series",),
+        "echelle": ("zones", "reperes", "couples"),
+        "molecule": ("atomes",),
+        "geometrie": ("points",),
+    }
+
+    @staticmethod
+    def _normalize_kind(value) -> str:
+        text = unicodedata.normalize("NFKD", str(value or "")).encode("ascii", "ignore").decode("ascii")
+        return re.sub(r"[\s'-]+", "_", text.strip().lower())
+
+    @staticmethod
+    def _valid_figure(figure) -> Optional[dict]:
+        """Le schéma tel quel s'il est exploitable (type connu et au moins un élément dessinable,
+        ou un modèle de montage connu), sinon None."""
+        if not isinstance(figure, dict):
+            return None
+        kind = RAGSystem._normalize_kind(figure.get("type") or "geometrie")
+        if kind == "montage":
+            return figure if RAGSystem._normalize_kind(figure.get("modele")) in MONTAGE_MODELS else None
+        required = RAGSystem._FIGURE_REQUIRED_KEYS.get(kind)
+        if not required:
+            return None
+        if not any(isinstance(figure.get(k), list) and figure.get(k) for k in required):
+            return None
+        return figure
+
     @staticmethod
     def _figure_as_text(figure: Optional[dict]) -> str:
-        """Résumé textuel compact d'une figure déjà générée (voir generate_exercise), pour que
-        generate_exercise_solution puisse s'y référer sans avoir à la regénérer ni à la deviner."""
+        """Résumé d'un schéma déjà généré (voir generate_exercise), pour que
+        generate_exercise_solution puisse s'y référer sans avoir à le regénérer ni à le deviner :
+        le JSON compact, lisible directement par le modèle quel que soit le type de schéma."""
         if not figure:
             return ""
-        points = ", ".join(f"{p.get('id')}({p.get('x')},{p.get('y')})" for p in figure.get("points") or [])
-        parts = [f"points {points}"] if points else []
-        if figure.get("segments"):
-            parts.append("segments " + ", ".join(f"[{s.get('from')}{s.get('to')}]" for s in figure["segments"]))
-        if figure.get("circles"):
-            parts.append("cercle(s) " + ", ".join(f"centre {c.get('center')} rayon {c.get('radius')}" for c in figure["circles"]))
-        if figure.get("labels"):
-            parts.append("annotations " + ", ".join(f'"{l.get("text")}"' for l in figure["labels"]))
-        return "Figure de l'énoncé (coordonnées abstraites, pour information) : " + " ; ".join(parts) if parts else ""
+        compact = json.dumps(figure, ensure_ascii=False, separators=(",", ":"))
+        return f"Schéma de l'énoncé (JSON, pour information) : {compact[:2500]}"
 
     def generate_exercise_solution(self, class_level: str, chapter: str, difficulty: int,
                                     enonce: str, indices: Optional[list] = None,
@@ -1401,7 +1608,7 @@ qu'il annote (jamais pile sur un segment ni à l'intérieur d'un polygone rempli
         indice_txt = f"\nIndice déjà donné à l'élève : {indices[0]}" if indices else ""
         figure_txt = self._figure_as_text(figure)
 
-        system_prompt = f"""Tu es « Prof Amira », professeur de mathématiques au Burkina Faso. Un élève de \
+        system_prompt = f"""Tu es « Prof Karim », professeur de chimie au Burkina Faso. Un élève de \
 {class_level} a déjà reçu l'énoncé suivant (chapitre « {chapter} », niveau {difficulty_label}) et souhaite \
 maintenant en voir la correction détaillée.
 
@@ -1411,14 +1618,26 @@ maintenant en voir la correction détaillée.
 {f"{chr(10)}{figure_txt}" if figure_txt else ""}
 
 CONTRAINTES :
-- Rédige une solution détaillée, étape par étape, cohérente avec CET énoncé précis (pas un autre).
-- Mets la réponse finale bien en évidence, séparément.
-{MATH_FORMAT_INSTRUCTIONS}
+- Rédige une solution détaillée, étape par étape, cohérente avec CET énoncé précis (pas un autre) : équation-bilan \
+équilibrée, données converties dans les unités utiles, expression littérale, application numérique, résultat avec \
+son unité (et tableau d'avancement si la réaction le demande, à partir de la 2nde).
+- Mets la réponse finale bien en évidence, séparément, TOUJOURS avec son unité quand c'est une grandeur.
+- Si la correction demande de TRACER ou de COMPLÉTER un schéma (courbe de dosage, montage légendé, échelle de pKa, \
+formule développée...), remplis le champ "figure" avec ce schéma (un objet JSON, formats ci-dessous) et réfère-toi à \
+lui dans "solution" ; sinon mets "figure" à null. N'essaie JAMAIS de dessiner un schéma dans "solution" ou \
+"reponse_finale" : ni caractères alignés, ni tableau LaTeX (`\\begin{{array}}`), ni suite de `\\text{{...}}` — \
+uniquement le champ "figure". (Un tableau d'avancement, lui, est un vrai tableau Markdown dans "solution".)
+{FORMULA_FORMAT_INSTRUCTIONS}
+
+{CHEMISTRY_RIGOR_INSTRUCTIONS}
 
 {NO_EMOJI_INSTRUCTIONS}
 
 FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte avant/après, pas de bloc de code) :
-{{"solution": "...", "reponse_finale": "..."}}
+{{"solution": "...", "reponse_finale": "...", "figure": null}}
+
+Formats possibles pour "figure" :
+{FIGURE_SCHEMAS}
 """
         user_message = "Rédige la correction détaillée de cet exercice."
 
@@ -1437,6 +1656,7 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
         return {
             "solution": "Le service est momentanément indisponible : reviens plus tard pour voir la correction.",
             "reponse_finale": "",
+            "figure": None,
         }
 
     @staticmethod
@@ -1450,19 +1670,18 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
         if start == -1 or end == -1 or end <= start:
             return None
 
-        candidate = text[start:end + 1]
-        try:
-            data = json.loads(candidate)
-        except json.JSONDecodeError:
-            try:
-                data = json.loads(_repair_latex_json_escapes(candidate))
-            except json.JSONDecodeError:
-                return None
+        data = _loads_model_json(text[start:end + 1])
+        if not isinstance(data, dict):
+            return None
 
         solution = str(data.get("solution", "")).strip()
         if not solution:
             return None
-        return {"solution": solution, "reponse_finale": str(data.get("reponse_finale", "")).strip()}
+        return {
+            "solution": solution,
+            "reponse_finale": str(data.get("reponse_finale", "")).strip(),
+            "figure": RAGSystem._valid_figure(data.get("figure")),
+        }
 
     @staticmethod
     def _parse_exercise_json(raw_text: str, difficulty: int = 2):
@@ -1479,18 +1698,13 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
         if start == -1 or end == -1 or end <= start:
             return None, None
 
-        candidate = text[start:end + 1]
-        try:
-            data = json.loads(candidate)
-        except json.JSONDecodeError:
-            # Échappement LaTeX cassé : ça arrive surtout dans le morceau "continué" d'une réponse
-            # tronquée (voir _call_claude) — le modèle recommence alors à écrire \vec, \frac...
-            # en JSON à échappement unique au lieu du double backslash JSON attendu (\\vec).
-            # On tente une réparation ciblée avant d'abandonner.
-            try:
-                data = json.loads(_repair_latex_json_escapes(candidate))
-            except json.JSONDecodeError:
-                return None, None
+        # Échappement LaTeX cassé : ça arrive surtout dans le morceau "continué" d'une réponse
+        # tronquée (voir _call_claude) — le modèle recommence alors à écrire \ce, \frac...
+        # en JSON à échappement unique au lieu du double backslash JSON attendu (\\ce) ;
+        # _loads_model_json tente une réparation ciblée avant d'abandonner.
+        data = _loads_model_json(text[start:end + 1])
+        if not isinstance(data, dict):
+            return None, None
 
         enonce = str(data.get("enonce", "")).strip()
         if not enonce:
@@ -1528,9 +1742,7 @@ FORMAT DE SORTIE — réponds UNIQUEMENT avec un objet JSON valide (aucun texte 
         if not isinstance(indices, list):
             indices = [str(indices)]
 
-        figure = data.get("figure")
-        if not isinstance(figure, dict) or not isinstance(figure.get("points"), list) or not figure.get("points"):
-            figure = None
+        figure = RAGSystem._valid_figure(data.get("figure"))
 
         # La solution est désormais générée séparément, à la demande (voir
         # generate_exercise_solution) : on ne l'exige plus ici (c'était la cause du bug
@@ -1595,64 +1807,73 @@ Voici les informations disponibles sur le chapitre "{chapter}" de {class_level}.
     def _get_knowledge(self, chapter_lower, question_lower, question, class_level, chapter):
         """Retourne le contenu de connaissance si le thème est détecté (secours hors-ligne uniquement)."""
         knowledge_base = {
-            "pythagore": f"""
+            "alcane": f"""
 **Question :** {question}
 
-Le **théorème de Pythagore** est une propriété fondamentale des triangles rectangles.
+Les **alcanes** sont des hydrocarbures saturés : leurs molécules ne contiennent que des atomes de carbone et \
+d'hydrogène, reliés uniquement par des liaisons simples.
 
-**Énoncé :** Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés.
+**Formule générale :** $\\ce{{C_{{n}}H_{{2n+2}}}}$
 
-**Formule :** Si ABC est rectangle en A, alors $BC^2 = AB^2 + AC^2$
-- BC = hypoténuse (côté le plus long)
-- AB et AC = cathètes (côtés de l'angle droit)
+**Exemples :** méthane $\\ce{{CH4}}$, éthane $\\ce{{C2H6}}$, propane $\\ce{{C3H8}}$, butane $\\ce{{C4H10}}$ (le gaz \
+des bouteilles de cuisine).
 
-**Exemple :** AB = 3 cm, AC = 4 cm → BC = 5 cm
+**Combustion complète du butane :** $\\ce{{2C4H10 + 13O2 -> 8CO2 + 10H2O}}$
 
-**Quand l'utiliser ?** Pour calculer un côté manquant dans un triangle rectangle.
+**Attention :** une combustion incomplète (manque d'air) produit du monoxyde de carbone $\\ce{{CO}}$, un gaz \
+toxique et inodore : on cuisine toujours dans un endroit bien aéré.
 """,
-            "thalès": f"""
+            "électrolyse": f"""
 **Question :** {question}
 
-Le **théorème de Thalès** permet de calculer des longueurs avec des parallèles.
+L'**électrolyse de l'eau** décompose l'eau en dihydrogène et en dioxygène grâce au courant électrique (dans un \
+électrolyseur, avec un peu d'hydroxyde de sodium pour rendre l'eau conductrice).
 
-**Énoncé :** Si deux droites parallèles coupent deux sécantes, alors les segments sont proportionnels.
+**Équation-bilan :** $\\ce{{2H2O -> 2H2 + O2}}$
 
-**Formule :** $\\dfrac{{AD}}{{AB}} = \\dfrac{{AE}}{{AC}} = \\dfrac{{DE}}{{BC}}$
-
-**Exemple :** Si AD=2cm, AB=6cm, DE=3cm → BC = (6×3)/2 = 9cm
+- À la **cathode** (borne $-$) : il se dégage du dihydrogène $\\ce{{H2}}$ (il produit une petite détonation au \
+contact d'une flamme).
+- À l'**anode** (borne $+$) : il se dégage du dioxygène $\\ce{{O2}}$ (il ravive une bûchette incandescente).
+- Le volume de dihydrogène obtenu est **le double** de celui du dioxygène.
 """,
-            "fraction": f"""
+            "mole": f"""
 **Question :** {question}
 
-Une **fraction** $\\dfrac{{a}}{{b}}$ : a = numérateur, b = dénominateur.
+La **quantité de matière** $n$ d'un échantillon se mesure en moles ($\\text{{mol}}$). Une mole contient \
+$N_A = 6{{,}}02 \\times 10^{{23}}$ entités (atomes, molécules ou ions).
 
-**Opérations :**
-- Addition : $\\dfrac{{a}}{{b}} + \\dfrac{{c}}{{b}} = \\dfrac{{a+c}}{{b}}$
-- Multiplication : $\\dfrac{{a}}{{b}} \\times \\dfrac{{c}}{{d}} = \\dfrac{{a \\times c}}{{b \\times d}}$
-- Division : $\\dfrac{{a}}{{b}} \\div \\dfrac{{c}}{{d}} = \\dfrac{{a \\times d}}{{b \\times c}}$
+**Relation :** $n = \\dfrac{{m}}{{M}}$
+- $m$ : masse de l'échantillon, en grammes ($\\text{{g}}$)
+- $M$ : masse molaire, en grammes par mole ($\\text{{g/mol}}$)
 
-**Simplification :** Divise numérateur et dénominateur par leur PGCD.
+**Exemple :** $M(\\ce{{H2O}}) = 2 \\times 1 + 16 = 18\\,\\text{{g/mol}}$, donc $36\\,\\text{{g}}$ d'eau contiennent \
+$n = \\dfrac{{36}}{{18}} = 2{{,}}0\\,\\text{{mol}}$ de molécules d'eau.
 """,
-            "équation": f"""
+            "acide": f"""
 **Question :** {question}
 
-**Équation du 1er degré :** $ax + b = 0$
+Le **pH** indique si une solution aqueuse est acide, neutre ou basique (à $25\\,^{{\\circ}}\\text{{C}}$) :
+- $\\mathrm{{pH}} < 7$ : solution **acide** (jus de citron, vinaigre) ;
+- $\\mathrm{{pH}} = 7$ : solution **neutre** (eau pure) ;
+- $\\mathrm{{pH}} > 7$ : solution **basique** (eau savonneuse, eau de chaux).
 
-**Résolution :** 1) Isoler x → 2) Diviser
+On le mesure avec du papier pH (valeur approchée) ou un pH-mètre (valeur précise).
 
-**Exemple :** $3x + 7 = 22 \\Rightarrow 3x = 15 \\Rightarrow x = 5$
+**Neutralisation :** $\\ce{{H3O+ + HO- -> 2H2O}}$
 
-**Vérification :** $3\\times5 + 7 = 22$
+**Sécurité :** pour diluer un acide, on verse toujours l'acide dans l'eau, jamais l'inverse.
 """,
-            "trigonométrie": f"""
+            "combustion": f"""
 **Question :** {question}
 
-**SOH-CAH-TOA :**
-- $\\sin(\\hat{{A}}) = \\dfrac{{\\text{{opposé}}}}{{\\text{{hypoténuse}}}}$
-- $\\cos(\\hat{{A}}) = \\dfrac{{\\text{{adjacent}}}}{{\\text{{hypoténuse}}}}$
-- $\\tan(\\hat{{A}}) = \\dfrac{{\\text{{opposé}}}}{{\\text{{adjacent}}}}$
+Une **combustion** est une transformation chimique au cours de laquelle un **combustible** brûle en consommant un \
+**comburant** (le dioxygène de l'air), avec dégagement de chaleur.
 
-**Exemple :** $\\cos(60°) = 0{{,}}5$ ; $\\sin(30°) = 0{{,}}5$
+**Triangle du feu :** combustible + comburant + source de chaleur. Supprimer un des trois arrête le feu.
+
+**Combustion du carbone :** $\\ce{{C + O2 -> CO2}}$ — le dioxyde de carbone formé trouble l'eau de chaux.
+
+**Attention :** un brasero allumé dans une pièce fermée produit du monoxyde de carbone $\\ce{{CO}}$, gaz mortel.
 """,
         }
 
@@ -1710,58 +1931,54 @@ Une **fraction** $\\dfrac{{a}}{{b}}$ : a = numérateur, b = dénominateur.
         chapter_lower = chapter.lower()
 
         exercises = {
-            "pythagore": {
-                "enonce": "Un menuisier burkinabè veut vérifier qu'une planche triangulaire a bien un angle droit. "
-                           "Il mesure les trois côtés : 30 cm, 40 cm et 50 cm. A-t-elle un angle droit ?",
+            "alcane": {
+                "enonce": "À Koudougou, Moussa cuisine avec une bouteille de propane $\\ce{C3H8}$. Écris puis "
+                           "équilibre l'équation-bilan de la combustion complète du propane dans le dioxygène.",
                 "indices": [
-                    "Identifie le plus grand côté : c'est l'hypoténuse potentielle.",
-                    "Calcule le carré de l'hypoténuse et compare-le à la somme des carrés des deux autres côtés."
+                    "Une combustion complète d'un alcane ne produit que du dioxyde de carbone et de l'eau.",
+                    "Équilibre d'abord le carbone, puis l'hydrogène, et termine par l'oxygène."
                 ],
-                "solution": "1) Le plus long côté (50 cm) est l'hypoténuse potentielle.\n"
-                            "2) On calcule $50^2 = 2500$ et $30^2 + 40^2 = 900 + 1600 = 2500$.\n"
-                            "3) Les deux valeurs sont égales : $2500 = 2500$.",
-                "reponse_finale": "Oui, l'angle est parfaitement droit.",
-                "figure": {
-                    "points": [{"id": "A", "x": 0, "y": 0}, {"id": "B", "x": 4, "y": 0}, {"id": "C", "x": 0, "y": 3}],
-                    "segments": [{"from": "A", "to": "B"}, {"from": "B", "to": "C"}, {"from": "C", "to": "A"}],
-                    "angles": [{"vertex": "A", "from": "B", "to": "C", "right": True}],
-                    "polygons": [{"points": ["A", "B", "C"], "fill": True}],
-                    "labels": [
-                        {"text": "40 cm", "x": 2, "y": -0.4},
-                        {"text": "30 cm", "x": -0.5, "y": 1.5},
-                        {"text": "50 cm", "x": 2.2, "y": 1.7}
-                    ]
-                }
+                "solution": "1) Réactifs : $\\ce{C3H8}$ et $\\ce{O2}$ ; produits : $\\ce{CO2}$ et $\\ce{H2O}$.\n"
+                            "2) Carbone : 3 atomes, donc $\\ce{3CO2}$. Hydrogène : 8 atomes, donc $\\ce{4H2O}$.\n"
+                            "3) Oxygène : $3 \\times 2 + 4 \\times 1 = 10$ atomes, donc $\\ce{5O2}$.",
+                "reponse_finale": "$\\ce{C3H8 + 5O2 -> 3CO2 + 4H2O}$"
             },
-            "thalès": {
-                "enonce": "Au marché de Ouagadougou, un poteau de 3 m de haut projette son sommet à 2 m du mur. "
-                           "Un second poteau parallèle est à 6 m du mur. Quelle est sa hauteur ?",
+            "combustion": {
+                "enonce": "Dans le brasero de la cour, $12\\,\\text{g}$ de charbon de bois (considéré comme du carbone "
+                           "pur) brûlent complètement en consommant $32\\,\\text{g}$ de dioxygène. Écris l'équation-bilan "
+                           "de la réaction, puis calcule la masse de dioxyde de carbone formée.",
                 "indices": [
-                    "Repère les deux triangles semblables formés par les poteaux et leurs distances au mur.",
-                    "Pose le rapport de proportionnalité entre les hauteurs et les distances."
+                    "Au cours d'une transformation chimique, la masse totale se conserve.",
+                    "La masse des produits est égale à la masse des réactifs consommés."
                 ],
-                "solution": "On pose $\\dfrac{3}{2} = \\dfrac{h}{6}$, donc $h = \\dfrac{3 \\times 6}{2} = 9$.",
-                "reponse_finale": "9 mètres."
+                "solution": "1) Équation-bilan : $\\ce{C + O2 -> CO2}$.\n"
+                            "2) Conservation de la masse : $m(\\ce{CO2}) = m(\\ce{C}) + m(\\ce{O2}) = 12 + 32 = 44\\,\\text{g}$.",
+                "reponse_finale": "$m(\\ce{CO2}) = 44\\,\\text{g}$"
             },
-            "fraction": {
-                "enonce": "Au marché, Mamadi achète $\\dfrac{3}{4}$ kg de riz et $\\dfrac{2}{3}$ kg de haricots. "
-                           "Quelle masse totale a-t-il achetée ?",
+            "mole": {
+                "enonce": "Awa remplit une bouteille avec $1{,}5\\,\\text{L}$ d'eau du forage, de masse $1{,}5\\,\\text{kg}$. "
+                           "Calcule la quantité de matière de molécules d'eau qu'elle contient. Données : "
+                           "$M(\\ce{H}) = 1\\,\\text{g/mol}$ ; $M(\\ce{O}) = 16\\,\\text{g/mol}$.",
                 "indices": [
-                    "Trouve un dénominateur commun à 4 et 3.",
-                    "Convertis chaque fraction avant d'additionner les numérateurs."
+                    "Calcule d'abord la masse molaire de l'eau, puis convertis la masse en grammes.",
+                    "Utilise ensuite la relation entre quantité de matière, masse et masse molaire."
                 ],
-                "solution": "$\\dfrac{3}{4} + \\dfrac{2}{3} = \\dfrac{9}{12} + \\dfrac{8}{12} = \\dfrac{17}{12} \\approx 1{,}42$ kg.",
-                "reponse_finale": "17/12 kg, soit environ 1,42 kg."
+                "solution": "1) $M(\\ce{H2O}) = 2 \\times 1 + 16 = 18\\,\\text{g/mol}$.\n"
+                            "2) $m = 1{,}5\\,\\text{kg} = 1\\,500\\,\\text{g}$.\n"
+                            "3) $n = \\dfrac{m}{M} = \\dfrac{1\\,500\\,\\text{g}}{18\\,\\text{g/mol}} \\approx 83\\,\\text{mol}$.",
+                "reponse_finale": "$n(\\ce{H2O}) \\approx 83\\,\\text{mol}$, soit $8{,}3 \\times 10^{1}\\,\\text{mol}$."
             },
-            "équation": {
-                "enonce": "3 ananas plus 500 F CFA coûtent la même chose que 2 ananas plus 1500 F CFA. "
-                           "Quel est le prix d'un ananas ?",
+            "acide": {
+                "enonce": "Avec du papier pH, Salif mesure le pH de trois liquides : le jus de citron "
+                           "($\\mathrm{pH} = 2{,}5$), l'eau du forage ($\\mathrm{pH} = 7{,}0$) et une eau savonneuse "
+                           "($\\mathrm{pH} = 10$). Classe chaque liquide : acide, neutre ou basique.",
                 "indices": [
-                    "Note x le prix d'un ananas et écris l'égalité entre les deux montants.",
-                    "Regroupe les termes en x d'un côté et les nombres de l'autre."
+                    "Compare chaque valeur de pH à 7.",
                 ],
-                "solution": "$3x + 500 = 2x + 1500 \\Rightarrow 3x - 2x = 1500 - 500 \\Rightarrow x = 1000$.",
-                "reponse_finale": "1000 F CFA."
+                "solution": "1) Le jus de citron a un pH inférieur à 7 : il est acide.\n"
+                            "2) L'eau du forage a un pH égal à 7 : elle est neutre.\n"
+                            "3) L'eau savonneuse a un pH supérieur à 7 : elle est basique.",
+                "reponse_finale": "Jus de citron : acide ; eau du forage : neutre ; eau savonneuse : basique."
             },
         }
 

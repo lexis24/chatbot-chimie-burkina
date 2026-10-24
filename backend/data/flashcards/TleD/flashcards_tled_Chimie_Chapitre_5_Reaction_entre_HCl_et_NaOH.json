@@ -1,0 +1,422 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 5 : La réaction entre une solution d'acide chlorhydrique et une solution d'hydroxyde de sodium",
+  "source": "pc/tled/Chimie_Chapitre_5_Reaction_entre_HCl_et_NaOH",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PCTD-C05-001",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction entre une solution d'acide chlorhydrique et une solution d'hydroxyde de sodium ?",
+      "verso": "$\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$, avec une flèche simple car la réaction est totale.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PCTD-C05-002",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Entre quels couples se produit la réaction $\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$ ?",
+      "verso": "Entre l'acide du couple $\\mathrm{H_3O^+/H_2O}$ et la base du couple $\\mathrm{H_2O/OH^-}$ : le proton passe de l'ion hydronium à l'ion hydroxyde.",
+      "difficulte": 2,
+      "tags": [
+        "couples",
+        "transfert-proton"
+      ]
+    },
+    {
+      "id": "PCTD-C05-003",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Dans la réaction entre l'acide chlorhydrique et la soude, que sont les ions $\\mathrm{Na^+}$ et $\\mathrm{Cl^-}$ ?",
+      "verso": "Des ions spectateurs (ou indifférents) : ils ne participent pas à la réaction et se retrouvent intacts dans la solution finale, sous forme de chlorure de sodium dissous.",
+      "difficulte": 1,
+      "tags": [
+        "ions-spectateurs"
+      ]
+    },
+    {
+      "id": "PCTD-C05-004",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Quelles sont les trois caractéristiques de la réaction entre les ions hydronium et hydroxyde ?",
+      "verso": "Elle est totale (jusqu'à disparition du réactif en défaut), rapide (achevée dès l'homogénéisation) et exothermique (la température du mélange s'élève).",
+      "difficulte": 1,
+      "tags": [
+        "caracteristiques"
+      ]
+    },
+    {
+      "id": "PCTD-C05-005",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "En chimie des solutions, qu'appelle-t-on une neutralisation ?",
+      "verso": "La réaction entre une solution d'acide fort et une solution de base forte ; avec des quantités de réactifs égales, la solution obtenue est neutre, de pH 7 à $25~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "neutralisation"
+      ]
+    },
+    {
+      "id": "PCTD-C05-006",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Pourquoi l'écriture $\\mathrm{HCl + NaOH \\rightarrow NaCl + H_2O}$ n'est-elle pas l'équation-bilan de la réaction en solution ?",
+      "verso": "C'est l'équation en formules : en solution, ni $\\mathrm{HCl}$, ni $\\mathrm{NaOH}$, ni $\\mathrm{NaCl}$ n'existent, il n'y a que des ions. Après simplification des ions spectateurs, il reste $\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$.",
+      "difficulte": 3,
+      "tags": [
+        "equation-en-formules",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C05-007",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Pourquoi un mélange de volumes égaux d'acide fort et de base forte n'est-il pas forcément neutre ?",
+      "verso": "La neutralité exige des quantités de matière égales, $C_aV_a = C_bV_b$ (monoacide et monobase) : pour un monoacide et une monobase, deux volumes égaux de concentrations différentes ne donnent pas un mélange neutre.",
+      "difficulte": 3,
+      "tags": [
+        "melange-neutre",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C05-008",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "formule",
+      "recto": "Dans un mélange d'acide fort et de base forte où l'acide est en excès, quelle expression donne $\\left[\\mathrm{H_3O^+}\\right]$ ?",
+      "verso": "$\\left[\\mathrm{H_3O^+}\\right] = \\dfrac{C_aV_a - C_bV_b}{V_a + V_b}$ (monoacide et monobase, volumes additifs), puis $\\mathrm{pH} = -\\log\\left[\\mathrm{H_3O^+}\\right]$.",
+      "difficulte": 2,
+      "tags": [
+        "bilan-melange"
+      ]
+    },
+    {
+      "id": "PCTD-C05-009",
+      "lecon": "La réaction entre les solutions d'acide chlorhydrique et d'hydroxyde de sodium",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre neutraliser un acide et le diluer ?",
+      "verso": "Diluer fait monter le pH vers 7 sans rien détruire ; neutraliser le fait monter en détruisant les ions hydronium par réaction avec les ions hydroxyde.",
+      "difficulte": 2,
+      "tags": [
+        "neutralisation",
+        "dilution"
+      ]
+    },
+    {
+      "id": "PCTD-C05-010",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "En chimie, que signifie doser une solution ?",
+      "verso": "Déterminer sa concentration inconnue en la faisant réagir avec une solution de concentration connue, la solution titrante, et en repérant le moment exact où la réaction est achevée.",
+      "difficulte": 1,
+      "tags": [
+        "dosage"
+      ]
+    },
+    {
+      "id": "PCTD-C05-011",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "formule",
+      "recto": "A quelles conditions une réaction peut-elle servir à un dosage acido-basique ?",
+      "verso": "Elle doit être totale, rapide et unique ; la réaction $\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$ remplit les trois conditions.",
+      "difficulte": 2,
+      "tags": [
+        "dosage",
+        "conditions"
+      ]
+    },
+    {
+      "id": "PCTD-C05-012",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "formule",
+      "recto": "Dans un dosage acido-basique, où place-t-on la solution titrante et la solution titrée ?",
+      "verso": "La solution titrante, de concentration connue, va dans la burette graduée ; la solution titrée, de concentration inconnue, est prélevée à la pipette jaugée et placée dans le bécher, sous agitation.",
+      "difficulte": 2,
+      "tags": [
+        "montage",
+        "burette"
+      ]
+    },
+    {
+      "id": "PCTD-C05-013",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un dosage pH-métrique et un dosage colorimétrique ?",
+      "verso": "Le dosage pH-métrique est suivi au pH-mètre et l'on trace la courbe $\\mathrm{pH} = f(V)$ ; le dosage colorimétrique est suivi à l'oeil grâce à un indicateur coloré.",
+      "difficulte": 1,
+      "tags": [
+        "dosage-ph-metrique",
+        "dosage-colorimetrique"
+      ]
+    },
+    {
+      "id": "PCTD-C05-014",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "Quelles sont les trois parties de la courbe $\\mathrm{pH} = f(V_b)$ du dosage d'un acide fort par une base forte ?",
+      "verso": "Une partie presque plate à pH faible, puis un saut de pH brutal et presque vertical, puis une partie presque plate à pH élevé qui tend vers le pH de la solution titrante ; la courbe est croissante.",
+      "difficulte": 2,
+      "tags": [
+        "courbe-dosage"
+      ]
+    },
+    {
+      "id": "PCTD-C05-015",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "formule",
+      "recto": "Quelles sont l'étendue et la position du saut de pH dans un dosage acide fort base forte ?",
+      "verso": "Le saut est grand, généralement de 4 à 7 unités de pH, et centré sur $\\mathrm{pH} = 7$ à $25~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "saut-ph"
+      ]
+    },
+    {
+      "id": "PCTD-C05-016",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "Quelle allure a la courbe du dosage d'une base forte par un acide fort ?",
+      "verso": "La même allure en trois parties, mais décroissante : elle part du pH élevé de la base, chute brutalement au saut et tend vers le pH de l'acide titrant.",
+      "difficulte": 2,
+      "tags": [
+        "courbe-dosage",
+        "base-forte"
+      ]
+    },
+    {
+      "id": "PCTD-C05-017",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "Au milieu du saut de pH d'une courbe de dosage, comment appelle-t-on le point où la courbe change de concavité ?",
+      "verso": "C'est un point d'inflexion.",
+      "difficulte": 1,
+      "tags": [
+        "point-inflexion"
+      ]
+    },
+    {
+      "id": "PCTD-C05-018",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "Pourquoi le volume d'eau distillée ajouté dans le bécher pour noyer la sonde n'intervient-il dans aucun calcul de dosage ?",
+      "verso": "L'eau n'apporte ni ion hydronium ni ion hydroxyde : elle change la concentration dans le bécher, mais pas la quantité de matière à doser.",
+      "difficulte": 3,
+      "tags": [
+        "eau-distillee",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C05-019",
+      "lecon": "Le dosage acide fort base forte et la courbe pH $= f(V)$",
+      "type": "definition",
+      "recto": "Pourquoi chasse-t-on la bulle d'air de la pointe de la burette avant d'ajuster le zéro ?",
+      "verso": "Sinon la bulle fausse tous les volumes lus, d'un demi-millilitre environ.",
+      "difficulte": 2,
+      "tags": [
+        "burette",
+        "geste"
+      ]
+    },
+    {
+      "id": "PCTD-C05-020",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'équivalence acido-basique au cours d'un dosage ?",
+      "verso": "L'instant où l'acide et la base ont été mélangés dans les proportions stoechiométriques de l'équation-bilan : ils se sont entièrement consommés l'un l'autre.",
+      "difficulte": 1,
+      "tags": [
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C05-021",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "formule",
+      "recto": "Pour le dosage d'un monoacide fort par une monobase forte, quelle est la relation à l'équivalence ?",
+      "verso": "$C_aV_a = C_bV_{bE}$, car $n(\\mathrm{H_3O^+})_{\\text{apportés}} = n(\\mathrm{OH^-})_{\\text{apportés}}$ ; $V_a$ est le volume prélevé, $V_{bE}$ le volume de base versé à l'équivalence, dans la même unité.",
+      "difficulte": 1,
+      "tags": [
+        "relation-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C05-022",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "formule",
+      "recto": "Quelle relation d'équivalence utilise-t-on pour le dosage d'un diacide fort comme $\\mathrm{H_2SO_4}$ par une monobase forte ?",
+      "verso": "$2C_aV_a = C_bV_{bE}$, car chaque formule de diacide apporte deux ions hydronium.",
+      "difficulte": 2,
+      "tags": [
+        "diacide",
+        "relation-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C05-023",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "formule",
+      "recto": "Quelle relation d'équivalence utilise-t-on pour le dosage d'une dibase forte comme $\\mathrm{Ca(OH)_2}$ par un monoacide fort ?",
+      "verso": "$C_aV_a = 2C_bV_{bE}$, car chaque formule de dibase apporte deux ions hydroxyde.",
+      "difficulte": 2,
+      "tags": [
+        "dibase",
+        "relation-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C05-024",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "definition",
+      "recto": "Quelle est la nature de la solution obtenue à l'équivalence du dosage de l'acide chlorhydrique par la soude ?",
+      "verso": "Une solution de chlorure de sodium : il ne reste que l'eau et les ions spectateurs $\\mathrm{Na^+}$ et $\\mathrm{Cl^-}$, indifférents. Elle est neutre, $\\mathrm{pH}_E = 7$ à $25~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 2,
+      "tags": [
+        "solution-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C05-025",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "definition",
+      "recto": "Pourquoi ne peut-on pas définir l'équivalence comme le moment où le pH vaut 7 ?",
+      "verso": "L'équivalence est le mélange des réactifs en proportions stoechiométriques ; le pH n'y vaut 7 que dans le cas particulier d'un dosage acide fort base forte, à $25~^{\\circ}\\mathrm{C}$.",
+      "difficulte": 3,
+      "tags": [
+        "equivalence",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C05-026",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "formule",
+      "recto": "Comment détermine-t-on le point d'équivalence par la méthode des tangentes ?",
+      "verso": "On trace deux tangentes parallèles à la courbe de part et d'autre du saut, puis la parallèle équidistante : elle coupe la courbe au point d'équivalence E.",
+      "difficulte": 2,
+      "tags": [
+        "methode-tangentes"
+      ]
+    },
+    {
+      "id": "PCTD-C05-027",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "definition",
+      "recto": "Sur une courbe de dosage, que représentent les coordonnées du point d'équivalence E ?",
+      "verso": "Son abscisse est le volume équivalent $V_E$, son ordonnée le pH à l'équivalence $\\mathrm{pH}_E$ ; E se situe au milieu du saut de pH.",
+      "difficulte": 1,
+      "tags": [
+        "point-equivalence"
+      ]
+    },
+    {
+      "id": "PCTD-C05-028",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "definition",
+      "recto": "Dans la relation $C_aV_a = C_bV_{bE}$, quel volume désigne $V_a$ ?",
+      "verso": "Le volume de solution prélevé à la pipette jaugée, jamais le volume total du bécher : l'eau distillée ajoutée n'y figure pas.",
+      "difficulte": 3,
+      "tags": [
+        "volume-preleve",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C05-029",
+      "lecon": "L'équivalence : définition, détermination graphique et relation",
+      "type": "definition",
+      "recto": "Avant et après l'équivalence d'un dosage, quel réactif est en excès ?",
+      "verso": "Avant l'équivalence, le réactif du bécher (solution titrée) est en excès ; après, c'est le réactif versé (solution titrante).",
+      "difficulte": 2,
+      "tags": [
+        "exces"
+      ]
+    },
+    {
+      "id": "PCTD-C05-030",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "formule",
+      "recto": "Quel est le critère de choix d'un indicateur coloré pour un dosage acido-basique ?",
+      "verso": "Sa zone de virage doit contenir le pH à l'équivalence ; plus largement, elle doit être entièrement contenue dans le saut de pH, pour que le virage se produise très près de l'équivalence.",
+      "difficulte": 2,
+      "tags": [
+        "choix-indicateur"
+      ]
+    },
+    {
+      "id": "PCTD-C05-031",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "definition",
+      "recto": "Pour le dosage d'un acide fort par une base forte, quel indicateur coloré préfère-t-on, et pourquoi ?",
+      "verso": "Le bleu de bromothymol (zone de virage de $6{,}0$ à $7{,}6$), car sa zone de virage entoure le pH à l'équivalence, $\\mathrm{pH} = 7$.",
+      "difficulte": 2,
+      "tags": [
+        "bleu-bromothymol"
+      ]
+    },
+    {
+      "id": "PCTD-C05-032",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "definition",
+      "recto": "Lors d'un dosage colorimétrique, à quel signe reconnaît-on que l'équivalence est atteinte ?",
+      "verso": "La couleur de la solution change de façon persistante après une seule goutte de solution titrante ; une teinte qui disparaît en agitant signale qu'on est encore avant l'équivalence.",
+      "difficulte": 2,
+      "tags": [
+        "dosage-colorimetrique"
+      ]
+    },
+    {
+      "id": "PCTD-C05-033",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "definition",
+      "recto": "Pourquoi n'introduit-on que deux ou trois gouttes d'indicateur coloré lors d'un dosage ?",
+      "verso": "L'indicateur est un acide faible qui réagit avec la base versée : en grande quantité, il consommerait de la solution titrante et fausserait le volume équivalent.",
+      "difficulte": 2,
+      "tags": [
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PCTD-C05-034",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "definition",
+      "recto": "Pourquoi dire « la phénolphtaléine vire à $8{,}2$ » est-il incorrect ?",
+      "verso": "Une zone de virage est un intervalle : la phénolphtaléine vire entre $8{,}2$ et $10{,}0$, en passant d'incolore à rose.",
+      "difficulte": 3,
+      "tags": [
+        "phenolphtaleine",
+        "zone-virage"
+      ]
+    },
+    {
+      "id": "PCTD-C05-035",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "formule",
+      "recto": "Quelle relation lie la concentration d'un produit commercial à celle de la solution dosée, obtenue en le diluant $F$ fois ?",
+      "verso": "$C_{\\text{commerciale}} = F \\times C_{\\text{diluée}}$.",
+      "difficulte": 1,
+      "tags": [
+        "dilution",
+        "produit-commercial"
+      ]
+    },
+    {
+      "id": "PCTD-C05-036",
+      "lecon": "Les indicateurs colorés et les applications du dosage",
+      "type": "formule",
+      "recto": "Quelle relation lie la concentration massique $C_m$ d'une solution à sa concentration molaire $C$ ?",
+      "verso": "$C_m = C \\times M$, avec $C$ en $\\mathrm{mol/L}$, $M$ masse molaire du soluté en $\\mathrm{g/mol}$ et $C_m$ en $\\mathrm{g/L}$.",
+      "difficulte": 1,
+      "tags": [
+        "concentration-massique"
+      ]
+    }
+  ]
+}

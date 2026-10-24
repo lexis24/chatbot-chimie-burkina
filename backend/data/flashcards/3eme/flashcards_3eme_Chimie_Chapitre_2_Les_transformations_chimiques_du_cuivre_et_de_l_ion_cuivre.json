@@ -1,0 +1,379 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 2 : Les transformations chimiques du cuivre et de l'ion cuivre",
+  "source": "pc/3eme/Chimie_Chapitre_2_Les_transformations_chimiques_du_cuivre_et_de_l_ion_cuivre",
+  "nombre_cartes": 31,
+  "cartes": [
+    {
+      "id": "PC3E-C02-001",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Que se passe-t-il quand on plonge certains métaux dans une solution contenant les ions d'un autre métal ?",
+      "verso": "Il se produit une transformation chimique, sans qu'aucun générateur ne soit nécessaire, par simple contact du métal avec la solution.",
+      "difficulte": 1,
+      "tags": [
+        "contact",
+        "transformation-chimique"
+      ]
+    },
+    {
+      "id": "PC3E-C02-002",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Quelles observations fait-on quand on plonge de la limaille de fer dans une solution bleue d'ions cuivre II ?",
+      "verso": "Un dépôt rouge-brun de cuivre se forme sur la limaille, la couleur bleue disparaît peu à peu pour une teinte verdâtre très pâle, la masse de fer diminue et la masse de cuivre augmente.",
+      "difficulte": 2,
+      "tags": [
+        "limaille-de-fer",
+        "observations"
+      ]
+    },
+    {
+      "id": "PC3E-C02-003",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Comment interprète-t-on, en termes d'électrons, l'action de la limaille de fer sur les ions cuivre II ?",
+      "verso": "Chaque atome de fer perd deux électrons et devient un ion fer II ; chaque ion cuivre II gagne ces deux électrons et devient un atome de cuivre.",
+      "difficulte": 2,
+      "tags": [
+        "interpretation",
+        "electrons"
+      ]
+    },
+    {
+      "id": "PC3E-C02-004",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre l'action du fer sur les ions cuivre II et une électrolyse ?",
+      "verso": "Dans l'électrolyse, la transformation est imposée par le courant d'un générateur (transformation électrochimique). Dans l'action du fer sur les ions cuivre II, elle se produit sans générateur, par simple contact : c'est une transformation chimique.",
+      "difficulte": 3,
+      "tags": [
+        "electrolyse",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C02-005",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Pourquoi la phrase « le fer s'est changé en cuivre » est-elle fausse ?",
+      "verso": "Aucun atome ne change de nature : le fer devient un ion fer II qui part en solution, et c'est l'ion cuivre déjà présent dans la solution qui devient du cuivre métallique.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "conservation-element"
+      ]
+    },
+    {
+      "id": "PC3E-C02-006",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Pourquoi de la limaille de fer agit-elle plus vite qu'un gros clou sur une solution d'ions cuivre II ?",
+      "verso": "L'échange d'électrons se produit à la surface du métal, au contact de la solution. La limaille, poudre de métal obtenue à la lime, offre bien plus de surface de contact qu'un gros bloc.",
+      "difficulte": 2,
+      "tags": [
+        "limaille",
+        "surface"
+      ]
+    },
+    {
+      "id": "PC3E-C02-007",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Dans l'expérience du fer plongé dans une solution d'ions cuivre II, à quoi sert le verre témoin ?",
+      "verso": "Préparé au même moment et gardé au même endroit, il subit tout sauf la limaille. Comme il reste bleu, c'est la limaille qui est la cause du changement observé dans l'autre verre.",
+      "difficulte": 2,
+      "tags": [
+        "temoin",
+        "demarche"
+      ]
+    },
+    {
+      "id": "PC3E-C02-008",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Pourquoi la couleur bleue d'une solution ne suffit-elle pas à affirmer qu'elle contient des ions cuivre II ?",
+      "verso": "D'autres solutions, une encre par exemple, peuvent aussi être bleues. Seul un test d'identification, qui fait apparaître un précipité, confirme la présence d'un ion.",
+      "difficulte": 3,
+      "tags": [
+        "test",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C02-009",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Lors d'un test d'identification d'ion, qu'appelle-t-on un précipité ?",
+      "verso": "C'est un solide qui se forme dans la solution et la trouble.",
+      "difficulte": 1,
+      "tags": [
+        "precipite",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC3E-C02-010",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "formule",
+      "recto": "Quel résultat le test à la soude donne-t-il avec l'ion cuivre II $\\mathrm{Cu^{2+}}$ ?",
+      "verso": "Un précipité bleu, ou bleuâtre, d'hydroxyde de cuivre.",
+      "difficulte": 1,
+      "tags": [
+        "test-soude",
+        "ion-cuivre"
+      ]
+    },
+    {
+      "id": "PC3E-C02-011",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "formule",
+      "recto": "Quel résultat le test à l'ammoniaque donne-t-il avec l'ion cuivre II $\\mathrm{Cu^{2+}}$ ?",
+      "verso": "D'abord un précipité bleu ; dans un excès d'ammoniaque, ce précipité se dissout et le liquide devient d'un bleu intense : c'est l'eau céleste.",
+      "difficulte": 2,
+      "tags": [
+        "test-ammoniaque",
+        "eau-celeste"
+      ]
+    },
+    {
+      "id": "PC3E-C02-012",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "formule",
+      "recto": "Quel résultat le test à la soude donne-t-il avec l'ion ferreux $\\mathrm{Fe^{2+}}$ ?",
+      "verso": "Un précipité verdâtre d'hydroxyde ferreux $\\mathrm{Fe(OH)_2}$.",
+      "difficulte": 1,
+      "tags": [
+        "test-soude",
+        "ion-ferreux"
+      ]
+    },
+    {
+      "id": "PC3E-C02-013",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "formule",
+      "recto": "Quel résultat le test à la soude donne-t-il avec l'ion zinc $\\mathrm{Zn^{2+}}$ ?",
+      "verso": "Un précipité blanc.",
+      "difficulte": 1,
+      "tags": [
+        "test-soude",
+        "ion-zinc"
+      ]
+    },
+    {
+      "id": "PC3E-C02-014",
+      "lecon": "Une transformation qui se produit sans générateur",
+      "type": "definition",
+      "recto": "Quels autres noms donne-t-on à l'ion cuivre II $\\mathrm{Cu^{2+}}$ et à l'ion fer II $\\mathrm{Fe^{2+}}$ ?",
+      "verso": "L'ion cuivre II s'appelle aussi ion cuivrique ; l'ion fer II s'appelle aussi ion ferreux.",
+      "difficulte": 1,
+      "tags": [
+        "vocabulaire",
+        "noms-ions"
+      ]
+    },
+    {
+      "id": "PC3E-C02-015",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on une demi-équation ?",
+      "verso": "C'est une équation qui décrit le gain ou la perte d'électrons d'une seule espèce chimique ; elle fait toujours apparaître le symbole $\\mathrm{e^{-}}$. On l'appelle aussi « équation correspondant à la transformation » de cette espèce.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC3E-C02-016",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelle demi-équation traduit la transformation de l'atome de fer en ion ferreux ?",
+      "verso": "$\\mathrm{Fe \\rightarrow Fe^{2+} + 2\\,e^{-}}$ : l'atome de fer perd deux électrons.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC3E-C02-017",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelle demi-équation traduit la transformation de l'ion cuivre II en atome de cuivre ?",
+      "verso": "$\\mathrm{Cu^{2+} + 2\\,e^{-} \\rightarrow Cu}$ : l'ion cuivre II gagne deux électrons.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation",
+        "cuivre"
+      ]
+    },
+    {
+      "id": "PC3E-C02-018",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelle demi-équation traduit la transformation de l'atome d'aluminium en ion aluminium ?",
+      "verso": "$\\mathrm{Al \\rightarrow Al^{3+} + 3\\,e^{-}}$ : l'atome d'aluminium perd trois électrons.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "aluminium"
+      ]
+    },
+    {
+      "id": "PC3E-C02-019",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelles demi-équations traduisent la transformation des ions argent $\\mathrm{Ag^{+}}$ et or $\\mathrm{Au^{3+}}$ en atomes ?",
+      "verso": "$\\mathrm{Ag^{+} + e^{-} \\rightarrow Ag}$ et $\\mathrm{Au^{3+} + 3\\,e^{-} \\rightarrow Au}$.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "argent-or"
+      ]
+    },
+    {
+      "id": "PC3E-C02-020",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Dans une demi-équation, de quel côté de la flèche écrit-on les électrons selon que l'espèce en perd ou en gagne ?",
+      "verso": "A droite de la flèche quand l'atome perd des électrons ($\\mathrm{M \\rightarrow M^{n+} + n\\,e^{-}}$), à gauche quand l'ion en gagne ($\\mathrm{M'^{p+} + p\\,e^{-} \\rightarrow M'}$).",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "electrons"
+      ]
+    },
+    {
+      "id": "PC3E-C02-021",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Comment obtient-on l'équation bilan de la réaction entre un métal et un ion métallique à partir des deux demi-équations ?",
+      "verso": "On les additionne après avoir multiplié tous les termes de chacune pour que les électrons cédés soient en même nombre que les électrons captés. Les électrons se simplifient et n'apparaissent plus.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC3E-C02-022",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation bilan de la réaction entre le fer et les ions cuivre II ?",
+      "verso": "$\\mathrm{Fe + Cu^{2+} \\rightarrow Fe^{2+} + Cu}$.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC3E-C02-023",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation bilan de la réaction entre le zinc et les ions cuivre II ?",
+      "verso": "$\\mathrm{Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu}$.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan",
+        "zinc"
+      ]
+    },
+    {
+      "id": "PC3E-C02-024",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation bilan de la réaction entre l'aluminium et les ions cuivre II ?",
+      "verso": "$\\mathrm{2\\,Al + 3\\,Cu^{2+} \\rightarrow 2\\,Al^{3+} + 3\\,Cu}$ : 6 électrons sont échangés, et la somme des charges vaut $+6$ de chaque côté.",
+      "difficulte": 3,
+      "tags": [
+        "equation-bilan",
+        "aluminium"
+      ]
+    },
+    {
+      "id": "PC3E-C02-025",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "formule",
+      "recto": "Quelles sont les deux conservations à vérifier dans une équation bilan ?",
+      "verso": "La conservation des atomes (autant d'atomes de chaque sorte à gauche et à droite) et la conservation des charges (même somme des charges des deux côtés).",
+      "difficulte": 2,
+      "tags": [
+        "conservation"
+      ]
+    },
+    {
+      "id": "PC3E-C02-026",
+      "lecon": "Les demi-équations et l'équation bilan",
+      "type": "definition",
+      "recto": "Pourquoi une équation bilan entre un métal et un ion métallique ne contient-elle jamais d'électrons ?",
+      "verso": "Aucun fil n'apporte ni n'emporte d'électrons : chaque électron cédé par un atome de métal est aussitôt capté par un ion. Les électrons passent d'un corps à l'autre et se simplifient.",
+      "difficulte": 3,
+      "tags": [
+        "equation-bilan",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C02-027",
+      "lecon": "La transformation de l'atome de cuivre en ion cuivre",
+      "type": "definition",
+      "recto": "Quelles observations fait-on lors de l'action de l'acide nitrique sur le cuivre ?",
+      "verso": "Le cuivre est attaqué et sa masse diminue, la solution devient bleue et un gaz incolore se dégage, qui roussit au-dessus du tube. Le test à la soude confirme la formation d'ions cuivre II.",
+      "difficulte": 2,
+      "tags": [
+        "acide-nitrique",
+        "observations"
+      ]
+    },
+    {
+      "id": "PC3E-C02-028",
+      "lecon": "La transformation de l'atome de cuivre en ion cuivre",
+      "type": "definition",
+      "recto": "Lors de l'action de l'acide nitrique sur le cuivre, quels sont le gaz incolore dégagé et le gaz roux formé à l'air ?",
+      "verso": "Le gaz incolore est le monoxyde d'azote $\\mathrm{NO}$ ; au contact du dioxygène de l'air, il devient du dioxyde d'azote $\\mathrm{NO_2}$, roux et toxique : ce sont les vapeurs nitreuses.",
+      "difficulte": 2,
+      "tags": [
+        "vapeurs-nitreuses",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC3E-C02-029",
+      "lecon": "La transformation de l'atome de cuivre en ion cuivre",
+      "type": "formule",
+      "recto": "Quelle demi-équation traduit la transformation de l'atome de cuivre en ion cuivre II sous l'action de l'acide nitrique ?",
+      "verso": "$\\mathrm{Cu \\rightarrow Cu^{2+} + 2\\,e^{-}}$ : chaque atome de cuivre perd deux électrons.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation",
+        "acide-nitrique"
+      ]
+    },
+    {
+      "id": "PC3E-C02-030",
+      "lecon": "La transformation de l'atome de cuivre en ion cuivre",
+      "type": "definition",
+      "recto": "Pourquoi ne faut-il pas dire que le cuivre « fond » dans l'acide nitrique ?",
+      "verso": "Le cuivre ne fond pas : chaque atome de cuivre perd deux électrons et passe en solution sous forme d'ion cuivre II, qui colore la solution en bleu.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "acide-nitrique"
+      ]
+    },
+    {
+      "id": "PC3E-C02-031",
+      "lecon": "La transformation de l'atome de cuivre en ion cuivre",
+      "type": "formule",
+      "recto": "Lors de l'action d'un métal sur une solution d'ion métallique, comment évoluent les masses mises en jeu ?",
+      "verso": "La masse du métal plongé diminue et celle du métal déposé augmente, la masse totale du système (réactifs et produits) se conserve. Les masses mises en jeu sont proportionnelles : on calcule une masse inconnue par un produit en croix.",
+      "difficulte": 2,
+      "tags": [
+        "masses",
+        "proportionnalite"
+      ]
+    }
+  ]
+}

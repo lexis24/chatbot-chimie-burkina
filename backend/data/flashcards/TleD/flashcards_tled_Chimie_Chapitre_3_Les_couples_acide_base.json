@@ -1,0 +1,424 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 3 : Les couples acide/base",
+  "source": "pc/tled/Chimie_Chapitre_3_Les_couples_acide_base",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PCTD-C03-001",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "En chimie des solutions, qu'appelle-t-on un acide faible ?",
+      "verso": "Un acide dont la réaction avec l'eau est partielle : seule une fraction des molécules introduites cède son proton, et il subsiste en solution des molécules d'acide non ionisées.",
+      "difficulte": 1,
+      "tags": [
+        "acide-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-002",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction de l'acide éthanoïque avec l'eau ?",
+      "verso": "$\\mathrm{CH_3COOH + H_2O \\rightleftarrows CH_3COO^- + H_3O^+}$, avec une double flèche car la réaction est partielle et réversible.",
+      "difficulte": 1,
+      "tags": [
+        "acide-ethanoique",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C03-003",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction réversible ?",
+      "verso": "Une réaction dont les produits réagissent entre eux pour redonner les réactifs, la réaction directe et la réaction inverse ayant lieu en même temps.",
+      "difficulte": 1,
+      "tags": [
+        "reaction-reversible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-004",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un équilibre chimique ?",
+      "verso": "L'état d'un système où la réaction directe et la réaction inverse se produisent à la même vitesse : les concentrations de toutes les espèces cessent de varier.",
+      "difficulte": 2,
+      "tags": [
+        "equilibre-chimique"
+      ]
+    },
+    {
+      "id": "PCTD-C03-005",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Pourquoi dit-on qu'un équilibre chimique est dynamique ?",
+      "verso": "Parce que les deux réactions, directe et inverse, continuent à la même vitesse : seules les concentrations cessent de varier, la réaction n'est pas terminée.",
+      "difficulte": 3,
+      "tags": [
+        "equilibre-dynamique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C03-006",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Que signifie la double flèche $\\rightleftarrows$ dans l'équation d'un acide faible avec l'eau ?",
+      "verso": "Elle signale que la réaction est réversible : elle se produit simultanément dans les deux sens et conduit à un équilibre.",
+      "difficulte": 2,
+      "tags": [
+        "double-fleche",
+        "reaction-reversible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-007",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction inverse de l'ionisation de l'acide éthanoïque dans l'eau ?",
+      "verso": "$\\mathrm{CH_3COO^- + H_3O^+ \\rightarrow CH_3COOH + H_2O}$ : les ions éthanoate et hydronium réagissent pour redonner l'acide et l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "reaction-inverse",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C03-008",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Quelles sont les cinq espèces d'une solution d'acide éthanoïque, classées par abondance ?",
+      "verso": "$\\mathrm{H_2O}$ (majoritaire) ; $\\mathrm{CH_3COOH}$, $\\mathrm{CH_3COO^-}$ et $\\mathrm{H_3O^+}$ (minoritaires) ; $\\mathrm{OH^-}$ (ultraminoritaire).",
+      "difficulte": 2,
+      "tags": [
+        "inventaire-especes"
+      ]
+    },
+    {
+      "id": "PCTD-C03-009",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le coefficient de dissociation $\\alpha$ d'un acide ?",
+      "verso": "Le quotient de la quantité d'acide ayant réagi avec l'eau par la quantité d'acide initialement introduite. C'est un nombre sans unité, compris entre 0 et 1, souvent exprimé en pourcentage.",
+      "difficulte": 2,
+      "tags": [
+        "coefficient-dissociation"
+      ]
+    },
+    {
+      "id": "PCTD-C03-010",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Pour une solution d'acide éthanoïque seul dans l'eau, de concentration apportée $C_a$, comment s'exprime $\\alpha$ en fonction du pH ?",
+      "verso": "$\\alpha = \\dfrac{\\left[\\mathrm{H_3O^+}\\right]}{C_a} = \\dfrac{10^{-\\mathrm{pH}}}{C_a}$, car $\\left[\\mathrm{CH_3COO^-}\\right] = \\left[\\mathrm{H_3O^+}\\right]$, les ions $\\mathrm{OH^-}$ étant ultraminoritaires.",
+      "difficulte": 2,
+      "tags": [
+        "coefficient-dissociation",
+        "ph"
+      ]
+    },
+    {
+      "id": "PCTD-C03-011",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Quelle valeur prend le coefficient de dissociation $\\alpha$ pour un acide fort, et pour un acide faible ?",
+      "verso": "Pour un acide fort, $\\alpha = 1$ (ionisation totale) ; pour un acide faible, $\\alpha \\lt 1$.",
+      "difficulte": 1,
+      "tags": [
+        "coefficient-dissociation",
+        "acide-fort"
+      ]
+    },
+    {
+      "id": "PCTD-C03-012",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Quel critère sur le pH permet d'affirmer qu'un acide de concentration apportée $C_a$ est faible ?",
+      "verso": "$\\mathrm{pH} \\gt -\\log C_a$, c'est-à-dire $\\left[\\mathrm{H_3O^+}\\right] \\lt C_a$, pour une concentration comprise entre $10^{-6}$ et $10^{-2}~\\mathrm{mol/L}$ environ. Pour un acide fort, $\\mathrm{pH} = -\\log C_a$.",
+      "difficulte": 2,
+      "tags": [
+        "critere",
+        "acide-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-013",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Quels sont les trois éléments précis qui montrent que l'acide éthanoïque est un acide faible ?",
+      "verso": "Son pH est supérieur à $-\\log C_a$ ; sa solution conduit moins bien le courant qu'un acide fort de même concentration ; son coefficient de dissociation est très inférieur à 1 et varie avec la concentration.",
+      "difficulte": 2,
+      "tags": [
+        "preuves",
+        "acide-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-014",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Pourquoi l'acide éthanoïque pur ne conduit-il pas le courant électrique ?",
+      "verso": "C'est un corps moléculaire : il est constitué de molécules $\\mathrm{CH_3COOH}$ électriquement neutres et ne contient pas d'ions. Sa solution aqueuse conduit, car l'acide a réagi avec l'eau pour former des ions.",
+      "difficulte": 2,
+      "tags": [
+        "acide-pur",
+        "conductibilite"
+      ]
+    },
+    {
+      "id": "PCTD-C03-015",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Comment varient le coefficient de dissociation $\\alpha$ et la concentration $\\left[\\mathrm{H_3O^+}\\right]$ quand on dilue une solution d'acide faible ?",
+      "verso": "$\\alpha$ augmente (sans atteindre 1) alors que $\\left[\\mathrm{H_3O^+}\\right]$ diminue et que le pH monte : la proportion d'acide ionisé croît, l'acidité baisse.",
+      "difficulte": 3,
+      "tags": [
+        "dilution",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C03-016",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Pourquoi la dilution d'une solution d'acide faible fait-elle augmenter son coefficient de dissociation ?",
+      "verso": "Ajouter de l'eau rend plus rare la rencontre d'un ion éthanoate avec un ion hydronium : la réaction inverse est freinée, la réaction directe reprend le dessus jusqu'à un nouvel équilibre plus avancé.",
+      "difficulte": 3,
+      "tags": [
+        "dilution",
+        "equilibre"
+      ]
+    },
+    {
+      "id": "PCTD-C03-017",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "formule",
+      "recto": "Sur une courbe $\\mathrm{pH} = f(-\\log C)$, où se placent les points d'un acide fort et ceux d'un acide faible ?",
+      "verso": "Pour un acide fort, sur la droite $\\mathrm{pH} = -\\log C$ (première bissectrice) ; pour un acide faible, au-dessus de cette droite, en s'en rapprochant quand on dilue.",
+      "difficulte": 3,
+      "tags": [
+        "courbe",
+        "acide-fort"
+      ]
+    },
+    {
+      "id": "PCTD-C03-018",
+      "lecon": "L'acide éthanoïque, un acide faible",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux d'écrire $\\mathrm{pH} = -\\log C_a$ pour une solution d'acide éthanoïque ?",
+      "verso": "Cette relation suppose l'ionisation totale, valable pour un acide fort. Pour un acide faible, elle donne un pH trop petit : à $10^{-2}~\\mathrm{mol/L}$, on mesure 3,4 et non 2,0.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "acide-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-019",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Selon Brönsted, qu'appelle-t-on un acide ?",
+      "verso": "Une espèce chimique, moléculaire ou ionique, capable de céder un proton $\\mathrm{H^+}$.",
+      "difficulte": 1,
+      "tags": [
+        "bronsted",
+        "acide"
+      ]
+    },
+    {
+      "id": "PCTD-C03-020",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Selon Brönsted, qu'appelle-t-on une base ?",
+      "verso": "Une espèce chimique, moléculaire ou ionique, capable de capter un proton $\\mathrm{H^+}$.",
+      "difficulte": 1,
+      "tags": [
+        "bronsted",
+        "base"
+      ]
+    },
+    {
+      "id": "PCTD-C03-021",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un couple acide/base ?",
+      "verso": "Un acide $\\mathrm{AH}$ et la base $\\mathrm{A^-}$ qu'il devient en perdant son proton, dite conjuguée. On note le couple $\\mathrm{AH/A^-}$, l'acide toujours écrit en premier.",
+      "difficulte": 1,
+      "tags": [
+        "couple",
+        "base-conjuguee"
+      ]
+    },
+    {
+      "id": "PCTD-C03-022",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Quelle demi-équation lie l'acide $\\mathrm{AH}$ et la base $\\mathrm{A^-}$ d'un couple acide/base ?",
+      "verso": "$\\mathrm{AH \\rightleftarrows A^- + H^+}$. Si la base est une molécule $\\mathrm{B}$, son acide conjugué est le cation $\\mathrm{BH^+}$ : $\\mathrm{BH^+ \\rightleftarrows B + H^+}$.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "couple"
+      ]
+    },
+    {
+      "id": "PCTD-C03-023",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Pourquoi une demi-équation acide/base ne décrit-elle jamais une réaction réelle ?",
+      "verso": "Le proton $\\mathrm{H^+}$ n'existe pas libre en solution : il doit être capté aussitôt. Une réaction exige donc deux couples, l'un qui cède le proton, l'autre qui le capte.",
+      "difficulte": 3,
+      "tags": [
+        "demi-equation",
+        "proton",
+        "piege"
+      ]
+    },
+    {
+      "id": "PCTD-C03-024",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Selon Brönsted, qu'appelle-t-on une réaction acido-basique ?",
+      "verso": "Un transfert de proton entre l'acide d'un couple et la base d'un autre couple : $\\mathrm{A_1H + A_2^- \\rightleftarrows A_1^- + A_2H}$.",
+      "difficulte": 2,
+      "tags": [
+        "reaction-acido-basique"
+      ]
+    },
+    {
+      "id": "PCTD-C03-025",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Comment obtient-on l'équation d'une réaction acido-basique à partir des demi-équations de deux couples ?",
+      "verso": "On écrit la demi-équation du premier couple dans le sens où l'acide cède le proton, celle du second dans le sens où la base le capte, puis on les additionne : le proton disparaît des deux membres.",
+      "difficulte": 2,
+      "tags": [
+        "reaction-acido-basique",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PCTD-C03-026",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Quels sont les deux couples acide/base auxquels appartient l'eau ?",
+      "verso": "$\\mathrm{H_3O^+/H_2O}$, où l'eau est la base, et $\\mathrm{H_2O/OH^-}$, où l'eau est l'acide.",
+      "difficulte": 1,
+      "tags": [
+        "eau",
+        "couples-eau"
+      ]
+    },
+    {
+      "id": "PCTD-C03-027",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un ampholyte ?",
+      "verso": "Une espèce qui est à la fois l'acide d'un couple et la base d'un autre, dite aussi amphotère : $\\mathrm{H_2O}$, $\\mathrm{HCO_3^-}$, $\\mathrm{H_2PO_4^-}$, $\\mathrm{HPO_4^{2-}}$.",
+      "difficulte": 2,
+      "tags": [
+        "ampholyte"
+      ]
+    },
+    {
+      "id": "PCTD-C03-028",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'autoprotolyse de l'eau ?",
+      "verso": "$\\mathrm{H_2O + H_2O \\rightleftarrows H_3O^+ + OH^-}$ : une molécule d'eau cède un proton à une autre, conséquence du caractère amphotère de l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "autoprotolyse",
+        "eau"
+      ]
+    },
+    {
+      "id": "PCTD-C03-029",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction de l'ion éthanoate avec l'eau ?",
+      "verso": "$\\mathrm{CH_3COO^- + H_2O \\rightleftarrows CH_3COOH + OH^-}$ : l'eau cède le proton, l'ion éthanoate le capte et la solution devient basique.",
+      "difficulte": 2,
+      "tags": [
+        "ion-ethanoate",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C03-030",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, quel critère sur le pH permet d'affirmer qu'une base de concentration apportée $C_b$ est faible ?",
+      "verso": "$\\mathrm{pH} \\lt 14 + \\log C_b$, c'est-à-dire $\\left[\\mathrm{OH^-}\\right] \\lt C_b$ : sa réaction avec l'eau est partielle.",
+      "difficulte": 2,
+      "tags": [
+        "critere",
+        "base-faible"
+      ]
+    },
+    {
+      "id": "PCTD-C03-031",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Pour une base seule dans l'eau, de concentration apportée $C_b$, comment s'exprime son coefficient d'ionisation $\\alpha$ ?",
+      "verso": "$\\alpha = \\dfrac{\\left[\\mathrm{OH^-}\\right]}{C_b}$ (coefficient de protonation) ; pour l'ammoniac, $\\alpha = \\dfrac{\\left[\\mathrm{NH_4^+}\\right]}{C_b}$. Il augmente aussi par dilution.",
+      "difficulte": 2,
+      "tags": [
+        "coefficient-ionisation",
+        "base"
+      ]
+    },
+    {
+      "id": "PCTD-C03-032",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Quels sont les couples acide/base successifs de l'acide carbonique $\\mathrm{H_2CO_3}$ ?",
+      "verso": "C'est un diacide qui donne deux couples : $\\mathrm{H_2CO_3/HCO_3^-}$ puis $\\mathrm{HCO_3^-/CO_3^{2-}}$, un seul proton partant à chaque fois.",
+      "difficulte": 2,
+      "tags": [
+        "polyacide",
+        "diacide"
+      ]
+    },
+    {
+      "id": "PCTD-C03-033",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "formule",
+      "recto": "Quels sont les couples acide/base successifs de l'acide phosphorique $\\mathrm{H_3PO_4}$ ?",
+      "verso": "C'est un triacide qui donne trois couples : $\\mathrm{H_3PO_4/H_2PO_4^-}$, $\\mathrm{H_2PO_4^-/HPO_4^{2-}}$ et $\\mathrm{HPO_4^{2-}/PO_4^{3-}}$.",
+      "difficulte": 2,
+      "tags": [
+        "polyacide",
+        "triacide"
+      ]
+    },
+    {
+      "id": "PCTD-C03-034",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Pourquoi n'écrit-on pas les ions $\\mathrm{Na^+}$ et $\\mathrm{Cl^-}$ dans l'équation d'une réaction acido-basique ?",
+      "verso": "Ce sont des ions spectateurs, ou indifférents : ils n'échangent aucun proton et ne participent pas au transfert.",
+      "difficulte": 2,
+      "tags": [
+        "ions-spectateurs"
+      ]
+    },
+    {
+      "id": "PCTD-C03-035",
+      "lecon": "Les couples acide/base selon Brönsted",
+      "type": "definition",
+      "recto": "Selon Brönsted, pourquoi ne peut-on pas dire que l'eau est « une base » ?",
+      "verso": "Une espèce est acide ou basique dans une réaction donnée : l'eau est base dans le couple $\\mathrm{H_3O^+/H_2O}$ et acide dans le couple $\\mathrm{H_2O/OH^-}$, c'est un ampholyte.",
+      "difficulte": 3,
+      "tags": [
+        "eau",
+        "ampholyte",
+        "piege"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "Terminale D",
+  "chapitre": "Chimie, Chapitre 10 : L'estérification, l'hydrolyse et la saponification",
+  "source": "pc/tled/Chimie_Chapitre_10_Esterification_hydrolyse_saponification",
+  "nombre_cartes": 37,
+  "cartes": [
+    {
+      "id": "PCTD-C10-001",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un acide carboxylique ?",
+      "verso": "Un composé organique de formule générale $\\mathrm{R-COOH}$, qui porte le groupe carboxyle $\\mathrm{-COOH}$ (ou $\\mathrm{-CO_2H}$), réunissant un carbonyle $\\mathrm{C=O}$ et un hydroxyle $\\mathrm{-OH}$ sur le même carbone ; $\\mathrm{R}$ est un groupe carboné ou un atome d'hydrogène.",
+      "difficulte": 1,
+      "tags": [
+        "acide-carboxylique",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C10-002",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "formule",
+      "recto": "Quelle est la formule brute d'un acide carboxylique saturé, à chaîne ouverte et à un seul groupe carboxyle, comportant $n$ atomes de carbone ?",
+      "verso": "$\\mathrm{C_{n}H_{2n}O_2}$, avec $n \\geq 1$ ; sa masse molaire vaut $M = 14n + 32~\\mathrm{g/mol}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PCTD-C10-003",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "formule",
+      "recto": "Si un acide carboxylique saturé est écrit $\\mathrm{C_{n}H_{2n+1}-COOH}$, quelle est l'expression de sa masse molaire ?",
+      "verso": "$M = 14n + 46~\\mathrm{g/mol}$, car ici $n$ désigne le nombre d'atomes de carbone du seul groupe alkyle, et non de toute la molécule.",
+      "difficulte": 3,
+      "tags": [
+        "masse-molaire",
+        "notation"
+      ]
+    },
+    {
+      "id": "PCTD-C10-004",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "definition",
+      "recto": "Quelle est la géométrie du carbone du groupe carboxyle ?",
+      "verso": "Il est trigonal : il a trois voisins, engage une double liaison, et ses trois liaisons sont coplanaires, à environ 120 degrés les unes des autres. Le groupe carboxyle est plan.",
+      "difficulte": 2,
+      "tags": [
+        "stereochimie",
+        "carbone-trigonal"
+      ]
+    },
+    {
+      "id": "PCTD-C10-005",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "formule",
+      "recto": "Comment forme-t-on le nom d'un acide carboxylique ?",
+      "verso": "« acide » + nom de l'alcane de même chaîne principale privé de son « e » + « oïque ». La chaîne principale contient le carbone du carboxyle, qui porte toujours l'indice 1 : $\\mathrm{(CH_3)_2CH-COOH}$ est l'acide 2-méthylpropanoïque.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PCTD-C10-006",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "definition",
+      "recto": "Pourquoi le nom « acide 1-butanoïque » (ou « acide 4-butanoïque ») est-il incorrect ?",
+      "verso": "Le carbone du carboxyle porte toujours l'indice 1 et on ne l'écrit jamais : le nom correct est acide butanoïque.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PCTD-C10-007",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "definition",
+      "recto": "Comment nomme-t-on l'ion carboxylate issu d'un acide carboxylique ?",
+      "verso": "On remplace « acide …oïque » par « ion …oate » : $\\mathrm{CH_3COO^-}$ est l'ion éthanoate, $\\mathrm{HCOO^-}$ l'ion méthanoate ; le sel se nomme par exemple éthanoate de sodium.",
+      "difficulte": 1,
+      "tags": [
+        "ion-carboxylate",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PCTD-C10-008",
+      "lecon": "Les acides carboxyliques, leur nomenclature et leur caractère acide",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction d'un acide carboxylique $\\mathrm{R-COOH}$ avec l'eau ?",
+      "verso": "$\\mathrm{R-COOH + H_2O \\rightleftarrows R-COO^- + H_3O^+}$ : réaction limitée, l'acide carboxylique est un acide faible ; couple $\\mathrm{RCOOH/RCOO^-}$ ($\\mathrm{p}K_a = 4{,}8$ pour l'acide éthanoïque).",
+      "difficulte": 1,
+      "tags": [
+        "acide-faible",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C10-009",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un ester ?",
+      "verso": "Un composé de formule générale $\\mathrm{R-COO-R'}$, de groupe caractéristique $\\mathrm{-COO-}$, où $\\mathrm{R}$ est un atome d'hydrogène ou un groupe carboné et $\\mathrm{R'}$ nécessairement un groupe carboné.",
+      "difficulte": 1,
+      "tags": [
+        "ester",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C10-010",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'estérification d'un acide carboxylique $\\mathrm{R-COOH}$ par un alcool $\\mathrm{R'-OH}$ ?",
+      "verso": "$\\mathrm{R-COOH + R'-OH \\rightleftarrows R-COO-R' + H_2O}$ ; la réaction inverse est l'hydrolyse de l'ester.",
+      "difficulte": 1,
+      "tags": [
+        "esterification",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C10-011",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "definition",
+      "recto": "Lors d'une estérification, d'où proviennent le groupe $\\mathrm{-OH}$ et l'atome $\\mathrm{H}$ qui forment l'eau ?",
+      "verso": "Le groupe $\\mathrm{-OH}$ provient de l'acide et l'atome $\\mathrm{H}$ provient de l'alcool ; l'oxygène de l'alcool reste dans l'ester.",
+      "difficulte": 2,
+      "tags": [
+        "esterification",
+        "mecanisme"
+      ]
+    },
+    {
+      "id": "PCTD-C10-012",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "definition",
+      "recto": "Quelles sont les trois caractéristiques communes de l'estérification et de l'hydrolyse ?",
+      "verso": "Elles sont lentes, limitées (les quatre espèces coexistent dans l'état final) et athermiques.",
+      "difficulte": 1,
+      "tags": [
+        "caracteristiques"
+      ]
+    },
+    {
+      "id": "PCTD-C10-013",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un équilibre chimique ?",
+      "verso": "L'état d'un système où deux réactions inverses se produisent à la même vitesse : les quantités de toutes les espèces restent constantes alors que les transformations continuent. On le note par une double flèche $\\rightleftarrows$.",
+      "difficulte": 2,
+      "tags": [
+        "equilibre-chimique"
+      ]
+    },
+    {
+      "id": "PCTD-C10-014",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "formule",
+      "recto": "Pour un mélange équimolaire d'un acide carboxylique et d'un alcool primaire, quelle est la composition à l'équilibre ?",
+      "verso": "$67~\\%$ de l'acide est estérifié ; il reste $33~\\%$ de l'acide et $33~\\%$ de l'alcool. Un mélange équimolaire d'ester et d'eau aboutit au même état (ester hydrolysé à $33~\\%$).",
+      "difficulte": 2,
+      "tags": [
+        "limite",
+        "melange-equimolaire"
+      ]
+    },
+    {
+      "id": "PCTD-C10-015",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre une réaction lente et une réaction limitée ?",
+      "verso": "La lenteur indique la durée nécessaire pour atteindre l'état final ; la limite indique où se trouve cet état final. Une réaction peut être rapide et limitée, ou lente et totale.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "lente-limitee"
+      ]
+    },
+    {
+      "id": "PCTD-C10-016",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "definition",
+      "recto": "A quoi sert le réfrigérant dans un chauffage à reflux ?",
+      "verso": "Les vapeurs s'y condensent au contact de la paroi froide et retombent dans le ballon : on chauffe sans perdre de réactifs ni de produits, le montage restant ouvert en haut, donc sans surpression.",
+      "difficulte": 2,
+      "tags": [
+        "chauffage-a-reflux",
+        "montage"
+      ]
+    },
+    {
+      "id": "PCTD-C10-017",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "formule",
+      "recto": "Dans un réfrigérant à eau, par où l'eau doit-elle entrer ?",
+      "verso": "Par le bas, et sortir par le haut, pour que la double paroi reste pleine ; branchée à l'envers, l'eau ne remplit pas le réfrigérant et les vapeurs passent.",
+      "difficulte": 2,
+      "tags": [
+        "chauffage-a-reflux",
+        "branchement"
+      ]
+    },
+    {
+      "id": "PCTD-C10-018",
+      "lecon": "L'estérification et l'hydrolyse, un équilibre chimique",
+      "type": "formule",
+      "recto": "Comment forme-t-on le nom d'un ester ?",
+      "verso": "« …oate » pour la partie venue de l'acide, « de », puis « …yle » pour le groupe venu de l'alcool (« d' » devant une voyelle) : éthanoate d'éthyle, butanoate d'éthyle.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "ester"
+      ]
+    },
+    {
+      "id": "PCTD-C10-019",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "formule",
+      "recto": "Quelle relation définit le rendement $r$ d'une estérification ?",
+      "verso": "$r = \\dfrac{n_{\\text{ester obtenu}}}{n_{\\text{ester théorique}}}$, sans unité, souvent en pourcentage ; $n_{\\text{ester théorique}}$ est la quantité obtenue si le réactif limitant disparaissait entièrement.",
+      "difficulte": 1,
+      "tags": [
+        "rendement"
+      ]
+    },
+    {
+      "id": "PCTD-C10-020",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "formule",
+      "recto": "Quelle est la limite de l'estérification d'un mélange équimolaire selon la classe de l'alcool ?",
+      "verso": "Environ $67~\\%$ pour un alcool primaire, $60~\\%$ pour un alcool secondaire, $5~\\%$ environ pour un alcool tertiaire.",
+      "difficulte": 2,
+      "tags": [
+        "limite",
+        "classe-alcool"
+      ]
+    },
+    {
+      "id": "PCTD-C10-021",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "formule",
+      "recto": "Quelle est la limite de l'hydrolyse d'un mélange équimolaire d'ester et d'eau ?",
+      "verso": "Le complément de la limite d'estérification : $33~\\%$ pour l'ester d'un alcool primaire, $40~\\%$ pour celui d'un alcool secondaire.",
+      "difficulte": 2,
+      "tags": [
+        "limite",
+        "hydrolyse"
+      ]
+    },
+    {
+      "id": "PCTD-C10-022",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "definition",
+      "recto": "Pourquoi un catalyseur ne modifie-t-il pas la limite d'une estérification ?",
+      "verso": "Il accélère également les deux réactions inverses : l'équilibre est atteint plus tôt, mais au même endroit. Il réduit la durée sans augmenter le rendement.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "catalyseur"
+      ]
+    },
+    {
+      "id": "PCTD-C10-023",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "definition",
+      "recto": "Pourquoi élever la température ne change-t-il pas le rendement d'une estérification ?",
+      "verso": "Parce que la réaction est athermique : chauffer accélère l'estérification et l'hydrolyse dans le même rapport, l'équilibre est atteint plus tôt mais n'est pas déplacé.",
+      "difficulte": 3,
+      "tags": [
+        "temperature",
+        "facteur-cinetique"
+      ]
+    },
+    {
+      "id": "PCTD-C10-024",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "formule",
+      "recto": "Quels facteurs déplacent l'équilibre d'estérification dans le sens direct ?",
+      "verso": "L'excès d'un réactif (le rendement par rapport au réactif en défaut augmente) et l'élimination continue d'un produit, l'eau, ou l'ester s'il est le plus volatil, par distillation au fur et à mesure.",
+      "difficulte": 2,
+      "tags": [
+        "deplacement-equilibre",
+        "exces"
+      ]
+    },
+    {
+      "id": "PCTD-C10-025",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on le pourcentage d'acide estérifié ?",
+      "verso": "La quantité d'ester formé rapportée à la quantité initiale d'acide. En mélange équimolaire il est égal au pourcentage d'alcool estérifié ; sinon, le pourcentage du réactif en défaut est le rendement.",
+      "difficulte": 2,
+      "tags": [
+        "pourcentage-esterifie"
+      ]
+    },
+    {
+      "id": "PCTD-C10-026",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction d'un chlorure d'acyle $\\mathrm{R-COCl}$ avec un alcool $\\mathrm{R'-OH}$ ?",
+      "verso": "$\\mathrm{R-COCl + R'-OH \\rightarrow R-COO-R' + HCl}$ : réaction rapide, totale et très exothermique, écrite avec une flèche simple.",
+      "difficulte": 2,
+      "tags": [
+        "chlorure-acyle",
+        "esterification"
+      ]
+    },
+    {
+      "id": "PCTD-C10-027",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "definition",
+      "recto": "Comment nomme-t-on un chlorure d'acyle ?",
+      "verso": "On remplace « acide …oïque » par « chlorure de …oyle » : $\\mathrm{CH_3COCl}$ est le chlorure d'éthanoyle, $\\mathrm{C_2H_5COCl}$ le chlorure de propanoyle.",
+      "difficulte": 1,
+      "tags": [
+        "chlorure-acyle",
+        "nomenclature"
+      ]
+    },
+    {
+      "id": "PCTD-C10-028",
+      "lecon": "Le rendement d'une estérification et les facteurs qui l'influencent",
+      "type": "definition",
+      "recto": "Comment obtient-on un polyester ?",
+      "verso": "Par réaction d'un diacide avec un diol : chaque molécule s'accroche des deux côtés et la chaîne s'allonge. Exemple : le PET, issu de l'acide benzène-1,4-dicarboxylique et de l'éthane-1,2-diol.",
+      "difficulte": 2,
+      "tags": [
+        "polyester",
+        "pet"
+      ]
+    },
+    {
+      "id": "PCTD-C10-029",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la saponification ?",
+      "verso": "L'hydrolyse basique d'un ester : l'action d'une base forte (soude ou potasse) sur un ester donne un ion carboxylate et un alcool.",
+      "difficulte": 1,
+      "tags": [
+        "saponification",
+        "definition"
+      ]
+    },
+    {
+      "id": "PCTD-C10-030",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la saponification d'un ester $\\mathrm{R-COO-R'}$ par la soude ?",
+      "verso": "$\\mathrm{R-COO-R' + (Na^+ + OH^-) \\rightarrow (R-COO^- + Na^+) + R'-OH}$ : réaction lente, totale et légèrement exothermique.",
+      "difficulte": 2,
+      "tags": [
+        "saponification",
+        "equation"
+      ]
+    },
+    {
+      "id": "PCTD-C10-031",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Pourquoi la saponification est-elle totale alors que l'hydrolyse d'un ester en milieu acide est limitée ?",
+      "verso": "L'acide formé est aussitôt neutralisé en ion carboxylate, qui ne réagit pas avec l'alcool : la réaction inverse est impossible et la transformation va jusqu'à l'épuisement d'un réactif.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "saponification"
+      ]
+    },
+    {
+      "id": "PCTD-C10-032",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un corps gras ?",
+      "verso": "Un triester du glycérol (propane-1,2,3-triol $\\mathrm{CH_2OH-CHOH-CH_2OH}$) et d'acides gras, acides carboxyliques à longue chaîne ; on dit aussi triglycéride.",
+      "difficulte": 1,
+      "tags": [
+        "corps-gras",
+        "glycerol"
+      ]
+    },
+    {
+      "id": "PCTD-C10-033",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la saponification d'un corps gras $\\mathrm{(RCOO)_3C_3H_5}$ par la soude ?",
+      "verso": "$\\mathrm{(RCOO)_3C_3H_5 + 3\\,(Na^+ + OH^-) \\rightarrow 3\\,(RCOO^- + Na^+) + C_3H_5(OH)_3}$ : une mole de corps gras consomme trois moles de base et donne trois moles de savon et une mole de glycérol.",
+      "difficulte": 2,
+      "tags": [
+        "saponification",
+        "corps-gras"
+      ]
+    },
+    {
+      "id": "PCTD-C10-034",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Quelles sont les caractéristiques des acides gras naturels ?",
+      "verso": "Une chaîne linéaire, un nombre pair d'atomes de carbone, de 4 à 22, et, s'ils sont insaturés, des doubles liaisons de configuration Z (exemple : l'acide oléique $\\mathrm{C_{17}H_{33}CO_2H}$).",
+      "difficulte": 3,
+      "tags": [
+        "acides-gras"
+      ]
+    },
+    {
+      "id": "PCTD-C10-035",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un savon et un corps gras ?",
+      "verso": "Le corps gras est un triester insoluble dans l'eau ; le savon est le sel d'un acide gras (carboxylate à longue chaîne), soluble grâce à sa partie ionique.",
+      "difficulte": 2,
+      "tags": [
+        "savon",
+        "corps-gras"
+      ]
+    },
+    {
+      "id": "PCTD-C10-036",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Quel savon obtient-on avec la soude, et lequel avec la potasse ?",
+      "verso": "Avec la soude $\\mathrm{NaOH}$, un savon blanc dur ; avec la potasse $\\mathrm{KOH}$, un savon brun mou (savon noir) contenant de la glycérine.",
+      "difficulte": 2,
+      "tags": [
+        "savon-dur",
+        "savon-mou"
+      ]
+    },
+    {
+      "id": "PCTD-C10-037",
+      "lecon": "La saponification, les corps gras et les savons",
+      "type": "definition",
+      "recto": "Dans la fabrication du savon, en quoi consiste le relargage ?",
+      "verso": "On verse la pâte dans une solution saturée de chlorure de sodium : le savon, insoluble dans la saumure, se sépare et remonte, tandis que le glycérol et la soude en excès restent dans la phase aqueuse.",
+      "difficulte": 2,
+      "tags": [
+        "fabrication",
+        "relargage"
+      ]
+    }
+  ]
+}

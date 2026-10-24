@@ -1,0 +1,468 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 9 : Les acides et les bases",
+  "source": "pc/2ndc/Chimie_Chapitre_9_Les_acides_et_les_bases",
+  "nombre_cartes": 38,
+  "cartes": [
+    {
+      "id": "PC2C-C09-001",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "definition",
+      "recto": "En solution aqueuse, qu'appelle-t-on un acide ?",
+      "verso": "Une espèce chimique qui, mise en solution dans l'eau, libère des ions hydronium $\\mathrm{H_3O^+}$.",
+      "difficulte": 1,
+      "tags": [
+        "acide",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC2C-C09-002",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "definition",
+      "recto": "En solution aqueuse, qu'appelle-t-on une base ?",
+      "verso": "Une espèce chimique qui, mise en solution dans l'eau, libère des ions hydroxyde $\\mathrm{OH^-}$.",
+      "difficulte": 1,
+      "tags": [
+        "base",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC2C-C09-003",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la mise en solution du chlorure d'hydrogène dans l'eau ?",
+      "verso": "$\\mathrm{HCl_{(g)} + H_2O \\rightarrow H_3O^+_{(aq)} + Cl^-_{(aq)}}$ : la réaction est totale, l'eau reçoit le proton.",
+      "difficulte": 1,
+      "tags": [
+        "acide-chlorhydrique",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-004",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la mise en solution de l'acide sulfurique dans l'eau ?",
+      "verso": "$\\mathrm{H_2SO_4 + 2H_2O \\rightarrow 2H_3O^+_{(aq)} + SO^{2-}_{4\\,(aq)}}$ : deux molécules d'eau reçoivent chacune un proton.",
+      "difficulte": 2,
+      "tags": [
+        "acide-sulfurique",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-005",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la dissolution de l'hydroxyde de calcium solide dans l'eau ?",
+      "verso": "$\\mathrm{Ca(OH)_{2\\,(s)} \\rightarrow Ca^{2+}_{(aq)} + 2OH^-_{(aq)}}$ : le solide se dissocie, l'eau ne figure pas dans l'équation.",
+      "difficulte": 2,
+      "tags": [
+        "chaux-eteinte",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-006",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "definition",
+      "recto": "Dans les équations de mise en solution, pourquoi l'eau figure-t-elle à gauche pour un acide mais pas pour une base solide comme la soude ?",
+      "verso": "L'acide réagit avec l'eau, qui reçoit son proton ; la base solide se dissocie seulement : l'eau sépare et hydrate des ions déjà présents dans le cristal.",
+      "difficulte": 3,
+      "tags": [
+        "reaction",
+        "dissociation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C09-007",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "formule",
+      "recto": "Pour une solution d'acide sulfurique de concentration apportée $C$, quelles sont les concentrations des ions $\\mathrm{H_3O^+}$ et $\\mathrm{SO_4^{2-}$ ?",
+      "verso": "La mise en solution étant totale, $\\left[\\mathrm{H_3O^+}\\right] = 2C$ et $\\left[\\mathrm{SO_4^{2-}\\right] = C$, en $\\mathrm{mol/L}$, car le coefficient 2 précède $\\mathrm{H_3O^+}$.",
+      "difficulte": 3,
+      "tags": [
+        "diacide",
+        "concentration",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C09-008",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un diacide ?",
+      "verso": "Un acide qui cède deux protons par molécule, comme l'acide sulfurique $\\mathrm{H_2SO_4}$ ; l'acide chlorhydrique HCl, qui en cède un, est un monoacide.",
+      "difficulte": 2,
+      "tags": [
+        "diacide",
+        "monoacide"
+      ]
+    },
+    {
+      "id": "PC2C-C09-009",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre un acide fort et un acide faible ?",
+      "verso": "Un acide fort réagit totalement avec l'eau (HCl, $\\mathrm{HNO_3}$, $\\mathrm{H_2SO_4}$) ; un acide faible ne réagit que partiellement, comme l'acide éthanoïque : $\\mathrm{CH_3COOH + H_2O \\rightleftarrows H_3O^+ + CH_3COO^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "acide-fort",
+        "acide-faible"
+      ]
+    },
+    {
+      "id": "PC2C-C09-010",
+      "lecon": "Les acides et les bases en solution aqueuse",
+      "type": "formule",
+      "recto": "Comment doit-on diluer un acide concentré, comme l'électrolyte de batterie ?",
+      "verso": "On verse toujours l'acide dans l'eau, jamais l'eau dans l'acide, avec lunettes et gants, car la dilution dégage beaucoup de chaleur.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "dilution"
+      ]
+    },
+    {
+      "id": "PC2C-C09-011",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'autoprotolyse de l'eau ?",
+      "verso": "$\\mathrm{2H_2O \\rightleftarrows H_3O^+ + OH^-}$ : une molécule d'eau cède un proton à une autre ; la réaction est très limitée mais jamais nulle, et produit les deux ions en quantités égales.",
+      "difficulte": 1,
+      "tags": [
+        "autoprotolyse",
+        "eau"
+      ]
+    },
+    {
+      "id": "PC2C-C09-012",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "formule",
+      "recto": "Comment définit-on le produit ionique de l'eau $K_e$ et que vaut-il à $25~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "$K_e = \\left[\\mathrm{H_3O^+}\\right] \\cdot \\left[\\mathrm{OH^-}\\right]$ dans toute solution aqueuse ; il ne dépend que de la température et vaut $10^{-14}$ à $25~^{\\circ}\\mathrm{C}$, concentrations en $\\mathrm{mol/L}$.",
+      "difficulte": 1,
+      "tags": [
+        "produit-ionique",
+        "ke"
+      ]
+    },
+    {
+      "id": "PC2C-C09-013",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "formule",
+      "recto": "Quelle relation définit le pH d'une solution aqueuse diluée ?",
+      "verso": "$\\mathrm{pH} = -\\log \\left[\\mathrm{H_3O^+}\\right]$, soit $\\left[\\mathrm{H_3O^+}\\right] = 10^{-\\mathrm{pH}}$, avec $\\left[\\mathrm{H_3O^+}\\right]$ en $\\mathrm{mol/L}$ et le pH sans unité ; valable pour des solutions diluées (concentration au plus $10^{-1}~\\mathrm{mol/L}$).",
+      "difficulte": 1,
+      "tags": [
+        "ph",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC2C-C09-014",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, quelle relation lie le pH et le pOH d'une solution aqueuse ?",
+      "verso": "$\\mathrm{pH + pOH} = 14$, avec $\\mathrm{pOH} = -\\log \\left[\\mathrm{OH^-}\\right]$ ; on en tire $\\left[\\mathrm{OH^-}\\right] = 10^{\\mathrm{pH} - 14}$.",
+      "difficulte": 2,
+      "tags": [
+        "poh",
+        "produit-ionique"
+      ]
+    },
+    {
+      "id": "PC2C-C09-015",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "formule",
+      "recto": "A $25~^{\\circ}\\mathrm{C}$, comment reconnaît-on une solution acide à partir de son pH et des concentrations ?",
+      "verso": "Elle a $\\left[\\mathrm{H_3O^+}\\right] \\gt \\left[\\mathrm{OH^-}\\right]$ et $\\mathrm{pH} \\lt 7$.",
+      "difficulte": 1,
+      "tags": [
+        "nature",
+        "acide"
+      ]
+    },
+    {
+      "id": "PC2C-C09-016",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Qu'est-ce qui définit une solution neutre ?",
+      "verso": "L'égalité $\\left[\\mathrm{H_3O^+}\\right] = \\left[\\mathrm{OH^-}\\right]$ ; à $25~^{\\circ}\\mathrm{C}$, ces concentrations valent $10^{-7}~\\mathrm{mol/L}$ et le pH vaut 7, repère valable seulement à cette température.",
+      "difficulte": 2,
+      "tags": [
+        "neutre",
+        "nature"
+      ]
+    },
+    {
+      "id": "PC2C-C09-017",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Pourquoi une solution acide contient-elle toujours des ions hydroxyde ?",
+      "verso": "Le produit $\\left[\\mathrm{H_3O^+}\\right] \\cdot \\left[\\mathrm{OH^-}\\right]$ vaut $10^{-14}$ à $25~^{\\circ}\\mathrm{C}$ dans toute solution aqueuse : si $\\left[\\mathrm{OH^-}\\right]$ était nulle, le produit serait nul, ce qui est impossible.",
+      "difficulte": 3,
+      "tags": [
+        "produit-ionique",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C09-018",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Quand le pH de deux solutions diffère de deux unités, dans quel rapport sont leurs concentrations en ions $\\mathrm{H_3O^+}$ ?",
+      "verso": "Dans un rapport 100 : une unité de pH correspond à un facteur 10 sur la concentration en ions $\\mathrm{H_3O^+}$, deux unités à un facteur 100, et non un facteur 2.",
+      "difficulte": 3,
+      "tags": [
+        "ph",
+        "logarithme",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C09-019",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Avec quelle précision le papier pH et le pH-mètre donnent-ils le pH ?",
+      "verso": "Le papier pH donne le pH à une unité près (on note pH $= 3$) ; le pH-mètre étalonné le donne au dixième d'unité.",
+      "difficulte": 2,
+      "tags": [
+        "papier-ph",
+        "ph-metre",
+        "mesure"
+      ]
+    },
+    {
+      "id": "PC2C-C09-020",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Pour un indicateur coloré, qu'appelle-t-on la zone de virage ?",
+      "verso": "L'intervalle de pH sur lequel l'indicateur passe de sa teinte acide à sa teinte basique ; il y prend une teinte intermédiaire, et hors de cette zone sa couleur ne change plus.",
+      "difficulte": 2,
+      "tags": [
+        "indicateur-colore",
+        "zone-de-virage"
+      ]
+    },
+    {
+      "id": "PC2C-C09-021",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Quelles sont les teintes et la zone de virage du bleu de bromothymol ?",
+      "verso": "Jaune en milieu acide, bleu en milieu basique, zone de virage de 6,0 à 7,6, avec une teinte verte dans cette zone.",
+      "difficulte": 2,
+      "tags": [
+        "bbt",
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PC2C-C09-022",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "definition",
+      "recto": "Quelles sont les teintes et la zone de virage de la phénolphtaléine ?",
+      "verso": "Incolore en milieu acide, rose en milieu basique, zone de virage de 8,2 à 10,0.",
+      "difficulte": 2,
+      "tags": [
+        "phenolphtaleine",
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PC2C-C09-023",
+      "lecon": "Le pH, le produit ionique de l'eau et la nature d'une solution",
+      "type": "formule",
+      "recto": "Comment varie le pH d'une solution d'acide fort que l'on dilue dix fois ?",
+      "verso": "Il augmente d'une unité, car $\\left[\\mathrm{H_3O^+}\\right]$ est divisée par dix ; mais en diluant, le pH tend vers 7 sans jamais le franchir.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "ph"
+      ]
+    },
+    {
+      "id": "PC2C-C09-024",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation simplifiée de la réaction entre une solution acide et une solution basique ?",
+      "verso": "$\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$ : réaction totale et exothermique.",
+      "difficulte": 1,
+      "tags": [
+        "reaction-acide-base",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-025",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la neutralisation d'un acide par une base ?",
+      "verso": "Le cas particulier de la réaction acide-base où les ions $\\mathrm{H_3O^+}$ et $\\mathrm{OH^-}$ ont été introduits en quantités égales : ils disparaissent tous deux et la solution finale est neutre (pH 7 à $25~^{\\circ}\\mathrm{C}$).",
+      "difficulte": 2,
+      "tags": [
+        "neutralisation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-026",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "definition",
+      "recto": "Pourquoi un mélange d'acide et de base versés en volumes égaux n'est-il pas forcément neutre ?",
+      "verso": "Ce sont les quantités de matière $C \\times V$ d'ions $\\mathrm{H_3O^+}$ et $\\mathrm{OH^-}$ qui doivent être égales, avec le facteur 2 pour un diacide ou une dibase, pas les volumes.",
+      "difficulte": 3,
+      "tags": [
+        "neutralisation",
+        "quantite-de-matiere",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C09-027",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "definition",
+      "recto": "Dans une réaction acide-base, qu'appelle-t-on les espèces indifférentes ?",
+      "verso": "Les ions apportés par l'acide et la base qui ne participent pas à la réaction (ions spectateurs), comme $\\mathrm{Na^+}$ et $\\mathrm{Cl^-}$ ; ils restent en solution.",
+      "difficulte": 2,
+      "tags": [
+        "ions-spectateurs"
+      ]
+    },
+    {
+      "id": "PC2C-C09-028",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "definition",
+      "recto": "Quel sel obtient-on par réaction de l'acide sulfurique avec la soude ?",
+      "verso": "Le sulfate de sodium $\\mathrm{Na_2SO_4}$, formé par le cation de la base et l'anion de l'acide, récupéré solide par évaporation de l'eau.",
+      "difficulte": 2,
+      "tags": [
+        "sel",
+        "sulfate-de-sodium"
+      ]
+    },
+    {
+      "id": "PC2C-C09-029",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan globale de la réaction de l'acide chlorhydrique avec la soude ?",
+      "verso": "$\\mathrm{(H_3O^+ + Cl^-) + (Na^+ + OH^-) \\rightarrow 2H_2O + (Na^+ + Cl^-)}$, écrite aussi $\\mathrm{HCl + NaOH \\rightarrow NaCl + H_2O}$.",
+      "difficulte": 2,
+      "tags": [
+        "equation-globale",
+        "chlorure-de-sodium"
+      ]
+    },
+    {
+      "id": "PC2C-C09-030",
+      "lecon": "La réaction acide-base et la neutralisation",
+      "type": "formule",
+      "recto": "Que doit-on faire en cas d'éclaboussure d'acide sur la peau ?",
+      "verso": "Rincer à grande eau, longuement ; on ne neutralise pas par une base, car la réaction dégage de la chaleur et ajouterait une brûlure thermique.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "neutralisation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-031",
+      "lecon": "Le dosage acide-base",
+      "type": "definition",
+      "recto": "Que signifie doser (ou titrer) une solution ?",
+      "verso": "C'est déterminer sa concentration molaire ; le dosage acide-base utilise la réaction totale et rapide $\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$.",
+      "difficulte": 1,
+      "tags": [
+        "dosage",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC2C-C09-032",
+      "lecon": "Le dosage acide-base",
+      "type": "definition",
+      "recto": "Dans un dosage, qu'appelle-t-on la solution titrante ?",
+      "verso": "La solution de concentration connue, placée dans la burette ; la solution à doser, de concentration inconnue, est prélevée à la pipette jaugée dans le bécher.",
+      "difficulte": 1,
+      "tags": [
+        "solution-titrante",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC2C-C09-033",
+      "lecon": "Le dosage acide-base",
+      "type": "definition",
+      "recto": "Dans un dosage acide-base, qu'appelle-t-on l'équivalence ?",
+      "verso": "L'instant où les réactifs ont été introduits dans les proportions de l'équation : la quantité d'ions $\\mathrm{OH^-}$ versés égale la quantité d'ions $\\mathrm{H_3O^+}$ de la prise d'essai.",
+      "difficulte": 2,
+      "tags": [
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PC2C-C09-034",
+      "lecon": "Le dosage acide-base",
+      "type": "formule",
+      "recto": "Quelle relation est vérifiée à l'équivalence du dosage d'un monoacide par une monobase ?",
+      "verso": "$C_a V_a = C_b V_b$, concentrations en $\\mathrm{mol/L}$ et volumes dans la même unité, le volume de la solution titrante étant celui versé à l'équivalence.",
+      "difficulte": 1,
+      "tags": [
+        "equivalence",
+        "relation"
+      ]
+    },
+    {
+      "id": "PC2C-C09-035",
+      "lecon": "Le dosage acide-base",
+      "type": "formule",
+      "recto": "Quelle relation est vérifiée à l'équivalence du dosage de l'acide sulfurique par la soude ?",
+      "verso": "$2\\,C_a V_a = C_b V_b$, car une mole d'acide sulfurique libère deux moles d'ions $\\mathrm{H_3O^+}$.",
+      "difficulte": 3,
+      "tags": [
+        "diacide",
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PC2C-C09-036",
+      "lecon": "Le dosage acide-base",
+      "type": "formule",
+      "recto": "Quel indicateur coloré choisit-on pour le dosage de l'acide chlorhydrique par la soude ?",
+      "verso": "Le bleu de bromothymol, car sa zone de virage (6,0 à 7,6) contient le pH à l'équivalence, qui vaut 7 ; il passe du jaune au vert à l'équivalence.",
+      "difficulte": 2,
+      "tags": [
+        "bbt",
+        "dosage"
+      ]
+    },
+    {
+      "id": "PC2C-C09-037",
+      "lecon": "Le dosage acide-base",
+      "type": "formule",
+      "recto": "Lors d'un dosage suivi au pH-mètre, comment repère-t-on l'équivalence ?",
+      "verso": "Par le saut brutal de pH : au voisinage de l'équivalence, une seule goutte de solution titrante fait varier le pH de plusieurs unités.",
+      "difficulte": 2,
+      "tags": [
+        "ph-metre",
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PC2C-C09-038",
+      "lecon": "Le dosage acide-base",
+      "type": "definition",
+      "recto": "Avec quelle solution doit-on rincer la burette avant de la remplir ?",
+      "verso": "Avec la solution titrante elle-même : de l'eau distillée restante diluerait la solution titrante.",
+      "difficulte": 2,
+      "tags": [
+        "burette",
+        "manipulation"
+      ]
+    }
+  ]
+}

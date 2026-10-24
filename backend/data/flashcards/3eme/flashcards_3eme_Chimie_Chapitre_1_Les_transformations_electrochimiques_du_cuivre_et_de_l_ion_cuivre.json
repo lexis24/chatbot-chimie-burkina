@@ -1,0 +1,450 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 1 : Les transformations électrochimiques du cuivre et de l'ion cuivre",
+  "source": "pc/3eme/Chimie_Chapitre_1_Les_transformations_electrochimiques_du_cuivre_et_de_l_ion_cuivre",
+  "nombre_cartes": 38,
+  "cartes": [
+    {
+      "id": "PC3E-C01-001",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "En chimie, qu'appelle-t-on un ion ?",
+      "verso": "C'est un atome, ou un groupe d'atomes, qui a perdu ou gagné un ou plusieurs électrons. Son nombre d'électrons n'étant plus égal au nombre de charges positives du noyau, il porte une charge électrique.",
+      "difficulte": 1,
+      "tags": [
+        "ion",
+        "definition"
+      ]
+    },
+    {
+      "id": "PC3E-C01-002",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un cation ?",
+      "verso": "C'est un ion chargé positivement. Il provient d'un atome qui a perdu des électrons, par exemple $\\mathrm{Cu^{2+}}$, $\\mathrm{Zn^{2+}}$, $\\mathrm{Al^{3+}}$, $\\mathrm{Ag^{+}}$.",
+      "difficulte": 1,
+      "tags": [
+        "cation"
+      ]
+    },
+    {
+      "id": "PC3E-C01-003",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un anion ?",
+      "verso": "C'est un ion chargé négativement. Il provient d'un atome, ou d'un groupe d'atomes, qui a gagné des électrons, par exemple $\\mathrm{Cl^{-}}$, $\\mathrm{S^{2-}}$, $\\mathrm{SO_4^{2-}}$, $\\mathrm{NO_3^{-}}$.",
+      "difficulte": 1,
+      "tags": [
+        "anion"
+      ]
+    },
+    {
+      "id": "PC3E-C01-004",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "formule",
+      "recto": "Comment s'écrit la formule d'un ion ?",
+      "verso": "On écrit le symbole de l'élément puis, en exposant à droite, le nombre de charges suivi du signe : $\\mathrm{Al^{3+}}$, $\\mathrm{S^{2-}}$. Pour une seule charge, on n'écrit pas le chiffre 1 : $\\mathrm{Ag^{+}}$, $\\mathrm{Cl^{-}}$.",
+      "difficulte": 2,
+      "tags": [
+        "formule-ion",
+        "notation"
+      ]
+    },
+    {
+      "id": "PC3E-C01-005",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "Comment l'ion cuivre II $\\mathrm{Cu^{2+}}$ se forme-t-il à partir de l'atome de cuivre ?",
+      "verso": "L'atome de cuivre (29 charges positives dans le noyau, 29 électrons) perd 2 électrons. L'ion garde les 29 charges positives mais n'a plus que 27 électrons : il porte $29 - 27 = 2$ charges positives en excès.",
+      "difficulte": 2,
+      "tags": [
+        "ion-cuivre",
+        "charge"
+      ]
+    },
+    {
+      "id": "PC3E-C01-006",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "Quelle couleur l'ion cuivre II $\\mathrm{Cu^{2+}}$ donne-t-il à une solution ?",
+      "verso": "Il colore la solution en bleu. L'atome de cuivre, lui, est neutre et rouge-brun dans le métal.",
+      "difficulte": 1,
+      "tags": [
+        "ion-cuivre",
+        "couleur"
+      ]
+    },
+    {
+      "id": "PC3E-C01-007",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "Pourquoi la formation d'un ion ne change-t-elle pas l'élément chimique ?",
+      "verso": "Un ion se forme en déplaçant des électrons, jamais des protons : le noyau ne bouge pas, donc l'élément reste le même. Ecrire qu'un atome gagne ou perd des protons est une erreur.",
+      "difficulte": 3,
+      "tags": [
+        "ion",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C01-008",
+      "lecon": "L'ion, un atome qui a gagné ou perdu des électrons",
+      "type": "definition",
+      "recto": "Pourquoi l'ion cuivre ne s'écrit-il pas $\\mathrm{Cu^{+2}}$ ?",
+      "verso": "L'exposant se lit nombre puis signe : on écrit $\\mathrm{Cu^{2+}}$. De même, on n'écrit jamais le 1 : $\\mathrm{Ag^{+}}$ et non $\\mathrm{Ag^{1+}}$.",
+      "difficulte": 3,
+      "tags": [
+        "notation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C01-009",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un électrolyte ?",
+      "verso": "C'est une solution qui contient des ions et qui, pour cette raison, conduit le courant électrique : solution de sulfate de cuivre, eau salée, solution de nitrate d'argent.",
+      "difficulte": 1,
+      "tags": [
+        "electrolyte"
+      ]
+    },
+    {
+      "id": "PC3E-C01-010",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "definition",
+      "recto": "Quelle est la nature du courant électrique dans un électrolyte, comparée à celle du courant dans un fil ?",
+      "verso": "Dans un fil, le courant est un déplacement d'électrons libres. Dans un électrolyte, c'est un déplacement d'ions : les cations dans un sens, les anions dans l'autre.",
+      "difficulte": 2,
+      "tags": [
+        "nature-courant",
+        "ions"
+      ]
+    },
+    {
+      "id": "PC3E-C01-011",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "definition",
+      "recto": "Pourquoi l'eau sucrée, bien que limpide, ne conduit-elle pas le courant ?",
+      "verso": "Le sucre dissous donne des molécules neutres, et non des ions : aucune particule chargée ne peut se déplacer. Se dissoudre n'est pas conduire : l'eau sucrée n'est pas un électrolyte.",
+      "difficulte": 3,
+      "tags": [
+        "eau-sucree",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C01-012",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "formule",
+      "recto": "Quelle égalité traduit la neutralité électrique d'une solution ionique ?",
+      "verso": "Le nombre total de charges positives apportées par les cations est égal au nombre total de charges négatives apportées par les anions. La solution est neutre dans son ensemble, mais chaque ion reste chargé.",
+      "difficulte": 2,
+      "tags": [
+        "neutralite"
+      ]
+    },
+    {
+      "id": "PC3E-C01-013",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "formule",
+      "recto": "Quelle est la formule de la solution de nitrate de cuivre, formée d'ions $\\mathrm{Cu^{2+}}$ et $\\mathrm{NO_3^{-}}$ ?",
+      "verso": "$\\mathrm{(Cu^{2+} + 2\\,NO_3^{-})}$ : il faut 2 ions nitrate pour compenser les 2 charges positives de l'ion cuivre. Ecrire $\\mathrm{(Cu^{2+} + NO_3^{-})}$ est faux.",
+      "difficulte": 2,
+      "tags": [
+        "formule-solution",
+        "coefficients"
+      ]
+    },
+    {
+      "id": "PC3E-C01-014",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "definition",
+      "recto": "Quels ions utiles à l'organisme l'eau de boisson et les aliments apportent-ils ?",
+      "verso": "Les ions calcium $\\mathrm{Ca^{2+}}$, magnésium $\\mathrm{Mg^{2+}}$, sodium $\\mathrm{Na^{+}}$, potassium $\\mathrm{K^{+}}$ et chlorure $\\mathrm{Cl^{-}}$.",
+      "difficulte": 1,
+      "tags": [
+        "sante",
+        "eau-de-boisson"
+      ]
+    },
+    {
+      "id": "PC3E-C01-015",
+      "lecon": "Les solutions ioniques, conduction et neutralité électrique",
+      "type": "definition",
+      "recto": "Quels effets nuisibles un excès d'ions plomb ou d'ions sodium a-t-il sur la santé ?",
+      "verso": "Les ions plomb attaquent le système nerveux, surtout chez l'enfant. Un excès d'ions sodium (sel de cuisine) favorise l'hypertension et les maladies du coeur et des reins.",
+      "difficulte": 2,
+      "tags": [
+        "sante",
+        "ions-nuisibles"
+      ]
+    },
+    {
+      "id": "PC3E-C01-016",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une électrolyse ?",
+      "verso": "C'est l'ensemble des réactions chimiques qui se produisent lors du passage du courant électrique dans un électrolyte. La cuve s'appelle un électrolyseur et les deux lames plongées, les électrodes.",
+      "difficulte": 1,
+      "tags": [
+        "electrolyse"
+      ]
+    },
+    {
+      "id": "PC3E-C01-017",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "definition",
+      "recto": "Lors d'une électrolyse, qu'appelle-t-on l'anode ?",
+      "verso": "C'est l'électrode reliée à la borne positive du générateur. Le courant entre dans l'électrolyte par l'anode.",
+      "difficulte": 1,
+      "tags": [
+        "anode"
+      ]
+    },
+    {
+      "id": "PC3E-C01-018",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "definition",
+      "recto": "Lors d'une électrolyse, qu'appelle-t-on la cathode ?",
+      "verso": "C'est l'électrode reliée à la borne négative du générateur. Le courant sort de l'électrolyte par la cathode.",
+      "difficulte": 1,
+      "tags": [
+        "cathode"
+      ]
+    },
+    {
+      "id": "PC3E-C01-019",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution de sulfate de cuivre avec une anode en cuivre, quelle équation traduit la réaction à l'anode ?",
+      "verso": "$\\mathrm{Cu \\rightarrow Cu^{2+} + 2\\,e^{-}}$ : le cuivre de l'anode se dissout en cédant des électrons, la lame maigrit.",
+      "difficulte": 2,
+      "tags": [
+        "anode",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC3E-C01-020",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse d'une solution de sulfate de cuivre, quelle équation traduit la réaction à la cathode ?",
+      "verso": "$\\mathrm{Cu^{2+} + 2\\,e^{-} \\rightarrow Cu}$ : les ions cuivre captent des électrons et le cuivre se dépose sur la cathode.",
+      "difficulte": 2,
+      "tags": [
+        "cathode",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC3E-C01-021",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "formule",
+      "recto": "Lors d'une électrolyse, comment les cations et les anions migrent-ils entre les électrodes ?",
+      "verso": "Les cations (comme $\\mathrm{Cu^{2+}}$) migrent vers la cathode, dans le sens du courant. Les anions (comme $\\mathrm{SO_4^{2-}}$) migrent vers l'anode, en sens inverse du courant.",
+      "difficulte": 2,
+      "tags": [
+        "migration-ions"
+      ]
+    },
+    {
+      "id": "PC3E-C01-022",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "formule",
+      "recto": "Dans un électrolyseur, quel est le sens du courant dans les fils et dans l'électrolyte ?",
+      "verso": "Dans les fils : de la borne $+$ du générateur vers l'anode, puis de la cathode vers la borne $-$. Dans l'électrolyte : de l'anode vers la cathode, porté par les ions.",
+      "difficulte": 2,
+      "tags": [
+        "sens-courant"
+      ]
+    },
+    {
+      "id": "PC3E-C01-023",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une électrolyse à anode soluble ?",
+      "verso": "C'est une électrolyse où l'anode, faite du même métal que l'ion de l'électrolyte, se dissout pendant que ce métal se dépose à la cathode.",
+      "difficulte": 2,
+      "tags": [
+        "anode-soluble"
+      ]
+    },
+    {
+      "id": "PC3E-C01-024",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "formule",
+      "recto": "Pour l'électrolyse du sulfate de cuivre à anode soluble en cuivre, quel est le bilan chimique ?",
+      "verso": "Un transport de cuivre de l'anode vers la cathode : la masse déposée est égale à la masse disparue à l'anode, et le nombre d'ions $\\mathrm{Cu^{2+}}$ reste constant, donc la solution reste aussi bleue.",
+      "difficulte": 2,
+      "tags": [
+        "bilan-chimique",
+        "anode-soluble"
+      ]
+    },
+    {
+      "id": "PC3E-C01-025",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "formule",
+      "recto": "Lors de l'électrolyse à anode soluble en cuivre, pourquoi le bilan électronique est-il nul ?",
+      "verso": "Chaque atome de cuivre qui quitte l'anode cède 2 électrons, et chaque ion $\\mathrm{Cu^{2+}}$ qui se dépose à la cathode en capte 2 : autant d'électrons sont cédés que captés.",
+      "difficulte": 2,
+      "tags": [
+        "bilan-electronique"
+      ]
+    },
+    {
+      "id": "PC3E-C01-026",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "definition",
+      "recto": "Dans une cuve à électrolyse, qu'est-ce qui décide qu'une électrode est l'anode ou la cathode ?",
+      "verso": "C'est son branchement, jamais sa matière : l'anode est reliée à la borne $+$, la cathode à la borne $-$.",
+      "difficulte": 3,
+      "tags": [
+        "anode",
+        "cathode",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C01-027",
+      "lecon": "L'électrolyse d'une solution de sulfate de cuivre",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'électrochimie ?",
+      "verso": "C'est l'étude des transformations chimiques provoquées par le passage du courant électrique. La galvanoplastie et la purification des métaux en sont deux applications.",
+      "difficulte": 1,
+      "tags": [
+        "electrochimie"
+      ]
+    },
+    {
+      "id": "PC3E-C01-028",
+      "lecon": "La galvanoplastie, recouvrir un objet d'un métal",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la galvanoplastie ?",
+      "verso": "C'est le recouvrement d'un objet par une couche mince de métal, obtenue par électrolyse.",
+      "difficulte": 1,
+      "tags": [
+        "galvanoplastie"
+      ]
+    },
+    {
+      "id": "PC3E-C01-029",
+      "lecon": "La galvanoplastie, recouvrir un objet d'un métal",
+      "type": "formule",
+      "recto": "En galvanoplastie, quelles sont les trois règles du montage ?",
+      "verso": "L'objet à recouvrir est relié à la borne $-$ (cathode) ; l'anode est faite du métal à déposer ; l'électrolyte contient l'ion de ce métal.",
+      "difficulte": 2,
+      "tags": [
+        "galvanoplastie",
+        "montage"
+      ]
+    },
+    {
+      "id": "PC3E-C01-030",
+      "lecon": "La galvanoplastie, recouvrir un objet d'un métal",
+      "type": "definition",
+      "recto": "En galvanoplastie, pourquoi l'objet à recouvrir doit-il être relié à la borne négative ?",
+      "verso": "Seule la cathode reçoit un dépôt : les cations y captent des électrons et deviennent des atomes. Relié au $+$, l'objet serait rongé au lieu d'être couvert.",
+      "difficulte": 3,
+      "tags": [
+        "galvanoplastie",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC3E-C01-031",
+      "lecon": "La galvanoplastie, recouvrir un objet d'un métal",
+      "type": "definition",
+      "recto": "Comment nomme-t-on les dépôts d'argent, d'or, de chrome, d'étain et de zinc obtenus par galvanoplastie ?",
+      "verso": "Argenture (argent), dorure (or), chromage (chrome), étamage (étain), galvanisation (zinc). On parle aussi de nickelage (nickel) et de cuivrage (cuivre).",
+      "difficulte": 2,
+      "tags": [
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC3E-C01-032",
+      "lecon": "La galvanoplastie, recouvrir un objet d'un métal",
+      "type": "formule",
+      "recto": "En galvanoplastie, quelle relation donne la masse $m$ d'un dépôt de surface $S$ et d'épaisseur $e$, pour un métal de masse volumique $\\rho$ ?",
+      "verso": "$m = \\rho \\times V = \\rho \\times S \\times e$. Avec $\\rho$ en $\\mathrm{g/cm^{3}}$, on prend $S$ en $\\mathrm{cm^{2}}$ et $e$ en cm ($1~\\mathrm{mm} = 0{,}1~\\mathrm{cm}$) : $m$ est en grammes.",
+      "difficulte": 2,
+      "tags": [
+        "masse-depot",
+        "unites"
+      ]
+    },
+    {
+      "id": "PC3E-C01-033",
+      "lecon": "La galvanoplastie, recouvrir un objet d'un métal",
+      "type": "formule",
+      "recto": "Connaissant la masse $m$ d'un dépôt et la masse $m_{\\text{atome}}$ d'un atome du métal, comment obtient-on le nombre $N$ d'atomes déposés ?",
+      "verso": "$N = \\dfrac{m}{m_{\\text{atome}}}$ : on divise la masse déposée (pesée) par la masse, minuscule, d'un atome.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-atomes"
+      ]
+    },
+    {
+      "id": "PC3E-C01-034",
+      "lecon": "L'affinage électrolytique et les usages industriels",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la purification électrolytique, ou affinage, d'un métal ?",
+      "verso": "C'est l'opération qui consiste à obtenir un métal pur à partir d'un métal impur, par électrolyse.",
+      "difficulte": 1,
+      "tags": [
+        "affinage"
+      ]
+    },
+    {
+      "id": "PC3E-C01-035",
+      "lecon": "L'affinage électrolytique et les usages industriels",
+      "type": "formule",
+      "recto": "Lors de l'affinage électrolytique du cuivre, où place-t-on le cuivre impur et le cuivre pur ?",
+      "verso": "Le cuivre impur est l'anode, reliée au $+$, et se dissout : $\\mathrm{Cu \\rightarrow Cu^{2+} + 2\\,e^{-}}$. Une lame de cuivre pur est la cathode, reliée au $-$, où le cuivre pur se dépose : $\\mathrm{Cu^{2+} + 2\\,e^{-} \\rightarrow Cu}$.",
+      "difficulte": 2,
+      "tags": [
+        "affinage",
+        "montage"
+      ]
+    },
+    {
+      "id": "PC3E-C01-036",
+      "lecon": "L'affinage électrolytique et les usages industriels",
+      "type": "definition",
+      "recto": "Lors d'un affinage électrolytique, qu'appelle-t-on les boues anodiques ?",
+      "verso": "Ce sont les impuretés qui ne passent pas en solution (par exemple l'argent et l'or, pourtant conducteurs) : elles tombent au fond de la cuve, sous l'anode.",
+      "difficulte": 2,
+      "tags": [
+        "boues-anodiques"
+      ]
+    },
+    {
+      "id": "PC3E-C01-037",
+      "lecon": "L'affinage électrolytique et les usages industriels",
+      "type": "formule",
+      "recto": "Lors d'un affinage, si $m_1$ grammes de métal impur donnent $m_2$ grammes de métal pur, quelle masse de pur donne une masse $M$ d'impur ?",
+      "verso": "La masse de pur est proportionnelle à la masse d'impur : elle vaut $\\dfrac{m_2}{m_1} \\times M$ grammes, avec $\\dfrac{m_2}{m_1} \\lt 1$ car une partie part en boues anodiques.",
+      "difficulte": 3,
+      "tags": [
+        "rendement",
+        "proportionnalite"
+      ]
+    },
+    {
+      "id": "PC3E-C01-038",
+      "lecon": "L'affinage électrolytique et les usages industriels",
+      "type": "definition",
+      "recto": "Quelle différence fait-on entre la galvanisation et la galvanoplastie ?",
+      "verso": "La galvanoplastie est le procédé général de recouvrement d'un objet par un métal. La galvanisation en est un cas : le dépôt de zinc sur une tôle d'acier pour la protéger de la rouille.",
+      "difficulte": 3,
+      "tags": [
+        "galvanisation",
+        "piege"
+      ]
+    }
+  ]
+}

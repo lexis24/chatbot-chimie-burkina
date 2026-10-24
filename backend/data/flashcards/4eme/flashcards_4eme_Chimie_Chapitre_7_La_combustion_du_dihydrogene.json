@@ -1,0 +1,431 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "4ème",
+  "chapitre": "Chimie, Chapitre 7 : La combustion du dihydrogène",
+  "source": "pc/4eme/Chimie_Chapitre_7_La_combustion_du_dihydrogene",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC4E-C07-001",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Au laboratoire, comment prépare-t-on le dihydrogène ?",
+      "verso": "En faisant agir un acide sur un métal : de l'acide chlorhydrique dilué sur du zinc, du fer ou de l'aluminium. Il se produit une effervescence et le gaz se dégage.",
+      "difficulte": 1,
+      "tags": [
+        "preparation",
+        "dihydrogene"
+      ]
+    },
+    {
+      "id": "PC4E-C07-002",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "formule",
+      "recto": "Quel est le bilan en mots de l'action de l'acide chlorhydrique sur le zinc ?",
+      "verso": "zinc $+$ acide chlorhydrique $\\rightarrow$ chlorure de zinc $+$ dihydrogène.",
+      "difficulte": 2,
+      "tags": [
+        "preparation",
+        "bilan-en-mots"
+      ]
+    },
+    {
+      "id": "PC4E-C07-003",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Pourquoi la préparation du dihydrogène par action d'un acide sur un métal n'est-elle pas une combustion ?",
+      "verso": "Parce que rien n'y brûle : c'est une réaction chimique entre un acide et un métal, sans comburant ni flamme.",
+      "difficulte": 3,
+      "tags": [
+        "preparation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C07-004",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Comment recueille-t-on le dihydrogène au laboratoire ?",
+      "verso": "Par déplacement d'eau : dans un tube à essai d'abord rempli d'eau et retourné sur une cuve à eau, le gaz chasse l'eau et occupe toute la place.",
+      "difficulte": 1,
+      "tags": [
+        "recueil",
+        "deplacement-d-eau"
+      ]
+    },
+    {
+      "id": "PC4E-C07-005",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Quelle propriété du dihydrogène permet de le recueillir par déplacement d'eau ?",
+      "verso": "Il est très peu soluble dans l'eau : il ne s'y dissout pas, chasse l'eau du tube et l'on recueille du gaz pur dont on lit le volume.",
+      "difficulte": 2,
+      "tags": [
+        "recueil",
+        "solubilite"
+      ]
+    },
+    {
+      "id": "PC4E-C07-006",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Lors de la préparation du dihydrogène, pourquoi jette-t-on le premier tube recueilli ?",
+      "verso": "Au démarrage, le flacon et le tuyau sont pleins d'air, qui part le premier : ce tube contient un mélange air-dihydrogène, donc un mélange explosif.",
+      "difficulte": 2,
+      "tags": [
+        "recueil",
+        "securite"
+      ]
+    },
+    {
+      "id": "PC4E-C07-007",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Quelles sont les trois parties du montage de préparation du dihydrogène ?",
+      "verso": "Le flacon réactionnel, où le gaz se forme ; le tube de dégagement coudé, enfoncé dans le bouchon ; la cuve à eau, où le tube renversé recueille le gaz.",
+      "difficulte": 2,
+      "tags": [
+        "montage"
+      ]
+    },
+    {
+      "id": "PC4E-C07-008",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Quelles sont les caractéristiques physiques du dihydrogène ?",
+      "verso": "C'est un gaz incolore, inodore, très peu dense et très peu soluble dans l'eau. Il est inflammable.",
+      "difficulte": 1,
+      "tags": [
+        "caracteristiques"
+      ]
+    },
+    {
+      "id": "PC4E-C07-009",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "formule",
+      "recto": "Quelle est la densité du dihydrogène par rapport à l'air ?",
+      "verso": "$d = 0{,}07$ : le dihydrogène est environ quatorze fois plus léger que l'air.",
+      "difficulte": 2,
+      "tags": [
+        "densite"
+      ]
+    },
+    {
+      "id": "PC4E-C07-010",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Quelle est la formule du dihydrogène ?",
+      "verso": "$\\mathrm{H_2}$ : chaque molécule est formée de deux atomes d'hydrogène.",
+      "difficulte": 1,
+      "tags": [
+        "formule",
+        "dihydrogene"
+      ]
+    },
+    {
+      "id": "PC4E-C07-011",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Quelle est la différence entre l'hydrogène et le dihydrogène ?",
+      "verso": "L'hydrogène est le nom de l'atome, de symbole $\\mathrm{H}$ ; le dihydrogène est le nom du gaz, formé de molécules $\\mathrm{H_2}$.",
+      "difficulte": 3,
+      "tags": [
+        "vocabulaire",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C07-012",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "formule",
+      "recto": "Quel est le test d'identification du dihydrogène ?",
+      "verso": "On approche une allumette enflammée de l'ouverture d'un tube qui en contient : il se produit une détonation, un claquement sec et bref.",
+      "difficulte": 1,
+      "tags": [
+        "test-identification"
+      ]
+    },
+    {
+      "id": "PC4E-C07-013",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Pourquoi garde-t-on toujours un tube de dihydrogène ouverture vers le bas ?",
+      "verso": "Parce que le dihydrogène est beaucoup plus léger que l'air : ouverture vers le haut, le tube se vide tout seul.",
+      "difficulte": 2,
+      "tags": [
+        "densite",
+        "recueil"
+      ]
+    },
+    {
+      "id": "PC4E-C07-014",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "formule",
+      "recto": "Pour un local où l'on stocke du dihydrogène, où place-t-on les ouvertures de ventilation ?",
+      "verso": "En hauteur, près du plafond : très léger, le dihydrogène d'une fuite monte et s'accumule au plafond.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "ventilation"
+      ]
+    },
+    {
+      "id": "PC4E-C07-015",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "definition",
+      "recto": "Pourquoi toute fuite de dihydrogène est-elle dangereuse ?",
+      "verso": "Le dihydrogène est inflammable et explose, mélangé à l'air, à l'approche d'une flamme ou d'une étincelle ; incolore et inodore, il est en plus indétectable par les sens.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "dangers"
+      ]
+    },
+    {
+      "id": "PC4E-C07-016",
+      "lecon": "La préparation du dihydrogène et ses caractéristiques",
+      "type": "formule",
+      "recto": "Avec quoi cherche-t-on une fuite de dihydrogène ?",
+      "verso": "A l'eau savonneuse, jamais à la flamme.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "fuite"
+      ]
+    },
+    {
+      "id": "PC4E-C07-017",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Dans la combustion du dihydrogène, quel corps est le combustible et quel corps est le comburant ?",
+      "verso": "Le dihydrogène est le combustible ; le dioxygène, de l'air ou pur, est le comburant.",
+      "difficulte": 1,
+      "tags": [
+        "combustible",
+        "comburant"
+      ]
+    },
+    {
+      "id": "PC4E-C07-018",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Quel est l'aspect de la flamme du dihydrogène qui brûle ?",
+      "verso": "Une flamme bleu pâle, presque invisible, sans fumée ni noir de fumée. Elle dégage beaucoup de chaleur : la combustion est exothermique.",
+      "difficulte": 1,
+      "tags": [
+        "flamme"
+      ]
+    },
+    {
+      "id": "PC4E-C07-019",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Pourquoi la flamme du dihydrogène est-elle presque invisible, alors que celle d'une bougie est jaune ?",
+      "verso": "La couleur jaune vient de particules de carbone qui rougeoient ; le dihydrogène ne contient aucun atome de carbone, donc sa flamme n'éclaire presque pas.",
+      "difficulte": 3,
+      "tags": [
+        "flamme",
+        "carbone"
+      ]
+    },
+    {
+      "id": "PC4E-C07-020",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Quel est le corps formé lors de la combustion du dihydrogène dans le dioxygène ?",
+      "verso": "Un seul corps : l'eau, de formule $\\mathrm{H_2O}$, formée de deux atomes d'hydrogène et d'un atome d'oxygène.",
+      "difficulte": 1,
+      "tags": [
+        "produit",
+        "eau"
+      ]
+    },
+    {
+      "id": "PC4E-C07-021",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "formule",
+      "recto": "Comment met-on en évidence l'eau formée par la combustion du dihydrogène ?",
+      "verso": "On tient au-dessus de la flamme un récipient propre, froid et sec : de la buée s'y dépose. Puis on dépose ce liquide sur du sulfate de cuivre anhydre, qui passe du blanc au bleu.",
+      "difficulte": 2,
+      "tags": [
+        "test-eau",
+        "sulfate-de-cuivre"
+      ]
+    },
+    {
+      "id": "PC4E-C07-022",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Pourquoi la buée sur un bécher placé au-dessus d'une flamme ne suffit-elle pas à prouver la formation d'eau ?",
+      "verso": "La buée rend l'eau probable sans la prouver : seul le bleuissement du sulfate de cuivre anhydre, réactif de l'eau, en est la preuve.",
+      "difficulte": 3,
+      "tags": [
+        "test-eau",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C07-023",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Pourquoi la combustion du dihydrogène dans le dioxygène ne produit-elle pas de dioxyde de carbone ?",
+      "verso": "Parce qu'il n'y a aucun atome de carbone dans $\\mathrm{H_2}$ ni dans $\\mathrm{O_2}$ ; d'ailleurs l'eau de chaux agitée dans le flacon reste limpide.",
+      "difficulte": 3,
+      "tags": [
+        "dioxyde-de-carbone",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C07-024",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Lors de la combustion du dihydrogène dans l'air, quel est le rôle du diazote ?",
+      "verso": "Aucun : le diazote ne participe pas. Seuls le dihydrogène et le dioxygène disparaissent, et l'eau apparaît.",
+      "difficulte": 2,
+      "tags": [
+        "air",
+        "diazote"
+      ]
+    },
+    {
+      "id": "PC4E-C07-025",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Pourquoi dit-on que le dihydrogène est un vecteur d'énergie et non une source d'énergie ?",
+      "verso": "Parce qu'il est très rare à l'état libre dans la nature : il faut presque toujours le fabriquer, et cela demande de l'énergie.",
+      "difficulte": 3,
+      "tags": [
+        "vecteur-d-energie",
+        "applications"
+      ]
+    },
+    {
+      "id": "PC4E-C07-026",
+      "lecon": "La combustion du dihydrogène et la mise en évidence de l'eau",
+      "type": "definition",
+      "recto": "Quelles sont les principales applications du dihydrogène ?",
+      "verso": "Le chalumeau oxhydrique (flamme de plus de $2\\,000~^{\\circ}\\mathrm{C}$), le gonflage des ballons météorologiques, le carburant de fusées et les piles à combustible.",
+      "difficulte": 2,
+      "tags": [
+        "applications"
+      ]
+    },
+    {
+      "id": "PC4E-C07-027",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "definition",
+      "recto": "Dans la combustion du dihydrogène dans le dioxygène, quels sont les réactifs et le produit ?",
+      "verso": "Les réactifs sont le dihydrogène $\\mathrm{H_2}$ et le dioxygène $\\mathrm{O_2}$ ; le seul produit est l'eau $\\mathrm{H_2O}$.",
+      "difficulte": 1,
+      "tags": [
+        "reactifs",
+        "produit"
+      ]
+    },
+    {
+      "id": "PC4E-C07-028",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "definition",
+      "recto": "Parmi $\\mathrm{H_2}$, $\\mathrm{O_2}$ et $\\mathrm{H_2O}$, lesquels sont des corps purs simples ?",
+      "verso": "$\\mathrm{H_2}$ et $\\mathrm{O_2}$, formés d'une seule sorte d'atome ; l'eau $\\mathrm{H_2O}$, formée de deux sortes d'atomes, est un corps pur composé.",
+      "difficulte": 2,
+      "tags": [
+        "corps-pur-simple",
+        "corps-pur-compose"
+      ]
+    },
+    {
+      "id": "PC4E-C07-029",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "definition",
+      "recto": "Comment interprète-t-on, à l'échelle des molécules, la combustion du dihydrogène ?",
+      "verso": "Les molécules de dihydrogène et de dioxygène sont détruites et leurs atomes se réarrangent en molécules d'eau, sans qu'aucun atome soit créé ni détruit.",
+      "difficulte": 2,
+      "tags": [
+        "interpretation",
+        "atomes"
+      ]
+    },
+    {
+      "id": "PC4E-C07-030",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion du dihydrogène dans le dioxygène ?",
+      "verso": "$2\\,\\mathrm{H_2} + \\mathrm{O_2} \\rightarrow 2\\,\\mathrm{H_2O}$ : 4 atomes H et 2 atomes O de chaque côté.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC4E-C07-031",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "definition",
+      "recto": "Dans une équation-bilan, qu'appelle-t-on un coefficient ?",
+      "verso": "Un nombre entier écrit devant une formule, jamais à l'intérieur ; il indique combien de molécules de ce corps participent à la réaction.",
+      "difficulte": 2,
+      "tags": [
+        "coefficient"
+      ]
+    },
+    {
+      "id": "PC4E-C07-032",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "definition",
+      "recto": "Dans une équation-bilan, que signifie l'absence de coefficient devant une formule ?",
+      "verso": "Elle signifie un coefficient égal à un (une molécule), et non zéro.",
+      "difficulte": 2,
+      "tags": [
+        "coefficient"
+      ]
+    },
+    {
+      "id": "PC4E-C07-033",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "formule",
+      "recto": "Combien d'atomes d'hydrogène compte-t-on dans $2\\,\\mathrm{H_2O}$ ?",
+      "verso": "$2 \\times 2 = 4$ atomes d'hydrogène (et $2 \\times 1 = 2$ atomes d'oxygène) : on multiplie le coefficient par l'indice.",
+      "difficulte": 3,
+      "tags": [
+        "comptage",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC4E-C07-034",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "formule",
+      "recto": "Pour équilibrer une équation chimique, pourquoi n'a-t-on pas le droit de modifier les indices ?",
+      "verso": "Modifier un indice change le corps : écrire $\\mathrm{H_4O_2}$ au lieu de $2\\,\\mathrm{H_2O}$ ne désigne plus l'eau. On place seulement des coefficients entiers devant les formules.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "indices"
+      ]
+    },
+    {
+      "id": "PC4E-C07-035",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "formule",
+      "recto": "Quelle loi de conservation découle de la conservation des atomes au cours d'une réaction chimique ?",
+      "verso": "La conservation de la masse : la masse des réactifs consommés est égale à la masse des produits formés.",
+      "difficulte": 2,
+      "tags": [
+        "conservation-masse"
+      ]
+    },
+    {
+      "id": "PC4E-C07-036",
+      "lecon": "L'interprétation de la combustion et l'équation-bilan",
+      "type": "definition",
+      "recto": "Comment se lit l'équation $2\\,\\mathrm{H_2} + \\mathrm{O_2} \\rightarrow 2\\,\\mathrm{H_2O}$ ?",
+      "verso": "Deux molécules de dihydrogène réagissent avec une molécule de dioxygène pour donner deux molécules d'eau ; la flèche se lit « donne », elle n'est pas un signe égal.",
+      "difficulte": 2,
+      "tags": [
+        "lecture-equation"
+      ]
+    }
+  ]
+}

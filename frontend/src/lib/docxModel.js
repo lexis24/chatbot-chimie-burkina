@@ -7,7 +7,7 @@
  */
 
 export function stripFigureBlocks(text) {
-  return (text || "").replace(/```figure[\s\S]*?```/g, "\n[Figure géométrique — voir dans l'application]\n")
+  return (text || "").replace(/```figure[\s\S]*?```/g, "\n[Schéma — voir dans l'application]\n")
 }
 
 // ============================================================================
@@ -91,9 +91,43 @@ function convertScripts(text) {
     .replace(/_([0-9+-])/g, (_, c) => toScriptChars(c, SUBSCRIPT_CHARS) ?? `_${c}`)
 }
 
+// ============================================================================
+// Chimie (mhchem) : \ce{...} -> texte Unicode ("\ce{SO4^2-}" -> "SO₄²⁻"). Sous-ensemble utilisé
+// par le backend (voir FORMULA_FORMAT_INSTRUCTIONS dans rag_system.py) : coefficients, indices,
+// charges, états physiques, liaisons et flèches.
+// ============================================================================
+
+const CE_ARROWS = { "<=>": "⇌", "<->": "↔", "->": "→", "<-": "←" }
+
+function convertCeSpecies(token) {
+  let body = token
+  const coef = /^(\d+)(?=[A-Za-z([])/.exec(body)?.[1] || ""
+  body = body.slice(coef.length)
+  const state = /\((?:aq|s|l|g)\)$/.exec(body)?.[0] || ""
+  if (state) body = body.slice(0, -state.length)
+  // Charge : "^2+", "^{2+}", ou un +/- final (H3O+, Cl-, e-) — un tiret interne reste une liaison.
+  const charge = /\^\{?([0-9]*[+-])\}?$/.exec(body) || (body.length > 1 ? /([+-])$/.exec(body) : null)
+  if (charge) body = body.slice(0, charge.index)
+  body = body
+    .replace(/([A-Za-z)\]])(\d+)/g, (_, a, d) => a + Array.from(d).map((c) => SUBSCRIPT_CHARS[c]).join(""))
+    .replace(/#/g, "≡")
+  const sup = charge ? toScriptChars(charge[1], SUPERSCRIPT_CHARS) ?? `^${charge[1]}` : ""
+  return (coef ? `${coef} ` : "") + body + sup + state
+}
+
+function convertCe(content) {
+  return content
+    .replace(/<=>|<->|->|<-/g, (arrow) => ` ${CE_ARROWS[arrow]} `)
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((tok) => (tok === "+" || tok === "=" || Object.values(CE_ARROWS).includes(tok) ? tok : convertCeSpecies(tok)))
+    .join(" ")
+}
+
 /** Convertit le CONTENU d'une formule LaTeX (sans les délimiteurs $/$$) en texte lisible. */
 function convertLatexSpan(latex) {
   let text = latex.trim()
+  text = text.replace(/\\ce\{((?:[^{}]|\{[^{}]*\})*)\}/g, (_, content) => convertCe(content))
   text = reduceLatexGroups(text)
   text = convertScripts(text)
   for (const [pattern, replacement] of LATEX_SYMBOLS) text = text.replace(pattern, replacement)

@@ -1,0 +1,429 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 2 : L'atome et la mole d'atomes",
+  "source": "pc/2ndc/Chimie_Chapitre_2_L_atome_et_la_mole_d_atomes",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC2C-C02-001",
+      "lecon": "La structure de l'atome",
+      "type": "definition",
+      "recto": "De quoi un atome est-il formé ?",
+      "verso": "D'un noyau central, très petit et chargé positivement, autour duquel se déplacent des électrons qui forment le nuage électronique.",
+      "difficulte": 1,
+      "tags": [
+        "atome",
+        "structure"
+      ]
+    },
+    {
+      "id": "PC2C-C02-002",
+      "lecon": "La structure de l'atome",
+      "type": "definition",
+      "recto": "Quelles sont la charge et la masse d'un proton, d'un neutron et d'un électron ?",
+      "verso": "Proton : $+e = +1{,}6 \\times 10^{-19}~\\mathrm{C}$, $1{,}67 \\times 10^{-27}~\\mathrm{kg}$ ; neutron : charge nulle, $1{,}67 \\times 10^{-27}~\\mathrm{kg}$ ; électron : $-e = -1{,}6 \\times 10^{-19}~\\mathrm{C}$, $9{,}1 \\times 10^{-31}~\\mathrm{kg}$.",
+      "difficulte": 2,
+      "tags": [
+        "particules",
+        "charge",
+        "masse"
+      ]
+    },
+    {
+      "id": "PC2C-C02-003",
+      "lecon": "La structure de l'atome",
+      "type": "definition",
+      "recto": "Dans un atome, qu'appelle-t-on les nucléons ?",
+      "verso": "Les protons et les neutrons, constituants du noyau ; ils ont pratiquement la même masse. Le noyau est l'ensemble, les nucléons ses constituants.",
+      "difficulte": 1,
+      "tags": [
+        "nucleons"
+      ]
+    },
+    {
+      "id": "PC2C-C02-004",
+      "lecon": "La structure de l'atome",
+      "type": "definition",
+      "recto": "Quels sont les ordres de grandeur du rayon d'un atome, du rayon de son noyau et de la masse d'un atome ?",
+      "verso": "Rayon de l'atome : $10^{-10}~\\mathrm{m}$ (environ $100~\\mathrm{pm}$) ; rayon du noyau : $10^{-15}~\\mathrm{m}$, cent mille fois plus petit ; masse d'un atome : de l'ordre de $10^{-26}~\\mathrm{kg}$.",
+      "difficulte": 2,
+      "tags": [
+        "ordres-de-grandeur"
+      ]
+    },
+    {
+      "id": "PC2C-C02-005",
+      "lecon": "La structure de l'atome",
+      "type": "definition",
+      "recto": "Pourquoi considère-t-on que la masse d'un atome est celle de son noyau ?",
+      "verso": "Un électron est environ $1\\,836$ fois plus léger qu'un nucléon : la masse des électrons est négligeable devant celle des nucléons.",
+      "difficulte": 2,
+      "tags": [
+        "masse-atome",
+        "electron"
+      ]
+    },
+    {
+      "id": "PC2C-C02-006",
+      "lecon": "La structure de l'atome",
+      "type": "definition",
+      "recto": "Pourquoi un atome est-il électriquement neutre alors qu'il contient des charges ?",
+      "verso": "Il contient autant d'électrons que de protons : leurs charges, opposées, se compensent. Charge totale nulle ne veut pas dire absence de charge.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "neutralite"
+      ]
+    },
+    {
+      "id": "PC2C-C02-007",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on numéro atomique $Z$ d'un atome ?",
+      "verso": "Le nombre de protons du noyau (aussi appelé nombre de charge) ; c'est aussi le nombre d'électrons de l'atome neutre.",
+      "difficulte": 1,
+      "tags": [
+        "numero-atomique"
+      ]
+    },
+    {
+      "id": "PC2C-C02-008",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on nombre de masse $A$ d'un atome ?",
+      "verso": "Le nombre de nucléons du noyau, somme des protons et des neutrons. C'est un nombre sans unité, pas une masse.",
+      "difficulte": 1,
+      "tags": [
+        "nombre-de-masse"
+      ]
+    },
+    {
+      "id": "PC2C-C02-009",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "formule",
+      "recto": "Dans la notation $^{A}_{Z}\\mathrm{X}$ d'un noyau, comment obtient-on le nombre de neutrons $N$ ?",
+      "verso": "$N = A - Z$, avec $A$ écrit en haut à gauche (nucléons) et $Z$ en bas à gauche (protons).",
+      "difficulte": 1,
+      "tags": [
+        "notation",
+        "neutrons"
+      ]
+    },
+    {
+      "id": "PC2C-C02-010",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Pourquoi le noyau $^{56}_{26}\\mathrm{Fe}$ ne contient-il pas 56 protons et 26 neutrons ?",
+      "verso": "$Z$ se lit en bas et $A$ en haut : il contient 26 protons et $56 - 26 = 30$ neutrons. Inverser $A$ et $Z$ donne en général un nombre de neutrons négatif.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "notation"
+      ]
+    },
+    {
+      "id": "PC2C-C02-011",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Quel nombre caractérise un élément chimique ?",
+      "verso": "Le numéro atomique $Z$ : tous les atomes de même $Z$ appartiennent au même élément, qui occupe une seule case de la classification.",
+      "difficulte": 2,
+      "tags": [
+        "element-chimique"
+      ]
+    },
+    {
+      "id": "PC2C-C02-012",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on des isotopes ?",
+      "verso": "Des atomes de même numéro atomique $Z$ et de nombres de masse $A$ différents : même nombre de protons, nombres de neutrons différents. Exemple : $^{12}_{6}\\mathrm{C}$ et $^{14}_{6}\\mathrm{C}$.",
+      "difficulte": 1,
+      "tags": [
+        "isotopes"
+      ]
+    },
+    {
+      "id": "PC2C-C02-013",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Pourquoi deux isotopes d'un même élément ont-ils les mêmes propriétés chimiques ?",
+      "verso": "Les propriétés chimiques sont dues aux électrons ; deux isotopes ont le même $Z$, donc le même nombre d'électrons rangés de la même façon. Ils ne diffèrent que par la masse.",
+      "difficulte": 2,
+      "tags": [
+        "isotopes",
+        "proprietes-chimiques"
+      ]
+    },
+    {
+      "id": "PC2C-C02-014",
+      "lecon": "Le noyau, le numéro atomique et les isotopes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on abondance isotopique ?",
+      "verso": "Le pourcentage, compté en nombre d'atomes, de chaque isotope dans le mélange naturel de l'élément, dont les proportions sont fixes. Exemple : chlore, $75\\ \\%$ de $^{35}_{17}\\mathrm{Cl}$ et $25\\ \\%$ de $^{37}_{17}\\mathrm{Cl}$.",
+      "difficulte": 2,
+      "tags": [
+        "abondance-isotopique"
+      ]
+    },
+    {
+      "id": "PC2C-C02-015",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "formule",
+      "recto": "Combien d'électrons la couche électronique de rang $n$ peut-elle contenir au plus ?",
+      "verso": "Au plus $2n^2$ électrons : 2 pour K ($n = 1$), 8 pour L ($n = 2$), 18 pour M ($n = 3$). Pour les 20 premiers éléments, M ne reçoit pas plus de 8 électrons.",
+      "difficulte": 2,
+      "tags": [
+        "couches",
+        "capacite"
+      ]
+    },
+    {
+      "id": "PC2C-C02-016",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "formule",
+      "recto": "Selon quelle règle remplit-on les couches électroniques d'un atome ?",
+      "verso": "Dans l'ordre K, L, M, en saturant chaque couche avant de passer à la suivante, sans jamais en sauter une ; la somme des exposants de la structure vaut $Z$.",
+      "difficulte": 2,
+      "tags": [
+        "remplissage"
+      ]
+    },
+    {
+      "id": "PC2C-C02-017",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "definition",
+      "recto": "Quelle est la structure électronique du potassium ($Z = 19$) ?",
+      "verso": "$(\\mathrm{K})^2(\\mathrm{L})^8(\\mathrm{M})^8(\\mathrm{N})^1$ : après l'argon ($Z = 18$), les électrons suivants vont sur la couche N.",
+      "difficulte": 3,
+      "tags": [
+        "structure-electronique",
+        "potassium"
+      ]
+    },
+    {
+      "id": "PC2C-C02-018",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on électrons de valence d'un atome ?",
+      "verso": "Les électrons de la couche externe, dernière couche occupée. Moins retenus par le noyau, ce sont eux qui donnent à l'élément ses propriétés chimiques.",
+      "difficulte": 1,
+      "tags": [
+        "electrons-de-valence"
+      ]
+    },
+    {
+      "id": "PC2C-C02-019",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "formule",
+      "recto": "Qu'énoncent les règles du duet et de l'octet ?",
+      "verso": "Un atome est d'autant plus stable que sa couche externe est saturée : les atomes de $Z \\leqslant 4$ tendent vers 2 électrons externes (duet), les autres vers 8 (octet).",
+      "difficulte": 2,
+      "tags": [
+        "duet",
+        "octet"
+      ]
+    },
+    {
+      "id": "PC2C-C02-020",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on schéma de Lewis d'un atome ?",
+      "verso": "Le symbole de l'atome entouré de ses seuls électrons de valence, groupés en doublets (un tiret ou deux points) et en électrons célibataires (un point isolé).",
+      "difficulte": 1,
+      "tags": [
+        "schema-de-lewis"
+      ]
+    },
+    {
+      "id": "PC2C-C02-021",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "formule",
+      "recto": "Comment lit-on la période d'un élément sur sa structure électronique ?",
+      "verso": "La période est le rang de la dernière couche occupée : K, 1re période ; L, 2e ; M, 3e ; N, 4e.",
+      "difficulte": 2,
+      "tags": [
+        "classification",
+        "periode"
+      ]
+    },
+    {
+      "id": "PC2C-C02-022",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "formule",
+      "recto": "Dans la classification à 18 colonnes, comment déduit-on la colonne d'un élément de son nombre d'électrons de valence ?",
+      "verso": "Pour les colonnes 1 et 2, la colonne est égale au nombre d'électrons de valence ; pour les colonnes 13 à 18, on ajoute 10. L'hélium, avec 2 électrons de valence, est en 18e colonne.",
+      "difficulte": 3,
+      "tags": [
+        "classification",
+        "colonne"
+      ]
+    },
+    {
+      "id": "PC2C-C02-023",
+      "lecon": "Le nuage électronique, les couches et le schéma de Lewis",
+      "type": "definition",
+      "recto": "Quelles sont les familles de la 1re, de la 2e, de la 17e et de la 18e colonne de la classification ?",
+      "verso": "1re (sauf H) : métaux alcalins (Li, Na, K) ; 2e : alcalino-terreux (Be, Mg, Ca) ; 17e : halogènes (F, Cl) ; 18e : gaz rares ou nobles (He, Ne, Ar), très stables.",
+      "difficulte": 2,
+      "tags": [
+        "familles"
+      ]
+    },
+    {
+      "id": "PC2C-C02-024",
+      "lecon": "La mole d'atomes et le nombre d'Avogadro",
+      "type": "definition",
+      "recto": "Qu'est-ce que la mole ?",
+      "verso": "L'unité de quantité de matière du système international, de symbole $\\mathrm{mol}$ ; une mole contient le même nombre d'entités pour toutes les espèces, à très peu près le nombre d'atomes de $12~\\mathrm{g}$ de carbone 12.",
+      "difficulte": 1,
+      "tags": [
+        "mole"
+      ]
+    },
+    {
+      "id": "PC2C-C02-025",
+      "lecon": "La mole d'atomes et le nombre d'Avogadro",
+      "type": "definition",
+      "recto": "Quelle est la valeur du nombre d'Avogadro $N_A$, avec son unité ?",
+      "verso": "$N_A = 6{,}02 \\times 10^{23}~\\mathrm{mol^{-1}}$ : c'est le nombre d'entités par mole (aussi appelé constante d'Avogadro, noté $\\mathcal{N}$).",
+      "difficulte": 1,
+      "tags": [
+        "nombre-avogadro"
+      ]
+    },
+    {
+      "id": "PC2C-C02-026",
+      "lecon": "La mole d'atomes et le nombre d'Avogadro",
+      "type": "formule",
+      "recto": "Quelle relation lie la quantité de matière $n$ au nombre d'atomes $N$ d'un échantillon ?",
+      "verso": "$n = \\dfrac{N}{N_A}$, soit $N = n \\times N_A$ ; $n$ en mol, $N$ sans unité, $N_A$ en $\\mathrm{mol^{-1}}$.",
+      "difficulte": 2,
+      "tags": [
+        "quantite-de-matiere",
+        "relation"
+      ]
+    },
+    {
+      "id": "PC2C-C02-027",
+      "lecon": "La mole d'atomes et le nombre d'Avogadro",
+      "type": "definition",
+      "recto": "Pourquoi a-t-il fallu inventer la mole pour compter les atomes ?",
+      "verso": "Un échantillon de quelques grammes contient de l'ordre de $10^{23}$ atomes, impossibles à compter un par un : on les groupe en paquets d'environ $10^{23}$, les moles.",
+      "difficulte": 2,
+      "tags": [
+        "mole",
+        "ordre-de-grandeur"
+      ]
+    },
+    {
+      "id": "PC2C-C02-028",
+      "lecon": "La mole d'atomes et le nombre d'Avogadro",
+      "type": "definition",
+      "recto": "Pourquoi une mole d'atomes de fer et une mole d'atomes d'or n'ont-elles pas la même masse ?",
+      "verso": "Elles contiennent le même nombre d'atomes, $6{,}02 \\times 10^{23}$, mais un atome d'or n'a pas la même masse qu'un atome de fer.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "mole"
+      ]
+    },
+    {
+      "id": "PC2C-C02-029",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on masse molaire atomique $M$ d'un élément ?",
+      "verso": "La masse d'une mole d'atomes de cet élément, en $\\mathrm{g/mol}$, lue dans la classification périodique.",
+      "difficulte": 1,
+      "tags": [
+        "masse-molaire-atomique"
+      ]
+    },
+    {
+      "id": "PC2C-C02-030",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "formule",
+      "recto": "Quelle relation donne la masse d'un seul atome à partir de la masse molaire atomique $M$ ?",
+      "verso": "$m_{\\text{atome}} = \\dfrac{M}{N_A}$, avec $M$ en $\\mathrm{g/mol}$, $N_A$ en $\\mathrm{mol^{-1}}$ et $m_{\\text{atome}}$ en g.",
+      "difficulte": 2,
+      "tags": [
+        "masse-atome",
+        "relation"
+      ]
+    },
+    {
+      "id": "PC2C-C02-031",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "formule",
+      "recto": "Quelle relation lie la masse $m$ d'un échantillon d'un élément à sa quantité de matière $n$ ?",
+      "verso": "$n = \\dfrac{m}{M}$, soit $m = n \\times M$ ; $m$ en g, $M$ en $\\mathrm{g/mol}$, $n$ en mol. La forme $M = \\dfrac{m}{n}$ permet d'identifier un élément inconnu.",
+      "difficulte": 2,
+      "tags": [
+        "masse",
+        "quantite-de-matiere"
+      ]
+    },
+    {
+      "id": "PC2C-C02-032",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "formule",
+      "recto": "Quelle grandeur sert obligatoirement d'intermédiaire pour passer de la masse d'un échantillon à son nombre d'atomes ?",
+      "verso": "La quantité de matière $n$ : on calcule $n = \\dfrac{m}{M}$, puis $N = n \\times N_A$.",
+      "difficulte": 2,
+      "tags": [
+        "conversions"
+      ]
+    },
+    {
+      "id": "PC2C-C02-033",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la masse molaire atomique d'un élément possédant plusieurs isotopes ?",
+      "verso": "Par la moyenne pondérée $M = \\dfrac{p_1 A_1 + p_2 A_2 + \\ldots}{100}$, avec $A_i$ les nombres de masse et $p_i$ les abondances en pourcentage du nombre d'atomes.",
+      "difficulte": 2,
+      "tags": [
+        "isotopes",
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C02-034",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "definition",
+      "recto": "Pourquoi la masse molaire du chlore vaut-elle $35{,}5~\\mathrm{g/mol}$ alors qu'un noyau a un nombre entier de nucléons ?",
+      "verso": "Le chlore naturel est un mélange de $^{35}\\mathrm{Cl}$ ($75\\ \\%$) et de $^{37}\\mathrm{Cl}$ ($25\\ \\%$) : $\\dfrac{75 \\times 35 + 25 \\times 37}{100} = 35{,}5~\\mathrm{g/mol}$ est une moyenne.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "isotopes",
+        "masse-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C02-035",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "definition",
+      "recto": "Quelle confusion entre masse molaire et masse d'un atome faut-il éviter, par exemple pour le fer ?",
+      "verso": "$56~\\mathrm{g/mol}$ est la masse d'une mole d'atomes de fer ; un atome pèse $N_A$ fois moins : $\\dfrac{56}{6{,}02 \\times 10^{23}} = 9{,}3 \\times 10^{-23}~\\mathrm{g}$.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "masse-atome"
+      ]
+    },
+    {
+      "id": "PC2C-C02-036",
+      "lecon": "La masse molaire atomique et les calculs sur un échantillon",
+      "type": "definition",
+      "recto": "Quelle valeur approchée prend la masse molaire d'un isotope de nombre de masse $A$ ?",
+      "verso": "Environ $A~\\mathrm{g/mol}$, car une mole de nucléons pèse environ $1~\\mathrm{g}$ et la masse des électrons est négligeable.",
+      "difficulte": 2,
+      "tags": [
+        "isotope",
+        "masse-molaire"
+      ]
+    }
+  ]
+}

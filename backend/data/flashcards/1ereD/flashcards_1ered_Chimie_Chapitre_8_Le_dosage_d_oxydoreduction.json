@@ -1,0 +1,435 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 8 : Le dosage d'oxydoréduction",
+  "source": "pc/1ered/Chimie_Chapitre_8_Le_dosage_d_oxydoreduction",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC1D-C08-001",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "En chimie, que signifie doser une espèce chimique en solution ?",
+      "verso": "C'est déterminer sa concentration en la faisant réagir avec une autre espèce, contenue dans une solution de concentration connue.",
+      "difficulte": 1,
+      "tags": [
+        "dosage"
+      ]
+    },
+    {
+      "id": "PC1D-C08-002",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Au cours d'un dosage, qu'appelle-t-on la solution titrée ?",
+      "verso": "C'est la solution dont on cherche la concentration (solution à doser) ; on en prélève un volume connu avec précision, à la pipette jaugée.",
+      "difficulte": 1,
+      "tags": [
+        "solution-titree",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC1D-C08-003",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Au cours d'un dosage, qu'appelle-t-on la solution titrante ?",
+      "verso": "C'est la solution de concentration connue, versée progressivement à la burette graduée dans la solution titrée.",
+      "difficulte": 1,
+      "tags": [
+        "solution-titrante",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC1D-C08-004",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un dosage d'oxydoréduction ?",
+      "verso": "Un dosage dont la réaction est une oxydoréduction : on fait réagir l'espèce dosée, oxydant ou réducteur, avec un réducteur ou un oxydant de concentration connue.",
+      "difficulte": 1,
+      "tags": [
+        "dosage-redox"
+      ]
+    },
+    {
+      "id": "PC1D-C08-005",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "formule",
+      "recto": "Quelles sont les trois qualités exigées d'une réaction de dosage ?",
+      "verso": "Elle doit être rapide (chaque goutte réagit aussitôt), totale (le réactif limitant disparaît entièrement) et unique (les réactifs ne sont consommés que par elle).",
+      "difficulte": 2,
+      "tags": [
+        "reaction-de-dosage"
+      ]
+    },
+    {
+      "id": "PC1D-C08-006",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Au cours d'un dosage, quand dit-on que l'équivalence est atteinte ?",
+      "verso": "Quand les réactifs ont été mélangés dans les proportions de l'équation de la réaction de dosage. Le volume de solution titrante versé à ce moment se note $V_E$.",
+      "difficulte": 2,
+      "tags": [
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PC1D-C08-007",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Au cours d'un dosage, comment le réactif limitant change-t-il au passage de l'équivalence ?",
+      "verso": "Avant l'équivalence, le réactif titrant est limitant ; après, le réactif titré est épuisé et le réactif titrant est en excès. L'équivalence correspond au changement de réactif limitant.",
+      "difficulte": 2,
+      "tags": [
+        "equivalence",
+        "reactif-limitant"
+      ]
+    },
+    {
+      "id": "PC1D-C08-008",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "formule",
+      "recto": "Pour une réaction de dosage $a\\,\\mathrm{A} + b\\,\\mathrm{B} \\rightarrow \\ldots$, avec $\\mathrm{A}$ titrée et $\\mathrm{B}$ titrante, quelle relation est vérifiée à l'équivalence ?",
+      "verso": "$\\dfrac{n(\\mathrm{A})}{a} = \\dfrac{n(\\mathrm{B})}{b}$, soit $\\dfrac{C_A\\,V_A}{a} = \\dfrac{C_B\\,V_E}{b}$, les deux volumes étant exprimés dans la même unité.",
+      "difficulte": 2,
+      "tags": [
+        "relation-equivalence"
+      ]
+    },
+    {
+      "id": "PC1D-C08-009",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "formule",
+      "recto": "De quelles trois façons peut-on repérer l'équivalence d'un dosage par un changement de couleur ?",
+      "verso": "Par l'apparition de la couleur d'un réactif titrant coloré, par la disparition de la couleur d'un réactif titré coloré, ou par le changement de teinte d'un indicateur coloré ajouté en petite quantité.",
+      "difficulte": 2,
+      "tags": [
+        "reperage",
+        "indicateur-colore"
+      ]
+    },
+    {
+      "id": "PC1D-C08-010",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Dans un dosage, à quoi servent l'agitateur magnétique et la feuille blanche placée sous le bécher ?",
+      "verso": "L'agitateur magnétique fait tourner un barreau aimanté pour que chaque goutte se mélange aussitôt ; la feuille blanche rend visible la première nuance de couleur.",
+      "difficulte": 1,
+      "tags": [
+        "materiel"
+      ]
+    },
+    {
+      "id": "PC1D-C08-011",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "formule",
+      "recto": "Comment lit-on correctement le volume sur une burette de $25~\\mathrm{mL}$ graduée en dixièmes de millilitre ?",
+      "verso": "On lit au bas du ménisque, l'œil à la hauteur de la surface du liquide, en estimant la moitié d'une graduation : la lecture se fait à $0{,}05~\\mathrm{mL}$ près.",
+      "difficulte": 2,
+      "tags": [
+        "burette",
+        "lecture",
+        "mesure"
+      ]
+    },
+    {
+      "id": "PC1D-C08-012",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Pour un dosage, quelle est la différence entre le dosage rapide et le dosage précis ?",
+      "verso": "Le dosage rapide, millilitre par millilitre, donne $V_E$ à $1~\\mathrm{mL}$ près. Le dosage précis, sur un nouveau prélèvement, se fait vite jusqu'à $2~\\mathrm{mL}$ avant ce volume, puis goutte à goutte.",
+      "difficulte": 2,
+      "tags": [
+        "mode-operatoire"
+      ]
+    },
+    {
+      "id": "PC1D-C08-013",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Pourquoi rince-t-on la burette avec la solution titrante et non avec de l'eau distillée avant un dosage ?",
+      "verso": "L'eau restée dans la burette diluerait la solution titrante : sa concentration ne serait plus celle annoncée, et tout le calcul serait faux.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "burette"
+      ]
+    },
+    {
+      "id": "PC1D-C08-014",
+      "lecon": "Le principe d'un dosage d'oxydoréduction",
+      "type": "definition",
+      "recto": "Pourquoi l'équivalence d'un dosage n'est-elle pas, en général, le moment où les quantités des deux réactifs sont égales ?",
+      "verso": "A l'équivalence, les quantités sont dans le rapport des coefficients de l'équation ; elles ne sont égales que si les deux coefficients valent 1.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "equivalence"
+      ]
+    },
+    {
+      "id": "PC1D-C08-015",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "definition",
+      "recto": "Dans le dosage des ions fer II par les ions permanganate, quels couples oxydant/réducteur interviennent ?",
+      "verso": "Le couple $\\mathrm{MnO_4^-/Mn^{2+}}$, dont l'oxydant est l'ion permanganate, violet, et le couple $\\mathrm{Fe^{3+}/Fe^{2+}}$, dont le réducteur est l'ion fer II, vert pâle.",
+      "difficulte": 1,
+      "tags": [
+        "couples",
+        "permanganate"
+      ]
+    },
+    {
+      "id": "PC1D-C08-016",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation électronique de la réduction de l'ion permanganate en milieu acide ?",
+      "verso": "$\\mathrm{MnO_4^- + 8H^+ + 5e^- \\rightarrow Mn^{2+} + 4H_2O}$",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "permanganate"
+      ]
+    },
+    {
+      "id": "PC1D-C08-017",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation électronique de l'oxydation de l'ion fer II ?",
+      "verso": "$\\mathrm{Fe^{2+} \\rightarrow Fe^{3+} + e^-}$",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation",
+        "fer-ii"
+      ]
+    },
+    {
+      "id": "PC1D-C08-018",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Avec l'ion $\\mathrm{H^+}$, quelle est l'équation bilan du dosage des ions fer II par les ions permanganate ?",
+      "verso": "$\\mathrm{MnO_4^- + 5Fe^{2+} + 8H^+ \\rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O}$, obtenue en multipliant la demi-équation du fer par 5 avant d'additionner.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan",
+        "permanganate"
+      ]
+    },
+    {
+      "id": "PC1D-C08-019",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Ecrite avec l'ion oxonium $\\mathrm{H_3O^+}$, quelle est l'équation bilan du dosage des ions fer II par les ions permanganate ?",
+      "verso": "$\\mathrm{MnO_4^- + 5Fe^{2+} + 8H_3O^+ \\rightarrow Mn^{2+} + 5Fe^{3+} + 12H_2O}$",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan",
+        "ion-oxonium"
+      ]
+    },
+    {
+      "id": "PC1D-C08-020",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Dans une équation écrite avec $\\mathrm{H^+}$, comment passe-t-on à l'écriture avec l'ion oxonium $\\mathrm{H_3O^+}$ ?",
+      "verso": "On remplace chaque $\\mathrm{H^+}$ par $\\mathrm{H_3O^+}$ et l'on ajoute, de l'autre côté de la flèche, autant de molécules d'eau que d'ions $\\mathrm{H^+}$ remplacés.",
+      "difficulte": 2,
+      "tags": [
+        "ion-oxonium",
+        "equilibrage"
+      ]
+    },
+    {
+      "id": "PC1D-C08-021",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Pour un volume $V$ d'ions fer II de concentration $C$ dosé par du permanganate de concentration $C'$, quelle relation lie $C$, $V$, $C'$ et $V_E$ à l'équivalence ?",
+      "verso": "$C\\,V = 5\\,C'\\,V_E$, car $n(\\mathrm{Fe^{2+}}) = 5\\,n(\\mathrm{MnO_4^-})$ ; d'où $C = \\dfrac{5\\,C'\\,V_E}{V}$, les deux volumes dans la même unité.",
+      "difficulte": 2,
+      "tags": [
+        "relation-equivalence",
+        "fer-ii"
+      ]
+    },
+    {
+      "id": "PC1D-C08-022",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "definition",
+      "recto": "Dans le dosage des ions fer II par les ions permanganate, comment repère-t-on l'équivalence ?",
+      "verso": "Par l'apparition de la première teinte rose qui persiste plus de trente secondes, due au premier excès d'ions permanganate ; un mélange franchement violet signifie que l'équivalence est dépassée.",
+      "difficulte": 2,
+      "tags": [
+        "reperage",
+        "permanganate"
+      ]
+    },
+    {
+      "id": "PC1D-C08-023",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "definition",
+      "recto": "Dans le dosage des ions fer II par les ions permanganate, pourquoi acidifie-t-on avec l'acide sulfurique et non avec l'acide chlorhydrique ?",
+      "verso": "Comme $E^0(\\mathrm{MnO_4^-/Mn^{2+}}) = +1{,}51~\\mathrm{V}$ est supérieur à $E^0(\\mathrm{Cl_2/Cl^-}) = +1{,}36~\\mathrm{V}$, le permanganate oxyderait aussi les ions chlorure : la réaction ne serait plus unique et $V_E$ serait trop grand. Les ions sulfate ne sont pas oxydés.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "acidification"
+      ]
+    },
+    {
+      "id": "PC1D-C08-024",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "definition",
+      "recto": "Dans le dosage des ions fer II par les ions permanganate, pourquoi l'acide sulfurique n'apparaît-il pas dans la relation à l'équivalence ?",
+      "verso": "L'acide est mis en excès : il fournit les ions $\\mathrm{H^+}$ nécessaires à la réaction mais n'est pas dosé.",
+      "difficulte": 2,
+      "tags": [
+        "acidification",
+        "relation-equivalence"
+      ]
+    },
+    {
+      "id": "PC1D-C08-025",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "definition",
+      "recto": "Quelle erreur de lecture du changement de couleur guette l'élève dans le dosage par le permanganate ?",
+      "verso": "Croire que l'on arrête quand la solution se décolore : c'est l'inverse, le mélange est presque incolore avant l'équivalence, et l'équivalence est repérée par l'apparition d'une teinte rose persistante.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "reperage"
+      ]
+    },
+    {
+      "id": "PC1D-C08-026",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "formule",
+      "recto": "Dans quel ordre équilibre-t-on la demi-équation $\\mathrm{MnO_4^- \\rightarrow Mn^{2+}}$ en milieu acide ?",
+      "verso": "Le manganèse (déjà équilibré), puis l'oxygène avec $\\mathrm{H_2O}$, l'hydrogène avec $\\mathrm{H^+}$, et enfin les charges avec des électrons, placés du côté de l'oxydant.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC1D-C08-027",
+      "lecon": "Le dosage des ions fer II par les ions permanganate",
+      "type": "definition",
+      "recto": "Quelles précautions impose la manipulation de l'acide sulfurique et du permanganate de potassium ?",
+      "verso": "On verse l'acide lentement dans l'eau, jamais l'eau dans l'acide, lunettes sur le nez. Le permanganate, oxydant puissant, ne se mélange jamais à l'alcool ou au sucre et se range loin des combustibles.",
+      "difficulte": 2,
+      "tags": [
+        "securite"
+      ]
+    },
+    {
+      "id": "PC1D-C08-028",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "definition",
+      "recto": "Dans le dosage du diiode par les ions thiosulfate, quels couples oxydant/réducteur interviennent ?",
+      "verso": "Le couple $\\mathrm{I_2/I^-}$, dont l'oxydant est le diiode, brun en solution, et le couple $\\mathrm{S_4O_6^{2-}/S_2O_3^{2-}}$, dont le réducteur est l'ion thiosulfate, incolore.",
+      "difficulte": 1,
+      "tags": [
+        "couples",
+        "thiosulfate"
+      ]
+    },
+    {
+      "id": "PC1D-C08-029",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "definition",
+      "recto": "Comment s'appelle l'ion $\\mathrm{S_4O_6^{2-}}$ ?",
+      "verso": "C'est l'ion tétrathionate, oxydant du couple $\\mathrm{S_4O_6^{2-}/S_2O_3^{2-}}$.",
+      "difficulte": 1,
+      "tags": [
+        "tetrathionate",
+        "vocabulaire"
+      ]
+    },
+    {
+      "id": "PC1D-C08-030",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "formule",
+      "recto": "Quelles sont les deux demi-équations électroniques du dosage du diiode par les ions thiosulfate ?",
+      "verso": "Réduction : $\\mathrm{I_2 + 2e^- \\rightarrow 2I^-}$. Oxydation : $\\mathrm{2S_2O_3^{2-} \\rightarrow S_4O_6^{2-} + 2e^-}$.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "diiode"
+      ]
+    },
+    {
+      "id": "PC1D-C08-031",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "formule",
+      "recto": "Quelle est l'équation bilan du dosage du diiode par les ions thiosulfate ?",
+      "verso": "$\\mathrm{I_2 + 2S_2O_3^{2-} \\rightarrow 2I^- + S_4O_6^{2-}}$ ; ce dosage se fait sans acide, les ions $\\mathrm{H^+}$ n'intervenant pas.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "diiode"
+      ]
+    },
+    {
+      "id": "PC1D-C08-032",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "formule",
+      "recto": "Pour un volume $V$ de diiode de concentration $C$ dosé par du thiosulfate de concentration $C'$, quelle relation lie $C$, $V$, $C'$ et $V_E$ à l'équivalence ?",
+      "verso": "$2\\,C\\,V = C'\\,V_E$, car $n(\\mathrm{S_2O_3^{2-}}) = 2\\,n(\\mathrm{I_2})$ ; d'où $C = \\dfrac{C'\\,V_E}{2\\,V}$.",
+      "difficulte": 2,
+      "tags": [
+        "relation-equivalence",
+        "diiode"
+      ]
+    },
+    {
+      "id": "PC1D-C08-033",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "definition",
+      "recto": "Dans le dosage du diiode par les ions thiosulfate, quel changement de couleur signale l'équivalence ?",
+      "verso": "La disparition de la couleur bleue : l'empois d'amidon, ajouté en fin de dosage, donne avec le diiode une couleur bleu intense qui disparaît quand le dernier diiode est réduit.",
+      "difficulte": 2,
+      "tags": [
+        "empois-d-amidon",
+        "reperage"
+      ]
+    },
+    {
+      "id": "PC1D-C08-034",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "definition",
+      "recto": "Dans le dosage du diiode par les ions thiosulfate, pourquoi n'ajoute-t-on l'empois d'amidon qu'à la fin, quand le mélange est jaune pâle ?",
+      "verso": "En présence de beaucoup de diiode, l'amidon en retient une partie qu'il ne libère que lentement : la réaction ne serait plus rapide et l'on dépasserait l'équivalence.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "empois-d-amidon"
+      ]
+    },
+    {
+      "id": "PC1D-C08-035",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "formule",
+      "recto": "Dans une solution de thiosulfate de sodium $\\mathrm{Na_2S_2O_3}$ de concentration $C'$, que valent les concentrations des ions ?",
+      "verso": "$\\mathrm{Na_2S_2O_3}$ se dissout en $\\mathrm{2Na^+ + S_2O_3^{2-}}$ : $\\left[\\mathrm{S_2O_3^{2-}}\\right] = C'$ et $\\left[\\mathrm{Na^+}\\right] = 2\\,C'$.",
+      "difficulte": 3,
+      "tags": [
+        "thiosulfate-de-sodium",
+        "concentration"
+      ]
+    },
+    {
+      "id": "PC1D-C08-036",
+      "lecon": "Le dosage du diiode par les ions thiosulfate",
+      "type": "definition",
+      "recto": "Pourquoi conserve-t-on une solution de diiode dans un flacon brun bien bouché ?",
+      "verso": "Le diiode, volatil, s'échappe d'autant plus vite que le flacon chauffe, et la lumière altère la solution : sans ces précautions, elle perd peu à peu son titre.",
+      "difficulte": 2,
+      "tags": [
+        "conservation",
+        "diiode"
+      ]
+    }
+  ]
+}

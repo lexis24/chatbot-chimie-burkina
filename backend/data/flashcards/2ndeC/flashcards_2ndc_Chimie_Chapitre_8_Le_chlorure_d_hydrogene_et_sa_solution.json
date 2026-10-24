@@ -1,0 +1,414 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "2nde C",
+  "chapitre": "Chimie, Chapitre 8 : Le chlorure d'hydrogène et sa solution",
+  "source": "pc/2ndc/Chimie_Chapitre_8_Le_chlorure_d_hydrogene_et_sa_solution",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PC2C-C08-001",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Comment est constituée la molécule de chlorure d'hydrogène $\\mathrm{HCl}$ ?",
+      "verso": "D'un atome d'hydrogène et d'un atome de chlore unis par une liaison covalente simple $\\mathrm{H - Cl}$ ; le chlore conserve trois doublets non liants. La molécule est linéaire.",
+      "difficulte": 1,
+      "tags": [
+        "molecule-hcl",
+        "liaison-covalente"
+      ]
+    },
+    {
+      "id": "PC2C-C08-002",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Pourquoi la molécule de chlorure d'hydrogène est-elle polaire ?",
+      "verso": "Le chlore, plus électronégatif que l'hydrogène, attire le doublet de liaison : il porte une charge partielle $\\delta^-$ et l'hydrogène une charge partielle $\\delta^+$.",
+      "difficulte": 2,
+      "tags": [
+        "polarite",
+        "electronegativite"
+      ]
+    },
+    {
+      "id": "PC2C-C08-003",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Quelles sont les propriétés physiques du chlorure d'hydrogène dans les conditions ordinaires ?",
+      "verso": "C'est un gaz incolore, d'odeur piquante et suffocante, toxique et irritant, qui fume à l'air humide en formant un brouillard blanc de gouttelettes acides.",
+      "difficulte": 1,
+      "tags": [
+        "proprietes-physiques"
+      ]
+    },
+    {
+      "id": "PC2C-C08-004",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la densité du chlorure d'hydrogène par rapport à l'air ?",
+      "verso": "$d = \\dfrac{M}{29} = \\dfrac{36{,}5}{29} \\approx 1{,}26$, avec $M$ en g/mol : le gaz est plus dense que l'air.",
+      "difficulte": 2,
+      "tags": [
+        "densite"
+      ]
+    },
+    {
+      "id": "PC2C-C08-005",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Quelle quantité de chlorure d'hydrogène un litre d'eau dissout-il à $20~^{\\circ}\\mathrm{C}$ ?",
+      "verso": "Environ $450~\\mathrm{L}$ de gaz : le chlorure d'hydrogène est très soluble dans l'eau, et sa dissolution est exothermique.",
+      "difficulte": 2,
+      "tags": [
+        "solubilite"
+      ]
+    },
+    {
+      "id": "PC2C-C08-006",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Pourquoi le chlorure d'hydrogène ne peut-il pas être recueilli sur une cuve à eau ?",
+      "verso": "Il est si soluble qu'il s'y dissoudrait entièrement : ce recueil est impossible. On le recueille par déplacement d'air, flacon debout, tube au fond, sous la hotte.",
+      "difficulte": 3,
+      "tags": [
+        "recueil-gaz",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C08-007",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "formule",
+      "recto": "Quelle équation traduit la préparation du chlorure d'hydrogène au laboratoire à partir de chlorure de sodium et d'acide sulfurique concentré ?",
+      "verso": "$\\mathrm{NaCl + H_2SO_4 \\rightarrow NaHSO_4 + HCl}$ (ou, en chauffant davantage, $\\mathrm{2NaCl + H_2SO_4 \\rightarrow Na_2SO_4 + 2HCl}$) : une mole de $\\mathrm{NaCl}$ libère une mole de $\\mathrm{HCl}$.",
+      "difficulte": 2,
+      "tags": [
+        "preparation",
+        "equation"
+      ]
+    },
+    {
+      "id": "PC2C-C08-008",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Que prouve l'expérience du jet d'eau réalisée avec un ballon de chlorure d'hydrogène et de l'eau additionnée de BBT ?",
+      "verso": "La montée brutale de l'eau prouve la très grande solubilité du gaz (la pression chute dans le ballon) ; le virage du BBT du bleu au jaune prouve que la solution obtenue est acide.",
+      "difficulte": 2,
+      "tags": [
+        "jet-d-eau",
+        "bbt"
+      ]
+    },
+    {
+      "id": "PC2C-C08-009",
+      "lecon": "Le chlorure d'hydrogène, un gaz",
+      "type": "definition",
+      "recto": "Pourquoi le papier pH sec ne rougit-il pas au contact du chlorure d'hydrogène gazeux sec ?",
+      "verso": "Le gaz sec est fait de molécules $\\mathrm{HCl}$ non chargées : les ions responsables de l'acidité ne se forment qu'en présence d'eau. Le papier humide, lui, rougit.",
+      "difficulte": 3,
+      "tags": [
+        "gaz-sec",
+        "acidite"
+      ]
+    },
+    {
+      "id": "PC2C-C08-010",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la dissolution du chlorure d'hydrogène dans l'eau ?",
+      "verso": "$\\mathrm{HCl_{(g)} + H_2O_{(l)} \\rightarrow H_3O^+_{(aq)} + Cl^-_{(aq)}}$ : la molécule $\\mathrm{HCl}$ cède un ion $\\mathrm{H^+}$ à une molécule d'eau ; la réaction est totale.",
+      "difficulte": 1,
+      "tags": [
+        "equation-dissolution"
+      ]
+    },
+    {
+      "id": "PC2C-C08-011",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Quelle est la différence entre le chlorure d'hydrogène et l'acide chlorhydrique ?",
+      "verso": "Le chlorure d'hydrogène est le gaz $\\mathrm{HCl}$ ; l'acide chlorhydrique est sa solution aqueuse, notée $\\left(\\mathrm{H_3O^+ + Cl^-}\\right)$.",
+      "difficulte": 3,
+      "tags": [
+        "vocabulaire",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C08-012",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on l'ion hydronium ?",
+      "verso": "L'ion $\\mathrm{H_3O^+}$, aussi appelé ion oxonium, formé par la fixation d'un ion $\\mathrm{H^+}$ sur une molécule d'eau ; il est responsable de l'acidité de toutes les solutions acides.",
+      "difficulte": 1,
+      "tags": [
+        "ion-hydronium"
+      ]
+    },
+    {
+      "id": "PC2C-C08-013",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Pourquoi l'ion $\\mathrm{H^+}$ ne peut-il pas exister seul en solution aqueuse ?",
+      "verso": "C'est un proton nu, une charge positive très concentrée : il se fixe aussitôt sur un doublet non liant de l'oxygène d'une molécule d'eau pour former $\\mathrm{H_3O^+}$.",
+      "difficulte": 2,
+      "tags": [
+        "proton",
+        "ion-hydronium"
+      ]
+    },
+    {
+      "id": "PC2C-C08-014",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Quelles espèces chimiques contient une solution d'acide chlorhydrique ?",
+      "verso": "Des ions $\\mathrm{H_3O^+}$ et $\\mathrm{Cl^-}$, l'eau du solvant, et une quantité négligeable d'ions $\\mathrm{OH^-}$ ; il ne subsiste aucune molécule $\\mathrm{HCl}$, car la dissolution est totale.",
+      "difficulte": 2,
+      "tags": [
+        "inventaire-especes"
+      ]
+    },
+    {
+      "id": "PC2C-C08-015",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Pourquoi une solution d'acide chlorhydrique est-elle électriquement neutre alors qu'elle contient des ions ?",
+      "verso": "Chaque molécule dissoute donne un ion $\\mathrm{H_3O^+}$ et un ion $\\mathrm{Cl^-}$, de charges opposées : les deux ions sont en nombre égal, $[\\mathrm{H_3O^+}] = [\\mathrm{Cl^-}]$.",
+      "difficulte": 2,
+      "tags": [
+        "electroneutralite"
+      ]
+    },
+    {
+      "id": "PC2C-C08-016",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Dans une solution acide, comment se répartissent les rôles de l'ion hydronium et de l'anion ?",
+      "verso": "L'ion hydronium $\\mathrm{H_3O^+}$ fait l'acidité, commune à tous les acides ; l'anion fait l'identité de l'acide ($\\mathrm{Cl^-}$ pour l'acide chlorhydrique, $\\mathrm{NO_3^-}$ pour l'acide nitrique).",
+      "difficulte": 2,
+      "tags": [
+        "acidite",
+        "anion"
+      ]
+    },
+    {
+      "id": "PC2C-C08-017",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Pourquoi une solution d'acide chlorhydrique conduit-elle le courant électrique ?",
+      "verso": "Elle contient des ions mobiles : les cations $\\mathrm{H_3O^+}$ migrent vers l'électrode reliée à la borne négative, les anions $\\mathrm{Cl^-}$ vers celle reliée à la borne positive. Plus elle est concentrée, mieux elle conduit.",
+      "difficulte": 1,
+      "tags": [
+        "conduction"
+      ]
+    },
+    {
+      "id": "PC2C-C08-018",
+      "lecon": "La mise en solution : l'acide chlorhydrique et ses ions",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre la neutralité électrique et la neutralité chimique d'une solution ?",
+      "verso": "La neutralité électrique est vraie de toute solution (autant de charges positives que négatives) ; la neutralité chimique suppose $\\mathrm{pH} = 7$.",
+      "difficulte": 3,
+      "tags": [
+        "neutralite"
+      ]
+    },
+    {
+      "id": "PC2C-C08-019",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle relation donne la concentration apportée $C_a$ d'une solution d'acide chlorhydrique ?",
+      "verso": "$C_a = \\dfrac{n}{V}$ en mol/L, avec $n$ la quantité de chlorure d'hydrogène dissous en mol et $V$ le volume de la solution en L (ni celui du gaz, ni celui de l'eau seule).",
+      "difficulte": 1,
+      "tags": [
+        "concentration-apportee"
+      ]
+    },
+    {
+      "id": "PC2C-C08-020",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Comment calcule-t-on la quantité de chlorure d'hydrogène dissous à partir d'un volume de gaz $V_{\\text{gaz}}$ ?",
+      "verso": "$n = \\dfrac{V_{\\text{gaz}}}{V_m}$, où $V_m$ est le volume molaire du gaz dans les conditions de l'expérience (en L/mol).",
+      "difficulte": 2,
+      "tags": [
+        "volume-molaire"
+      ]
+    },
+    {
+      "id": "PC2C-C08-021",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Pour une solution d'acide chlorhydrique de concentration apportée $C_a$, que valent $[\\mathrm{H_3O^+}]$ et $[\\mathrm{Cl^-}]$ ?",
+      "verso": "$[\\mathrm{H_3O^+}] = [\\mathrm{Cl^-}] = C_a$, parce que la dissolution est totale et donne un ion de chaque sorte par molécule dissoute.",
+      "difficulte": 2,
+      "tags": [
+        "concentration-effective"
+      ]
+    },
+    {
+      "id": "PC2C-C08-022",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Comment calcule-t-on le nombre $N$ d'ions hydronium contenus dans un volume $V$ d'acide chlorhydrique de concentration $C_a$ ?",
+      "verso": "$n(\\mathrm{H_3O^+}) = C_a \\times V$, puis $N = n \\times \\mathcal{N}_A$ avec $\\mathcal{N}_A = 6{,}02 \\times 10^{23}~\\mathrm{mol^{-1}}$.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-d-ions",
+        "avogadro"
+      ]
+    },
+    {
+      "id": "PC2C-C08-023",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle relation donne la concentration molaire $C$ d'une solution commerciale d'acide chlorhydrique de densité $d$ et de pourcentage massique $P$ ?",
+      "verso": "$C = \\dfrac{P \\times d \\times 1\\,000}{M}$ en mol/L, avec $M = 36{,}5~\\mathrm{g/mol}$ et $P$ écrit en nombre décimal.",
+      "difficulte": 3,
+      "tags": [
+        "solution-commerciale"
+      ]
+    },
+    {
+      "id": "PC2C-C08-024",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Que signifie diluer une solution d'acide chlorhydrique « au dixième » ?",
+      "verso": "Prendre un facteur de dilution $F = \\dfrac{C_1}{C_2} = \\dfrac{V_2}{V_1} = 10$ : 10 mL de solution mère complétés à 100 mL donnent une solution dix fois moins concentrée.",
+      "difficulte": 2,
+      "tags": [
+        "dilution",
+        "facteur-dilution"
+      ]
+    },
+    {
+      "id": "PC2C-C08-025",
+      "lecon": "La concentration d'une solution d'acide chlorhydrique",
+      "type": "definition",
+      "recto": "Comment varie le pH d'une solution d'acide chlorhydrique quand on la dilue ?",
+      "verso": "La dilution diminue $[\\mathrm{H_3O^+}]$, donc elle augmente le pH ; le pH est un nombre sans unité.",
+      "difficulte": 3,
+      "tags": [
+        "ph",
+        "dilution",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C08-026",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle couleur prennent le BBT, l'hélianthine et la phénolphtaléine dans l'acide chlorhydrique ?",
+      "verso": "BBT jaune, hélianthine rouge, phénolphtaléine incolore ; le papier pH indique une valeur inférieure à 7.",
+      "difficulte": 1,
+      "tags": [
+        "indicateurs-colores"
+      ]
+    },
+    {
+      "id": "PC2C-C08-027",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'action de l'acide chlorhydrique sur le zinc ?",
+      "verso": "$\\mathrm{Zn + 2H_3O^+ \\rightarrow Zn^{2+} + H_2 + 2H_2O}$ : dégagement de dihydrogène et passage du zinc en solution sous forme d'ions.",
+      "difficulte": 2,
+      "tags": [
+        "zinc",
+        "metaux"
+      ]
+    },
+    {
+      "id": "PC2C-C08-028",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'action de l'acide chlorhydrique sur l'aluminium ?",
+      "verso": "$\\mathrm{2Al + 6H_3O^+ \\rightarrow 2Al^{3+} + 3H_2 + 6H_2O}$.",
+      "difficulte": 2,
+      "tags": [
+        "aluminium",
+        "metaux"
+      ]
+    },
+    {
+      "id": "PC2C-C08-029",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "definition",
+      "recto": "Parmi les métaux usuels, lesquels l'acide chlorhydrique attaque-t-il ?",
+      "verso": "Le zinc, le fer, l'aluminium et le magnésium, avec dégagement de dihydrogène ; en revanche, il n'attaque pas le cuivre, l'argent, l'or ni le platine.",
+      "difficulte": 1,
+      "tags": [
+        "metaux"
+      ]
+    },
+    {
+      "id": "PC2C-C08-030",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "definition",
+      "recto": "Pourquoi l'équation $\\mathrm{Zn + 2HCl \\rightarrow Zn^{2+} + H_2}$ est-elle fausse ?",
+      "verso": "La charge n'y est pas conservée et il n'y a pas de molécules $\\mathrm{HCl}$ en solution. Il faut écrire $\\mathrm{Zn + 2H_3O^+ \\rightarrow Zn^{2+} + H_2 + 2H_2O}$.",
+      "difficulte": 3,
+      "tags": [
+        "equation",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC2C-C08-031",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Comment met-on en évidence le dihydrogène dégagé par l'attaque d'un métal par l'acide chlorhydrique ?",
+      "verso": "Une allumette enflammée approchée du tube provoque une détonation, un claquement sec et bref.",
+      "difficulte": 1,
+      "tags": [
+        "test-dihydrogene"
+      ]
+    },
+    {
+      "id": "PC2C-C08-032",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle est l'équation de l'action de l'acide chlorhydrique sur le calcaire $\\mathrm{CaCO_3}$ ?",
+      "verso": "$\\mathrm{CaCO_3 + 2H_3O^+ \\rightarrow Ca^{2+} + CO_2 + 3H_2O}$ : effervescence ; le dioxyde de carbone trouble l'eau de chaux et éteint l'allumette.",
+      "difficulte": 2,
+      "tags": [
+        "calcaire",
+        "dioxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC2C-C08-033",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Quelle est l'équation de la réaction entre l'acide chlorhydrique et la solution d'hydroxyde de sodium ?",
+      "verso": "$\\mathrm{H_3O^+ + OH^- \\rightarrow 2H_2O}$ (globalement $\\mathrm{HCl + NaOH \\rightarrow NaCl + H_2O}$) : neutralisation mole à mole, exothermique, avec $\\mathrm{Na^+}$ et $\\mathrm{Cl^-}$ spectateurs.",
+      "difficulte": 2,
+      "tags": [
+        "neutralisation"
+      ]
+    },
+    {
+      "id": "PC2C-C08-034",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "formule",
+      "recto": "Comment se déroule le test de l'ion chlorure au nitrate d'argent ?",
+      "verso": "Quelques gouttes de nitrate d'argent donnent un précipité blanc de chlorure d'argent qui noircit à la lumière : $\\mathrm{Ag^+_{(aq)} + Cl^-_{(aq)} \\rightarrow AgCl_{(s)} \\downarrow}$.",
+      "difficulte": 2,
+      "tags": [
+        "test-chlorure",
+        "nitrate-d-argent"
+      ]
+    },
+    {
+      "id": "PC2C-C08-035",
+      "lecon": "Les propriétés chimiques de l'acide chlorhydrique",
+      "type": "definition",
+      "recto": "Pourquoi le seul précipité blanc obtenu au nitrate d'argent ne permet-il pas de conclure qu'une solution est de l'acide chlorhydrique ?",
+      "verso": "Il prouve seulement la présence d'ions chlorure : une solution de chlorure de sodium le donne aussi sans être acide. Il faut aussi vérifier le caractère acide (BBT jaune).",
+      "difficulte": 3,
+      "tags": [
+        "identification",
+        "piege"
+      ]
+    }
+  ]
+}

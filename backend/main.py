@@ -23,7 +23,7 @@ import auth
 
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Chatbot Maths Burkina Faso API")
+app = FastAPI(title="Chatbot Chimie Burkina Faso API")
 
 # Compteur en mémoire (remis à zéro à chaque redémarrage, comme le reste de l'état du process —
 # voir aussi le limiter plus bas) des échecs d'écriture de la persistance best-effort (voir
@@ -106,7 +106,7 @@ app.add_middleware(
 # mais utile derrière Railway/Cloudflare qui terminent le HTTPS en amont.
 #
 # CSP : filet de sécurité supplémentaire contre le XSS (aucune injection connue actuellement — le
-# frontend n'utilise ni dangerouslySetInnerHTML ni rehype-raw, voir MathContent.jsx — mais une
+# frontend n'utilise ni dangerouslySetInnerHTML ni rehype-raw, voir RichContent.jsx — mais une
 # regression future serait bien plus dure à exploiter avec ceci en place). script-src 'self' SANS
 # 'unsafe-inline' : le build Vite ne charge que des <script src="/assets/...">, jamais de script
 # inline, donc un futur script injecté serait bloqué net. style-src garde 'unsafe-inline' : React
@@ -223,6 +223,8 @@ class ExerciseResponse(BaseModel):
 class ExerciseSolutionResponse(BaseModel):
     solution: str
     reponse_finale: str = ""
+    # Schéma de la correction (courbe de dosage, montage légendé, formule développée...), voir FIGURE_SCHEMAS.
+    figure: Optional[dict] = None
 
 
 class PrerequisResponse(BaseModel):
@@ -314,7 +316,7 @@ def read_root():
     if os.path.isfile(os.path.join(_FRONTEND_DIST, "index.html")):
         return _index_html_response()
     return {
-        "message": "Chatbot Maths Burkina Faso API",
+        "message": "Chatbot Chimie Burkina Faso API",
         "version": "1.0",
         "status": "running"
     }
@@ -334,7 +336,7 @@ def get_all_classes():
 def get_class_chapters(class_code: str):
     """Get chapters for a specific class"""
     if class_code not in get_classes():
-        raise HTTPException(status_code=404, detail="Class not found")
+        raise HTTPException(status_code=404, detail="Classe introuvable")
 
     chapters = get_chapters(class_code)
     return {
@@ -441,10 +443,10 @@ def ask_question(request: Request, payload: QuestionRequest, user=Depends(auth.g
         chapter = payload.chapter.strip()
 
         if class_level and class_level not in get_classes():
-            raise HTTPException(status_code=400, detail="Invalid class level")
+            raise HTTPException(status_code=400, detail="Classe invalide")
 
         if chapter and class_level and chapter not in get_chapters(class_level):
-            raise HTTPException(status_code=400, detail="Invalid chapter for this class")
+            raise HTTPException(status_code=400, detail="Ce chapitre n'appartient pas au programme de ta classe")
 
         history = [turn.dict() for turn in payload.history]
         response = rag_system.generate_response(
@@ -477,9 +479,9 @@ def ask_question_stream(request: Request, payload: QuestionRequest, user=Depends
     chapter = payload.chapter.strip()
 
     if class_level and class_level not in get_classes():
-        raise HTTPException(status_code=400, detail="Invalid class level")
+        raise HTTPException(status_code=400, detail="Classe invalide")
     if chapter and class_level and chapter not in get_chapters(class_level):
-        raise HTTPException(status_code=400, detail="Invalid chapter for this class")
+        raise HTTPException(status_code=400, detail="Ce chapitre n'appartient pas au programme de ta classe")
 
     history = [turn.dict() for turn in payload.history]
 
@@ -527,9 +529,9 @@ def get_prerequis(request: Request, payload: PrerequisRequest, user=Depends(auth
         chapter = payload.chapter.strip()
 
         if class_level not in get_classes():
-            raise HTTPException(status_code=400, detail="Invalid class level")
+            raise HTTPException(status_code=400, detail="Classe invalide")
         if chapter not in get_chapters(class_level):
-            raise HTTPException(status_code=400, detail="Invalid chapter for this class")
+            raise HTTPException(status_code=400, detail="Ce chapitre n'appartient pas au programme de ta classe")
 
         history = [turn.dict() for turn in payload.history]
         questions = rag_system.generate_prerequis(class_level, chapter, history=history)
@@ -553,16 +555,19 @@ def get_prerequis(request: Request, payload: PrerequisRequest, user=Depends(auth
 def get_remediation(request: Request, payload: PrerequisRequest, user=Depends(auth.get_current_user_optional)):
     return get_prerequis(request, payload, user)
 
-@app.api_route("/api/course/{class_code}/{chapter}", methods=["GET", "HEAD"])
+# `{chapter:path}` (et non `{chapter}`) sur les routes de fichiers par chapitre : certains intitulés
+# contiennent une barre oblique (Tle « Les couples acide/base »), que l'encodage %2F ne protège pas
+# — Starlette décode le chemin avant le routage. Le code de classe, lui, n'en contient jamais.
+@app.api_route("/api/course/{class_code}/{chapter:path}", methods=["GET", "HEAD"])
 def get_course_file(class_code: str, chapter: str):
     """Renvoie le document de cours (PDF/DOCX/TXT) déposé pour cette classe/ce chapitre,
     tel que fourni par l'équipe pédagogique (voir ingest_documents.py). Accepte aussi HEAD :
     contrairement à Starlette, FastAPI n'ajoute pas HEAD automatiquement aux routes GET, et le
     frontend s'en sert pour vérifier la disponibilité du cours avant d'ouvrir un nouvel onglet."""
     if class_code not in get_classes():
-        raise HTTPException(status_code=404, detail="Class not found")
+        raise HTTPException(status_code=404, detail="Classe introuvable")
     if chapter not in get_chapters(class_code):
-        raise HTTPException(status_code=404, detail="Chapter not found")
+        raise HTTPException(status_code=404, detail="Ce chapitre n'existe pas dans le programme de cette classe")
 
     # Priorité à l'index vectoriel : un filtre EXACT classe+chapitre, fiable car l'ingestion classe
     # désormais les documents par leur CONTENU (pas leur nom de fichier). Repli sur la correspondance
@@ -579,7 +584,7 @@ def get_course_file(class_code: str, chapter: str):
     # champ reste correct si jamais l'URL est atteinte directement (repli, vérif HEAD...).
     return FileResponse(file_path, filename=os.path.basename(file_path), content_disposition_type="inline")
 
-@app.api_route("/api/summary/file/{class_code}/{chapter}", methods=["GET", "HEAD"])
+@app.api_route("/api/summary/file/{class_code}/{chapter:path}", methods=["GET", "HEAD"])
 def get_summary_file(class_code: str, chapter: str):
     """Renvoie le PDF de résumé déposé pour cette classe/ce chapitre (voir data/summaries/,
     même convention que data/documents/ pour les cours — voir find_course_file). Remplace
@@ -587,9 +592,9 @@ def get_summary_file(class_code: str, chapter: str):
     prérédigé par chapitre. Pas de porte consentement ici, comme /api/course : aucune donnée
     élève n'est lue ni écrite, juste un fichier statique renvoyé tel quel."""
     if class_code not in get_classes():
-        raise HTTPException(status_code=404, detail="Class not found")
+        raise HTTPException(status_code=404, detail="Classe introuvable")
     if chapter not in get_chapters(class_code):
-        raise HTTPException(status_code=404, detail="Chapter not found")
+        raise HTTPException(status_code=404, detail="Ce chapitre n'existe pas dans le programme de cette classe")
 
     file_path = find_course_file(config.SUMMARIES_DIR, class_code, chapter)
     if not file_path:
@@ -637,7 +642,7 @@ def _flashcard_card_key(front: str) -> str:
     return hashlib.sha1(front.strip().encode("utf-8")).hexdigest()[:16]
 
 
-@app.get("/api/flashcards/{class_code}/{chapter}", response_model=FlashcardsResponse)
+@app.get("/api/flashcards/{class_code}/{chapter:path}", response_model=FlashcardsResponse)
 def get_flashcards(class_code: str, chapter: str, user=Depends(auth.get_current_user_optional)):
     """Renvoie le jeu de flashcards déposé pour cette classe/ce chapitre (voir data/flashcards/,
     même convention de dossiers que data/documents/ et data/summaries/ — voir find_course_file),
@@ -654,9 +659,9 @@ def get_flashcards(class_code: str, chapter: str, user=Depends(auth.get_current_
     historique. Un invité reçoit les cartes dans l'ordre du fichier, toutes marquées "due" :
     sans compte, il n'y a pas d'historique auquel se raccrocher d'une session à l'autre."""
     if class_code not in get_classes():
-        raise HTTPException(status_code=404, detail="Class not found")
+        raise HTTPException(status_code=404, detail="Classe introuvable")
     if chapter not in get_chapters(class_code):
-        raise HTTPException(status_code=404, detail="Chapter not found")
+        raise HTTPException(status_code=404, detail="Ce chapitre n'existe pas dans le programme de cette classe")
 
     file_path = find_course_file(config.FLASHCARDS_DIR, class_code, chapter, extensions=(".json",))
     if not file_path:
@@ -720,9 +725,9 @@ def review_flashcard(payload: FlashcardReviewRequest, user=Depends(auth.get_curr
     if not user:
         return {"persisted": False}
     if payload.class_code not in get_classes():
-        raise HTTPException(status_code=400, detail="Invalid class level")
+        raise HTTPException(status_code=400, detail="Classe invalide")
     if payload.chapter not in get_chapters(payload.class_code):
-        raise HTTPException(status_code=400, detail="Invalid chapter for this class")
+        raise HTTPException(status_code=400, detail="Ce chapitre n'appartient pas au programme de ta classe")
 
     database.upsert_flashcard_review(user["id"], payload.class_code, payload.chapter, payload.card_key, payload.correct)
     return {"persisted": True}
@@ -737,11 +742,11 @@ def generate_exercise(request: Request, payload: ExerciseRequest, user=Depends(a
     try:
         class_level = _resolve_class_level(user, payload.class_level)
         if class_level not in get_classes():
-            raise HTTPException(status_code=400, detail="Invalid class level")
+            raise HTTPException(status_code=400, detail="Classe invalide")
 
         chapter = payload.chapter.strip()
         if chapter and chapter not in get_chapters(class_level):
-            raise HTTPException(status_code=400, detail="Invalid chapter for this class")
+            raise HTTPException(status_code=400, detail="Ce chapitre n'appartient pas au programme de ta classe")
 
         history = [turn.dict() for turn in payload.history]
         response = rag_system.generate_exercise(
@@ -778,7 +783,7 @@ def get_exercise_solution(request: Request, payload: ExerciseSolutionRequest, us
     try:
         class_level = _resolve_class_level(user, payload.class_level)
         if class_level not in get_classes():
-            raise HTTPException(status_code=400, detail="Invalid class level")
+            raise HTTPException(status_code=400, detail="Classe invalide")
 
         result = rag_system.generate_exercise_solution(
             class_level, payload.chapter, payload.difficulty,
@@ -818,9 +823,9 @@ async def explain_exercise_photo(
     try:
         class_level = _resolve_class_level(user, class_level)
         if class_level and class_level not in get_classes():
-            raise HTTPException(status_code=400, detail="Invalid class level")
+            raise HTTPException(status_code=400, detail="Classe invalide")
         if chapter and class_level and chapter not in get_chapters(class_level):
-            raise HTTPException(status_code=400, detail="Invalid chapter for this class")
+            raise HTTPException(status_code=400, detail="Ce chapitre n'appartient pas au programme de ta classe")
 
         content_type = (file.content_type or "").lower()
         if content_type not in ALLOWED_PHOTO_CONTENT_TYPES:
@@ -905,7 +910,7 @@ async def upload_document(
         safe_filename = os.path.basename(file.filename or "")
         ext = os.path.splitext(safe_filename)[1].lower()
         if not safe_filename or ext not in ALLOWED_UPLOAD_EXTENSIONS:
-            raise HTTPException(status_code=400, detail="Unsupported file format")
+            raise HTTPException(status_code=400, detail="Format de fichier non pris en charge")
 
         content = await file.read()
         # Même garde-fou que /api/exercise/photo (MAX_EXERCISE_PHOTO_SIZE_BYTES) : réservé aux
@@ -933,12 +938,12 @@ async def upload_document(
         if doc:
             rag_system.add_documents([doc], doc["metadata"])
             return {
-                "message": "Document uploaded and processed successfully",
+                "message": "Document ajouté et indexé avec succès",
                 "filename": safe_filename,
                 "metadata": doc["metadata"]
             }
         else:
-            raise HTTPException(status_code=500, detail="Failed to process document")
+            raise HTTPException(status_code=500, detail="Impossible de traiter ce document")
 
     except HTTPException:
         raise
@@ -966,8 +971,8 @@ def initialize_sample_documents(decideur=Depends(auth.require_decideur)):
 MIN_PASSWORD_LENGTH = 8
 VALID_GENDERS = {"F", "M"}
 # Bornes de plausibilité d'une date de naissance, en âge (pas en année fixe comme l'ancien
-# MIN/MAX_BIRTH_YEAR) : un élève de 6 à 80 ans, cohérent avec le programme couvert (6ème à
-# Terminale) tout en laissant de la marge pour un candidat libre plus âgé.
+# MIN/MAX_BIRTH_YEAR) : un élève de 6 à 80 ans — borne basse volontairement large (le programme
+# couvert va de la 4ème à la Terminale), et de la marge pour un candidat libre plus âgé.
 MIN_AGE_YEARS = 6
 MAX_AGE_YEARS = 80
 
@@ -1002,7 +1007,7 @@ def register(request: Request, payload: RegisterRequest):
     # les VALEURS fournies sont valides (une classe existante, un genre de la liste, une date
     # plausible) — ce que le type seul ne garantit pas.
     if payload.class_code not in get_classes():
-        raise HTTPException(status_code=400, detail="Invalid class level")
+        raise HTTPException(status_code=400, detail="Classe invalide")
     if payload.gender not in VALID_GENDERS:
         raise HTTPException(status_code=400, detail="Genre invalide")
     if not _is_plausible_birth_date(payload.birth_date):
@@ -1133,7 +1138,7 @@ def get_profile_fields(user=Depends(auth.get_current_user)):
 @app.patch("/api/profile")
 def update_profile(payload: ProfileUpdateRequest, user=Depends(auth.get_current_user)):
     if payload.class_code and payload.class_code not in get_classes():
-        raise HTTPException(status_code=400, detail="Invalid class level")
+        raise HTTPException(status_code=400, detail="Classe invalide")
     if payload.gender is not None and payload.gender not in VALID_GENDERS:
         raise HTTPException(status_code=400, detail="Genre invalide")
     if payload.birth_date is not None and not _is_plausible_birth_date(payload.birth_date):

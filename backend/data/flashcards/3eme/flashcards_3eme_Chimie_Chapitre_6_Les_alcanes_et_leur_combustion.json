@@ -1,0 +1,425 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "3ème",
+  "chapitre": "Chimie, Chapitre 6 : Les alcanes et leur combustion",
+  "source": "pc/3eme/Chimie_Chapitre_6_Les_alcanes_et_leur_combustion",
+  "nombre_cartes": 35,
+  "cartes": [
+    {
+      "id": "PC3E-C06-001",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un hydrocarbure ?",
+      "verso": "Un corps composé dont la molécule ne contient que deux sortes d'atomes : des atomes de carbone $\\mathrm{C}$ et des atomes d'hydrogène $\\mathrm{H}$. Sa formule se note $\\mathrm{C}_x\\mathrm{H}_y$.",
+      "difficulte": 1,
+      "tags": [
+        "hydrocarbure"
+      ]
+    },
+    {
+      "id": "PC3E-C06-002",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un alcane ?",
+      "verso": "Un hydrocarbure saturé : chaque atome de carbone est lié à quatre voisins par des liaisons simples, et la molécule porte le plus grand nombre possible d'atomes d'hydrogène.",
+      "difficulte": 1,
+      "tags": [
+        "alcane",
+        "sature"
+      ]
+    },
+    {
+      "id": "PC3E-C06-003",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "formule",
+      "recto": "Quelle est la formule générale des alcanes ?",
+      "verso": "$\\mathrm{C}_n\\mathrm{H}_{2n+2}$, où $n$ est un entier non nul appelé rang de l'alcane : c'est le nombre d'atomes de carbone de la molécule.",
+      "difficulte": 1,
+      "tags": [
+        "formule-generale",
+        "rang"
+      ]
+    },
+    {
+      "id": "PC3E-C06-004",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "formule",
+      "recto": "A quelle condition un hydrocarbure de formule $\\mathrm{C}_x\\mathrm{H}_y$ est-il un alcane ?",
+      "verso": "Lorsque $y = 2x + 2$ : le nombre d'atomes d'hydrogène vaut deux fois le nombre d'atomes de carbone plus deux.",
+      "difficulte": 2,
+      "tags": [
+        "formule-generale",
+        "alcane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-005",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Quels sont les noms et formules brutes des cinq premiers alcanes ?",
+      "verso": "Méthane $\\mathrm{CH_4}$, éthane $\\mathrm{C_2H_6}$, propane $\\mathrm{C_3H_8}$, butane $\\mathrm{C_4H_{10}}$, pentane $\\mathrm{C_5H_{12}}$.",
+      "difficulte": 1,
+      "tags": [
+        "nomenclature",
+        "cinq-premiers"
+      ]
+    },
+    {
+      "id": "PC3E-C06-006",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Comment se forme le nom d'un alcane à partir du rang 5 ?",
+      "verso": "Le nom se termine par « ane » et son début donne le nombre de carbones : pent 5, hex 6, hept 7, oct 8, non 9, déc 10.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "prefixe"
+      ]
+    },
+    {
+      "id": "PC3E-C06-007",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "formule",
+      "recto": "Quelle relation donne le nombre total d'atomes $N$ d'une molécule d'alcane de rang $n$ ?",
+      "verso": "$N = n + (2n + 2) = 3n + 2$ ; d'où $n = \\dfrac{N - 2}{3}$. Par exemple, le pentane ($n = 5$) compte $17$ atomes.",
+      "difficulte": 2,
+      "tags": [
+        "nombre-atomes",
+        "rang"
+      ]
+    },
+    {
+      "id": "PC3E-C06-008",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "formule",
+      "recto": "Comment retrouve-t-on le rang $n$ d'un alcane à partir de son nombre d'atomes d'hydrogène $N_{\\mathrm{H}}$ ?",
+      "verso": "On résout $2n + 2 = N_{\\mathrm{H}}$, soit $n = \\dfrac{N_{\\mathrm{H}} - 2}{2}$. Si $n$ n'est pas entier, le corps n'est pas un alcane.",
+      "difficulte": 2,
+      "tags": [
+        "rang",
+        "hydrogene"
+      ]
+    },
+    {
+      "id": "PC3E-C06-009",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Pourquoi $\\mathrm{C_5H_{10}}$ est-il un hydrocarbure sans être un alcane ?",
+      "verso": "Il ne contient que du carbone et de l'hydrogène, mais pour $n = 5$ un alcane doit avoir $2 \\times 5 + 2 = 12$ atomes d'hydrogène ($\\mathrm{C_5H_{12}}$). Tout alcane est un hydrocarbure, l'inverse est faux.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "hydrocarbure",
+        "alcane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-010",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Pourquoi l'indice de l'hydrogène dans la formule d'un alcane est-il toujours pair ?",
+      "verso": "Parce qu'il vaut $2n + 2$, qui est pair. Une formule comme $\\mathrm{C_2H_5}$ n'est donc pas celle d'un alcane.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "formule-generale"
+      ]
+    },
+    {
+      "id": "PC3E-C06-011",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Quel alcane constitue essentiellement le gaz de cuisine au Burkina Faso ?",
+      "verso": "Le butane $\\mathrm{C_4H_{10}}$. Le propane est aussi utilisé en bouteille ; le méthane est le gaz des marais et du biogaz.",
+      "difficulte": 1,
+      "tags": [
+        "butane",
+        "vie-courante"
+      ]
+    },
+    {
+      "id": "PC3E-C06-012",
+      "lecon": "Les hydrocarbures et la famille des alcanes",
+      "type": "definition",
+      "recto": "Comment évolue l'état physique des alcanes quand leur chaîne s'allonge ?",
+      "verso": "Plus la chaîne est longue, plus le corps est lourd : gazeux d'abord (méthane à butane), liquides ensuite (pentane, hexane, octane de l'essence), solides enfin (paraffine de la bougie).",
+      "difficulte": 2,
+      "tags": [
+        "etat-physique"
+      ]
+    },
+    {
+      "id": "PC3E-C06-013",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on la formule développée plane d'une molécule ?",
+      "verso": "L'écriture qui représente tous les atomes de la molécule et toutes les liaisons entre eux, chaque liaison figurée par un trait.",
+      "difficulte": 1,
+      "tags": [
+        "formule-developpee"
+      ]
+    },
+    {
+      "id": "PC3E-C06-014",
+      "lecon": "Formule développée et isomères",
+      "type": "formule",
+      "recto": "Dans la formule développée d'un alcane, combien de liaisons porte chaque atome de carbone et chaque atome d'hydrogène ?",
+      "verso": "Chaque carbone porte quatre liaisons (quatre traits), chaque hydrogène une seule.",
+      "difficulte": 1,
+      "tags": [
+        "liaisons",
+        "formule-developpee"
+      ]
+    },
+    {
+      "id": "PC3E-C06-015",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on des isomères ?",
+      "verso": "Deux corps qui ont la même formule brute mais des formules développées différentes. Ce sont deux corps distincts, aux propriétés différentes.",
+      "difficulte": 1,
+      "tags": [
+        "isomeres"
+      ]
+    },
+    {
+      "id": "PC3E-C06-016",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Combien d'isomères correspondent aux formules brutes $\\mathrm{C_4H_{10}}$ et $\\mathrm{C_5H_{12}}$ ?",
+      "verso": "$\\mathrm{C_4H_{10}}$ correspond à 2 isomères (la chaîne droite du butane et une chaîne ramifiée) ; $\\mathrm{C_5H_{12}}$ correspond à 3 isomères.",
+      "difficulte": 2,
+      "tags": [
+        "isomeres",
+        "butane",
+        "pentane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-017",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Pourquoi le méthane, l'éthane et le propane n'ont-ils aucun isomère ?",
+      "verso": "Pour construire un isomère, il faut un carbone intérieur libre pour recevoir une branche. Avec un, deux ou trois carbones, il n'y en a pas : la construction est unique. Le premier alcane à avoir un isomère est le butane.",
+      "difficulte": 3,
+      "tags": [
+        "isomeres",
+        "propane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-018",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Dans la formule développée d'un alcane à chaîne linéaire, combien d'atomes d'hydrogène porte chaque carbone ?",
+      "verso": "Chaque carbone d'un bout de chaîne porte trois hydrogènes, chaque carbone du milieu en porte deux, ce qui donne au total $2n + 2$ hydrogènes. Le méthane fait exception : son unique carbone en porte quatre.",
+      "difficulte": 2,
+      "tags": [
+        "formule-developpee",
+        "chaine-lineaire"
+      ]
+    },
+    {
+      "id": "PC3E-C06-019",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Quelle molécule désigne le nom simple d'un alcane comme « butane » ou « pentane » ?",
+      "verso": "La molécule à chaîne linéaire, dont tous les carbones sont en file, sans branche. Les chaînes ramifiées sont des isomères de cet alcane linéaire.",
+      "difficulte": 2,
+      "tags": [
+        "nomenclature",
+        "chaine-lineaire"
+      ]
+    },
+    {
+      "id": "PC3E-C06-020",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Quelle différence y a-t-il entre la formule brute et la formule développée d'une molécule ?",
+      "verso": "La formule brute compte les atomes ; la formule développée montre aussi les liaisons. Deux isomères ont la même formule brute et jamais la même formule développée.",
+      "difficulte": 2,
+      "tags": [
+        "formule-brute",
+        "formule-developpee"
+      ]
+    },
+    {
+      "id": "PC3E-C06-021",
+      "lecon": "Formule développée et isomères",
+      "type": "definition",
+      "recto": "Pourquoi une chaîne droite de carbones dessinée en zigzag n'est-elle pas un isomère de la même chaîne dessinée en ligne ?",
+      "verso": "C'est la même molécule écrite autrement : l'enchaînement des atomes n'a pas changé. Seul un changement d'enchaînement des atomes crée un isomère.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "isomeres"
+      ]
+    },
+    {
+      "id": "PC3E-C06-022",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "definition",
+      "recto": "Quels sont les produits de la combustion complète d'un alcane ?",
+      "verso": "Uniquement du dioxyde de carbone $\\mathrm{CO_2}$ (gaz carbonique) et de l'eau $\\mathrm{H_2O}$. Elle a lieu quand le dioxygène est en quantité suffisante ; la flamme est bleue et ne dépose rien.",
+      "difficulte": 1,
+      "tags": [
+        "combustion-complete"
+      ]
+    },
+    {
+      "id": "PC3E-C06-023",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "definition",
+      "recto": "Quels produits supplémentaires apparaissent lors de la combustion incomplète d'un alcane ?",
+      "verso": "Quand le dioxygène est insuffisant, il se forme en plus du monoxyde de carbone $\\mathrm{CO}$ et du carbone $\\mathrm{C}$ (suie). La flamme est jaune, fumeuse, et noircit les récipients.",
+      "difficulte": 2,
+      "tags": [
+        "combustion-incomplete",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C06-024",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète du butane ?",
+      "verso": "$\\mathrm{2C_4H_{10} + 13O_2 \\rightarrow 8CO_2 + 10H_2O}$ : 8 atomes C, 20 atomes H et 26 atomes O de chaque côté.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan",
+        "butane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-025",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète du méthane ?",
+      "verso": "$\\mathrm{CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O}$.",
+      "difficulte": 1,
+      "tags": [
+        "equation-bilan",
+        "methane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-026",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète du propane ?",
+      "verso": "$\\mathrm{C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O}$.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan",
+        "propane"
+      ]
+    },
+    {
+      "id": "PC3E-C06-027",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la combustion complète d'une molécule d'alcane de rang $n$ ?",
+      "verso": "$\\mathrm{C}_n\\mathrm{H}_{2n+2} + \\dfrac{3n+1}{2}\\,\\mathrm{O_2} \\rightarrow n\\,\\mathrm{CO_2} + (n+1)\\,\\mathrm{H_2O}$ ; en coefficients entiers : $2\\,\\mathrm{C}_n\\mathrm{H}_{2n+2} + (3n+1)\\,\\mathrm{O_2} \\rightarrow 2n\\,\\mathrm{CO_2} + (2n+2)\\,\\mathrm{H_2O}$.",
+      "difficulte": 3,
+      "tags": [
+        "equation-generale"
+      ]
+    },
+    {
+      "id": "PC3E-C06-028",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Dans quel ordre équilibre-t-on les atomes de l'équation de combustion complète d'un alcane ?",
+      "verso": "Le carbone d'abord, l'hydrogène ensuite, l'oxygène en dernier ; si le coefficient de $\\mathrm{O_2}$ est fractionnaire, on multiplie tous les coefficients par 2.",
+      "difficulte": 2,
+      "tags": [
+        "equilibrage"
+      ]
+    },
+    {
+      "id": "PC3E-C06-029",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "definition",
+      "recto": "Pour des gaz pris dans les mêmes conditions, que donnent les coefficients d'une équation-bilan de combustion ?",
+      "verso": "Les proportions en volume : 2 volumes de butane exigent 13 volumes de dioxygène et produisent 8 volumes de dioxyde de carbone.",
+      "difficulte": 2,
+      "tags": [
+        "volumes",
+        "proportions"
+      ]
+    },
+    {
+      "id": "PC3E-C06-030",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "definition",
+      "recto": "Que signale une flamme jaune et fumeuse lors de la combustion d'un gaz ?",
+      "verso": "Une combustion incomplète : les grains de carbone portés au rouge colorent la flamme, et il se dégage en même temps du monoxyde de carbone, invisible, inodore et très toxique.",
+      "difficulte": 2,
+      "tags": [
+        "flamme",
+        "combustion-incomplete"
+      ]
+    },
+    {
+      "id": "PC3E-C06-031",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "definition",
+      "recto": "Quelle distinction faut-il faire entre $\\mathrm{CO}$ et $\\mathrm{CO_2}$ ?",
+      "verso": "Le dioxyde de carbone $\\mathrm{CO_2}$ trouble l'eau de chaux et n'est pas toxique aux doses ordinaires ; le monoxyde de carbone $\\mathrm{CO}$ ne la trouble pas et il tue.",
+      "difficulte": 3,
+      "tags": [
+        "piege",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C06-032",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Quel test met en évidence l'eau formée lors de la combustion d'un alcane ?",
+      "verso": "L'eau fait bleuir le sulfate de cuivre anhydre.",
+      "difficulte": 1,
+      "tags": [
+        "test",
+        "eau"
+      ]
+    },
+    {
+      "id": "PC3E-C06-033",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "definition",
+      "recto": "Quel effet négatif a sur l'environnement un dégagement abondant de dioxyde de carbone ?",
+      "verso": "Il renforce l'effet de serre (le $\\mathrm{CO_2}$ retient une partie de la chaleur renvoyée par le sol) et contribue au réchauffement climatique.",
+      "difficulte": 2,
+      "tags": [
+        "environnement",
+        "effet-de-serre"
+      ]
+    },
+    {
+      "id": "PC3E-C06-034",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Quelle règle de sécurité découle des dangers de la combustion incomplète ?",
+      "verso": "Jamais de réchaud, de brasero ni de groupe électrogène en marche dans un local fermé : le dioxygène s'y épuise et il se dégage du monoxyde de carbone, même par des braises sans flamme.",
+      "difficulte": 2,
+      "tags": [
+        "securite",
+        "monoxyde-de-carbone"
+      ]
+    },
+    {
+      "id": "PC3E-C06-035",
+      "lecon": "La combustion des alcanes et son équation-bilan",
+      "type": "formule",
+      "recto": "Comment retrouve-t-on le rang $n$ d'un alcane dont la combustion complète d'une molécule donne $k$ molécules d'eau ?",
+      "verso": "Pour une molécule d'alcane, le coefficient de l'eau vaut $n + 1$ : on résout $n + 1 = k$, donc $n = k - 1$ (11 molécules d'eau donnent $n = 10$).",
+      "difficulte": 3,
+      "tags": [
+        "equation-generale",
+        "rang"
+      ]
+    }
+  ]
+}

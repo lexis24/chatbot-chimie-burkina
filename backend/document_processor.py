@@ -1,4 +1,4 @@
-﻿"""Document Processor for math curriculum documents"""
+﻿"""Document Processor for chemistry curriculum documents"""
 import re
 import unicodedata
 from pathlib import Path
@@ -70,6 +70,25 @@ def _tokens(value: str) -> List[str]:
     return [t for t in words if t not in _STOPWORDS]
 
 
+def chapter_number_from_filename(path: Path) -> Optional[int]:
+    """Numéro de chapitre tel qu'écrit dans le nom des fichiers Hakili Lab ("Chapitre_4_...",
+    "flashcards_4eme_Chapitre_4_...", "Chapitre_4_..._FICHE_REVISION"), ou None. Les chapitres de
+    curriculum_data.py suivent l'ordre des manuels : le chapitre N d'une classe y est à l'index N-1."""
+    match = re.search(r"(?i)(?:^|_)chapitre_(\d+)_", path.stem)
+    return int(match.group(1)) if match else None
+
+
+def curriculum_chapter_from_number(class_code: str, path: Path) -> Optional[str]:
+    """Intitulé officiel correspondant au numéro de chapitre du nom de fichier (voir
+    chapter_number_from_filename), ou None si le numéro est absent ou hors du programme."""
+    from curriculum_data import get_chapters
+    number = chapter_number_from_filename(path)
+    chapters = get_chapters(class_code)
+    if number is None or not 1 <= number <= len(chapters):
+        return None
+    return chapters[number - 1]
+
+
 def infer_class_from_path(path: Path, data_dir: Path) -> Optional[str]:
     """Déduit le code de classe officiel (ex: "2nde") depuis les dossiers parents ou le nom du
     fichier, via CLASS_ALIASES. Utilisé aussi bien à l'ingestion qu'à la recherche du cours."""
@@ -108,6 +127,7 @@ def find_course_file(
     best = None
     best_matched = -1
     best_score = -1
+    best_number_match = False
     for path in sorted(data_path.rglob("*")):
         if not path.is_file() or path.suffix.lower() not in extensions:
             continue
@@ -120,23 +140,36 @@ def find_course_file(
         # dossier parent) : sert à départager plusieurs fichiers candidats.
         matched = sum(1 for t in chapter_tokens if t in rel_tokens or t in stem_tokens)
         score = matched + sum(1 for t in chapter_tokens if t in stem_tokens)
+        # Départage par le numéro de chapitre du nom de fichier : indispensable quand deux noms
+        # de fichiers recoupent autant de mots-clés (ex: Tle "Les solutions aqueuses" vs "Les solutions
+        # aqueuses d'acide chlorhydrique et d'hydroxyde de sodium", dont le fichier est abrégé en "HCl_et_NaOH").
+        # Demi-point seulement : départage une égalité, sans jamais l'emporter sur un mot-clé.
+        number_match = curriculum_chapter_from_number(class_code, path) == chapter
+        if number_match:
+            score += 0.5
         if score > best_score:
             best = path
             best_score = score
             best_matched = matched
+            best_number_match = number_match
 
     if best is None:
         return None
     # Exige qu'une stricte majorité des mots-clés du chapitre soit retrouvée (un seul mot-clé
     # générique en commun, ex: "théorème", ne suffit pas) : mieux vaut signaler l'absence du
-    # cours que renvoyer le document d'un autre chapitre.
-    if not chapter_tokens or 2 * best_matched <= len(chapter_tokens):
+    # cours que renvoyer le document d'un autre chapitre. Exception : un fichier dont le numéro
+    # "Chapitre_N_" désigne exactement ce chapitre du programme, avec au moins un mot-clé commun —
+    # certains noms de fichiers sont abrégés (Tle "Les solutions aqueuses d'acide chlorhydrique et
+    # d'hydroxyde de sodium" -> "Chimie_Chapitre_2_Les_solutions_aqueuses_HCl_et_NaOH.pdf").
+    if not chapter_tokens:
+        return None
+    if 2 * best_matched <= len(chapter_tokens) and not (best_number_match and best_matched > 0):
         return None
     return str(best)
 
 
 class DocumentProcessor:
-    """Process math curriculum documents for the knowledge base"""
+    """Process chemistry curriculum documents for the knowledge base"""
 
     def __init__(self, data_dir: str):
         self.data_dir = data_dir
@@ -215,40 +248,28 @@ class DocumentProcessor:
         """Create sample curriculum documents"""
         samples = [
             {
-                "text": """Le théorème de Pythagore est un résultat fondamental en géométrie.
-                
-Dans un triangle rectangle, le carré de la longueur de l'hypoténuse est égal à la somme des carrés des longueurs des deux autres côtés.
+                "text": """Une combustion est une transformation chimique au cours de laquelle un combustible brûle en consommant un comburant, le plus souvent le dioxygène de l'air, avec dégagement de chaleur.
 
-Si ABC est un triangle rectangle en A, alors BC² = AB² + AC²
+Trois conditions sont nécessaires (triangle du feu) : un combustible, un comburant et une source de chaleur pour l'allumage. Supprimer l'une des trois arrête la combustion.
 
-Exemple : Si AB = 3 cm et AC = 4 cm, alors BC² = 3² + 4² = 9 + 16 = 25, donc BC = 5 cm.
-
-Ce théorème permet de calculer la longueur d'un côté d'un triangle rectangle quand on connaît les deux autres.""",
-                "metadata": {"type": "sample", "chapter": "Théorème de Pythagore", "class": "5ème"}
+Exemple : le charbon de bois brûle sans flamme dans le brasero ; on éteint les braises en les privant d'air.""",
+                "metadata": {"type": "sample", "chapter": "La combustion avec ou sans flamme", "class": "4ème"}
             },
             {
-                "text": """Le théorème de Thalès permet de calculer des longueurs dans des configurations de triangles emboîtés ou coupés par une parallèle.
+                "text": """La quantité de matière n se mesure en moles (mol). Elle se calcule à partir de la masse m d'un échantillon et de la masse molaire M de l'espèce chimique.
 
-Si deux droites parallèles coupent deux sécantes, alors elles déterminent sur ces sécantes des segments proportionnels.
+Relation : n = m / M, avec m en grammes (g) et M en grammes par mole (g/mol).
 
-Dans un triangle ABC, si une droite parallèle à BC coupe AB en D et AC en E, alors :
-AD/AB = AE/AC = DE/BC
-
-Exemple : Si AD = 2 cm, AB = 6 cm et DE = 3 cm, trouver BC.""",
-                "metadata": {"type": "sample", "chapter": "Théorème de Thalès", "class": "4ème"}
+Exemple : M(H2O) = 2 × 1 + 16 = 18 g/mol ; 36 g d'eau contiennent n = 36 / 18 = 2,0 mol de molécules d'eau.""",
+                "metadata": {"type": "sample", "chapter": "La molécule et la mole de molécules", "class": "2nde"}
             },
             {
-                "text": """Les fractions représentent une partie d'un tout.
+                "text": """Le pH d'une solution aqueuse indique si elle est acide, neutre ou basique. À 25 °C : pH < 7 pour une solution acide, pH = 7 pour une solution neutre, pH > 7 pour une solution basique.
 
-Une fraction a/b représente a parts égales d'un tout divisé en b parts.
+On mesure le pH avec du papier pH (valeur approchée) ou avec un pH-mètre (valeur précise).
 
-Opérations :
-- Addition/Soustraction : Il faut le même dénominateur
-- Multiplication : (a/b) × (c/d) = (a×c)/(b×d)
-- Division : (a/b) ÷ (c/d) = (a×d)/(b×c)
-
-Simplification : Diviser le numérateur et le dénominateur par leur PGCD.""",
-                "metadata": {"type": "sample", "chapter": "Fractions", "class": "6ème"}
-            }
+Exemple : le jus de citron (pH ≈ 2) est acide ; l'eau savonneuse (pH ≈ 10) est basique.""",
+                "metadata": {"type": "sample", "chapter": "Les notions d'acide et de base", "class": "3ème"}
+            },
         ]
         return samples

@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo Chatbot Maths Burkina Faso - Setup
+echo Chatbot Chimie Burkina Faso - Setup
 echo ========================================
 echo.
 

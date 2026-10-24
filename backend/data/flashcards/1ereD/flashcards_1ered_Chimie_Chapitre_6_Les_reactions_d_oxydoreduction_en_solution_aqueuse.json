@@ -1,0 +1,432 @@
+{
+  "matiere": "Physique-Chimie",
+  "partie": "Chimie",
+  "niveau": "1ère D",
+  "chapitre": "Chimie, Chapitre 6 : Les réactions d'oxydoréduction en solution aqueuse",
+  "source": "pc/1ered/Chimie_Chapitre_6_Les_reactions_d_oxydoreduction_en_solution_aqueuse",
+  "nombre_cartes": 36,
+  "cartes": [
+    {
+      "id": "PC1D-C06-001",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "En oxydoréduction, qu'appelle-t-on une oxydation ?",
+      "verso": "Une perte d'électrons par une espèce chimique.",
+      "difficulte": 1,
+      "tags": [
+        "oxydation"
+      ]
+    },
+    {
+      "id": "PC1D-C06-002",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "En oxydoréduction, qu'appelle-t-on une réduction ?",
+      "verso": "Un gain d'électrons par une espèce chimique.",
+      "difficulte": 1,
+      "tags": [
+        "reduction"
+      ]
+    },
+    {
+      "id": "PC1D-C06-003",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un oxydant ?",
+      "verso": "Une espèce capable de capter des électrons ; au cours de la réaction, l'oxydant est donc réduit.",
+      "difficulte": 1,
+      "tags": [
+        "oxydant"
+      ]
+    },
+    {
+      "id": "PC1D-C06-004",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un réducteur ?",
+      "verso": "Une espèce capable de céder des électrons ; au cours de la réaction, le réducteur est donc oxydé.",
+      "difficulte": 1,
+      "tags": [
+        "reducteur"
+      ]
+    },
+    {
+      "id": "PC1D-C06-005",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on une réaction d'oxydoréduction ?",
+      "verso": "Une réaction au cours de laquelle il y a transfert d'électrons d'un réducteur vers un oxydant ; l'oxydation et la réduction y sont toujours simultanées.",
+      "difficulte": 1,
+      "tags": [
+        "oxydoreduction"
+      ]
+    },
+    {
+      "id": "PC1D-C06-006",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "Pourquoi est-il faux de dire que l'oxydant est l'espèce oxydée au cours d'une réaction ?",
+      "verso": "L'oxydant oxyde l'autre espèce : il lui prend des électrons, donc il en gagne, donc il est réduit. C'est le réducteur qui est oxydé.",
+      "difficulte": 3,
+      "tags": [
+        "oxydant",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C06-007",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "Qu'appelle-t-on un couple oxydant-réducteur ?",
+      "verso": "Deux espèces conjuguées qui se transforment l'une en l'autre par gain ou perte d'électrons ; on le note $\\mathrm{Ox/Red}$, l'oxydant à gauche de la barre, comme $\\mathrm{Cu^{2+}/Cu}$.",
+      "difficulte": 2,
+      "tags": [
+        "couple-ox-red",
+        "notation"
+      ]
+    },
+    {
+      "id": "PC1D-C06-008",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "formule",
+      "recto": "Quelle est la forme générale de la demi-équation électronique d'un couple $\\mathrm{Ox/Red}$ ?",
+      "verso": "$\\mathrm{Ox} + n\\,\\mathrm{e^-} \\rightleftarrows \\mathrm{Red}$ : vers la droite, une réduction ; vers la gauche, une oxydation.",
+      "difficulte": 1,
+      "tags": [
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC1D-C06-009",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation électronique d'un couple $\\mathrm{M^{n+}/M}$, où $\\mathrm{M}$ est un métal ?",
+      "verso": "$\\mathrm{M^{n+}} + n\\,\\mathrm{e^-} \\rightleftarrows \\mathrm{M}$ ; l'ion métallique est l'oxydant et le métal le réducteur.",
+      "difficulte": 2,
+      "tags": [
+        "demi-equation",
+        "metal"
+      ]
+    },
+    {
+      "id": "PC1D-C06-010",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "definition",
+      "recto": "Dans un couple $\\mathrm{M^{n+}/M}$, pourquoi le métal joue-t-il toujours le rôle de réducteur ?",
+      "verso": "Un métal n'a que des électrons à donner : il ne peut que les céder pour devenir l'ion $\\mathrm{M^{n+}}$. Tout métal est donc un réducteur.",
+      "difficulte": 2,
+      "tags": [
+        "metal",
+        "reducteur"
+      ]
+    },
+    {
+      "id": "PC1D-C06-011",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "formule",
+      "recto": "Quelle demi-équation électronique correspond au couple $\\mathrm{Al^{3+}/Al}$ ?",
+      "verso": "$\\mathrm{Al^{3+} + 3e^- \\rightleftarrows Al}$.",
+      "difficulte": 2,
+      "tags": [
+        "aluminium",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC1D-C06-012",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "formule",
+      "recto": "Pourquoi le test à la soude ne permet-il pas de distinguer les ions $\\mathrm{Zn^{2+}}$ des ions $\\mathrm{Al^{3+}}$ ?",
+      "verso": "Les deux donnent un précipité blanc, $\\mathrm{Zn(OH)_2}$ ou $\\mathrm{Al(OH)_3}$, qui se redissout dans un excès de soude : le résultat est le même.",
+      "difficulte": 3,
+      "tags": [
+        "test-soude",
+        "zinc"
+      ]
+    },
+    {
+      "id": "PC1D-C06-013",
+      "lecon": "Oxydant, réducteur et couple $\\text{Ox}/\\text{Red}$",
+      "type": "formule",
+      "recto": "Avec la soude, quels précipités caractérisent les ions cuivre II et les ions fer II ?",
+      "verso": "Les ions $\\mathrm{Cu^{2+}}$ donnent un précipité bleu d'hydroxyde de cuivre II $\\mathrm{Cu(OH)_2}$ ; les ions $\\mathrm{Fe^{2+}}$ un précipité vert d'hydroxyde de fer II $\\mathrm{Fe(OH)_2}$.",
+      "difficulte": 2,
+      "tags": [
+        "test-soude",
+        "cuivre",
+        "fer"
+      ]
+    },
+    {
+      "id": "PC1D-C06-014",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est la demi-équation électronique du couple $\\mathrm{H_3O^+/H_2}$ ?",
+      "verso": "$\\mathrm{2H_3O^+ + 2e^- \\rightleftarrows H_2 + 2H_2O}$, ou en notation simplifiée $\\mathrm{2H^+ + 2e^- \\rightleftarrows H_2}$ ; $\\mathrm{H_3O^+}$ est l'oxydant, $\\mathrm{H_2}$ le réducteur.",
+      "difficulte": 2,
+      "tags": [
+        "h3o-h2",
+        "demi-equation"
+      ]
+    },
+    {
+      "id": "PC1D-C06-015",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "A quelle condition un métal est-il attaqué par une solution acide ?",
+      "verso": "Si son pouvoir réducteur est supérieur à celui du dihydrogène, c'est-à-dire si son couple $\\mathrm{M^{n+}/M}$ est situé au-dessus du couple $\\mathrm{H_3O^+/H_2}$ dans la classification. L'aluminium, le zinc, le fer, le magnésium sont attaqués ; le cuivre, l'argent, l'or ne le sont pas.",
+      "difficulte": 2,
+      "tags": [
+        "attaque-acide",
+        "condition"
+      ]
+    },
+    {
+      "id": "PC1D-C06-016",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "definition",
+      "recto": "Pourquoi le cuivre plongé dans l'acide chlorhydrique ne réagira-t-il jamais, même après une longue attente ?",
+      "verso": "La réaction n'est pas lente mais impossible : le couple $\\mathrm{Cu^{2+}/Cu}$ est situé sous le couple $\\mathrm{H_3O^+/H_2}$, donc le cuivre n'est pas assez réducteur.",
+      "difficulte": 3,
+      "tags": [
+        "cuivre",
+        "attaque-acide",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C06-017",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est la concentration en ions $\\mathrm{H_3O^+}$ d'une solution d'acide sulfurique de concentration $C$ ?",
+      "verso": "$\\left[\\mathrm{H_3O^+}\\right] = 2C$, car l'acide sulfurique est un diacide : $\\mathrm{H_2SO_4 + 2H_2O \\rightarrow 2H_3O^+ + SO_4^{2-}}$.",
+      "difficulte": 2,
+      "tags": [
+        "acide-sulfurique",
+        "diacide"
+      ]
+    },
+    {
+      "id": "PC1D-C06-018",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est la concentration en ions $\\mathrm{H_3O^+}$ d'une solution d'acide chlorhydrique de concentration $C$ ?",
+      "verso": "$\\left[\\mathrm{H_3O^+}\\right] = C$, d'après $\\mathrm{HCl + H_2O \\rightarrow H_3O^+ + Cl^-}$.",
+      "difficulte": 1,
+      "tags": [
+        "acide-chlorhydrique"
+      ]
+    },
+    {
+      "id": "PC1D-C06-019",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Comment obtient-on l'équation-bilan d'une réaction d'oxydoréduction à partir de deux demi-équations ?",
+      "verso": "On multiplie chaque demi-équation par le coefficient qui égalise les nombres d'électrons échangés, puis on les additionne membre à membre : les électrons s'éliminent, et l'on simplifie les espèces présentes des deux côtés.",
+      "difficulte": 2,
+      "tags": [
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC1D-C06-020",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "definition",
+      "recto": "Pourquoi une équation-bilan d'oxydoréduction ne contient-elle jamais d'électrons ?",
+      "verso": "Il n'existe pas d'électron libre en solution : après égalisation, les électrons sont en nombre égal des deux côtés de la somme et s'éliminent exactement. Une équation-bilan où il reste des électrons est fausse.",
+      "difficulte": 3,
+      "tags": [
+        "electrons",
+        "equation-bilan",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C06-021",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelles grandeurs se conservent dans une demi-équation électronique comme dans une équation-bilan ?",
+      "verso": "Les éléments chimiques (chaque type d'atome) et la charge électrique.",
+      "difficulte": 1,
+      "tags": [
+        "conservation"
+      ]
+    },
+    {
+      "id": "PC1D-C06-022",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de la réaction entre le zinc et les ions cuivre II ?",
+      "verso": "$\\mathrm{Zn + Cu^{2+} \\rightarrow Zn^{2+} + Cu}$ : le zinc se couvre d'un dépôt rouge de cuivre et la solution bleue se décolore.",
+      "difficulte": 1,
+      "tags": [
+        "zinc",
+        "cuivre",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC1D-C06-023",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'expérience de l'arbre de Diane ?",
+      "verso": "$\\mathrm{Cu + 2Ag^+ \\rightarrow Cu^{2+} + 2Ag}$ : des aiguilles grises d'argent poussent sur le cuivre et la solution de nitrate d'argent bleuit.",
+      "difficulte": 2,
+      "tags": [
+        "arbre-de-diane",
+        "equation-bilan"
+      ]
+    },
+    {
+      "id": "PC1D-C06-024",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'attaque du zinc par les ions $\\mathrm{H_3O^+}$ ?",
+      "verso": "$\\mathrm{Zn + 2H_3O^+ \\rightarrow Zn^{2+} + H_2 + 2H_2O}$.",
+      "difficulte": 2,
+      "tags": [
+        "zinc",
+        "attaque-acide"
+      ]
+    },
+    {
+      "id": "PC1D-C06-025",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "formule",
+      "recto": "Quelle est l'équation-bilan de l'attaque de l'aluminium par les ions $\\mathrm{H_3O^+}$ ?",
+      "verso": "$\\mathrm{2Al + 6H_3O^+ \\rightarrow 2Al^{3+} + 3H_2 + 6H_2O}$ (18 H, 6 O et une charge $+6$ de chaque côté).",
+      "difficulte": 2,
+      "tags": [
+        "aluminium",
+        "attaque-acide"
+      ]
+    },
+    {
+      "id": "PC1D-C06-026",
+      "lecon": "L'équation-bilan, les métaux et le couple $\\text{H}_3\\text{O}^+/\\text{H}_2$",
+      "type": "definition",
+      "recto": "Dans une réaction d'oxydoréduction entre un métal et une solution, quel rôle jouent les ions sulfate ou chlorure ?",
+      "verso": "Ce sont des ions spectateurs : ils ne participent pas au transfert d'électrons et n'entrent pas dans l'équation-bilan.",
+      "difficulte": 2,
+      "tags": [
+        "ions-spectateurs"
+      ]
+    },
+    {
+      "id": "PC1D-C06-027",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "definition",
+      "recto": "Quel est le principe de la classification électrochimique qualitative des couples $\\mathrm{M^{n+}/M}$ ?",
+      "verso": "On compare les couples de proche en proche par des essais deux à deux (métal dans une solution d'ion métallique, métal dans un acide) : chaque réaction observée classe deux couples l'un par rapport à l'autre.",
+      "difficulte": 2,
+      "tags": [
+        "classification-qualitative"
+      ]
+    },
+    {
+      "id": "PC1D-C06-028",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "definition",
+      "recto": "Dans la classification qualitative où les oxydants sont à gauche, comment varient les pouvoirs réducteur et oxydant vers le bas ?",
+      "verso": "Le pouvoir réducteur des métaux décroît vers le bas et le pouvoir oxydant des ions croît vers le bas : $\\mathrm{Mg}$ est le réducteur le plus fort, $\\mathrm{Au^{3+}}$ l'oxydant le plus fort.",
+      "difficulte": 2,
+      "tags": [
+        "classification-qualitative",
+        "pouvoir-reducteur"
+      ]
+    },
+    {
+      "id": "PC1D-C06-029",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "formule",
+      "recto": "Dans la classification qualitative des couples, où se place le couple $\\mathrm{H_3O^+/H_2}$ ?",
+      "verso": "Entre $\\mathrm{Pb^{2+}/Pb}$ et $\\mathrm{Cu^{2+}/Cu}$, sur l'échelle (du plus réducteur au moins réducteur) $\\mathrm{Mg}$, $\\mathrm{Al}$, $\\mathrm{Zn}$, $\\mathrm{Fe}$, $\\mathrm{Ni}$, $\\mathrm{Sn}$, $\\mathrm{Pb}$, $\\mathrm{H_2}$, $\\mathrm{Cu}$, $\\mathrm{Ag}$, $\\mathrm{Au}$ ; c'est la frontière des acides : les métaux situés au-dessus sont attaqués par les acides.",
+      "difficulte": 2,
+      "tags": [
+        "classification-qualitative",
+        "echelle"
+      ]
+    },
+    {
+      "id": "PC1D-C06-030",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "formule",
+      "recto": "Que prévoit la règle du gamma pour deux couples placés sur une échelle où le pouvoir oxydant croît vers le bas ?",
+      "verso": "La réaction spontanée met en jeu l'oxydant du couple le plus bas et le réducteur du couple le plus haut. Si $\\mathrm{Ox_1/Red_1}$ est au-dessus de $\\mathrm{Ox_2/Red_2}$ : $\\mathrm{Ox_2 + Red_1 \\rightarrow Red_2 + Ox_1}$.",
+      "difficulte": 2,
+      "tags": [
+        "regle-du-gamma"
+      ]
+    },
+    {
+      "id": "PC1D-C06-031",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "formule",
+      "recto": "Selon la règle du gamma, quelle phrase courte résume quel oxydant réagit avec quel réducteur ?",
+      "verso": "L'oxydant le plus fort réagit avec le réducteur le plus fort, pour donner l'oxydant le plus faible et le réducteur le plus faible.",
+      "difficulte": 1,
+      "tags": [
+        "regle-du-gamma"
+      ]
+    },
+    {
+      "id": "PC1D-C06-032",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "formule",
+      "recto": "Que se passe-t-il quand on met en présence l'oxydant du couple le plus haut et le réducteur du couple le plus bas ?",
+      "verso": "Rien : ils ne réagissent pas. Par exemple, le cuivre plongé dans une solution d'ions $\\mathrm{Zn^{2+}}$ reste intact.",
+      "difficulte": 2,
+      "tags": [
+        "regle-du-gamma",
+        "sens-interdit"
+      ]
+    },
+    {
+      "id": "PC1D-C06-033",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "definition",
+      "recto": "Pourquoi le zinc, bon réducteur, ne fait-il pas de l'ion $\\mathrm{Zn^{2+}}$ un bon oxydant ?",
+      "verso": "C'est l'inverse : à un réducteur fort correspond un oxydant conjugué faible. L'ion $\\mathrm{Zn^{2+}}$ est un oxydant médiocre, qui ne réagit presque avec rien.",
+      "difficulte": 3,
+      "tags": [
+        "oxydant-conjugue",
+        "piege"
+      ]
+    },
+    {
+      "id": "PC1D-C06-034",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "formule",
+      "recto": "Quand un même oxydant est mis en présence de plusieurs métaux, lequel réagit en premier ?",
+      "verso": "Le réducteur le plus fort, c'est-à-dire le métal dont le couple est le plus haut : dans une solution d'ions cuivre II, un mélange de zinc et de fer perd d'abord son zinc.",
+      "difficulte": 3,
+      "tags": [
+        "regle-du-gamma",
+        "ordre-de-reaction"
+      ]
+    },
+    {
+      "id": "PC1D-C06-035",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "definition",
+      "recto": "Quelle précaution prendre avant de tracer le gamma sur un tableau de couples inconnu ?",
+      "verso": "Regarder dans quel sens croît le pouvoir oxydant : si l'oxydant le plus fort est en haut, le gamma relie l'oxydant du couple du haut au réducteur du couple du bas.",
+      "difficulte": 3,
+      "tags": [
+        "regle-du-gamma",
+        "sens-du-tableau"
+      ]
+    },
+    {
+      "id": "PC1D-C06-036",
+      "lecon": "Classer les couples : classification qualitative et règle du gamma",
+      "type": "definition",
+      "recto": "Quelle information la classification qualitative des couples ne donne-t-elle jamais ?",
+      "verso": "Ni vitesse de réaction ni valeur numérique : elle donne seulement un ordre entre les couples.",
+      "difficulte": 2,
+      "tags": [
+        "classification-qualitative"
+      ]
+    }
+  ]
+}

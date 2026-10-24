@@ -1,4 +1,5 @@
 import React from "react"
+import { FIGURE_TEXT_STYLE } from "./figures/svg"
 
 const VIEW_PADDING = 32
 const VIEW_WIDTH = 320
@@ -233,7 +234,9 @@ const pointScreenPositions = Array.from(pointMap.values()).map((p) => ({
     .filter(Boolean)
 
   return (
-    <div className="my-2 flex justify-center">
+    // Police et espacements forcés en ligne : dans le chat, la figure est rendue dans le <pre> du
+    // bloc ```figure```, dont elle hériterait sinon la police à chasse fixe (voir figures/svg.jsx).
+    <div className="my-2 flex justify-center" style={FIGURE_TEXT_STYLE}>
       {/* SVG responsive : viewBox fixe (320x240, le tracé ne change pas) mais largeur fluide
           jusqu'à sa taille de conception — s'adapte aux petits écrans sans jamais s'agrandir
           au-delà sur un conteneur large (voir RAPPORT_MOBILE.md §8). */}
