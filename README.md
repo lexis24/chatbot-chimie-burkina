@@ -108,6 +108,11 @@ python run.py          # lance backend (port 8000) + frontend (port 5173) et ouv
 ou séparément : `cd backend; .\venv\Scripts\python.exe -m uvicorn main:app --reload` puis
 `cd frontend; npm run dev`, et ouvrir http://localhost:5173.
 
+## Déploiement
+
+Kit de déploiement Docker (un conteneur par application, accès de test par `http://IP:port`) : voir
+[deploy/DEPLOIEMENT.md](deploy/DEPLOIEMENT.md). Le même kit sert à l'application de physique.
+
 ## Tests
 
 ```powershell

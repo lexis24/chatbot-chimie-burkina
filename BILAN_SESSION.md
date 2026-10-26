@@ -61,6 +61,7 @@ Documents bruts fournis (livres complets, guides enseignant, annexes) : `sources
 
 ## À faire ensuite
 
-- Déploiement (hors périmètre de cette session) : prévoir la clé Anthropic et `DATABASE_URL` dans l'environnement du
-  serveur, et `JWT_SECRET` + `APP_ENV=production`.
+- Déploiement : kit prêt dans `deploy/` (archive locale + `redeploy.sh` sur le serveur, secrets dans
+  `~/<app>/container.env`), voir `deploy/DEPLOIEMENT.md` ; chimie sur le port 8002, physique sur le port 8003 du
+  VPS 167.233.234.219, à valider après la vérification des ports libres.
 - `DEPLOY.md` décrit un déploiement Railway + Vercel générique ; à relire avant usage.

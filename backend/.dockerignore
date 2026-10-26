@@ -7,3 +7,5 @@ tests/
 .env
 data/.jwt_secret
 data/app.db
+hf_cache/
+*.log

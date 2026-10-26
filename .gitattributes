@@ -1,0 +1,3 @@
+# Les scripts exécutés sur le serveur Linux doivent garder des fins de ligne LF, même extraits sur
+# Windows (core.autocrlf=true) : un script bash en CRLF échoue (« $'\r': command not found »).
+*.sh text eol=lf
