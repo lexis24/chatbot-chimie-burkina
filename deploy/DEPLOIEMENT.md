@@ -103,6 +103,23 @@ scp deploy\out\chatchimie-backend.tar.gz UTILISATEUR@167.233.234.219:~/chatchimi
 ssh UTILISATEUR@167.233.234.219 "~/chatchimie/redeploy.sh chatchimie 8002"
 ```
 
+## Comptes partagés avec les maths
+
+Avec `ACCOUNTS_DATABASE_URL` dans `container.env`, la chimie et la physique utilisent les comptes de
+l'application des maths : un élève se connecte partout avec le même nom et le même mot de passe
+(une connexion par application). Les comptes restent dans la base des maths (schéma `app`), l'activité
+de chaque matière dans son schéma (`app_chimie`, `app_physique`) de cette même base, et l'index du cours
+dans la base de la matière (`DATABASE_URL`).
+
+- Préparation de la base des maths (une fois, déjà faite) : `deploy/comptes_partages.py`.
+- Les rôles `chatchimie_app` / `chatphysique_app` lisent, créent et modifient les comptes, sans jamais
+  pouvoir en supprimer, ni lire les conversations des maths.
+- Un élève dont la classe n'est pas au programme (6ème, 5ème) ou qui n'en a pas choisit librement
+  son niveau ; sa classe dans le compte n'est pas modifiée.
+- Reprise de l'activité d'une ancienne base propre : `deploy/rattacher_activite.py`.
+
+Retirer la ligne `ACCOUNTS_DATABASE_URL` puis redéployer revient aux comptes propres à l'application.
+
 L'index vectoriel n'est pas dans l'image (il est dans Neon) : une mise à jour ne demande pas de
 réindexer, sauf si les PDF de `data/documents` ont changé (`ingest_documents.py`, en local).
 
